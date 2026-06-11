@@ -1,0 +1,398 @@
+[
+  {
+    "member_id": "shin-sehee",
+    "name_ko": "신세희",
+    "name_en": "Shin Se-hee",
+    "instagram": "se_heee2e",
+    "file_path": "cheerleaders/shin-sehee.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.11",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "안녕하세요, 세희 팀장이에요! 🌟",
+        "en": "Hello, I'm Team Leader Se-hee! 🌟",
+        "ja": "こんにちは、チームリーダーのセヒです！🌟",
+        "zh": "大家好，我是隊長世希！🌟"
+      },
+      "body": {
+        "ko": "오늘도 KT Wiz를 응원해주시는 팬 여러분께 진심으로 감사드려요! 저희 KOLEX와 함께 오늘 하루도 힘차고 즐겁게 보내요, 위즈! ⚾🔴",
+        "en": "I'm so grateful to all the fans who cheer for KT Wiz today and every day! Let's make it a vibrant and joyful day together with KOLEX, Go Wiz! ⚾🔴",
+        "ja": "KT Wizを応援してくださるファンの皆さんに、心から感謝しています！KOLEXと一緒に、今日も元気いっぱい楽しい一日にしましょう、ファイトWiz！⚾🔴",
+        "zh": "衷心感謝每一位為KT Wiz加油的球迷朋友們！讓我們和KOLEX一起，度過充滿活力又開心的一天吧，加油Wiz！⚾🔴"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.11"
+    }
+  },
+  {
+    "member_id": "kim-jina",
+    "name_ko": "김진아",
+    "name_en": "Kim Jin-a",
+    "instagram": "jjina_v0v",
+    "file_path": "cheerleaders/kim-jina.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.11",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "안녕하세요, 진아예요! 🌟",
+        "en": "Hello, it's Jin-a! 🌟",
+        "ja": "こんにちは、ジナです！🌟",
+        "zh": "大家好，我是珍娥！🌟"
+      },
+      "body": {
+        "ko": "오늘도 KT Wiz와 함께해 주시는 팬 여러분, 정말 감사해요! 여러분의 응원 덕분에 오늘도 온 힘을 다해 즐거운 하루를 만들어 갈게요. 항상 건강하고 행복하세요 💕",
+        "en": "Thank you so much to all the fans cheering alongside KT Wiz today! With your wonderful support, I'll give everything I have to make this a fun and memorable day. Stay healthy and happy always 💕",
+        "ja": "今日もKT Wizと一緒に応援してくださるファンの皆さん、本当にありがとうございます！皆さんの温かい声援のおかげで、今日も全力で楽しい一日を作っていきます。いつも元気で幸せでいてください 💕",
+        "zh": "非常感謝今天與KT Wiz一起同行的所有球迷！因為有大家熱情的支持，我今天也會全力以赴，讓這一天充滿歡樂與美好的回憶。祝大家永遠健康快樂 💕"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.11"
+    }
+  },
+  {
+    "member_id": "kim-hanseul",
+    "name_ko": "김한슬",
+    "name_en": "Kim Han-seul",
+    "instagram": "kim_han_seul",
+    "file_path": "cheerleaders/kim-hanseul.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.11",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "안녕하세요, 한슬 언니! 🌟",
+        "en": "Hello, Han-seul! 🌟",
+        "ja": "こんにちは、ハンスルさん！ 🌟",
+        "zh": "您好，韓瑟姊姊！ 🌟"
+      },
+      "body": {
+        "ko": "2026년 6월 11일, 오늘도 KT Wiz와 함께하는 멋진 하루를 응원해요! 한슬 언니의 밝은 에너지가 팬 여러분께 가득 전해지길 바랍니다. 오늘도 함께해요, 위즈팬! 🔴⚫",
+        "en": "June 11, 2026 — wishing Han-seul an amazing day alongside KT Wiz! May your bright energy reach every fan out there. Let's cheer together today, WizFam! 🔴⚫",
+        "ja": "2026年6月11日、KT Wizとともに素晴らしい一日をお過ごしください、ハンスルさん！あなたの明るいエネルギーがファンの皆さんに届きますように。今日も一緒に応援しよう、ウィズファン！ 🔴⚫",
+        "zh": "2026年6月11日，祝韓瑟姊姊與KT Wiz共度精彩的一天！願您燦爛的活力傳遞給每一位球迷。今天也一起加油吧，Wiz粉絲們！ 🔴⚫"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.11"
+    }
+  },
+  {
+    "member_id": "kim-haeri",
+    "name_ko": "김해리",
+    "name_en": "Kim Hae-ri",
+    "instagram": "you_r_hr",
+    "file_path": "cheerleaders/kim-haeri.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.11",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "해리야, 오늘도 빛나는 하루! ✨",
+        "en": "Hae-ri, Shine Bright Today! ✨",
+        "ja": "ヘリちゃん、今日も輝く一日を！✨",
+        "zh": "海麗，今天也要閃耀！✨"
+      },
+      "body": {
+        "ko": "안녕하세요, 오늘도 KT Wiz와 KOLEX를 응원해 주시는 팬 여러분께 감사드려요! 해리와 함께하는 오늘 하루도 에너지 넘치고 즐거운 시간이 되길 바랍니다 💙🔴",
+        "en": "Hello, and thank you to all the fans who cheer for KT Wiz and KOLEX today! We hope your day alongside Hae-ri is full of energy and joy 💙🔴",
+        "ja": "こんにちは！今日もKT WizとKOLEXを応援してくださるファンの皆さん、ありがとうございます！ヘリと一緒に、今日も元気いっぱい楽しい一日になりますように 💙🔴",
+        "zh": "大家好！感謝今天繼續支持KT Wiz與KOLEX的所有粉絲！希望與海麗共度的今天充滿活力與歡笑 💙🔴"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.11"
+    }
+  },
+  {
+    "member_id": "lee-geumju",
+    "name_ko": "이금주",
+    "name_en": "Lee Geum-ju",
+    "instagram": "2geum_j._.j",
+    "file_path": "cheerleaders/lee-geumju.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.11",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "안녕하세요, 이금주입니다 🌟",
+        "en": "Hello, it's Lee Geum-ju! 🌟",
+        "ja": "こんにちは、イ・グムジュです 🌟",
+        "zh": "大家好，我是李金珠 🌟"
+      },
+      "body": {
+        "ko": "오늘도 밝고 따뜻한 하루 보내고 계신가요? 여러분의 응원 덕분에 매일매일 힘차게 달려갈 수 있어요! 오늘 하루도 KT Wiz와 함께 신나고 즐거운 하루 되세요 💛🖤",
+        "en": "I hope your day is bright and full of warmth today! Thanks to your amazing cheers, I'm able to give my best every single day! Have a fantastic day together with KT Wiz 💛🖤",
+        "ja": "今日も明るく温かい一日をお過ごしですか？皆さんの応援のおかげで、毎日全力で頑張れています！今日もKT Wizと一緒に、楽しくて素敵な一日にしましょう 💛🖤",
+        "zh": "今天也過得開心溫暖嗎？因為有大家的加油打氣，我每天都能充滿活力地向前衝！希望大家今天也能和KT Wiz一起，度過愉快美好的一天 💛🖤"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.11"
+    }
+  },
+  {
+    "member_id": "lee-yebin",
+    "name_ko": "이예빈",
+    "name_en": "Lee Ye-bin",
+    "instagram": "1eeyebin_",
+    "file_path": "cheerleaders/lee-yebin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.11",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "안녕하세요, 예빈이에요! 🌟",
+        "en": "Hello, it's Ye-bin! 🌟",
+        "ja": "こんにちは、イェビンです！🌟",
+        "zh": "大家好，我是藝彬！🌟"
+      },
+      "body": {
+        "ko": "오늘도 밝고 따뜻한 하루 보내고 계신가요? 여러분의 응원 덕분에 매일매일 힘차게 달릴 수 있어요! 오늘 하루도 KT Wiz와 함께 즐겁고 행복한 시간 되세요 💪🔴⚫",
+        "en": "Hope your day is bright and full of warmth! Your cheers give me energy every single day, and I'm so grateful for every one of you. Wishing you a wonderful day full of joy alongside KT Wiz! 💪🔴⚫",
+        "ja": "今日も明るく温かい一日をお過ごしですか？皆さんの応援のおかげで毎日全力で頑張れています！KT Wizと一緒に、今日も笑顔あふれる素敵な一日にしましょう💪🔴⚫",
+        "zh": "今天也希望大家過得開心又溫暖！因為有各位的加油打氣，我每天都能充滿活力地前進！願大家與KT Wiz一起，度過充實快樂的美好一天💪🔴⚫"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.11"
+    }
+  },
+  {
+    "member_id": "jeong-huijeong",
+    "name_ko": "정희정",
+    "name_en": "Jeong Hui-jeong",
+    "instagram": "_jung_u",
+    "file_path": "cheerleaders/jeong-huijeong.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.11",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "안녕하세요, 정희정입니다 🌟",
+        "en": "Hello, it's Jeong Hui-jeong! 🌟",
+        "ja": "こんにちは、チョン・ヒジョンです 🌟",
+        "zh": "大家好，我是鄭希靜 🌟"
+      },
+      "body": {
+        "ko": "오늘도 밝고 즐거운 하루 보내시길 바라며, KT Wiz를 향한 여러분의 뜨거운 응원에 항상 감사드려요! 오늘 하루도 우리 함께 힘차게 파이팅해요 💪🔴⚫",
+        "en": "I hope your day is bright and full of joy, and I'm always so grateful for your passionate support for KT Wiz! Let's power through today together with all our energy 💪🔴⚫",
+        "ja": "今日も明るく楽しい一日をお過ごしください。KT Wizへの熱い応援にいつも感謝しています！今日も一緒に元気いっぱい頑張りましょう 💪🔴⚫",
+        "zh": "希望大家今天也能度過開朗愉快的一天，非常感謝大家對KT Wiz熱情的加油！讓我們一起充滿活力地加油吧 💪🔴⚫"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.11"
+    }
+  },
+  {
+    "member_id": "lee-seoyun",
+    "name_ko": "이서윤",
+    "name_en": "Lee Seo-yun",
+    "instagram": "tjdbs__06",
+    "file_path": "cheerleaders/lee-seoyun.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.11",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "안녕하세요, 서윤이에요! 🌟",
+        "en": "Hello, it's Seo-yun! 🌟",
+        "ja": "こんにちは、ソユンです！🌟",
+        "zh": "大家好，我是敘允！🌟"
+      },
+      "body": {
+        "ko": "오늘도 kt wiz와 함께해주시는 모든 팬 여러분께 진심으로 감사드려요! 따뜻한 응원이 저에게 큰 힘이 된답니다, 오늘 하루도 행복하고 건강한 하루 보내세요 💖",
+        "en": "A heartfelt thank you to all the fans who cheer alongside kt wiz today and every day! Your warm support gives me such great strength, so please have a happy and healthy day 💖",
+        "ja": "kt wizと一緒に応援してくださるすべてのファンの皆さん、本当にありがとうございます！温かい声援がいつも大きな力になっています、今日も笑顔で素敵な一日をお過ごしください 💖",
+        "zh": "衷心感謝每一位與kt wiz一起加油的粉絲朋友們！你們溫暖的支持是我最大的動力，祝大家今天也過得開心又健康 💖"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.11"
+    }
+  },
+  {
+    "member_id": "kim-gahyun",
+    "name_ko": "김가현",
+    "name_en": "Kim Ga-hyun",
+    "instagram": "keemgahyun",
+    "file_path": "cheerleaders/kim-gahyun.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.11",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "안녕하세요, 가현이에요! 🌟",
+        "en": "Hello, it's Ga-hyun! 🌟",
+        "ja": "こんにちは、ガヒョンです！🌟",
+        "zh": "大家好，我是佳賢！🌟"
+      },
+      "body": {
+        "ko": "오늘도 kt wiz와 함께하는 하루, 여러분의 응원이 저에게 가장 큰 힘이 돼요! 오늘도 환하게 웃으며 최선을 다하는 가현이가 될게요 💪🔴⚫",
+        "en": "Another day cheering together with kt wiz — your support is my greatest strength! I'll give my all with a bright smile today 💪🔴⚫",
+        "ja": "今日もkt wizと一緒に応援する一日、みなさんの声援が私の一番の力になります！今日も笑顔で全力を尽くすガヒョンでいます 💪🔴⚫",
+        "zh": "今天也是和kt wiz一起加油的一天，大家的支持是我最大的力量！今天也要帶著燦爛的笑容全力以赴 💪🔴⚫"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.11"
+    }
+  },
+  {
+    "member_id": "kye-yujin",
+    "name_ko": "계유진",
+    "name_en": "Kye Yu-jin",
+    "instagram": "kyeyujin",
+    "file_path": "cheerleaders/kye-yujin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.11",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "안녕하세요, 유진이에요! 🌟",
+        "en": "Hello, it's Yu-jin! 🌟",
+        "ja": "こんにちは、ユジンです！🌟",
+        "zh": "你好，我是유진！🌟"
+      },
+      "body": {
+        "ko": "오늘도 밝고 힘찬 하루 보내고 계신가요? KT Wiz를 향한 여러분의 뜨거운 응원이 저에게 매일 큰 힘이 돼요! 오늘 하루도 함께 웃으며 즐거운 시간 만들어가요 😊⚾",
+        "en": "How is your day going? Your passionate cheers for KT Wiz give me so much strength every single day! Let's share smiles and create wonderful moments together today 😊⚾",
+        "ja": "今日も元気に過ごしていますか？KT Wizへの皆さんの熱い応援が毎日大きな力になっています！今日も一緒に笑顔で楽しい時間を作りましょう 😊⚾",
+        "zh": "今天也過得開心嗎？大家對KT Wiz熱情的加油聲每天都給我帶來很大的力量！讓我們今天也一起微笑，創造美好的時光吧 😊⚾"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.11"
+    }
+  },
+  {
+    "member_id": "kwon-gayoung",
+    "name_ko": "권가영",
+    "name_en": "Kwon Ga-young",
+    "instagram": "yo_ung__vely",
+    "file_path": "cheerleaders/kwon-gayoung.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.11",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "안녕하세요, 가영이에요! 🌟",
+        "en": "Hello, it's Ga-young! 🌟",
+        "ja": "こんにちは、カヨンです！🌟",
+        "zh": "大家好，我是가영！🌟"
+      },
+      "body": {
+        "ko": "오늘도 활짝 웃는 하루 보내세요! 여러분의 응원 덕분에 저도 매일 힘이 넘쳐요. 함께해줘서 늘 감사해요 💕",
+        "en": "I hope your day is filled with bright smiles! Your warm cheers give me so much energy every single day. Thank you so much for always being here with me 💕",
+        "ja": "今日も笑顔いっぱいの一日をお過ごしください！皆さんの応援のおかげで、毎日元気をもらっています。いつも一緒にいてくれてありがとうございます 💕",
+        "zh": "希望大家今天也能帶著燦爛的笑容度過每一刻！因為有你們的加油打氣，我每天都充滿活力。謝謝你們一直陪伴著我 💕"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.11"
+    }
+  },
+  {
+    "member_id": "kim-minji",
+    "name_ko": "김민지",
+    "name_en": "Kim Min-ji",
+    "instagram": "mischguy2",
+    "file_path": "cheerleaders/kim-minji.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.11",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "안녕하세요, 민지예요! 🌟",
+        "en": "Hello, it's Min-ji! 🌟",
+        "ja": "こんにちは、ミンジです！🌟",
+        "zh": "大家好，我是民智！🌟"
+      },
+      "body": {
+        "ko": "2026년 6월 11일 목요일, 오늘도 여러분과 함께할 수 있어서 너무 행복해요! 위즈 팬 여러분, 오늘 하루도 밝고 활기차게 보내요! 💫🔴⚫",
+        "en": "Thursday, June 11, 2026 — I'm so happy to be with all of you again today! WIZ fans, let's make this day bright and full of energy! 💫🔴⚫",
+        "ja": "2026年6月11日木曜日、今日もみなさんと一緒にいられてとっても嬉しいです！ウィズファンのみなさん、今日も明るく元気に過ごしましょう！💫🔴⚫",
+        "zh": "2026年6月11日星期四，今天也能與大家相聚，我真的好開心！Wiz的球迷們，今天也一起活力滿滿地度過吧！💫🔴⚫"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.11"
+    }
+  }
+]
