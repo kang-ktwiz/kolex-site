@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KOLEX Cheerleaders | Born to Perform. Built to Inspire.</title>
+  <meta name="description" content="KOLEX Sports Entertainment — 대한민국 최고의 치어리더 소속사. 야구·농구·배구 종목 퍼포머들의 일상, 영상, 최신 소식을 매일 AI로 업데이트합니다." />
+  <meta name="keywords" content="KOLEX 치어리더, Korean cheerleaders, KBO cheerleaders, チアリーダー, 啦啦隊, 한국 치어리더" />
+  <meta property="og:title" content="KOLEX Cheerleaders — Born to Perform. Built to Inspire." />
+  <meta property="og:description" content="KOLEX 소속 치어리더들의 공식 글로벌 사이트. 매일 AI가 새 콘텐츠를 자동 업데이트합니다." />
+  <meta property="og:type" content="website" />
+  <meta name="google" content="notranslate" />
+  <link rel="canonical" href="https://koreacheerleaders.com/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+  <!-- Google AdSense -->
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX" crossorigin="anonymous"></script> -->
+  <!-- Instagram embed.js: lazy-loaded via IntersectionObserver (removed from head to prevent 20s load delay) -->
+  <style>
+    :root {
+      --black:   #000;
+      --bg:      #0a0a0f;
+      --card:    #111118;
+      --border:  #1e1e2e;
+      --border2: #2a2a3e;
+      --text:    #f0f0ff;
+      --muted:   #888899;
+      --red:     #ff1f45;
+      --pink:    #ff4fa0;
+      --purple:  #9b59ff;
+      --cyan:    #00d2ff;
+      --gold:    #ffd700;
+      --grad-hero: linear-gradient(135deg, #ff1f45, #ff4fa0, #9b59ff);
+      --grad-ai:   linear-gradient(90deg, #ff1f45, #ff4fa0, #9b59ff, #00d2ff);
+      --font: 'Inter', -apple-system, 'Segoe UI', 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+      --r: 14px;
+      --r-sm: 8px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: var(--font); -webkit-font-smoothing: antialiased; }
+
+    /* ── SCROLLBAR ── */
+    ::-webkit-scrollbar { width: 4px; } ::-webkit-scrollbar-track { background: var(--bg); } ::-webkit-scrollbar-thumb { background: var(--red); border-radius: 2px; }
+
+    /* ── AI TOP BAR ── */
+    .ai-topbar {
+      background: linear-gradient(90deg, #0a0015, #160030, #0a0015);
+      border-bottom: 1px solid rgba(155,89,255,.25);
+      padding: 8px 2rem;
+      display: flex; align-items: center; justify-content: center;
+      gap: 12px; overflow: hidden; position: relative;
+    }
+    .ai-topbar::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: var(--grad-ai);
+      opacity: .06;
+    }
+    .ai-pulse {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: var(--purple);
+      box-shadow: 0 0 8px var(--purple);
+      animation: pulse 1.8s ease-in-out infinite;
+      flex-shrink: 0;
+    }
+    @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.5;transform:scale(.7)} }
+    .ai-topbar-text {
+      font-size: .75rem; font-weight: 600; letter-spacing: .5px;
+      color: rgba(200,190,255,.85);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .ai-topbar-text strong { color: #c8b4ff; }
+    .ai-chip {
+      background: rgba(155,89,255,.2); border: 1px solid rgba(155,89,255,.35);
+      color: var(--purple); font-size: .65rem; font-weight: 700;
+      letter-spacing: 1px; text-transform: uppercase;
+      padding: 3px 10px; border-radius: 20px; flex-shrink: 0;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 300;
+      height: 60px; padding: 0 2rem;
+      background: rgba(10,10,15,.92); backdrop-filter: blur(20px) saturate(1.8);
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .nav-logo-img { height: 28px; width: auto; display: block; }
+    .nav-logo-sub { color: rgba(255,255,255,.65); font-size: .82rem; font-weight: 600; }
+    .nav-links { display: flex; gap: 2rem; align-items: center; }
+    .nav-links a { color: var(--muted); text-decoration: none; font-size: .83rem; font-weight: 500; transition: color .2s; }
+    .nav-links a:hover { color: #fff; }
+    .lang-row { display: flex; gap: 3px; }
+    .lang-btn {
+      background: transparent; border: 1px solid var(--border2);
+      color: var(--muted); padding: 4px 10px; border-radius: 20px;
+      cursor: pointer; font-size: .72rem; font-weight: 700;
+      letter-spacing: .5px; transition: all .2s;
+    }
+    .lang-btn.active { background: var(--red); border-color: var(--red); color: #fff; }
+    .lang-btn:not(.active):hover { border-color: var(--red); color: var(--red); }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+    .hamburger span { display: block; width: 22px; height: 2px; background: var(--text); border-radius: 1px; }
+    .mobile-menu {
+      display: none; position: fixed; inset: 60px 0 0;
+      background: rgba(10,10,15,.98); z-index: 299;
+      flex-direction: column; padding: 2rem;
+      gap: .5rem; overflow-y: auto;
+    }
+    .mobile-menu a { color: var(--text); text-decoration: none; font-size: 1.3rem; font-weight: 700; padding: .75rem 0; border-bottom: 1px solid var(--border); }
+    .mobile-menu.open { display: flex; }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative; min-height: 95vh;
+      display: flex; align-items: center;
+      overflow: hidden;
+    }
+    /* Animated gradient orbs */
+    .orb {
+      position: absolute; border-radius: 50%; filter: blur(80px); pointer-events: none;
+      animation: float 8s ease-in-out infinite;
+    }
+    .orb1 { width: 600px; height: 600px; background: radial-gradient(circle, rgba(255,31,69,.3), transparent 70%); top: -15%; right: -10%; animation-delay: 0s; }
+    .orb2 { width: 500px; height: 500px; background: radial-gradient(circle, rgba(155,89,255,.25), transparent 70%); bottom: -15%; left: 5%; animation-delay: 3s; }
+    .orb3 { width: 350px; height: 350px; background: radial-gradient(circle, rgba(255,79,160,.2), transparent 70%); top: 40%; left: 40%; animation-delay: 5s; }
+    @keyframes float { 0%,100%{transform:translateY(0) scale(1)} 50%{transform:translateY(-30px) scale(1.05)} }
+
+    /* ── HERO STAGE ── */
+    .hero-stage { position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden; }
+    .stage-cone { position:absolute;top:0;height:100%;transform-origin:top center; }
+    .cone1 { left:12%;width:260px;background:linear-gradient(to bottom,rgba(255,31,69,.12),transparent 70%);
+      clip-path:polygon(30% 0,70% 0,100% 100%,0% 100%);animation:coneSway 5.5s ease-in-out infinite; }
+    .cone2 { left:46%;width:290px;background:linear-gradient(to bottom,rgba(155,89,255,.10),transparent 70%);
+      clip-path:polygon(30% 0,70% 0,100% 100%,0% 100%);animation:coneSway 7s ease-in-out infinite;animation-delay:-2.5s; }
+    .cone3 { right:6%;width:250px;background:linear-gradient(to bottom,rgba(0,210,255,.08),transparent 70%);
+      clip-path:polygon(30% 0,70% 0,100% 100%,0% 100%);animation:coneSway 6s ease-in-out infinite;animation-delay:-4.2s; }
+    @keyframes coneSway { 0%,100%{transform:rotate(-4deg)} 50%{transform:rotate(4deg)} }
+    .performers-svg { position:absolute;inset:0;width:100%;height:100%; }
+    .f-bob  { animation:figBob 3.4s ease-in-out infinite; transform-box:fill-box; transform-origin:50% 100%; }
+    .f-bob2 { animation:figBob 4.1s ease-in-out infinite; transform-box:fill-box; transform-origin:50% 100%; animation-delay:-1.3s; }
+    .f-bob3 { animation:figBob 3.7s ease-in-out infinite; transform-box:fill-box; transform-origin:50% 100%; animation-delay:-2.5s; }
+    .f-bob4 { animation:figBob 4.5s ease-in-out infinite; transform-box:fill-box; transform-origin:50% 100%; animation-delay:-0.7s; }
+    .f-bob5 { animation:figBob 3.1s ease-in-out infinite; transform-box:fill-box; transform-origin:50% 100%; animation-delay:-3.1s; }
+    @keyframes figBob { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-14px)} }
+    .spk-canvas { position:absolute;inset:0;width:100%;height:100%;pointer-events:none; }
+    .hero-grid {
+      position: absolute; inset: 0;
+      background-image: linear-gradient(rgba(255,31,69,.04) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(255,31,69,.04) 1px, transparent 1px);
+      background-size: 60px 60px;
+      mask-image: radial-gradient(ellipse at center, black 20%, transparent 75%);
+    }
+    .hero-inner {
+      position: relative; z-index: 2;
+      max-width: 1400px; margin: 0 auto; padding: 6rem 2rem 4rem;
+      display: grid; grid-template-columns: 1.2fr .8fr; gap: 4rem; align-items: center;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,31,69,.1); border: 1px solid rgba(255,31,69,.25);
+      padding: 6px 14px; border-radius: 20px;
+      font-size: .72rem; font-weight: 700; letter-spacing: .8px; text-transform: uppercase;
+      color: var(--pink); margin-bottom: 1.5rem;
+    }
+    .hero-badge::before { content: '✦'; font-size: .6rem; }
+    .hero-h1 {
+      font-size: clamp(2.8rem, 6vw, 5rem);
+      font-weight: 900; line-height: 1.05; letter-spacing: -1.5px;
+      margin-bottom: 1.4rem;
+    }
+    .hero-h1 .line1 { display: block; color: var(--text); }
+    .hero-h1 .line2 {
+      display: block;
+      background: var(--grad-hero);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero-desc { font-size: .97rem; font-weight: 400; color: rgba(240,240,255,.6); line-height: 1.75; max-width: 480px; margin-bottom: 2.2rem; }
+    .hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn-grad {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--grad-hero); color: #fff;
+      padding: 12px 28px; border-radius: 30px;
+      font-weight: 700; font-size: .88rem;
+      text-decoration: none; transition: opacity .2s, transform .2s;
+      box-shadow: 0 4px 20px rgba(255,31,69,.35);
+    }
+    .btn-grad:hover { opacity: .88; transform: translateY(-2px); }
+    .btn-ghost {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(255,255,255,.06); border: 1px solid var(--border2);
+      color: var(--text); padding: 12px 28px; border-radius: 30px;
+      font-weight: 600; font-size: .88rem; text-decoration: none; transition: all .2s;
+    }
+    .btn-ghost:hover { background: rgba(255,255,255,.12); border-color: rgba(255,255,255,.3); }
+
+    /* hero stat panel */
+    .hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; }
+    .h-stat {
+      background: rgba(255,255,255,.04); border: 1px solid var(--border2);
+      border-radius: var(--r); padding: 1.2rem 1rem; text-align: center;
+      backdrop-filter: blur(10px);
+      transition: border-color .3s;
+    }
+    .h-stat:hover { border-color: rgba(255,31,69,.4); }
+    .h-stat .sv {
+      font-size: 1.8rem; font-weight: 900;
+      background: var(--grad-hero); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .h-stat .sk { color: var(--muted); font-size: .72rem; font-weight: 600; margin-top: 4px; letter-spacing: .3px; }
+
+    /* ── STORIES ROW ── */
+    .stories-bar {
+      padding: 1.5rem 2rem; background: var(--black);
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .stories-inner {
+      max-width: 1400px; margin: 0 auto;
+      display: flex; gap: 1.25rem; overflow-x: auto; scrollbar-width: none;
+      padding-bottom: 4px;
+    }
+    .stories-inner::-webkit-scrollbar { display: none; }
+    .story-item { flex-shrink: 0; text-align: center; cursor: pointer; }
+    .story-ring {
+      width: 64px; height: 64px; border-radius: 50%; padding: 3px;
+      background: var(--grad-hero);
+      margin: 0 auto 6px; transition: transform .2s;
+    }
+    .story-ring:hover { transform: scale(1.08); }
+    .story-inner {
+      width: 100%; height: 100%; border-radius: 50%; overflow: hidden;
+      border: 2px solid var(--black);
+      background: var(--card);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; font-weight: 900; color: rgba(255,255,255,.25);
+    }
+    .story-inner img { width: 100%; height: 100%; object-fit: cover; object-position: top; display:block; }
+    .story-name { font-size: .68rem; color: var(--muted); font-weight: 600; max-width: 68px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+    /* ── SPORT TABS ── */
+    .sport-bar {
+      background: rgba(10,10,15,.95); border-bottom: 1px solid var(--border);
+      position: sticky; top: 60px; z-index: 200;
+      backdrop-filter: blur(10px);
+    }
+    .sport-bar-inner { max-width: 1400px; margin: 0 auto; padding: 0 2rem; display: flex; overflow-x: auto; scrollbar-width: none; }
+    .sport-bar-inner::-webkit-scrollbar { display: none; }
+    .sport-tab {
+      padding: .9rem 1.5rem; border-bottom: 2px solid transparent;
+      color: var(--muted); background: none; border: none; border-bottom: 2px solid transparent;
+      font-size: .8rem; font-weight: 700; letter-spacing: .5px;
+      cursor: pointer; white-space: nowrap; transition: all .2s;
+    }
+    .sport-tab:hover { color: var(--text); }
+    .sport-tab.active { color: var(--red); border-bottom-color: var(--red); }
+
+    /* ── SECTION WRAPPER ── */
+    .sec { max-width: 1400px; margin: 0 auto; padding: 4rem 2rem; }
+    .sec-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem; }
+    .sec-title { font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 900; letter-spacing: -1px; color: var(--text); }
+    .sec-title em { font-style: normal; background: var(--grad-hero); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .sec-sub { font-size: .78rem; color: var(--muted); font-weight: 500; margin-top: 4px; }
+    .view-all { color: var(--muted); text-decoration: none; font-size: .78rem; font-weight: 700; letter-spacing: .5px; transition: color .2s; background: none; border: none; cursor: pointer; padding: 0; font-family: var(--font); }
+    .view-all:hover { color: var(--red); }
+    .yt-more-hidden { display: none; }
+    .yt-more-hidden.visible { display: block; }
+
+    /* ── AI UPDATE BADGE (section) ── */
+    .ai-section-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: linear-gradient(90deg, rgba(155,89,255,.12), rgba(0,210,255,.08));
+      border: 1px solid rgba(155,89,255,.3);
+      border-radius: 12px; padding: 12px 18px; margin-bottom: 2rem;
+      width: 100%;
+    }
+    .ai-icon { font-size: 1.3rem; }
+    .ai-text-wrap {}
+    .ai-text-title { font-size: .82rem; font-weight: 700; color: #c8b4ff; }
+    .ai-text-sub { font-size: .74rem; color: var(--muted); margin-top: 2px; }
+    .ai-live {
+      margin-left: auto; background: rgba(255,31,69,.15); border: 1px solid rgba(255,31,69,.3);
+      color: var(--red); font-size: .65rem; font-weight: 700; letter-spacing: 1px;
+      padding: 3px 9px; border-radius: 20px;
+      animation: blink 2s step-end infinite;
+    }
+    @keyframes blink { 50% { opacity: .4; } }
+
+    /* ── MEMBER GRID ── */
+    .member-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: .875rem; }
+    .member-card {
+      position: relative; aspect-ratio: 3/4; overflow: hidden;
+      border-radius: var(--r); text-decoration: none; display: block;
+      transition: transform .3s, box-shadow .3s;
+    }
+    .member-card:hover { transform: translateY(-6px) scale(1.01); box-shadow: 0 20px 50px rgba(0,0,0,.6); }
+    /* Gradient background — unique per member, always shows */
+    .member-grad {
+      position: absolute; inset: 0;
+      border-radius: var(--r);
+    }
+    /* Real photo overlay */
+    .member-photo {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: cover; object-position: top;
+      transition: transform .5s;
+      border-radius: var(--r);
+    }
+    
+    .member-card:hover .member-photo { transform: scale(1.06); }
+    /* Overlay gradient */
+    .member-veil {
+      position: absolute; inset: 0; border-radius: var(--r);
+      background: linear-gradient(to top, rgba(0,0,0,.9) 0%, rgba(0,0,0,.35) 50%, rgba(0,0,0,.0) 75%);
+    }
+    .member-card:hover .member-veil {
+      background: linear-gradient(to top, rgba(0,0,0,.82) 0%, rgba(0,0,0,.2) 50%, rgba(0,0,0,.05) 75%);
+    }
+    /* Top badges */
+    .m-sport {
+      position: absolute; top: 12px; left: 12px;
+      background: rgba(0,0,0,.65); backdrop-filter: blur(6px);
+      border: 1px solid rgba(255,255,255,.12);
+      font-size: .68rem; border-radius: 6px; padding: 3px 9px; color: rgba(255,255,255,.8);
+    }
+    .m-new {
+      position: absolute; top: 12px; right: 12px;
+      background: var(--grad-hero); color: #fff;
+      font-size: .6rem; font-weight: 700; letter-spacing: .8px;
+      border-radius: 20px; padding: 3px 9px;
+    }
+    /* Card initials (shown on gradient bg) */
+    .m-initials {
+      position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+      border-radius: var(--r);
+    }
+    .m-ini-text {
+      font-size: 4.5rem; font-weight: 900; color: rgba(255,255,255,.12);
+      letter-spacing: -3px; text-transform: uppercase;
+    }
+    /* Info panel */
+    .m-info { position: absolute; bottom: 0; left: 0; right: 0; padding: 1rem 1rem .9rem; }
+    .m-role { font-size: .62rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 3px; color: rgba(255,255,255,.7); }
+    .m-name { font-size: 1.05rem; font-weight: 800; color: #fff; line-height: 1.15; }
+    .m-ko { font-size: .72rem; font-weight: 400; color: rgba(255,255,255,.5); margin-bottom: .5rem; }
+    .m-chips { display: flex; gap: .35rem; flex-wrap: wrap; }
+    .m-chip {
+      background: rgba(255,255,255,.1); backdrop-filter: blur(4px);
+      border-radius: 20px; padding: 3px 9px;
+      font-size: .63rem; font-weight: 600; color: rgba(255,255,255,.8);
+    }
+    .m-chip.hot { background: rgba(255,31,69,.2); color: var(--pink); }
+
+    /* ── DIVIDER ── */
+    .grad-divider { height: 3px; background: var(--grad-ai); opacity: .4; }
+
+    /* ── INSTAGRAM ── */
+    .ig-grid {
+      display: flex;
+      overflow-x: auto;
+      gap: 1rem;
+      padding-bottom: 1.2rem;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      scrollbar-color: var(--red) transparent;
+    }
+    .ig-grid::-webkit-scrollbar { height: 4px; }
+    .ig-grid::-webkit-scrollbar-track { background: transparent; }
+    .ig-grid::-webkit-scrollbar-thumb { background: var(--red); border-radius: 2px; }
+    .ig-scroll-hint {
+      text-align: center; color: var(--muted); font-size: .72rem;
+      margin-top: .4rem; letter-spacing: .5px;
+    }
+    .ig-cell {
+      flex: 0 0 320px;
+      scroll-snap-align: start;
+      background: var(--card); border: 1px solid var(--border2);
+      border-radius: var(--r); overflow: hidden;
+      transition: border-color .2s;
+    }
+    .ig-cell:hover { border-color: rgba(255,79,160,.3); }
+    .ig-cell .instagram-media { min-width: unset !important; width: 100% !important; margin: 0 !important; border: none !important; }
+
+    /* ── YOUTUBE ── */
+    .yt-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+    .yt-card {
+      background: var(--card); border: 1px solid var(--border2);
+      border-radius: var(--r); overflow: hidden;
+      transition: transform .2s, border-color .2s;
+    }
+    .yt-card:hover { transform: translateY(-3px); border-color: rgba(255,31,69,.35); }
+    .yt-ratio { position: relative; padding-top: 56.25%; background: #000; }
+    .yt-ratio iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
+    .yt-thumb-link { position: absolute; inset: 0; display: block; text-decoration: none; }
+    .yt-thumb-link img { width: 100%; height: 100%; object-fit: cover; display: block; transition: opacity .2s; }
+    .yt-thumb-link:hover img { opacity: .85; }
+    .yt-play-btn {
+      position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+      width: 64px; height: 46px; background: #ff0000; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,.5); transition: transform .2s, background .2s;
+      pointer-events: none;
+    }
+    .yt-thumb-link:hover .yt-play-btn { background: #cc0000; transform: translate(-50%,-50%) scale(1.1); }
+    .yt-play-btn svg { width: 24px; height: 24px; fill: #fff; }
+    .yt-thumb-label {
+      position: absolute; bottom: 8px; left: 10px; right: 10px;
+      color: #fff; font-size: .72rem; font-weight: 600;
+      text-shadow: 0 1px 4px rgba(0,0,0,.8);
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      pointer-events: none;
+    }
+    .yt-cap { padding: 1rem 1rem .9rem; border-top: 1px solid var(--border); }
+    .yt-sport-tag {
+      display: inline-block; font-size: .62rem; font-weight: 700; letter-spacing: .8px;
+      text-transform: uppercase; background: rgba(255,31,69,.12); color: var(--red);
+      padding: 2px 8px; border-radius: 4px; margin-bottom: 6px;
+    }
+    .yt-title { font-size: .87rem; font-weight: 700; color: var(--text); line-height: 1.4; }
+
+    /* ── BLOG ── */
+    .blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+    .blog-card {
+      background: var(--card); border: 1px solid var(--border2);
+      border-radius: var(--r); overflow: hidden; text-decoration: none; color: inherit;
+      display: flex; flex-direction: column;
+      transition: transform .2s, border-color .2s;
+    }
+    .blog-card:hover { transform: translateY(-4px); border-color: rgba(155,89,255,.3); }
+    .blog-thumb {
+      height: 180px; position: relative; overflow: hidden;
+    }
+    .blog-thumb-bg { width: 100%; height: 100%; }
+    .blog-thumb img {
+      width: 100%; height: 100%; object-fit: cover; object-position: top;
+      transition: transform .4s;
+    }
+    .blog-card:hover .blog-thumb img { transform: scale(1.05); }
+    .blog-tag-abs {
+      position: absolute; top: 10px; left: 10px;
+      font-size: .62rem; font-weight: 700; letter-spacing: .8px; text-transform: uppercase;
+      padding: 3px 10px; border-radius: 20px;
+    }
+    .tag-greeting { background: rgba(155,89,255,.85); color: #fff; }
+    .tag-video    { background: rgba(255,31,69,.85);  color: #fff; }
+    .tag-milestone{ background: rgba(255,215,0,.85);  color: #000; }
+    .tag-ai       { background: rgba(0,210,255,.2); border: 1px solid rgba(0,210,255,.4); color: var(--cyan); }
+    .blog-body { padding: 1rem 1rem .75rem; flex: 1; display: flex; flex-direction: column; }
+    .blog-author-row { display: flex; align-items: center; gap: 8px; margin-bottom: .6rem; }
+    .blog-av { width: 28px; height: 28px; border-radius: 50%; overflow: hidden; flex-shrink: 0; border: 1.5px solid var(--border2); }
+    .blog-av-bg { width: 100%; height: 100%; }
+    .blog-av img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+    .blog-author-name { font-size: .76rem; font-weight: 700; color: var(--text); }
+    .blog-date { font-size: .68rem; color: var(--muted); }
+    .blog-title { font-size: .95rem; font-weight: 800; color: var(--text); line-height: 1.4; margin-bottom: .5rem; }
+    .blog-exc { font-size: .8rem; color: var(--muted); line-height: 1.6; flex: 1; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .blog-read { margin-top: .75rem; font-size: .73rem; font-weight: 700; color: var(--purple); }
+
+    /* ── AI FEATURE BAND ── */
+    .ai-band {
+      background: linear-gradient(135deg, #0a0018, #0e0020, #080010);
+      border-top: 1px solid rgba(155,89,255,.2);
+      border-bottom: 1px solid rgba(155,89,255,.2);
+      padding: 3rem 2rem;
+    }
+    .ai-band-inner {
+      max-width: 1400px; margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;
+    }
+    .ai-band-text h2 {
+      font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 900; letter-spacing: -1px;
+      margin-bottom: .75rem; color: var(--text);
+    }
+    .ai-band-text h2 span {
+      background: var(--grad-ai); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .ai-band-text p { font-size: .9rem; color: var(--muted); line-height: 1.75; margin-bottom: 1.25rem; }
+    .ai-feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; }
+    .ai-feat {
+      background: rgba(155,89,255,.08); border: 1px solid rgba(155,89,255,.2);
+      border-radius: var(--r-sm); padding: .875rem;
+    }
+    .ai-feat .icon { font-size: 1.4rem; margin-bottom: .4rem; }
+    .ai-feat h4 { font-size: .8rem; font-weight: 700; color: #c8b4ff; margin-bottom: 3px; }
+    .ai-feat p { font-size: .72rem; color: var(--muted); line-height: 1.5; }
+
+    /* ── CTA BAND ── */
+    .cta-band {
+      padding: 5rem 2rem; text-align: center;
+      background: radial-gradient(ellipse at center, rgba(255,31,69,.08) 0%, transparent 65%);
+    }
+    .cta-inner { max-width: 640px; margin: 0 auto; }
+    .cta-inner h2 { font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 900; letter-spacing: -1px; margin-bottom: .875rem; }
+    .cta-inner h2 em { font-style: normal; background: var(--grad-hero); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .cta-inner p { color: var(--muted); font-size: .9rem; margin-bottom: 1.75rem; line-height: 1.7; }
+    .cta-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+    /* ── VIDEO TABS ── */
+    .vid-tabs { display: flex; gap: .5rem; margin-bottom: 1.25rem; }
+    .vid-tab {
+      background: rgba(255,255,255,.04); border: 1px solid var(--border2);
+      color: var(--muted); padding: 8px 20px; border-radius: 20px;
+      cursor: pointer; font-size: .82rem; font-weight: 700; transition: all .2s;
+    }
+    .vid-tab.active { background: var(--red); border-color: var(--red); color: #fff; }
+    .vid-tab:not(.active):hover { border-color: var(--red); color: var(--red); }
+    .vid-panel { display: none; }
+    .vid-panel.active { display: block; }
+    /* Instagram Reels grid */
+    .reel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+    .reel-card {
+      background: var(--card); border: 1px solid var(--border2);
+      border-radius: var(--r); overflow: hidden;
+      transition: transform .2s, border-color .2s;
+      display: flex; flex-direction: column;
+    }
+    .reel-card:hover { transform: translateY(-3px); border-color: rgba(255,79,160,.4); }
+    .reel-thumb {
+      position: relative; padding-top: 100%; background: #000; overflow: hidden;
+      background: linear-gradient(135deg,#1a0025,#250040,#0d0d1a);
+    }
+    .reel-thumb-inner {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 8px;
+    }
+    .reel-icon { font-size: 2.5rem; }
+    .reel-handle { font-size: .75rem; font-weight: 700; color: rgba(255,255,255,.6); letter-spacing: 1px; }
+    .reel-info { padding: .875rem 1rem; display: flex; flex-direction: column; gap: .35rem; }
+    .reel-tag {
+      display: inline-block; font-size: .6rem; font-weight: 700; letter-spacing: .8px;
+      text-transform: uppercase; background: rgba(255,79,160,.15); color: var(--pink);
+      padding: 2px 8px; border-radius: 4px; margin-bottom: 2px;
+    }
+    .reel-title { font-size: .84rem; font-weight: 700; color: var(--text); line-height: 1.4; }
+    .reel-link {
+      display: inline-flex; align-items: center; gap: 5px;
+      margin-top: .35rem; font-size: .73rem; font-weight: 700; color: var(--pink);
+      text-decoration: none; transition: opacity .2s;
+    }
+    .reel-link:hover { opacity: .75; }
+    .reel-n8n-note {
+      grid-column: 1 / -1; padding: .75rem 1rem;
+      background: rgba(155,89,255,.06); border: 1px solid rgba(155,89,255,.2);
+      border-radius: var(--r-sm); text-align: center;
+      font-size: .73rem; color: var(--muted);
+    }
+
+    /* ── SUBSCRIBE BAND ── */
+    .sub-band {
+      padding: 3.5rem 2rem;
+      background: linear-gradient(135deg,rgba(247,186,0,.06),rgba(155,89,255,.04));
+      border-top: 1px solid rgba(247,186,0,.15);
+    }
+    .sub-band-inner { max-width: 560px; margin: 0 auto; text-align: center; }
+    .sub-band-inner h3 { font-size: 1.35rem; font-weight: 800; margin-bottom: .5rem; }
+    .sub-band-inner h3 em { font-style:normal; background:linear-gradient(90deg,#f7ba00,#ff9900); -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text; }
+    .sub-band-inner p { color: var(--muted); font-size: .88rem; margin-bottom: 1.25rem; }
+    /* KakaoTalk channel button */
+    .kakao-channel-btn {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: #f7ba00; color: #3c1e1e;
+      border: none; border-radius: 12px;
+      padding: 14px 28px; font-weight: 900; font-size: 1rem;
+      cursor: pointer; transition: opacity .2s, transform .15s;
+      text-decoration: none; margin-bottom: 1.25rem;
+    }
+    .kakao-channel-btn:hover { opacity: .88; transform: translateY(-1px); }
+    .kakao-channel-btn .kakao-logo { font-size: 1.2rem; }
+    .kakao-channel-coming {
+      display: inline-block;
+      background: rgba(247,186,0,.12); border: 1px solid rgba(247,186,0,.3);
+      color: #f7ba00; border-radius: 8px; padding: 4px 12px;
+      font-size: .7rem; font-weight: 700; letter-spacing: .5px; margin-bottom: 1rem;
+    }
+    /* LINE Official Account button (JA/ZH) */
+    .line-channel-btn {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: #06C755; color: #fff;
+      border: none; border-radius: 12px;
+      padding: 14px 28px; font-weight: 900; font-size: 1rem;
+      cursor: pointer; transition: opacity .2s, transform .15s;
+      text-decoration: none; margin-bottom: 1.25rem;
+    }
+    .line-channel-btn:hover { opacity: .88; transform: translateY(-1px); }
+    .line-channel-btn .line-logo { font-size: 1.2rem; }
+    /* Instagram follow button (EN) */
+    .ig-follow-btn {
+      background: linear-gradient(135deg,#f58529,#dd2a7b,#8134af,#515bd4);
+      color: #fff;
+    }
+    .sub-fine { font-size: .72rem; color: var(--muted); margin-top: .6rem; }
+    /* Language-specific channel cards */
+    .channel-card { display: none; }
+    .ch-ko { display: block; }
+    html[data-lang="en"] .ch-ko { display: none; }
+    html[data-lang="en"] .ch-en { display: block; }
+    html[data-lang="ja"] .ch-ko { display: none; }
+    html[data-lang="ja"] .ch-ja { display: block; }
+    html[data-lang="zh"] .ch-ko { display: none; }
+    html[data-lang="zh"] .ch-zh { display: block; }
+    /* Title emoji per language (Kakao yellow / LINE green / Instagram camera) */
+    .t-emoji { display: none; }
+    html:not([data-lang="en"]):not([data-lang="ja"]):not([data-lang="zh"]) .t-emoji.ch-ko,
+    html[data-lang="ko"] .t-emoji.ch-ko { display: inline; }
+    html[data-lang="ja"] .t-emoji.ch-ja { display: inline; }
+    html[data-lang="zh"] .t-emoji.ch-zh { display: inline; }
+    html[data-lang="en"] .t-emoji.ch-en { display: inline; }
+
+    /* ── GOODS COMING SOON BAND ── */
+    .goods-band {
+      padding: 3.5rem 2rem;
+      background: linear-gradient(135deg,rgba(155,89,255,.06),rgba(247,186,0,.04));
+      border-top: 1px solid var(--border2);
+      text-align: center;
+    }
+    .goods-band-inner { max-width: 720px; margin: 0 auto; }
+    .goods-badge {
+      display: inline-block; background: rgba(155,89,255,.12); border: 1px solid rgba(155,89,255,.3);
+      color: #b388ff; border-radius: 8px; padding: 6px 18px;
+      font-size: .85rem; font-weight: 800; letter-spacing: 2px; margin-bottom: 1.25rem;
+      text-transform: uppercase;
+    }
+    .goods-band h3 { font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 900; letter-spacing: -1px; margin-bottom: .875rem; }
+    .goods-desc { color: var(--muted); font-size: .9rem; margin-bottom: 1.75rem; line-height: 1.7; }
+    .goods-grid { display: grid; grid-template-columns: repeat(5,1fr); gap: 1rem; margin-bottom: 1.75rem; }
+    .goods-item {
+      background: rgba(255,255,255,.03); border: 1px solid var(--border);
+      border-radius: 14px; padding: 1.25rem 1rem; transition: border-color .2s, transform .2s;
+    }
+    .goods-item:hover { border-color: rgba(155,89,255,.3); transform: translateY(-2px); }
+    .goods-item-icon { font-size: 1.8rem; margin-bottom: .5rem; }
+    .goods-item-name { font-size: .82rem; font-weight: 700; color: var(--text); }
+    .goods-cta {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: linear-gradient(90deg,#9b59ff,#ff1f45); color: #fff;
+      border: none; border-radius: 10px; padding: 12px 28px;
+      font-weight: 800; font-size: .9rem; cursor: pointer;
+      transition: opacity .2s, transform .15s; text-decoration: none;
+    }
+    .goods-cta:hover { opacity: .88; transform: translateY(-1px); }
+    @media (max-width: 900px) {
+      .goods-grid { grid-template-columns: repeat(3,1fr); }
+    }
+    @media (max-width: 768px) {
+      .goods-grid { grid-template-columns: repeat(2,1fr); }
+      .goods-grid .goods-item:last-child:nth-child(odd) { grid-column: span 2; }
+    }
+
+    /* ── AGENCY BAND ── */
+    .agency-band { background: var(--card); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 2.5rem 2rem; }
+    .agency-inner { max-width: 1400px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem; }
+    .agency-text h3 { font-weight: 800; font-size: 1.1rem; }
+    .agency-text h3 span { background: var(--grad-hero); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .agency-text p { color: var(--muted); font-size: .8rem; margin-top: 4px; }
+    .agency-links { display: flex; gap: .6rem; flex-wrap: wrap; }
+    .agency-link { display: inline-flex; align-items: center; gap: 5px; background: rgba(255,255,255,.04); border: 1px solid var(--border2); color: var(--muted); padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: .78rem; font-weight: 600; transition: all .2s; }
+    .agency-link:hover { border-color: var(--red); color: var(--red); }
+
+    /* ── FOOTER ── */
+    footer { background: var(--black); border-top: 1px solid var(--border); padding: 3rem 2rem 2rem; }
+    .footer-inner { max-width: 1400px; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; margin-bottom: 2rem; }
+    .footer-col h4 { font-size: .75rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--text); margin-bottom: 1rem; }
+    .footer-col a { display: block; color: var(--muted); text-decoration: none; font-size: .82rem; margin-bottom: .5rem; transition: color .15s; }
+    .footer-col a:hover { color: var(--red); }
+    .footer-bottom { max-width: 1400px; margin: 0 auto; padding-top: 1.5rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .footer-copy { font-size: .74rem; color: var(--muted); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 1024px) {
+      .hero-inner { grid-template-columns: 1fr; gap: 3rem; }
+      .hero-stats { display: none; }
+      .yt-grid, .blog-grid, .reel-grid { grid-template-columns: repeat(2, 1fr); }
+      .ai-band-inner { grid-template-columns: 1fr; }
+      .footer-inner { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 768px) {
+      nav { padding: 0 1rem; }
+      .nav-links, .lang-row { display: none; }
+      .hamburger { display: flex; }
+      .sec { padding: 2.5rem 1rem; }
+      .yt-grid, .blog-grid, .reel-grid { grid-template-columns: 1fr; }
+      .ig-cell { flex: 0 0 280px; }
+      .hero-inner { padding: 3rem 1rem 2rem; }
+      .ai-feature-grid { grid-template-columns: 1fr; }
+      .stories-bar { padding: 1rem; }
+      .sub-row-inputs { flex-direction: column; }
+    }
+    @media (max-width: 480px) {
+      .member-grid { grid-template-columns: repeat(2, 1fr); gap: .5rem; }
+      .footer-inner { grid-template-columns: 1fr; }
+    }
+
+    /* ── HERO PHOTO SLIDER ── */
+    .hero-bg-slider { position:absolute;inset:0;z-index:0;overflow:hidden; }
+    .hero-slide {
+      position:absolute;inset:0;
+      background-size:cover;
+      background-position:center top;
+      opacity:0;
+      transition:opacity 1.8s ease-in-out;
+      will-change:transform,opacity;
+    }
+    .hero-slide.active { opacity:1; }
+    .hero-slide.kb { animation:kbZoom 14s ease-in-out forwards; }
+    @keyframes kbZoom {
+      0%   { transform:scale(1.08) translate(0%,0%); }
+      100% { transform:scale(1)    translate(-1.5%,-1%); }
+    }
+    .hero-photo-overlay {
+      position:absolute;inset:0;z-index:1;pointer-events:none;
+      background:
+        linear-gradient(to bottom, rgba(4,0,12,.55) 0%, rgba(4,0,12,.18) 45%, rgba(4,0,12,.82) 100%),
+        linear-gradient(135deg, rgba(255,31,69,.18) 0%, transparent 55%, rgba(100,60,180,.14) 100%);
+    }
+    .orb { z-index:2; }
+    .hero-grid { z-index:3; }
+    .hero-stage { z-index:2; opacity:.4; }
+    .hero-inner { z-index:5; }
+    .hero-dots {
+      position:absolute;bottom:1.6rem;left:50%;transform:translateX(-50%);
+      display:flex;gap:9px;z-index:6;
+    }
+    .hero-dot {
+      width:7px;height:7px;border-radius:50%;
+      background:rgba(255,255,255,.3);border:1px solid rgba(255,255,255,.45);
+      cursor:pointer;transition:all .3s;
+    }
+    .hero-dot.active { background:#ff1f45;border-color:#ff6080;transform:scale(1.35); }
+  </style>
+  <!-- Preload hero photos -->
+  <link rel="preload" as="image" href="images/hero-group-1.jpg">
+  <link rel="preload" as="image" href="images/hero-group-4.jpg">
+  <!-- Preload all member images immediately on HTML parse (before JS runs) -->
+  <link rel="preload" as="image" href="images/shin-sehee.jpg">
+  <link rel="preload" as="image" href="images/kim-jina.jpg">
+  <link rel="preload" as="image" href="images/kim-hanseul.jpg">
+  <link rel="preload" as="image" href="images/kim-haeri.jpg">
+  <link rel="preload" as="image" href="images/lee-geumju.jpg">
+  <link rel="preload" as="image" href="images/lee-yebin.jpg">
+  <link rel="preload" as="image" href="images/jeong-huijeong.jpg">
+  <link rel="preload" as="image" href="images/lee-seoyun.jpg">
+  <link rel="preload" as="image" href="images/kim-gahyun.jpg">
+  <link rel="preload" as="image" href="images/kye-yujin.jpg">
+  <link rel="preload" as="image" href="images/kwon-gayoung.jpg">
+  <link rel="preload" as="image" href="images/kim-minji.jpg">
+  <link rel="preload" as="image" href="images/kolex_logo_1.png">
+  <!-- Google Analytics GA4 — 실제 ID로 교체: analytics.google.com → 관리 → 데이터 스트림 → Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2BYFTLPLT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-M2BYFTLPLT');
+  </script>
+</head>
+<body>
+
+<!-- AI TOP BAR -->
+<div class="ai-topbar">
+  <div class="ai-pulse"></div>
+  <div class="ai-topbar-text"><strong data-i18n="ai_topbar_strong">AI 자동 업데이트 중</strong>&nbsp;—&nbsp;<span data-i18n="ai_topbar_desc">치어리더들의 최신 영상·사진이 매일 자동으로 업로드됩니다</span></div>
+  <div class="ai-chip" data-i18n="ai_chip">LIVE</div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">
+    <img class="nav-logo-img" src="images/kolex_logo_1.png" alt="KOLEX" />
+    <span class="nav-logo-sub" data-i18n="nav_sub">Cheerleaders</span>
+  </a>
+  <div class="nav-links">
+    <a href="#members" data-i18n="nav_members">멤버</a>
+    <a href="#videos" data-i18n="nav_videos">영상</a>
+    <a href="about.html" data-i18n="nav_about">소개</a>
+    <a href="contact.html" data-i18n="nav_contact">문의</a>
+  </div>
+  <div class="lang-row">
+    <button class="lang-btn active" onclick="setLang('ko')">KO</button>
+    <button class="lang-btn" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" onclick="setLang('ja')">JP</button>
+    <button class="lang-btn" onclick="setLang('zh')">繁中</button>
+  </div>
+  <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#members" onclick="toggleMenu()"><span data-i18n="nav_members">멤버</span></a>
+  <a href="#videos" onclick="toggleMenu()"><span data-i18n="nav_videos">영상</span></a>
+  
+  <a href="about.html" onclick="toggleMenu()"><span data-i18n="nav_about">소개</span></a>
+  <a href="contact.html" onclick="toggleMenu()"><span data-i18n="nav_contact">문의</span></a>
+  <div style="display:flex;gap:6px;margin-top:1.5rem;">
+    <button class="lang-btn active" onclick="setLang('ko');toggleMenu()">KO</button>
+    <button class="lang-btn" onclick="setLang('en');toggleMenu()">EN</button>
+    <button class="lang-btn" onclick="setLang('ja');toggleMenu()">JP</button>
+    <button class="lang-btn" onclick="setLang('zh');toggleMenu()">繁中</button>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <!-- ── HERO PHOTO SLIDER ── -->
+  <div class="hero-bg-slider" id="heroBgSlider">
+    <div class="hero-slide active kb" style="background-image:url('images/hero-group-1.jpg');background-position:center top"></div>
+    <div class="hero-slide"         style="background-image:url('images/hero-group-2.jpg');background-position:center 40%"></div>
+    <div class="hero-slide"         style="background-image:url('images/hero-group-3.jpg');background-position:center center;background-size:contain;background-color:#0a0a0a"></div>
+    <div class="hero-slide"         style="background-image:url('images/hero-group-4.jpg');background-position:center 15%"></div>
+  </div>
+  <div class="hero-photo-overlay"></div>
+  <!-- slide dots -->
+  <div class="hero-dots" id="heroDots">
+    <div class="hero-dot active" onclick="heroGoTo(0)"></div>
+    <div class="hero-dot" onclick="heroGoTo(1)"></div>
+    <div class="hero-dot" onclick="heroGoTo(2)"></div>
+    <div class="hero-dot" onclick="heroGoTo(3)"></div>
+  </div>
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+  <!-- HERO STAGE PERFORMERS -->
+  <div class="hero-stage">
+    <div class="stage-cone cone1"></div>
+    <div class="stage-cone cone2"></div>
+    <div class="stage-cone cone3"></div>
+    <svg class="performers-svg" viewBox="0 0 1400 760" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <filter id="figGlow" x="-60%" y="-60%" width="220%" height="220%">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+          <feComposite in="blur" in2="SourceGraphic" operator="over"/>
+        </filter>
+        <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+          <feComposite in="blur" in2="SourceGraphic" operator="over"/>
+        </filter>
+        <radialGradient id="floorG" cx="700" cy="760" r="700" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stop-color="#ff1f45" stop-opacity="0.10"/>
+          <stop offset="100%" stop-color="#ff1f45" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect width="1400" height="760" fill="url(#floorG)"/>
+      <!-- FIG 1: Large · center · High V · PINK -->
+      <g filter="url(#figGlow)">
+        <g class="f-bob" transform="translate(875,705)" fill="rgba(255,79,160,.38)" stroke="rgba(255,79,160,.38)">
+          <circle cx="0" cy="-200" r="24"/>
+          <path d="M -20,-175 L -28,-90 L 28,-90 L 20,-175 Z" stroke="none"/>
+          <line x1="-22" y1="-90" x2="-26" y2="0" stroke-width="15" stroke-linecap="round" fill="none"/>
+          <line x1="22" y1="-90" x2="26" y2="0" stroke-width="15" stroke-linecap="round" fill="none"/>
+          <line x1="-20" y1="-158" x2="-72" y2="-228" stroke-width="13" stroke-linecap="round" fill="none"/>
+          <line x1="20" y1="-158" x2="72" y2="-228" stroke-width="13" stroke-linecap="round" fill="none"/>
+          <circle cx="-78" cy="-238" r="13"/><circle cx="-88" cy="-226" r="9"/><circle cx="-68" cy="-226" r="9"/><circle cx="-78" cy="-250" r="9"/>
+          <circle cx="78" cy="-238" r="13"/><circle cx="88" cy="-226" r="9"/><circle cx="68" cy="-226" r="9"/><circle cx="78" cy="-250" r="9"/>
+        </g>
+      </g>
+      <!-- FIG 2: Medium · right · Side-raise · PURPLE -->
+      <g filter="url(#softGlow)">
+        <g class="f-bob2" transform="translate(1105,715)" fill="rgba(155,89,255,.28)" stroke="rgba(155,89,255,.28)">
+          <circle cx="0" cy="-188" r="21"/>
+          <path d="M -18,-165 L -25,-85 L 25,-85 L 18,-165 Z" stroke="none"/>
+          <line x1="-18" y1="-85" x2="-22" y2="0" stroke-width="13" stroke-linecap="round" fill="none"/>
+          <line x1="18" y1="-85" x2="30" y2="-38" stroke-width="13" stroke-linecap="round" fill="none"/>
+          <line x1="30" y1="-38" x2="20" y2="0" stroke-width="11" stroke-linecap="round" fill="none"/>
+          <line x1="-18" y1="-150" x2="-58" y2="-220" stroke-width="12" stroke-linecap="round" fill="none"/>
+          <line x1="18" y1="-150" x2="64" y2="-112" stroke-width="12" stroke-linecap="round" fill="none"/>
+          <circle cx="-63" cy="-226" r="11"/><circle cx="-73" cy="-215" r="8"/><circle cx="-53" cy="-215" r="8"/>
+          <circle cx="70" cy="-118" r="11"/><circle cx="80" cy="-107" r="8"/><circle cx="60" cy="-107" r="8"/>
+        </g>
+      </g>
+      <!-- FIG 3: Medium · left-center · Wide-arms · RED -->
+      <g filter="url(#softGlow)">
+        <g class="f-bob3" transform="translate(672,718)" fill="rgba(255,31,69,.22)" stroke="rgba(255,31,69,.22)">
+          <circle cx="0" cy="-178" r="20"/>
+          <path d="M -17,-158 L -23,-82 L 23,-82 L 17,-158 Z" stroke="none"/>
+          <line x1="-17" y1="-82" x2="-21" y2="0" stroke-width="12" stroke-linecap="round" fill="none"/>
+          <line x1="17" y1="-82" x2="21" y2="0" stroke-width="12" stroke-linecap="round" fill="none"/>
+          <line x1="-17" y1="-140" x2="-76" y2="-124" stroke-width="11" stroke-linecap="round" fill="none"/>
+          <line x1="17" y1="-140" x2="76" y2="-124" stroke-width="11" stroke-linecap="round" fill="none"/>
+          <circle cx="-82" cy="-122" r="11"/><circle cx="-92" cy="-112" r="8"/><circle cx="-72" cy="-112" r="8"/><circle cx="-82" cy="-134" r="8"/>
+          <circle cx="82" cy="-122" r="11"/><circle cx="92" cy="-112" r="8"/><circle cx="72" cy="-112" r="8"/><circle cx="82" cy="-134" r="8"/>
+        </g>
+      </g>
+      <!-- FIG 4: Small · far right · High V · CYAN -->
+      <g filter="url(#softGlow)">
+        <g class="f-bob4" transform="translate(1295,720)" fill="rgba(0,210,255,.20)" stroke="rgba(0,210,255,.20)">
+          <circle cx="0" cy="-168" r="17"/>
+          <path d="M -15,-152 L -20,-78 L 20,-78 L 15,-152 Z" stroke="none"/>
+          <line x1="-15" y1="-78" x2="-18" y2="0" stroke-width="11" stroke-linecap="round" fill="none"/>
+          <line x1="15" y1="-78" x2="18" y2="0" stroke-width="11" stroke-linecap="round" fill="none"/>
+          <line x1="-15" y1="-132" x2="-55" y2="-192" stroke-width="10" stroke-linecap="round" fill="none"/>
+          <line x1="15" y1="-132" x2="55" y2="-192" stroke-width="10" stroke-linecap="round" fill="none"/>
+          <circle cx="-60" cy="-199" r="10"/><circle cx="-69" cy="-189" r="7"/><circle cx="-51" cy="-189" r="7"/>
+          <circle cx="60" cy="-199" r="10"/><circle cx="69" cy="-189" r="7"/><circle cx="51" cy="-189" r="7"/>
+        </g>
+      </g>
+      <!-- FIG 5: Small · far left · Cheer pose · PINK faint -->
+      <g filter="url(#softGlow)">
+        <g class="f-bob5" transform="translate(510,725)" fill="rgba(255,79,160,.16)" stroke="rgba(255,79,160,.16)">
+          <circle cx="0" cy="-162" r="16"/>
+          <path d="M -14,-147 L -18,-74 L 18,-74 L 14,-147 Z" stroke="none"/>
+          <line x1="-14" y1="-74" x2="-16" y2="0" stroke-width="10" stroke-linecap="round" fill="none"/>
+          <line x1="14" y1="-74" x2="22" y2="-36" stroke-width="10" stroke-linecap="round" fill="none"/>
+          <line x1="22" y1="-36" x2="15" y2="0" stroke-width="9" stroke-linecap="round" fill="none"/>
+          <line x1="-14" y1="-130" x2="-46" y2="-188" stroke-width="9" stroke-linecap="round" fill="none"/>
+          <line x1="14" y1="-130" x2="50" y2="-104" stroke-width="9" stroke-linecap="round" fill="none"/>
+          <circle cx="-51" cy="-194" r="9"/><circle cx="-60" cy="-184" r="7"/><circle cx="-42" cy="-184" r="7"/>
+          <circle cx="55" cy="-100" r="9"/><circle cx="64" cy="-90" r="7"/><circle cx="46" cy="-90" r="7"/>
+        </g>
+      </g>
+    </svg>
+    <canvas class="spk-canvas" id="sparkCanvas"></canvas>
+  </div>
+  <div class="hero-grid"></div>
+  <div class="hero-inner">
+    <div>
+      <div class="hero-badge" data-i18n="hero_badge">KOLEX 스포츠 엔터테인먼트</div>
+      <h1 class="hero-h1">
+        <span class="line1" data-i18n="hero_line1">무대 위에서 빛나고,</span>
+        <span class="line2" data-i18n="hero_line2">당신의 마음에 남다.</span>
+      </h1>
+      <p class="hero-desc" data-i18n="hero_desc">대한민국을 대표하는 치어리더들. 야구·농구·배구 경기장 어디서나 관중을 하나로 만드는 KOLEX 소속 퍼포머들의 모든 것을 여기서 만나보세요.</p>
+      <div class="hero-cta">
+        <a href="#members" class="btn-grad" data-i18n="cta_meet">팀 만나러 가기 ✦</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="h-stat"><div class="sv">12</div><div class="sk" data-i18n="stat_members">퍼포머</div></div>
+      <div class="h-stat"><div class="sv">1.77M+</div><div class="sk" data-i18n="stat_followers">팔로워</div></div>
+      <div class="h-stat"><div class="sv">3</div><div class="sk" data-i18n="stat_sports">종목</div></div>
+      <div class="h-stat"><div class="sv">3</div><div class="sk" data-i18n="stat_languages">언어</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- STORIES -->
+<div class="stories-bar">
+  <div class="stories-inner" id="storiesRow"></div>
+</div>
+
+<!-- SPORT TABS -->
+<div class="sport-bar" id="members">
+  <div class="sport-bar-inner">
+    <button class="sport-tab active" onclick="filterSport('all',this)" data-i18n="tab_all">전체</button>
+    <button class="sport-tab" onclick="filterSport('baseball',this)" data-i18n="tab_baseball">⚾ 야구</button>
+    <button class="sport-tab" onclick="filterSport('basketball',this)" data-i18n="tab_basketball">🏀 농구</button>
+    <button class="sport-tab" onclick="filterSport('volleyball',this)" data-i18n="tab_volleyball">🏐 배구</button>
+  </div>
+</div>
+
+<!-- MEMBERS -->
+<div class="sec">
+  <div class="sec-head">
+    <div>
+      <h2 class="sec-title"><em data-i18n="squad_em">우리가</em> <span data-i18n="squad_rest">바로 KOLEX</span></h2>
+      <p class="sec-sub" data-i18n="squad_sub">프로필 카드를 클릭하면 상세 페이지로 이동합니다 ✦</p>
+    </div>
+  </div>
+  <div class="member-grid" id="memberGrid"></div>
+</div>
+
+<div class="grad-divider"></div>
+
+<!-- VIDEOS -->
+<div class="sec" id="videos">
+  <div class="sec-head">
+    <div>
+      <h2 class="sec-title">🎬 <em data-i18n="vid_title">최신 영상</em></h2>
+      <p class="sec-sub" data-i18n="vid_sub">AI가 새 영상을 감지하면 자동으로 업데이트됩니다</p>
+    </div>
+    <button class="view-all" id="ytMoreBtn" onclick="toggleYtMore()">더보기 ↓</button>
+  </div>
+  <!-- YouTube 썸네일 카드 — 채널 embed 차단으로 썸네일 카드 방식 사용. n8n이 최신순으로 자동 업데이트 -->
+  <div id="vidPanelYt">
+    <div class="yt-grid">
+
+      <!-- ★ 영상 1 (최신) -->
+      <div class="yt-card">
+        <div class="yt-ratio">
+          <a class="yt-thumb-link" href="https://www.youtube.com/shorts/sz0lA_sFQ48" target="_blank" rel="noopener" title="이예빈 2026 NEW 아웃송 직캠">
+            <img src="https://img.youtube.com/vi/sz0lA_sFQ48/hqdefault.jpg" alt="이예빈 2026 아웃송 직캠" loading="lazy"
+              onerror="this.src='https://img.youtube.com/vi/sz0lA_sFQ48/mqdefault.jpg'">
+            <div class="yt-play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            <div class="yt-thumb-label">▶ YouTube Shorts에서 보기</div>
+          </a>
+        </div>
+        <div class="yt-cap">
+          <div class="yt-sport-tag">🔍 치어리더 이예빈</div>
+          <div class="yt-title">이예빈 — 2026 NEW 아웃송 직캠 fancam 🌷</div>
+        </div>
+      </div>
+
+      <!-- ★ 영상 2 -->
+      <div class="yt-card">
+        <div class="yt-ratio">
+          <a class="yt-thumb-link" href="https://www.youtube.com/shorts/k1Xlu77qcd4" target="_blank" rel="noopener" title="김민지×김진아 Hit Me 아웃송 직캠">
+            <img src="https://img.youtube.com/vi/k1Xlu77qcd4/hqdefault.jpg" alt="김민지×김진아 직캠" loading="lazy"
+              onerror="this.src='https://img.youtube.com/vi/k1Xlu77qcd4/mqdefault.jpg'">
+            <div class="yt-play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            <div class="yt-thumb-label">▶ YouTube Shorts에서 보기</div>
+          </a>
+        </div>
+        <div class="yt-cap">
+          <div class="yt-sport-tag">🔍 치어리더 김민지</div>
+          <div class="yt-title">김민지×김진아 — Hit Me 아웃송 직캠 ⛓️</div>
+        </div>
+      </div>
+
+      <!-- ★ 영상 3 -->
+      <div class="yt-card">
+        <div class="yt-ratio">
+          <a class="yt-thumb-link" href="https://www.youtube.com/watch?v=Lh1wiIp8pO4" target="_blank" rel="noopener" title="이예빈 KT 위즈 치어리더 직캠 20250530">
+            <img src="https://img.youtube.com/vi/Lh1wiIp8pO4/hqdefault.jpg" alt="이예빈 직캠 20250530" loading="lazy"
+              onerror="this.src='https://img.youtube.com/vi/Lh1wiIp8pO4/mqdefault.jpg'">
+            <div class="yt-play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            <div class="yt-thumb-label">▶ YouTube에서 보기</div>
+          </a>
+        </div>
+        <div class="yt-cap">
+          <div class="yt-sport-tag">🔍 치어리더 이예빈</div>
+          <div class="yt-title">이예빈 — 직캠 fancam 2025.05.30 🎥</div>
+        </div>
+      </div>
+
+      <!-- ★ 영상 4 -->
+      <div class="yt-card">
+        <div class="yt-ratio">
+          <a class="yt-thumb-link" href="https://www.youtube.com/watch?v=1CUV4mzP3Is" target="_blank" rel="noopener" title="kt WIZ 치어리더 아웃송 단체 직캠 250411">
+            <img src="https://img.youtube.com/vi/1CUV4mzP3Is/hqdefault.jpg" alt="단체 직캠 250411" loading="lazy"
+              onerror="this.src='https://img.youtube.com/vi/1CUV4mzP3Is/mqdefault.jpg'">
+            <div class="yt-play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            <div class="yt-thumb-label">▶ YouTube에서 보기</div>
+          </a>
+        </div>
+        <div class="yt-cap">
+          <div class="yt-sport-tag">🔍 KT위즈 치어리더</div>
+          <div class="yt-title">KT Wiz 치어리더 — 아웃송 단체 직캠 2025.04.11 ⚾</div>
+        </div>
+      </div>
+
+      <!-- ★ 영상 5 -->
+      <div class="yt-card">
+        <div class="yt-ratio">
+          <a class="yt-thumb-link" href="https://www.youtube.com/watch?v=jEJw7ov8Vcw" target="_blank" rel="noopener" title="kt wiz 치어리더 응원 스케치 4K">
+            <img src="https://img.youtube.com/vi/jEJw7ov8Vcw/hqdefault.jpg" alt="응원 스케치 4K" loading="lazy"
+              onerror="this.src='https://img.youtube.com/vi/jEJw7ov8Vcw/mqdefault.jpg'">
+            <div class="yt-play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            <div class="yt-thumb-label">▶ YouTube에서 보기</div>
+          </a>
+        </div>
+        <div class="yt-cap">
+          <div class="yt-sport-tag">🔍 KT위즈 치어리더</div>
+          <div class="yt-title">KT Wiz 치어리더 — 응원 스케치 4K ✨</div>
+        </div>
+      </div>
+
+      <!-- ★ 영상 6 -->
+      <div class="yt-card">
+        <div class="yt-ratio">
+          <a class="yt-thumb-link" href="https://www.youtube.com/watch?v=qRQ6qUADNIk" target="_blank" rel="noopener" title="2025 KT Wiz 응원단을 소개합니다">
+            <img src="https://img.youtube.com/vi/qRQ6qUADNIk/hqdefault.jpg" alt="2025 응원단 소개" loading="lazy"
+              onerror="this.src='https://img.youtube.com/vi/qRQ6qUADNIk/mqdefault.jpg'">
+            <div class="yt-play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            <div class="yt-thumb-label">▶ YouTube에서 보기</div>
+          </a>
+        </div>
+        <div class="yt-cap">
+          <div class="yt-sport-tag">🔍 KT위즈 치어리더</div>
+          <div class="yt-title">2025 KT Wiz 응원단을 소개합니다 🪄</div>
+        </div>
+      </div>
+
+      <!-- ★ 영상 7~12 (더보기 클릭 시 노출) -->
+      <div class="yt-card yt-more-hidden">
+        <div class="yt-ratio">
+          <a class="yt-thumb-link" href="https://www.youtube.com/shorts/hYY6LSr6MZE" target="_blank" rel="noopener" title="김진아 어허 아웃송 직캠">
+            <img src="https://img.youtube.com/vi/hYY6LSr6MZE/hqdefault.jpg" alt="김진아 직캠" loading="lazy"
+              onerror="this.src='https://img.youtube.com/vi/hYY6LSr6MZE/mqdefault.jpg'">
+            <div class="yt-play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            <div class="yt-thumb-label">▶ YouTube Shorts에서 보기</div>
+          </a>
+        </div>
+        <div class="yt-cap">
+          <div class="yt-sport-tag">🔍 치어리더 김진아</div>
+          <div class="yt-title">김진아 — 어허(Uh-huh) 아웃송 직캠 🌷</div>
+        </div>
+      </div>
+
+      <div class="yt-card yt-more-hidden">
+        <div class="yt-ratio">
+          <a class="yt-thumb-link" href="https://www.youtube.com/shorts/fhnhKyPyI00" target="_blank" rel="noopener" title="김진아×이금주 직캠">
+            <img src="https://img.youtube.com/vi/fhnhKyPyI00/hqdefault.jpg" alt="김진아 이금주 직캠" loading="lazy"
+              onerror="this.src='https://img.youtube.com/vi/fhnhKyPyI00/mqdefault.jpg'">
+            <div class="yt-play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            <div class="yt-thumb-label">▶ YouTube Shorts에서 보기</div>
+          </a>
+        </div>
+        <div class="yt-cap">
+          <div class="yt-sport-tag">🔍 치어리더 김진아</div>
+          <div class="yt-title">김진아×이금주 — NEW 아웃송 직캠 💛</div>
+        </div>
+      </div>
+
+      <div class="yt-card yt-more-hidden">
+        <div class="yt-ratio">
+          <a class="yt-thumb-link" href="https://www.youtube.com/shorts/u7tgjxmQ8v8" target="_blank" rel="noopener" title="김해리 홀드업 챌린지 직캠">
+            <img src="https://img.youtube.com/vi/u7tgjxmQ8v8/hqdefault.jpg" alt="김해리 직캠" loading="lazy"
+              onerror="this.src='https://img.youtube.com/vi/u7tgjxmQ8v8/mqdefault.jpg'">
+            <div class="yt-play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            <div class="yt-thumb-label">▶ YouTube Shorts에서 보기</div>
+          </a>
+        </div>
+        <div class="yt-cap">
+          <div class="yt-sport-tag">🔍 치어리더 김해리</div>
+          <div class="yt-title">김해리 — 홀드업 챌린지 직캠 🐰</div>
+        </div>
+      </div>
+
+      <div class="yt-card yt-more-hidden">
+        <div class="yt-ratio">
+          <a class="yt-thumb-link" href="https://www.youtube.com/shorts/lgSIs1iKPEk" target="_blank" rel="noopener" title="김해리 빵야 엔딩 직캠">
+            <img src="https://img.youtube.com/vi/lgSIs1iKPEk/hqdefault.jpg" alt="김해리 빵야 직캠" loading="lazy"
+              onerror="this.src='https://img.youtube.com/vi/lgSIs1iKPEk/mqdefault.jpg'">
+            <div class="yt-play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            <div class="yt-thumb-label">▶ YouTube Shorts에서 보기</div>
+          </a>
+        </div>
+        <div class="yt-cap">
+          <div class="yt-sport-tag">🔍 치어리더 김해리</div>
+          <div class="yt-title">김해리 — 치명적 빵야 엔딩 직캠 🔥</div>
+        </div>
+      </div>
+
+      <div class="yt-card yt-more-hidden">
+        <div class="yt-ratio">
+          <a class="yt-thumb-link" href="https://www.youtube.com/shorts/qw3xo3m9U1o" target="_blank" rel="noopener" title="김가현 직캠">
+            <img src="https://img.youtube.com/vi/qw3xo3m9U1o/hqdefault.jpg" alt="김가현 직캠" loading="lazy"
+              onerror="this.src='https://img.youtube.com/vi/qw3xo3m9U1o/mqdefault.jpg'">
+            <div class="yt-play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            <div class="yt-thumb-label">▶ YouTube Shorts에서 보기</div>
+          </a>
+        </div>
+        <div class="yt-cap">
+          <div class="yt-sport-tag">🔍 치어리더 김가현</div>
+          <div class="yt-title">김가현 — 귀엽게 통통 뛰는 직캠 🐰</div>
+        </div>
+      </div>
+
+      <div class="yt-card yt-more-hidden">
+        <div class="yt-ratio">
+          <a class="yt-thumb-link" href="https://www.youtube.com/watch?v=Ek5QP76N9Ns" target="_blank" rel="noopener" title="이예빈 벤치 직캠 250404">
+            <img src="https://img.youtube.com/vi/Ek5QP76N9Ns/hqdefault.jpg" alt="이예빈 벤치 직캠" loading="lazy"
+              onerror="this.src='https://img.youtube.com/vi/Ek5QP76N9Ns/mqdefault.jpg'">
+            <div class="yt-play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+            <div class="yt-thumb-label">▶ YouTube에서 보기</div>
+          </a>
+        </div>
+        <div class="yt-cap">
+          <div class="yt-sport-tag">🔍 치어리더 이예빈</div>
+          <div class="yt-title">이예빈 — 벤치 직캠 2025.04.04 🎥</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="grad-divider"></div>
+
+<!-- BLOG -->
+<div class="sec" id="blog">
+  <div class="sec-head">
+    <div>
+      <h2 class="sec-title">✍️ <em data-i18n="blog_title">최신 포스트</em></h2>
+      <p class="sec-sub" data-i18n="blog_sub">AI가 매일 새 글을 자동으로 작성합니다 🤖</p>
+    </div>
+  </div>
+  <div class="ai-section-badge">
+    <div class="ai-icon">🤖</div>
+    <div class="ai-text-wrap">
+      <div class="ai-text-title" data-i18n="ai_badge_title">AI 자동 생성 콘텐츠</div>
+      <div class="ai-text-sub" data-i18n="ai_badge_sub">치어리더들의 일상 인사, 신규 영상 소개, 마일스톤 축하 글이 매일 자동 업로드됩니다</div>
+    </div>
+    <div class="ai-live" data-i18n="ai_live">● LIVE</div>
+  </div>
+  <div class="blog-grid" id="blogGrid"></div>
+</div>
+
+<!-- AI FEATURE BAND -->
+<div class="ai-band">
+  <div class="ai-band-inner">
+    <div class="ai-band-text">
+      <h2><span data-i18n="ai_feat_h">AI가 매일<br/>자동으로 업데이트</span></h2>
+      <p data-i18n="ai_feat_p">이 사이트는 n8n + Claude AI 자동화 시스템으로 운영됩니다. 치어리더들의 인스타그램·유튜브를 실시간 모니터링해 새 콘텐츠가 올라오면 자동으로 블로그 포스트를 생성하고 사이트를 업데이트합니다.</p>
+      <div style="display:flex;gap:.6rem;flex-wrap:wrap;">
+        <span style="background:rgba(155,89,255,.15);border:1px solid rgba(155,89,255,.3);color:#c8b4ff;padding:5px 12px;border-radius:20px;font-size:.73rem;font-weight:600;">n8n 워크플로우</span>
+        <span style="background:rgba(0,210,255,.1);border:1px solid rgba(0,210,255,.25);color:var(--cyan);padding:5px 12px;border-radius:20px;font-size:.73rem;font-weight:600;">Claude AI</span>
+        <span style="background:rgba(255,31,69,.1);border:1px solid rgba(255,31,69,.25);color:var(--pink);padding:5px 12px;border-radius:20px;font-size:.73rem;font-weight:600;">GitHub Pages</span>
+      </div>
+    </div>
+    <div class="ai-feature-grid">
+      <div class="ai-feat">
+        <div class="icon">📸</div>
+        <h4 data-i18n="ai_f1_h">사진 자동 수집</h4>
+        <p data-i18n="ai_f1_p">인스타그램 새 게시물 감지 → 자동 임베드</p>
+      </div>
+      <div class="ai-feat">
+        <div class="icon">🎬</div>
+        <h4 data-i18n="ai_f2_h">영상 자동 업데이트</h4>
+        <p data-i18n="ai_f2_p">유튜브 새 영상 → AI 설명 생성 → 자동 게시</p>
+      </div>
+      <div class="ai-feat">
+        <div class="icon">✍️</div>
+        <h4 data-i18n="ai_f3_h">일일 인사 자동 작성</h4>
+        <p data-i18n="ai_f3_p">매일 3개 국어로 팬 인사 포스트 자동 생성</p>
+      </div>
+      <div class="ai-feat">
+        <div class="icon">🌐</div>
+        <h4 data-i18n="ai_f4_h">3개 국어 자동 번역</h4>
+        <p data-i18n="ai_f4_p">한국어·영어·일본어·중문 동시 발행</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CTA BAND -->
+<div class="cta-band">
+  <div class="cta-inner">
+    <h2 data-i18n="cta_h"><em>매일</em> 새 소식,<br/>놓치지 마세요 💕</h2>
+    <p data-i18n="cta_p">공식 채널을 추가하고 좋아하는 치어리더의 최신 소식을 가장 먼저 받아보세요. 인스타그램 팔로우도 잊지 마세요!</p>
+    <div class="cta-btns">
+      <a href="#subscribeBand" class="btn-ghost" onclick="scrollToSubscribe(); return false;" data-i18n="cta_channel_go">🔔 새 소식 알림 받기</a>
+      <a href="blog/index.html" class="btn-ghost" data-i18n="cta_blog_go">블로그 바로가기 ✦</a>
+    </div>
+  </div>
+</div>
+
+<!-- INSTAGRAM (최하단) -->
+<div class="sec" id="instagram" style="padding-bottom:1rem;">
+  <div class="sec-head">
+    <div>
+      <h2 class="sec-title">📸 <em>Instagram</em></h2>
+      <p class="sec-sub" data-i18n="ig_sub">팔로우하고 실시간 소식을 받아보세요</p>
+    </div>
+    <a href="https://www.instagram.com/kolexent/" target="_blank" rel="noopener" class="view-all">@kolexent →</a>
+  </div>
+  <div class="ig-grid">
+    <!-- 팔로워 순 정렬 -->
+    <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/you_r_hr/" data-instgrm-version="14" style="background:#fff;border:0;margin:0;max-width:100%;padding:0;width:99.375%;"></blockquote></div>
+    <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/1eeyebin_/" data-instgrm-version="14" style="background:#fff;border:0;margin:0;max-width:100%;padding:0;width:99.375%;"></blockquote></div>
+    <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/_jung_u/" data-instgrm-version="14" style="background:#fff;border:0;margin:0;max-width:100%;padding:0;width:99.375%;"></blockquote></div>
+    <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/jjina_v0v/" data-instgrm-version="14" style="background:#fff;border:0;margin:0;max-width:100%;padding:0;width:99.375%;"></blockquote></div>
+    <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/se_heee2e/" data-instgrm-version="14" style="background:#fff;border:0;margin:0;max-width:100%;padding:0;width:99.375%;"></blockquote></div>
+    <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/keemgahyun/" data-instgrm-version="14" style="background:#fff;border:0;margin:0;max-width:100%;padding:0;width:99.375%;"></blockquote></div>
+    <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/2geum_j._.j/" data-instgrm-version="14" style="background:#fff;border:0;margin:0;max-width:100%;padding:0;width:99.375%;"></blockquote></div>
+    <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/kim_han_seul/" data-instgrm-version="14" style="background:#fff;border:0;margin:0;max-width:100%;padding:0;width:99.375%;"></blockquote></div>
+    <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/tjdbs__06/" data-instgrm-version="14" style="background:#fff;border:0;margin:0;max-width:100%;padding:0;width:99.375%;"></blockquote></div>
+    <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/kyeyujin/" data-instgrm-version="14" style="background:#fff;border:0;margin:0;max-width:100%;padding:0;width:99.375%;"></blockquote></div>
+    <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/yo_ung__vely/" data-instgrm-version="14" style="background:#fff;border:0;margin:0;max-width:100%;padding:0;width:99.375%;"></blockquote></div>
+    <div class="ig-cell"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/mischguy2/" data-instgrm-version="14" style="background:#fff;border:0;margin:0;max-width:100%;padding:0;width:99.375%;"></blockquote></div>
+  </div>
+  <p class="ig-scroll-hint">← 좌우로 스크롤하여 12명 전체 보기 →</p>
+</div>
+<!-- Instagram embed.js: lazy-loaded only when ig-grid scrolls into view -->
+<script>
+(function() {
+  var igLoaded = false;
+  var igGrid = document.querySelector('.ig-grid');
+  if (!igGrid) return;
+  var obs = new IntersectionObserver(function(entries) {
+    if (entries[0].isIntersecting && !igLoaded) {
+      igLoaded = true;
+      var s = document.createElement('script');
+      s.src = 'https://www.instagram.com/embed.js';
+      s.async = true;
+      document.body.appendChild(s);
+      obs.disconnect();
+    }
+  }, { rootMargin: '200px' });
+  obs.observe(igGrid);
+})();
+
+// ── Hero photo slider ──
+(function() {
+  var slides = document.querySelectorAll('#heroBgSlider .hero-slide');
+  var dots   = document.querySelectorAll('#heroDots .hero-dot');
+  if (!slides.length) return;
+  var cur = 0, timer;
+
+  function goTo(n) {
+    slides[cur].classList.remove('active', 'kb');
+    dots[cur].classList.remove('active');
+    cur = ((n % slides.length) + slides.length) % slides.length;
+    // Ken Burns 재시작
+    void slides[cur].offsetWidth;
+    slides[cur].classList.add('active', 'kb');
+    dots[cur].classList.add('active');
+  }
+
+  window.heroGoTo = function(n) {
+    clearInterval(timer);
+    goTo(n);
+    timer = setInterval(function(){ goTo(cur + 1); }, 6000);
+  };
+
+  timer = setInterval(function(){ goTo(cur + 1); }, 6000);
+})();
+</script>
+
+<div class="grad-divider"></div>
+
+<!-- GOODS COMING SOON -->
+<div class="goods-band">
+  <div class="goods-band-inner">
+    <span class="goods-badge" data-i18n="goods_badge">Coming Soon</span>
+    <h3 data-i18n="goods_title">치어리더 공식 굿즈, 곧 만나보세요</h3>
+    <p class="goods-desc" data-i18n="goods_desc">멤버별 포토카드, 키링, 응원 굿즈를 전 세계 어디서나 만나보실 수 있도록 준비 중입니다.</p>
+    <div class="goods-grid">
+      <div class="goods-item">
+        <div class="goods-item-icon">🎴</div>
+        <div class="goods-item-name" data-i18n="goods_item1">포토카드</div>
+      </div>
+      <div class="goods-item">
+        <div class="goods-item-icon">🔑</div>
+        <div class="goods-item-name" data-i18n="goods_item2">아크릴 키링</div>
+      </div>
+      <div class="goods-item">
+        <div class="goods-item-icon">👕</div>
+        <div class="goods-item-name" data-i18n="goods_item3">응원 티셔츠</div>
+      </div>
+      <div class="goods-item">
+        <div class="goods-item-icon">🪧</div>
+        <div class="goods-item-name" data-i18n="goods_item4">슬로건 &amp; 응원봉</div>
+      </div>
+      <div class="goods-item">
+        <div class="goods-item-icon">👜</div>
+        <div class="goods-item-name" data-i18n="goods_item5">에코백 &amp; 머그컵</div>
+      </div>
+    </div>
+    <a href="#subscribeBand" class="goods-cta" onclick="scrollToNotify(); return false;">
+      <span>🔔</span><span data-i18n="goods_notify_btn">출시 알림 신청하기</span>
+    </a>
+  </div>
+</div>
+
+<!-- AGENCY BAND -->
+<div class="agency-band">
+  <div class="agency-inner">
+    <div class="agency-text">
+      <h3><span>KOLEX</span> Sports Entertainment</h3>
+      <p>코렉스 스포츠 엔터테인먼트 · 강남구 학동로6길 9, 동현빌딩 3층, Seoul</p>
+    </div>
+    <div class="agency-links">
+      <a href="https://www.instagram.com/kolexent/" target="_blank" rel="noopener" class="agency-link">📸 @kolexent</a>
+      <a href="https://www.kolex.co.kr" target="_blank" rel="noopener" class="agency-link">🌐 kolex.co.kr</a>
+      <a href="contact.html" class="agency-link" data-i18n="nav_contact">✉️ 문의</a>
+    </div>
+  </div>
+</div>
+
+<!-- SUBSCRIBE BAND -->
+<div class="sub-band" id="subscribeBand">
+  <div class="sub-band-inner">
+    <h3><span class="t-emoji ch-ko">🟡</span><span class="t-emoji ch-ja">💚</span><span class="t-emoji ch-zh">💚</span><span class="t-emoji ch-en">📷</span> <em data-i18n="sub_title">카카오톡으로 새 소식 받기</em></h3>
+    <p data-i18n="sub_desc">카카오 채널을 추가하면 좋아하는 치어리더의 새 소식을 가장 먼저 받아보실 수 있어요.</p>
+
+    <!-- KO: KakaoTalk Channel -->
+    <div class="channel-card ch-ko">
+      <a class="kakao-channel-btn" href="https://pf.kakao.com/_zXxenX" id="kakaoChannelLink" target="_blank" rel="noopener">
+        <span class="kakao-logo">💬</span>
+        <span>카카오 채널 추가하기</span>
+      </a>
+    </div>
+
+    <!-- JA: LINE Official Account -->
+    <div class="channel-card ch-ja">
+      <a class="line-channel-btn" href="https://line.me/R/ti/p/%40595hivih" id="lineChannelLinkJa" target="_blank" rel="noopener">
+        <span class="line-logo">💚</span>
+        <span>LINE公式アカウントを追加</span>
+      </a>
+    </div>
+
+    <!-- ZH: LINE Official Account -->
+    <div class="channel-card ch-zh">
+      <a class="line-channel-btn" href="https://line.me/R/ti/p/%40595hivih" id="lineChannelLinkZh" target="_blank" rel="noopener">
+        <span class="line-logo">💚</span>
+        <span>加入LINE官方帳號</span>
+      </a>
+    </div>
+
+    <!-- EN: Instagram Follow -->
+    <div class="channel-card ch-en">
+      <a class="kakao-channel-btn ig-follow-btn" href="https://www.instagram.com/kolexent/" target="_blank" rel="noopener">
+        <span class="ig-logo">📷</span>
+        <span>Follow @kolexent on Instagram</span>
+      </a>
+    </div>
+
+    <p class="sub-fine" data-i18n="sub_note">카카오 채널 오픈 알림 전용 · 스팸 없음 · 언제든 차단 가능</p>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2025 KOLEX Sports Entertainment Co., Ltd. 코렉스 스포츠 엔터테인먼트 (주)</span>
+    <span style="font-size:.7rem;color:var(--muted);margin-left:1rem;"><a href="about.html" style="color:inherit;" data-i18n="nav_about">소개</a> · <a href="contact.html" style="color:inherit;" data-i18n="nav_contact">문의</a> · <a href="privacy-policy.html" style="color:inherit;" data-i18n="privacy">개인정보처리방침</a></span>
+  </div>
+</footer>
+
+<script src="js/main.js">
+// ── Hero photo slider ──
+(function() {
+  var slides = document.querySelectorAll('#heroBgSlider .hero-slide');
+  var dots   = document.querySelectorAll('#heroDots .hero-dot');
+  var cur = 0, timer;
+  function goTo(n) {
+    slides[cur].classList.remove('active');
+    dots[cur].classList.remove('active');
+    cur = (n + slides.length) % slides.length;
+    // Ken Burns 재시작
+    slides[cur].classList.remove('kb');
+    void slides[cur].offsetWidth;
+    slides[cur].classList.add('active', 'kb');
+    dots[cur].classList.add('active');
+  }
+  window.heroGoTo = function(n) { goTo(n); clearInterval(timer); timer = setInterval(function(){goTo(cur+1);}, 6000); };
+  timer = setInterval(function(){ goTo(cur+1); }, 6000);
+})();
+</script>
+</body>
+</html>

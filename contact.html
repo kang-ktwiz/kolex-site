@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ko" translate="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>문의 | KOLEX Cheerleaders</title>
+  <meta name="description" content="Contact KOLEX Cheerleaders. Send us a message, report an issue, or collaborate with us." />
+  <link rel="canonical" href="https://koreacheerleaders.com/contact.html" />
+  <meta name="google" content="notranslate" />
+  <style>
+    :root{--red:#E31837;--dark-bg:#111318;--card-bg:#1a1d24;--border:#2a2d36;--text:#e8eaf0;--text-muted:#8b8fa8;--black:#0a0a0a;}
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{background:var(--dark-bg);color:var(--text);font-family:'Segoe UI','Noto Sans KR','Noto Sans JP',sans-serif;line-height:1.7;}
+    nav{position:sticky;top:0;z-index:100;background:rgba(10,10,10,0.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);padding:0 1rem;display:flex;align-items:center;justify-content:space-between;height:60px;}
+    .nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff;font-weight:700;font-size:1.1rem;}
+    .nav-logo span{color:var(--red);}
+    .nav-links{display:flex;gap:1.5rem;align-items:center;}
+    .nav-links a{color:#8b8fa8;text-decoration:none;font-size:0.9rem;}
+    .nav-links a:hover{color:#fff;}
+    .lang-switcher{display:flex;gap:4px;}
+    .lang-btn{background:transparent;border:1px solid var(--border);color:#8b8fa8;padding:4px 10px;border-radius:4px;cursor:pointer;font-size:0.8rem;transition:all 0.2s;}
+    .lang-btn.active,.lang-btn:hover{background:var(--red);border-color:var(--red);color:#fff;}
+    .hero{background:linear-gradient(135deg,#0a0a0a,#1a0510);padding:4rem 1.5rem;text-align:center;}
+    .hero h1{font-size:clamp(2rem,5vw,3rem);font-weight:800;margin-bottom:1rem;}
+    .hero h1 span{color:var(--red);}
+    .hero p{color:var(--text-muted);max-width:600px;margin:0 auto;}
+    .container{max-width:700px;margin:0 auto;padding:3rem 1.5rem;}
+    .form-card{background:var(--card-bg);border:1px solid var(--border);border-radius:16px;padding:2rem;}
+    .form-group{margin-bottom:1.5rem;}
+    label{display:block;font-size:0.9rem;font-weight:600;margin-bottom:0.5rem;}
+    input,textarea,select{width:100%;background:rgba(255,255,255,0.04);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:0.75rem 1rem;font-size:0.95rem;font-family:inherit;transition:border-color 0.2s;}
+    input:focus,textarea:focus,select:focus{outline:none;border-color:var(--red);}
+    textarea{min-height:140px;resize:vertical;}
+    select option{background:#1a1d24;}
+    .btn-submit{width:100%;background:var(--red);color:#fff;border:none;border-radius:8px;padding:0.9rem;font-size:1rem;font-weight:700;cursor:pointer;transition:background 0.2s;}
+    .btn-submit:hover{background:#c01430;}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem;}
+    .contact-item{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:1.25rem;text-align:center;}
+    .contact-item .icon{font-size:1.5rem;margin-bottom:0.5rem;}
+    .contact-item h3{font-size:0.9rem;font-weight:700;margin-bottom:0.25rem;}
+    .contact-item p{font-size:0.82rem;color:var(--text-muted);}
+    .success-msg{display:none;background:rgba(0,200,100,0.1);border:1px solid rgba(0,200,100,0.3);border-radius:8px;padding:1rem;text-align:center;color:#00c864;margin-top:1rem;}
+    footer{background:var(--black);border-top:1px solid var(--border);padding:2rem 1.5rem;text-align:center;color:#444;font-size:0.8rem;}
+    footer a{color:#555;}
+    @media(max-width:600px){.contact-grid{grid-template-columns:1fr;}.nav-links .nav-text{display:none;}}
+  </style>
+  <!-- Google Analytics GA4 — 실제 ID로 교체: analytics.google.com → 관리 → 데이터 스트림 → Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2BYFTLPLT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-M2BYFTLPLT');
+  </script>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo"><span>KOLEX</span>&nbsp;Cheerleaders</a>
+  <div class="nav-links">
+    <a href="index.html#members" class="nav-text" id="navMembers">멤버</a>
+    <div class="lang-switcher">
+      <button class="lang-btn" onclick="setLang('ko')">KO</button>
+      <button class="lang-btn" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('ja')">JP</button>
+      <button class="lang-btn" onclick="setLang('zh')">繁中</button>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1 id="heroTitle">문의 <span>하기</span></h1>
+  <p id="heroDesc">질문이 있거나 협업을 원하신다면 언제든지 연락주세요.</p>
+</div>
+
+<div class="container">
+  <div class="contact-grid">
+    <div class="contact-item">
+      <div class="icon">📧</div>
+      <h3 id="ci1title">이메일</h3>
+      <p><a href="mailto:dreams197176@gmail.com" style="color:var(--red);font-weight:700;">dreams197176@gmail.com</a></p>
+      <p id="ci1desc">48시간 이내 답변</p>
+    </div>
+    <div class="contact-item">
+      <div class="icon">🌏</div>
+      <h3 id="ci2title">지원 언어</h3>
+      <p>KO · EN · 日本語 · 繁中</p>
+    </div>
+    <div class="contact-item">
+      <div class="icon">🛡️</div>
+      <h3 id="ci3title">저작권 문의</h3>
+      <p id="ci3desc">DMCA 요청 신속 처리</p>
+    </div>
+    <div class="contact-item">
+      <div class="icon">🤝</div>
+      <h3 id="ci4title">협업</h3>
+      <p id="ci4desc">팬 프로젝트 환영</p>
+    </div>
+  </div>
+
+  <div class="form-card">
+    <form id="contactForm" onsubmit="handleSubmit(event)">
+      <div class="form-group">
+        <label id="lblName" for="name">이름</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label id="lblEmail" for="email">이메일</label>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required />
+      </div>
+      <div class="form-group">
+        <label id="lblSubject" for="subject">문의 유형</label>
+        <select id="subject" name="subject"></select>
+      </div>
+      <div class="form-group">
+        <label id="lblMessage" for="message">메시지</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="btn-submit" id="btnSubmit">메시지 보내기 →</button>
+      <div class="success-msg" id="successMsg"></div>
+    </form>
+  </div>
+
+  <p style="color:var(--text-muted);font-size:0.82rem;margin-top:1.5rem;text-align:center;" id="officialNote">
+  </p>
+</div>
+
+<footer>
+  <p>© 2025 KOLEX Sports Entertainment Co., Ltd. All rights reserved.</p>
+  <p style="margin-top:0.5rem;"><a href="index.html">Home</a> · <a href="privacy-policy.html">Privacy Policy</a> · <a href="about.html">About</a></p>
+</footer>
+
+<script>
+const T = {
+  ko: {
+    title: '문의 <span style="color:var(--red)">하기</span>',
+    desc: '질문이 있거나 협업을 원하신다면 언제든지 연락주세요.',
+    ci1t:'이메일', ci1d:'48시간 이내 답변',
+    ci2t:'지원 언어',
+    ci3t:'저작권 문의', ci3d:'DMCA 요청 신속 처리',
+    ci4t:'협업', ci4d:'팬 프로젝트 환영',
+    lblName:'이름', lblEmail:'이메일', lblSubject:'문의 유형', lblMessage:'메시지',
+    namePh:'성함을 입력하세요', msgPh:'메시지를 입력하세요...',
+    subjects:['일반 문의','저작권 / DMCA','협업 제안','내용 수정 요청','기타'],
+    btn:'메시지 보내기 →',
+    success:'✅ 메시지가 전송됐습니다! 48시간 이내에 답변드리겠습니다.',
+    note:'공식 KOLEX 에이전시 문의는 <a href="https://www.kolex.co.kr" target="_blank" rel="noopener" style="color:var(--red);">kolex.co.kr</a> 또는 <a href="https://www.instagram.com/kolexent/" target="_blank" rel="noopener" style="color:var(--red);">@kolexent</a>을 이용해 주세요.',
+    navMembers:'멤버', navBlog:'블로그'
+  },
+  en: {
+    title: 'Get in <span style="color:var(--red)">Touch</span>',
+    desc: 'Have a question, found an issue, or want to collaborate? We\'d love to hear from you.',
+    ci1t:'Email', ci1d:'Response within 48 hours',
+    ci2t:'Languages',
+    ci3t:'Copyright Issues', ci3d:'DMCA requests handled promptly',
+    ci4t:'Collaboration', ci4d:'Open to fan projects',
+    lblName:'Name', lblEmail:'Email', lblSubject:'Subject', lblMessage:'Message',
+    namePh:'Your name', msgPh:'Your message...',
+    subjects:['General Inquiry','Copyright / DMCA','Collaboration','Content Correction','Other'],
+    btn:'Send Message →',
+    success:'✅ Message sent! We\'ll get back to you within 48 hours.',
+    note:'For official KOLEX agency inquiries, visit <a href="https://www.kolex.co.kr" target="_blank" rel="noopener" style="color:var(--red);">kolex.co.kr</a> or follow <a href="https://www.instagram.com/kolexent/" target="_blank" rel="noopener" style="color:var(--red);">@kolexent</a>.',
+    navMembers:'Members', navBlog:'Blog'
+  },
+  ja: {
+    title: 'お<span style="color:var(--red)">問い合わせ</span>',
+    desc: 'ご質問やコラボレーションのご要望はお気軽にどうぞ。',
+    ci1t:'メール', ci1d:'48時間以内に返信',
+    ci2t:'対応言語',
+    ci3t:'著作権について', ci3d:'DMCAリクエストを迅速対応',
+    ci4t:'コラボレーション', ci4d:'ファンプロジェクト歓迎',
+    lblName:'お名前', lblEmail:'メールアドレス', lblSubject:'お問い合わせ種別', lblMessage:'メッセージ',
+    namePh:'お名前', msgPh:'メッセージを入力してください...',
+    subjects:['一般のお問い合わせ','著作権 / DMCA','コラボレーション','内容の修正','その他'],
+    btn:'送信する →',
+    success:'✅ 送信しました！48時間以内にご返信いたします。',
+    note:'KOLEXへの公式お問い合わせは <a href="https://www.kolex.co.kr" target="_blank" rel="noopener" style="color:var(--red);">kolex.co.kr</a> またはInstagram <a href="https://www.instagram.com/kolexent/" target="_blank" rel="noopener" style="color:var(--red);">@kolexent</a> まで。',
+    navMembers:'メンバー', navBlog:'ブログ'
+  },
+  zh: {
+    title: '聯絡<span style="color:var(--red)">我們</span>',
+    desc: '有任何問題或合作邀請，歡迎隨時聯絡我們。',
+    ci1t:'電子郵件', ci1d:'48小時內回覆',
+    ci2t:'支援語言',
+    ci3t:'版權問題', ci3d:'DMCA請求迅速處理',
+    ci4t:'合作', ci4d:'歡迎粉絲計畫',
+    lblName:'姓名', lblEmail:'電子郵件', lblSubject:'問題類型', lblMessage:'訊息',
+    namePh:'請輸入姓名', msgPh:'請輸入您的訊息...',
+    subjects:['一般詢問','版權 / DMCA','合作提案','內容更正','其他'],
+    btn:'發送訊息 →',
+    success:'✅ 訊息已送出！我們將在48小時內回覆您。',
+    note:'如需官方KOLEX查詢，請造訪 <a href="https://www.kolex.co.kr" target="_blank" rel="noopener" style="color:var(--red);">kolex.co.kr</a> 或追蹤 <a href="https://www.instagram.com/kolexent/" target="_blank" rel="noopener" style="color:var(--red);">@kolexent</a>。',
+    navMembers:'成員', navBlog:'部落格'
+  }
+};
+
+const subjectValues = ['general','copyright','collab','correction','other'];
+
+function setLang(lang) {
+  localStorage.setItem('kolexLang', lang);
+  document.documentElement.lang = lang === 'zh' ? 'zh-TW' : lang;
+  const t = T[lang];
+
+  document.getElementById('heroTitle').innerHTML = t.title;
+  document.getElementById('heroDesc').textContent = t.desc;
+  document.getElementById('ci1title').textContent = t.ci1t;
+  document.getElementById('ci1desc').textContent = t.ci1d;
+  document.getElementById('ci2title').textContent = t.ci2t;
+  document.getElementById('ci3title').textContent = t.ci3t;
+  document.getElementById('ci3desc').textContent = t.ci3d;
+  document.getElementById('ci4title').textContent = t.ci4t;
+  document.getElementById('ci4desc').textContent = t.ci4d;
+  document.getElementById('lblName').textContent = t.lblName;
+  document.getElementById('lblEmail').textContent = t.lblEmail;
+  document.getElementById('lblSubject').textContent = t.lblSubject;
+  document.getElementById('lblMessage').textContent = t.lblMessage;
+  document.getElementById('name').placeholder = t.namePh;
+  document.getElementById('message').placeholder = t.msgPh;
+  document.getElementById('btnSubmit').textContent = t.btn;
+  document.getElementById('officialNote').innerHTML = t.note;
+  document.getElementById('navMembers').textContent = t.navMembers;
+  document.getElementById('navBlog').textContent = t.navBlog;
+
+  // Rebuild subject options
+  const sel = document.getElementById('subject');
+  sel.innerHTML = '';
+  t.subjects.forEach((label, i) => {
+    const opt = document.createElement('option');
+    opt.value = subjectValues[i];
+    opt.textContent = label;
+    sel.appendChild(opt);
+  });
+
+  // Active lang button
+  const map = {ko:'KO',en:'EN',ja:'JP',zh:'繁中'};
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.textContent === map[lang]);
+  });
+
+  // Page title
+  const titles = {ko:'문의 | KOLEX Cheerleaders',en:'Contact | KOLEX Cheerleaders',ja:'お問い合わせ | KOLEX Cheerleaders',zh:'聯絡 | KOLEX Cheerleaders'};
+  document.title = titles[lang];
+}
+
+function handleSubmit(e) {
+  e.preventDefault();
+  const lang = localStorage.getItem('kolexLang') || 'ko';
+  const msg = document.getElementById('successMsg');
+  msg.textContent = T[lang].success.replace('✅ ','');
+  msg.innerHTML = T[lang].success;
+  msg.style.display = 'block';
+  e.target.reset();
+  setTimeout(() => msg.style.display = 'no
