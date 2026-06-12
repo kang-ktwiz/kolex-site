@@ -37,8 +37,8 @@
       --r-sm: 8px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { background: var(--bg); color: var(--text); font-family: var(--font); -webkit-font-smoothing: antialiased; }
+    html { scroll-behavior: smooth; overflow-x: hidden; }
+    body { background: var(--bg); color: var(--text); font-family: var(--font); -webkit-font-smoothing: antialiased; overflow-x: hidden; max-width: 100vw; }
 
     /* ── SCROLLBAR ── */
     ::-webkit-scrollbar { width: 4px; } ::-webkit-scrollbar-track { background: var(--bg); } ::-webkit-scrollbar-thumb { background: var(--red); border-radius: 2px; }
@@ -117,6 +117,9 @@
       position: relative; min-height: 95vh;
       display: flex; align-items: center;
       overflow: hidden;
+    }
+    @supports (height: 100dvh) {
+      .hero { min-height: 95dvh; }
     }
     /* Animated gradient orbs */
     .orb {
@@ -701,6 +704,7 @@
       position:absolute;inset:0;
       background-size:cover;
       background-position:center top;
+      background-repeat:no-repeat;
       opacity:0;
       transition:opacity 1.8s ease-in-out;
       will-change:transform,opacity;
@@ -1201,6 +1205,7 @@
         <span style="background:rgba(0,210,255,.1);border:1px solid rgba(0,210,255,.25);color:var(--cyan);padding:5px 12px;border-radius:20px;font-size:.73rem;font-weight:600;">Claude AI</span>
         <span style="background:rgba(255,31,69,.1);border:1px solid rgba(255,31,69,.25);color:var(--pink);padding:5px 12px;border-radius:20px;font-size:.73rem;font-weight:600;">GitHub Pages</span>
       </div>
+      <p data-i18n="ai_consent_note" style="font-size:.78rem;color:var(--muted);margin-top:1rem;">본 사이트의 치어리더 관련 콘텐츠는 소속 치어리더의 사전 동의 하에 제작·운영됩니다.</p>
     </div>
     <div class="ai-feature-grid">
       <div class="ai-feat">
@@ -1412,25 +1417,6 @@
   </div>
 </footer>
 
-<script src="js/main.js">
-// ── Hero photo slider ──
-(function() {
-  var slides = document.querySelectorAll('#heroBgSlider .hero-slide');
-  var dots   = document.querySelectorAll('#heroDots .hero-dot');
-  var cur = 0, timer;
-  function goTo(n) {
-    slides[cur].classList.remove('active');
-    dots[cur].classList.remove('active');
-    cur = (n + slides.length) % slides.length;
-    // Ken Burns 재시작
-    slides[cur].classList.remove('kb');
-    void slides[cur].offsetWidth;
-    slides[cur].classList.add('active', 'kb');
-    dots[cur].classList.add('active');
-  }
-  window.heroGoTo = function(n) { goTo(n); clearInterval(timer); timer = setInterval(function(){goTo(cur+1);}, 6000); };
-  timer = setInterval(function(){ goTo(cur+1); }, 6000);
-})();
-</script>
+<script src="js/main.js"></script>
 </body>
 </html>
