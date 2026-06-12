@@ -37,8 +37,8 @@
       --r-sm: 8px;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; overflow-x: hidden; }
-    body { background: var(--bg); color: var(--text); font-family: var(--font); -webkit-font-smoothing: antialiased; overflow-x: hidden; max-width: 100vw; }
+    html { scroll-behavior: smooth; overflow-x: clip; }
+    body { background: var(--bg); color: var(--text); font-family: var(--font); -webkit-font-smoothing: antialiased; overflow-x: clip; max-width: 100vw; overscroll-behavior-x: none; }
 
     /* ── SCROLLBAR ── */
     ::-webkit-scrollbar { width: 4px; } ::-webkit-scrollbar-track { background: var(--bg); } ::-webkit-scrollbar-thumb { background: var(--red); border-radius: 2px; }
@@ -223,7 +223,7 @@
     }
     .stories-inner {
       max-width: 1400px; margin: 0 auto;
-      display: flex; gap: 1.25rem; overflow-x: auto; scrollbar-width: none;
+      display: flex; gap: 1.25rem; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
       padding-bottom: 4px;
     }
     .stories-inner::-webkit-scrollbar { display: none; }
@@ -250,7 +250,7 @@
       position: sticky; top: 60px; z-index: 200;
       backdrop-filter: blur(10px);
     }
-    .sport-bar-inner { max-width: 1400px; margin: 0 auto; padding: 0 2rem; display: flex; overflow-x: auto; scrollbar-width: none; }
+    .sport-bar-inner { max-width: 1400px; margin: 0 auto; padding: 0 2rem; display: flex; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
     .sport-bar-inner::-webkit-scrollbar { display: none; }
     .sport-tab {
       padding: .9rem 1.5rem; border-bottom: 2px solid transparent;
