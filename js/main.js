@@ -374,7 +374,7 @@ function renderStories() {
   <div class="story-ring">
     <div class="story-inner">
       <img src="images/${m.id}.jpg" alt="${m.name}" loading="lazy" onerror="this.style.display='none'" />
-      <span style="position:absolute;">${initials}</span>
+      <span style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">${initials}</span>
     </div>
   </div>
   <div class="story-name">${m.name}</div>
