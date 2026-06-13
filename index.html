@@ -216,12 +216,12 @@
     .h-stat .sk { color: var(--muted); font-size: .72rem; font-weight: 600; margin-top: 4px; letter-spacing: .3px; }
 
     /* ── STORIES ROW ── */
-    .stories-bar {
+    .stories-bar { position: relative;
       padding: 1.5rem 2rem; background: var(--black);
       border-bottom: 1px solid var(--border);
       overflow: hidden;
     }
-    .stories-inner {
+    .stories-bar::after { content: ''; position: absolute; top: 0; right: 0; bottom: 1px; width: 48px; background: linear-gradient(to right, transparent, var(--black) 70%); pointer-events: none; z-index: 2; transition: opacity .25s ease; } .stories-bar.at-end::after { opacity: 0; } .stories-inner {
       max-width: 1400px; margin: 0 auto;
       display: flex; gap: 1.25rem; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
       padding-bottom: 4px;
@@ -691,7 +691,7 @@
       .ig-cell { flex: 0 0 280px; }
       .hero-inner { padding: 3rem 1rem 2rem; }
       .ai-feature-grid { grid-template-columns: 1fr; }
-      .stories-bar { padding: 1rem; }
+      .stories-bar { position: relative; padding: 1rem; }
       .sub-row-inputs { flex-direction: column; }
     }
     @media (max-width: 480px) {
@@ -814,7 +814,7 @@
   <div class="hero-bg-slider" id="heroBgSlider">
     <div class="hero-slide active kb" style="background-image:url('images/hero-group-1.jpg');background-position:center top"></div>
     <div class="hero-slide"         style="background-image:url('images/hero-group-2.jpg');background-position:center 40%"></div>
-    <div class="hero-slide"         style="background-image:url('images/hero-group-3.jpg');background-position:center center;background-size:contain;background-color:#0a0a0a"></div>
+    <div class="hero-slide"         style="background-image:url('images/hero-group-3.jpg');background-position:center center"></div>
     <div class="hero-slide"         style="background-image:url('images/hero-group-4.jpg');background-position:center 15%"></div>
   </div>
   <div class="hero-photo-overlay"></div>
