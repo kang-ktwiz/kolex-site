@@ -1,0 +1,103 @@
+{
+  "_comment": "n8n 워크플로우(10_kolex_youtube_search_update.json)가 매일 1회 자동 갱신하는 파일입니다. 12명 각각 '치어리더 {이름}' 검색(12건) + 'kt wiz 치어리더' 팀 검색(1건) = 13개 query를 실행하고, 안전 필터(블록리스트/중복 제거) 후 publishedAt 기준 전체 사이트 상위 12개를 선정하여 이 배열에 commit합니다. videos[].member_id가 null이면 팀 전체(team-wide) 검색 결과입니다.",
+  "schema_version": 1,
+  "updated_at": "2026-06-13T00:00:00+09:00",
+  "videos": [
+    {
+      "videoId": "sz0lA_sFQ48",
+      "type": "shorts",
+      "title": "이예빈 — 2026 NEW 아웃송 직캠 fancam 🌷",
+      "member_id": "lee-yebin",
+      "query": "치어리더 이예빈",
+      "publishedAt": "2026-06-12T09:00:00Z"
+    },
+    {
+      "videoId": "k1Xlu77qcd4",
+      "type": "shorts",
+      "title": "김민지×김진아 — Hit Me 아웃송 직캠 ⛓️",
+      "member_id": "kim-minji",
+      "query": "치어리더 김민지",
+      "publishedAt": "2026-06-10T09:00:00Z"
+    },
+    {
+      "videoId": "Lh1wiIp8pO4",
+      "type": "video",
+      "title": "이예빈 — 직캠 fancam 2025.05.30 🎥",
+      "member_id": "lee-yebin",
+      "query": "치어리더 이예빈",
+      "publishedAt": "2026-06-07T09:00:00Z"
+    },
+    {
+      "videoId": "1CUV4mzP3Is",
+      "type": "video",
+      "title": "KT Wiz 치어리더 — 아웃송 단체 직캠 2025.04.11 ⚾",
+      "member_id": null,
+      "query": "kt wiz 치어리더",
+      "publishedAt": "2026-06-04T09:00:00Z"
+    },
+    {
+      "videoId": "jEJw7ov8Vcw",
+      "type": "video",
+      "title": "KT Wiz 치어리더 — 응원 스케치 4K ✨",
+      "member_id": null,
+      "query": "kt wiz 치어리더",
+      "publishedAt": "2026-06-01T09:00:00Z"
+    },
+    {
+      "videoId": "qRQ6qUADNIk",
+      "type": "video",
+      "title": "2025 KT Wiz 응원단을 소개합니다 🪄",
+      "member_id": null,
+      "query": "kt wiz 치어리더",
+      "publishedAt": "2026-05-29T09:00:00Z"
+    },
+    {
+      "videoId": "hYY6LSr6MZE",
+      "type": "shorts",
+      "title": "김진아 — 어허(Uh-huh) 아웃송 직캠 🌷",
+      "member_id": "kim-jina",
+      "query": "치어리더 김진아",
+      "publishedAt": "2026-05-26T09:00:00Z"
+    },
+    {
+      "videoId": "fhnhKyPyI00",
+      "type": "shorts",
+      "title": "김진아×이금주 — NEW 아웃송 직캠 💛",
+      "member_id": "kim-jina",
+      "query": "치어리더 김진아",
+      "publishedAt": "2026-05-23T09:00:00Z"
+    },
+    {
+      "videoId": "u7tgjxmQ8v8",
+      "type": "shorts",
+      "title": "김해리 — 홀드업 챌린지 직캠 🐰",
+      "member_id": "kim-haeri",
+      "query": "치어리더 김해리",
+      "publishedAt": "2026-05-20T09:00:00Z"
+    },
+    {
+      "videoId": "lgSIs1iKPEk",
+      "type": "shorts",
+      "title": "김해리 — 치명적 빵야 엔딩 직캠 🔥",
+      "member_id": "kim-haeri",
+      "query": "치어리더 김해리",
+      "publishedAt": "2026-05-17T09:00:00Z"
+    },
+    {
+      "videoId": "qw3xo3m9U1o",
+      "type": "shorts",
+      "title": "김가현 — 귀엽게 통통 뛰는 직캠 🐰",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-05-14T09:00:00Z"
+    },
+    {
+      "videoId": "Ek5QP76N9Ns",
+      "type": "video",
+      "title": "이예빈 — 벤치 직캠 2025.04.04 🎥",
+      "member_id": "lee-yebin",
+      "query": "치어리더 이예빈",
+      "publishedAt": "2026-05-11T09:00:00Z"
+    }
+  ]
+}
