@@ -379,7 +379,7 @@ function renderStories() {
   </div>
   <div class="story-name">${m.name}</div>
 </div>`;
-  }).join('');
+  }).join(''); const bar = row.closest('.stories-bar'); if (bar) { const updateEdge = () => { const atEnd = row.scrollWidth - row.scrollLeft - row.clientWidth < 4; bar.classList.toggle('at-end', atEnd); }; updateEdge(); row.addEventListener('scroll', updateEdge, { passive: true }); window.addEventListener('resize', updateEdge); }
 }
 
 // ===== BLOG RENDER =====
