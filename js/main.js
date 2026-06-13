@@ -47,6 +47,9 @@ const i18n = {
     ig_sub:"팔로우하고 실시간 소식을 받아보세요",
     vid_title:"최신 영상", vid_sub:"AI가 새 영상을 감지하면 자동으로 업데이트됩니다",
     vid_tab_yt:"📺 YouTube", vid_tab_ig:"📸 Instagram Reels",
+    yt_tag_prefix:"치어리더", yt_team_tag:"KT위즈 치어리더",
+    yt_watch_video:"YouTube에서 보기", yt_watch_shorts:"YouTube Shorts에서 보기",
+    yt_more:"더보기 ↓", yt_less:"접기 ↑",
     yt_tag1:"경기 당일", yt_title1:"KOLEX 치어리더 — 경기 당일 퍼포먼스 ⚾",
     yt_tag2:"2025 시즌", yt_title2:"2025 시즌 하이라이트 모음 ✨",
     yt_tag3:"비하인드", yt_title3:"KOLEX 비하인드 스토리 🎥",
@@ -104,6 +107,9 @@ const i18n = {
     ig_sub:"Follow for real-time updates",
     vid_title:"Featured Videos", vid_sub:"AI detects new videos and updates automatically",
     vid_tab_yt:"📺 YouTube", vid_tab_ig:"📸 Instagram Reels",
+    yt_tag_prefix:"Cheerleader", yt_team_tag:"KT Wiz Cheerleaders",
+    yt_watch_video:"Watch on YouTube", yt_watch_shorts:"Watch on YouTube Shorts",
+    yt_more:"Show More ↓", yt_less:"Show Less ↑",
     yt_tag1:"Game Day", yt_title1:"KOLEX Cheerleaders — Game Day Performance ⚾",
     yt_tag2:"Season 2025", yt_title2:"Season 2025 Highlights ✨",
     yt_tag3:"Behind the Scenes", yt_title3:"Behind the Scenes with KOLEX 🎥",
@@ -161,6 +167,9 @@ const i18n = {
     ig_sub:"フォローしてリアルタイムの最新情報をチェック",
     vid_title:"最新動画", vid_sub:"AIが新動画を検知して自動更新します",
     vid_tab_yt:"📺 YouTube", vid_tab_ig:"📸 Instagram リール",
+    yt_tag_prefix:"チアリーダー", yt_team_tag:"KT Wizチアリーダー",
+    yt_watch_video:"YouTubeで見る", yt_watch_shorts:"YouTube Shortsで見る",
+    yt_more:"もっと見る ↓", yt_less:"閉じる ↑",
     yt_tag1:"ゲームデー", yt_title1:"KOLEXチアリーダーズ — ゲームデーパフォーマンス ⚾",
     yt_tag2:"2025シーズン", yt_title2:"2025シーズンハイライト ✨",
     yt_tag3:"舞台裏", yt_title3:"KOLEXの舞台裏 🎥",
@@ -218,6 +227,9 @@ const i18n = {
     ig_sub:"追蹤以獲取即時動態",
     vid_title:"最新影片", vid_sub:"AI偵測新影片並自動更新",
     vid_tab_yt:"📺 YouTube", vid_tab_ig:"📸 Instagram Reels",
+    yt_tag_prefix:"啦啦隊", yt_team_tag:"KT Wiz啦啦隊",
+    yt_watch_video:"在YouTube上觀看", yt_watch_shorts:"在YouTube Shorts上觀看",
+    yt_more:"顯示更多 ↓", yt_less:"收起 ↑",
     yt_tag1:"比賽當天", yt_title1:"KOLEX啦啦隊員 — 比賽當天表演 ⚾",
     yt_tag2:"2025賽季", yt_title2:"2025賽季精華合輯 ✨",
     yt_tag3:"幕後花絮", yt_title3:"KOLEX幕後故事 🎥",
@@ -284,6 +296,7 @@ function setLang(lang) {
   });
   renderMembers(currentFilter);
   renderBlog();
+  renderYtVideos();
 }
 
 // ===== MEMBER RENDER =====
@@ -348,7 +361,72 @@ function toggleYtMore() {
   var btn = document.getElementById('ytMoreBtn');
   var isExpanded = hidden[0] && hidden[0].classList.contains('visible');
   hidden.forEach(function(el) { el.classList.toggle('visible', !isExpanded); });
-  if (btn) btn.textContent = isExpanded ? '더보기 ↓' : '접기 ↑';
+  var t = i18n[currentLang] || i18n.ko;
+  if (btn) btn.textContent = isExpanded ? (t.yt_more || '더보기 ↓') : (t.yt_less || '접기 ↑');
+}
+
+// ===== YOUTUBE VIDEOS (검색 기반 자동 업데이트: data/videos.json) =====
+// n8n이 매일 1회 "치어리더 {멤버명}"(12건) + "kt wiz 치어리더"(1건) 검색 결과를
+// 안전 필터 + 중복 제거 후 publishedAt 기준 전체 사이트 상위 12개로 정렬하여
+// data/videos.json에 커밋합니다. 로딩 실패 시(file:// 등) index.html에 있는
+// 기존 정적 카드(폴백)가 그대로 표시됩니다.
+let ytVideos = [];
+
+function renderYtVideos() {
+  const grid = document.getElementById('ytGrid');
+  if (!grid || !ytVideos.length) return; // 데이터 없으면 정적 폴백 카드 유지
+  const t = i18n[currentLang] || i18n.ko;
+
+  grid.innerHTML = ytVideos.map((v, i) => {
+    const isShorts = v.type === 'shorts';
+    const url = isShorts
+      ? `https://www.youtube.com/shorts/${v.videoId}`
+      : `https://www.youtube.com/watch?v=${v.videoId}`;
+    const watchLabel = isShorts
+      ? (t.yt_watch_shorts || 'YouTube Shorts에서 보기')
+      : (t.yt_watch_video || 'YouTube에서 보기');
+
+    let tag;
+    if (v.member_id) {
+      const m = members.find(mm => mm.id === v.member_id);
+      const name = m
+        ? (currentLang === 'en' ? m.nameEn : currentLang === 'ja' ? m.nameJa : currentLang === 'zh' ? m.nameZh : m.name)
+        : '';
+      tag = `🔍 ${t.yt_tag_prefix || '치어리더'} ${name}`.trim();
+    } else {
+      tag = `🔍 ${t.yt_team_tag || 'KT위즈 치어리더'}`;
+    }
+
+    const hiddenClass = i >= 6 ? ' yt-more-hidden' : '';
+    return `<div class="yt-card${hiddenClass}">
+  <div class="yt-ratio">
+    <a class="yt-thumb-link" href="${url}" target="_blank" rel="noopener" title="${v.title}">
+      <img src="https://img.youtube.com/vi/${v.videoId}/hqdefault.jpg" alt="${v.title}" loading="lazy"
+        onerror="this.src='https://img.youtube.com/vi/${v.videoId}/mqdefault.jpg'">
+      <div class="yt-play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+      <div class="yt-thumb-label">▶ ${watchLabel}</div>
+    </a>
+  </div>
+  <div class="yt-cap">
+    <div class="yt-sport-tag">${tag}</div>
+    <div class="yt-title">${v.title}</div>
+  </div>
+</div>`;
+  }).join('\n');
+}
+
+async function loadYtVideos() {
+  try {
+    const res = await fetch('data/videos.json', { cache: 'no-cache' });
+    if (!res.ok) return;
+    const data = await res.json();
+    if (Array.isArray(data.videos) && data.videos.length) {
+      ytVideos = data.videos;
+      renderYtVideos();
+    }
+  } catch (e) {
+    // fetch 실패(예: file://로 로컬 열람) — 정적 폴백 카드를 그대로 둠
+  }
 }
 
 // ===== SUBSCRIBE =====
@@ -379,7 +457,19 @@ function renderStories() {
   </div>
   <div class="story-name">${m.name}</div>
 </div>`;
-  }).join(''); const bar = row.closest('.stories-bar'); if (bar) { const updateEdge = () => { const atEnd = row.scrollWidth - row.scrollLeft - row.clientWidth < 4; bar.classList.toggle('at-end', atEnd); }; updateEdge(); row.addEventListener('scroll', updateEdge, { passive: true }); window.addEventListener('resize', updateEdge); }
+  }).join('');
+
+  // Show/hide right-edge "more" fade depending on scroll position
+  const bar = row.closest('.stories-bar');
+  if (bar) {
+    const updateEdge = () => {
+      const atEnd = row.scrollWidth - row.scrollLeft - row.clientWidth < 4;
+      bar.classList.toggle('at-end', atEnd);
+    };
+    updateEdge();
+    row.addEventListener('scroll', updateEdge, { passive: true });
+    window.addEventListener('resize', updateEdge);
+  }
 }
 
 // ===== BLOG RENDER =====
@@ -436,4 +526,5 @@ document.addEventListener('DOMContentLoaded', function() {
   var savedLang = 'ko';
   try { savedLang = localStorage.getItem('kolexLang') || 'ko'; } catch (e) {}
   setLang(savedLang);
+  loadYtVideos();
 });
