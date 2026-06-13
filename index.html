@@ -216,15 +216,25 @@
     .h-stat .sk { color: var(--muted); font-size: .72rem; font-weight: 600; margin-top: 4px; letter-spacing: .3px; }
 
     /* ── STORIES ROW ── */
-    .stories-bar { position: relative;
+    .stories-bar {
       padding: 1.5rem 2rem; background: var(--black);
       border-bottom: 1px solid var(--border);
       overflow: hidden;
+      position: relative;
     }
-    .stories-bar::after { content: ''; position: absolute; top: 0; right: 0; bottom: 1px; width: 48px; background: linear-gradient(to right, transparent, var(--black) 70%); pointer-events: none; z-index: 2; transition: opacity .25s ease; } .stories-bar.at-end::after { opacity: 0; } .stories-inner {
+    .stories-bar::after {
+      content: '';
+      position: absolute; top: 0; right: 0; bottom: 1px;
+      width: 48px;
+      background: linear-gradient(to right, transparent, var(--black) 70%);
+      pointer-events: none; z-index: 2;
+      transition: opacity .25s ease;
+    }
+    .stories-bar.at-end::after { opacity: 0; }
+    .stories-inner {
       max-width: 1400px; margin: 0 auto;
-      display: flex; gap: 1.25rem; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
-      padding-bottom: 4px;
+      display: flex; gap: 1.25rem; overflow-x: auto; scrollbar-width: none;
+      padding-bottom: 4px; -webkit-overflow-scrolling: touch;
     }
     .stories-inner::-webkit-scrollbar { display: none; }
     .story-item { flex-shrink: 0; text-align: center; cursor: pointer; }
@@ -235,11 +245,11 @@
     }
     .story-ring:hover { transform: scale(1.08); }
     .story-inner {
+      position: relative;
       width: 100%; height: 100%; border-radius: 50%; overflow: hidden;
       border: 2px solid var(--black);
       background: var(--card);
       display: flex; align-items: center; justify-content: center;
-            position: relative;
       font-size: 1.1rem; font-weight: 900; color: rgba(255,255,255,.25);
     }
     .story-inner img { width: 100%; height: 100%; object-fit: cover; object-position: top; display:block; }
@@ -691,7 +701,7 @@
       .ig-cell { flex: 0 0 280px; }
       .hero-inner { padding: 3rem 1rem 2rem; }
       .ai-feature-grid { grid-template-columns: 1fr; }
-      .stories-bar { position: relative; padding: 1rem; }
+      .stories-bar { padding: 1rem; }
       .sub-row-inputs { flex-direction: column; }
     }
     @media (max-width: 480px) {
@@ -980,7 +990,7 @@
   </div>
   <!-- YouTube 썸네일 카드 — 채널 embed 차단으로 썸네일 카드 방식 사용. n8n이 최신순으로 자동 업데이트 -->
   <div id="vidPanelYt">
-    <div class="yt-grid">
+    <div class="yt-grid" id="ytGrid">
 
       <!-- ★ 영상 1 (최신) -->
       <div class="yt-card">
@@ -1222,11 +1232,11 @@
       <div class="ai-feat">
         <div class="icon">✍️</div>
         <h4 data-i18n="ai_f3_h">일일 인사 자동 작성</h4>
-        <p data-i18n="ai_f3_p">매일 3개 국어로 팬 인사 포스트 자동 생성</p>
+        <p data-i18n="ai_f3_p">매일 4개 국어로 팬 인사 포스트 자동 생성</p>
       </div>
       <div class="ai-feat">
         <div class="icon">🌐</div>
-        <h4 data-i18n="ai_f4_h">3개 국어 자동 번역</h4>
+        <h4 data-i18n="ai_f4_h">4개 국어 자동 번역</h4>
         <p data-i18n="ai_f4_p">한국어·영어·일본어·중문 동시 발행</p>
       </div>
     </div>
