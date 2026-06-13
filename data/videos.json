@@ -1,8 +1,40 @@
 {
   "_comment": "n8n 워크플로우(10_kolex_youtube_search_update.json)가 매일 1회 자동 갱신하는 파일입니다. videos[].member_id가 null이면 팀 전체(team-wide) 검색 결과입니다.",
   "schema_version": 1,
-  "updated_at": "2026-06-13T05:37:29.049Z",
+  "updated_at": "2026-06-13T07:57:13.705Z",
   "videos": [
+    {
+      "videoId": "p4qNNeCD1pA",
+      "type": "video",
+      "title": "KT이서윤치어리더_퇴근길!",
+      "member_id": "lee-seoyun",
+      "query": "치어리더 이서윤",
+      "publishedAt": "2026-06-13T07:45:59Z"
+    },
+    {
+      "videoId": "OC-a4JNvUKI",
+      "type": "video",
+      "title": "잇츠미 공연 - 정희정치어리더",
+      "member_id": "jeong-huijeong",
+      "query": "치어리더 정희정",
+      "publishedAt": "2026-06-13T07:30:39Z"
+    },
+    {
+      "videoId": "Cntj8-pvVzQ",
+      "type": "video",
+      "title": "김가현치어리더 아웃송 260612",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-13T06:45:57Z"
+    },
+    {
+      "videoId": "sBK3iBSudVM",
+      "type": "video",
+      "title": "UP 아웃송 이예빈 KT 위즈 치어리더",
+      "member_id": "lee-yebin",
+      "query": "치어리더 이예빈",
+      "publishedAt": "2026-06-13T06:00:17Z"
+    },
     {
       "videoId": "GCGodZEX6oY",
       "type": "video",
@@ -66,38 +98,6 @@
       "member_id": "kye-yujin",
       "query": "치어리더 계유진",
       "publishedAt": "2026-06-13T03:57:34Z"
-    },
-    {
-      "videoId": "eVIRdK41xQE",
-      "type": "video",
-      "title": "2026 KT위즈 정희정 치어리더 직캠",
-      "member_id": "jeong-huijeong",
-      "query": "치어리더 정희정",
-      "publishedAt": "2026-06-13T03:15:31Z"
-    },
-    {
-      "videoId": "j8QimKav4oY",
-      "type": "video",
-      "title": "260606 KT 위즈 이금주 치어리더 승리의 함성 4k 직캠 ",
-      "member_id": "lee-geumju",
-      "query": "치어리더 이금주",
-      "publishedAt": "2026-06-13T03:11:15Z"
-    },
-    {
-      "videoId": "XBhsCMP5x_I",
-      "type": "video",
-      "title": "260606 KT 위즈 이금주 치어리더 한승택 응원가 4k 직캠",
-      "member_id": "lee-geumju",
-      "query": "치어리더 이금주",
-      "publishedAt": "2026-06-13T03:07:49Z"
-    },
-    {
-      "videoId": "qn8pLCpcfE4",
-      "type": "video",
-      "title": "260606 KT 위즈 이금주 치어리더 배정대 응원가 4k 직캠",
-      "member_id": "lee-geumju",
-      "query": "치어리더 이금주",
-      "publishedAt": "2026-06-13T03:05:25Z"
     }
   ]
 }
