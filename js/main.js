@@ -86,6 +86,7 @@ const i18n = {
     role_leader:"팀장 ★", role_cheer:"치어리더",
     blog_read:"더 읽기",
     post_title:["경기 당일 팬들에게 전하는 메시지 🎉","새 응원 루틴 공개! 꼭 봐주세요 ✨","팔로워 감사 이벤트 예고 💕"],
+    terms:"이용약관",
     post_excerpt:[
       "오늘 홈경기 있어요! 경기장에 오시는 분들, 꼭 저 찾아주세요 💪 새로 연습한 루틴 최초 공개할 예정이라 기대해주세요!",
       "이번 시즌 새롭게 준비한 응원 루틴이에요. 인스타 영상 보고 여러분의 생각 댓글로 알려주세요 🙏",
@@ -146,6 +147,7 @@ const i18n = {
     role_leader:"Team Leader ★", role_cheer:"Cheerleader",
     blog_read:"Read More",
     post_title:["Game Day Message from Hae-ri 🎉","New Cheering Routine Revealed ✨","Thank You for 238K Followers! 💕"],
+    terms:"Terms of Service",
     post_excerpt:[
       "Hello fans! We have a home game tonight and I can't wait to perform. I've been working on a brand-new routine — come watch! 💪",
       "This season we have some really fun new moves. Watch the full video on Instagram and let me know what you think!",
@@ -202,8 +204,8 @@ const i18n = {
     goods_notify_btn:"発売通知を申し込む",
     footer_members:"メンバー", footer_all:"全メンバー →", footer_content:"コンテンツ", footer_follow:"フォロー",
     privacy:"プライバシーポリシー",
-    lbl_followers:"フォロワー", lbl_height:"身長",
-    role_leader:"チームリーダー ★", role_cheer:"チアリーダー",
+        terms:"利用規約",
+        lbl_followers:"フォロワー", lbl_height:"身長",    role_leader:"チームリーダー ★", role_cheer:"チアリーダー",
     blog_read:"続きを読む",
     post_title:["ゲームデーのメッセージ 🎉","新しい応援ルーティンを公開！ ✨","フォロワーに感謝！ 💕"],
     post_excerpt:[
@@ -262,8 +264,8 @@ const i18n = {
     goods_notify_btn:"申請上市通知",
     footer_members:"成員", footer_all:"全部成員 →", footer_content:"內容", footer_follow:"追蹤",
     privacy:"隱私權政策",
-    lbl_followers:"追蹤者", lbl_height:"身高",
-    role_leader:"隊長 ★", role_cheer:"啦啦隊員",
+        terms:"使用條款",
+        lbl_followers:"追蹤者", lbl_height:"身高",    role_leader:"隊長 ★", role_cheer:"啦啦隊員",
     blog_read:"繼續閱讀",
     post_title:["比賽當天給粉絲的訊息 🎉","公開新應援套路！ ✨","感謝粉絲活動預告 💕"],
     post_excerpt:[
