@@ -126,7 +126,7 @@
 
 <footer>
   <p>© 2025 KOLEX Sports Entertainment Co., Ltd. All rights reserved.</p>
-  <p style="margin-top:0.5rem;"><a href="index.html">Home</a> · <a href="privacy-policy.html">Privacy Policy</a> · <a href="about.html">About</a></p>
+  <p style="margin-top:0.5rem;"><a href="index.html">Home</a> · <a href="privacy-policy.html">Privacy Policy</a> · <a href="about.html">About</a> · <a href="terms.html">Terms</a></p>
 </footer>
 
 <script>
@@ -218,8 +218,7 @@ function setLang(lang) {
   document.getElementById('btnSubmit').textContent = t.btn;
   document.getElementById('officialNote').innerHTML = t.note;
   document.getElementById('navMembers').textContent = t.navMembers;
-  document.getElementById('navBlog').textContent = t.navBlog;
-
+  
   // Rebuild subject options
   const sel = document.getElementById('subject');
   sel.innerHTML = '';
@@ -249,4 +248,11 @@ function handleSubmit(e) {
   msg.innerHTML = T[lang].success;
   msg.style.display = 'block';
   e.target.reset();
-  setTimeout(() => msg.style.display = 'no
+  setTimeout(() => msg.style.display = 'none', 4000);
+}
+
+const saved = localStorage.getItem('kolexLang') || 'ko';
+setLang(saved);
+</script>
+</body>
+</html>
