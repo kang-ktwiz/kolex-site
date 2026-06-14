@@ -1,103 +1,103 @@
 {
   "_comment": "n8n 워크플로우(10_kolex_youtube_search_update.json)가 매일 1회 자동 갱신하는 파일입니다. videos[].member_id가 null이면 팀 전체(team-wide) 검색 결과입니다.",
   "schema_version": 1,
-  "updated_at": "2026-06-14T00:28:10.914Z",
+  "updated_at": "2026-06-14T21:00:04.202Z",
   "videos": [
     {
-      "videoId": "B5Q41VDYv4w",
-      "type": "video",
-      "title": "환한 미소에 심쿵🩷🌸Heart Flutters🌷✨️치어리더 김가현 KimGahyun 金佳賢 직캠 fancam kt 위즈",
+      "videoId": "_PkgD6NbGpA",
+      "type": "shorts",
+      "title": "김가현 金佳賢 엠퍼러 34_60秒_字幕版 #金佳賢 #김가현 #KT위즈 #emperorphoto #치어리더 #Shorts #一龍馬斯客",
       "member_id": "kim-gahyun",
       "query": "치어리더 김가현",
-      "publishedAt": "2026-06-14T00:00:28Z"
+      "publishedAt": "2026-06-14T18:26:18Z"
     },
     {
-      "videoId": "93Yic5sl6fA",
-      "type": "shorts",
-      "title": "예삐 미모 물 올랐다 3점슛 GOAT 이예빈(Lee Ye Bin[李藝彬])치어리더 아웃송챌린지 3 260613",
-      "member_id": "lee-yebin",
-      "query": "치어리더 이예빈",
-      "publishedAt": "2026-06-13T23:52:35Z"
-    },
-    {
-      "videoId": "yQlO9QXcwWY",
-      "type": "shorts",
-      "title": "미모 장전 어헣~ Yeah! 이예빈(Lee Ye Bin[李藝彬])치어리더 아웃송 챌린지2 260610",
-      "member_id": "lee-yebin",
-      "query": "치어리더 이예빈",
-      "publishedAt": "2026-06-13T23:47:46Z"
-    },
-    {
-      "videoId": "mcAS9O3ts78",
-      "type": "shorts",
-      "title": "쒜이킷~ 어헣 오리트월킹 이예빈(Lee Ye Bin[李藝彬])치어리더 아웃송 챌린지 260610",
-      "member_id": "lee-yebin",
-      "query": "치어리더 이예빈",
-      "publishedAt": "2026-06-13T23:43:06Z"
-    },
-    {
-      "videoId": "b_tQedmFfmg",
+      "videoId": "ttx5g_zLo5w",
       "type": "video",
-      "title": "&#39;저, 건강미인 맞죠?&#39; KT 치어리더 김가현",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-13T22:45:05Z"
-    },
-    {
-      "videoId": "8FEjMy7womw",
-      "type": "shorts",
-      "title": "한화 응원가 나오는 미러볼 타임 신세희 치어리더 #shorts #치어리더 #신세희",
-      "member_id": "shin-sehee",
-      "query": "치어리더 신세희",
-      "publishedAt": "2026-06-13T22:00:30Z"
-    },
-    {
-      "videoId": "zDW5Z5oU804",
-      "type": "video",
-      "title": "승요✌🏻김가현(Kim Gahyun[金佳賢])치어리더",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-13T16:05:20Z"
-    },
-    {
-      "videoId": "3GMEKavq_z0",
-      "type": "video",
-      "title": "#3점슛송 #챌린지 #이예빈 #치어리더 #kpop #이소림치어리더 #粉絲應援 #kpop #플레이위드어스치어팀 #fancam #dance #플레이위드어스치어팀",
-      "member_id": "lee-yebin",
-      "query": "치어리더 이예빈",
-      "publishedAt": "2026-06-13T15:48:08Z"
-    },
-    {
-      "videoId": "3MnAx06eyJk",
-      "type": "video",
-      "title": "수달 삼점슛 아웃송 #이서윤 #이서윤치어리더#ktwiz #kt위즈 #kt위즈치어리더",
+      "title": "이서윤치어리더 아웃송  #이서윤  #이서윤치어리더   #fancam  #치어리더  #아웃송",
       "member_id": "lee-seoyun",
       "query": "치어리더 이서윤",
-      "publishedAt": "2026-06-13T15:27:23Z"
+      "publishedAt": "2026-06-14T17:14:10Z"
     },
     {
-      "videoId": "Fy4O0JWcrqg",
+      "videoId": "n7ZTAmhetQg",
       "type": "video",
-      "title": "20260613 전광판 KT아웃송 (김가현 치어리더)",
+      "title": "한승택선수 응원가 #김가현 #김가현치어리더 #kimgahyun #金佳賢  #한승택",
       "member_id": "kim-gahyun",
       "query": "치어리더 김가현",
-      "publishedAt": "2026-06-13T15:01:41Z"
+      "publishedAt": "2026-06-14T17:09:03Z"
     },
     {
-      "videoId": "YD4oTXgh1bw",
+      "videoId": "IRpmqXbSLQw",
       "type": "video",
-      "title": "스레더가  섹시까지 한다고? #정희정 #鄭熙靜  #cheerleader #정희정치어리더  #ktwiz #스레더 #치어리더  #아웃송",
+      "title": "한승택 응원가  #김가현 #김가현치어리더 #kimgahyun #金佳賢",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-14T16:47:41Z"
+    },
+    {
+      "videoId": "tpB1kWWIhmM",
+      "type": "shorts",
+      "title": "김가현 金佳賢 엠퍼러 33_60秒_字幕版 #金佳賢 #김가현 #KT위즈 #emperorphoto #치어리더 #Shorts #一龍馬斯客",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-14T16:43:29Z"
+    },
+    {
+      "videoId": "jNDJp3Nc89M",
+      "type": "video",
+      "title": "김가현 치어리더 공연  #김가현 #김가현치어리더 #kimgahyun #金佳賢  #치어리더 #치어리더공연 ",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-14T16:37:45Z"
+    },
+    {
+      "videoId": "vPJAiBVbJ3g",
+      "type": "video",
+      "title": "김가현&quot;(Kim Ga-hyun) Princess 👑🤍💜💟 #ktwiz #cheerleader #dance #치어리더 #baseballcheerleader #fancam #kpop",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-14T16:36:07Z"
+    },
+    {
+      "videoId": "PFJj9JJxZ9w",
+      "type": "video",
+      "title": "고화질 만들기 테스트 아웃송   #김가현 #김가현치어리더 #kimgahyun #金佳賢",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-14T16:27:54Z"
+    },
+    {
+      "videoId": "b0O1QCNfEws",
+      "type": "shorts",
+      "title": "가혀니  공연 shorts #shorts #김가현 #김가현치어리더 #kimgahyun #金佳賢 #fancam  #치어리더공연",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-14T16:09:06Z"
+    },
+    {
+      "videoId": "0OC1j2Pioqk",
+      "type": "video",
+      "title": "구독자님  요청으로 올리는  가로 영상   #김가현 #김가현치어리더 #kimgahyun #金佳賢 ",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-14T15:58:41Z"
+    },
+    {
+      "videoId": "3oywQmDSZ5k",
+      "type": "shorts",
+      "title": "김가현 金佳賢 엠퍼러 32_60秒_字幕版 #金佳賢 #김가현 #KT위즈 #emperorphoto #치어리더 #Shorts #一龍馬斯客",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-14T15:24:59Z"
+    },
+    {
+      "videoId": "qB0ehw6lUh4",
+      "type": "video",
+      "title": "나도  앞에서 찍고 싶었다고!  #정희정 #鄭熙靜  #cheerleader #정희정치어리더  #ktwiz #아웃송 #치어리더  #앞태  #뒤태",
       "member_id": "jeong-huijeong",
       "query": "치어리더 정희정",
-      "publishedAt": "2026-06-13T14:59:50Z"
-    },
-    {
-      "videoId": "aYuRbA0Aov8",
-      "type": "video",
-      "title": "권가영 치어리더 #수원kt #권가영치어리더",
-      "member_id": "kwon-gayoung",
-      "query": "치어리더 권가영",
-      "publishedAt": "2026-06-13T14:59:09Z"
+      "publishedAt": "2026-06-14T14:34:45Z"
     }
   ]
 }
