@@ -1,8 +1,56 @@
 {
   "_comment": "n8n 워크플로우(10_kolex_youtube_search_update.json)가 매일 1회 자동 갱신하는 파일입니다. videos[].member_id가 null이면 팀 전체(team-wide) 검색 결과입니다.",
   "schema_version": 1,
-  "updated_at": "2026-06-13T21:00:02.873Z",
+  "updated_at": "2026-06-14T00:28:10.914Z",
   "videos": [
+    {
+      "videoId": "B5Q41VDYv4w",
+      "type": "video",
+      "title": "환한 미소에 심쿵🩷🌸Heart Flutters🌷✨️치어리더 김가현 KimGahyun 金佳賢 직캠 fancam kt 위즈",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-14T00:00:28Z"
+    },
+    {
+      "videoId": "93Yic5sl6fA",
+      "type": "shorts",
+      "title": "예삐 미모 물 올랐다 3점슛 GOAT 이예빈(Lee Ye Bin[李藝彬])치어리더 아웃송챌린지 3 260613",
+      "member_id": "lee-yebin",
+      "query": "치어리더 이예빈",
+      "publishedAt": "2026-06-13T23:52:35Z"
+    },
+    {
+      "videoId": "yQlO9QXcwWY",
+      "type": "shorts",
+      "title": "미모 장전 어헣~ Yeah! 이예빈(Lee Ye Bin[李藝彬])치어리더 아웃송 챌린지2 260610",
+      "member_id": "lee-yebin",
+      "query": "치어리더 이예빈",
+      "publishedAt": "2026-06-13T23:47:46Z"
+    },
+    {
+      "videoId": "mcAS9O3ts78",
+      "type": "shorts",
+      "title": "쒜이킷~ 어헣 오리트월킹 이예빈(Lee Ye Bin[李藝彬])치어리더 아웃송 챌린지 260610",
+      "member_id": "lee-yebin",
+      "query": "치어리더 이예빈",
+      "publishedAt": "2026-06-13T23:43:06Z"
+    },
+    {
+      "videoId": "b_tQedmFfmg",
+      "type": "video",
+      "title": "&#39;저, 건강미인 맞죠?&#39; KT 치어리더 김가현",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-13T22:45:05Z"
+    },
+    {
+      "videoId": "8FEjMy7womw",
+      "type": "shorts",
+      "title": "한화 응원가 나오는 미러볼 타임 신세희 치어리더 #shorts #치어리더 #신세희",
+      "member_id": "shin-sehee",
+      "query": "치어리더 신세희",
+      "publishedAt": "2026-06-13T22:00:30Z"
+    },
     {
       "videoId": "zDW5Z5oU804",
       "type": "video",
@@ -50,54 +98,6 @@
       "member_id": "kwon-gayoung",
       "query": "치어리더 권가영",
       "publishedAt": "2026-06-13T14:59:09Z"
-    },
-    {
-      "videoId": "uLo5ghqb0to",
-      "type": "video",
-      "title": "이예빈 치어리더",
-      "member_id": "lee-yebin",
-      "query": "치어리더 이예빈",
-      "publishedAt": "2026-06-13T14:50:56Z"
-    },
-    {
-      "videoId": "NLcDBvdcy40",
-      "type": "video",
-      "title": "김가현의 명품 아웃송 #김가현 #김가현치어리더 #kimgahyun #金佳賢  #아웃송  #fancam  #치어리더 #cheerleader",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-13T14:27:24Z"
-    },
-    {
-      "videoId": "g9rZgnQhy54",
-      "type": "shorts",
-      "title": "계이티 계유진 치어리더 권동진 선수 응원가 #shorts #계이티 #치어리더 #계유진",
-      "member_id": "kye-yujin",
-      "query": "치어리더 계유진",
-      "publishedAt": "2026-06-13T14:01:04Z"
-    },
-    {
-      "videoId": "PKsT1aFrio8",
-      "type": "video",
-      "title": "2026 kt위즈 치어리더",
-      "member_id": null,
-      "query": "kt wiz 치어리더",
-      "publishedAt": "2026-06-13T13:30:25Z"
-    },
-    {
-      "videoId": "ntr8OSR9wQQ",
-      "type": "video",
-      "title": "🦆🔥오리 트월킹인데 잘 어울리는… 계유진 Kye yujin",
-      "member_id": "kye-yujin",
-      "query": "치어리더 계유진",
-      "publishedAt": "2026-06-13T13:20:31Z"
-    },
-    {
-      "videoId": "pnJSSn2I4QA",
-      "type": "video",
-      "title": "&#39;안!타! 신민재!&#39; 신서윤 치어리더 직캠 @프로야구/KT WIZ파크/260604/ By 쵸리(Chori)",
-      "member_id": null,
-      "query": "kt wiz 치어리더",
-      "publishedAt": "2026-06-13T12:00:30Z"
     }
   ]
 }
