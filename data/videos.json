@@ -1,103 +1,103 @@
 {
   "_comment": "n8n 워크플로우(10_kolex_youtube_search_update.json)가 매일 1회 자동 갱신하는 파일입니다. videos[].member_id가 null이면 팀 전체(team-wide) 검색 결과입니다.",
   "schema_version": 1,
-  "updated_at": "2026-06-14T21:00:04.202Z",
+  "updated_at": "2026-06-15T21:00:03.344Z",
   "videos": [
     {
-      "videoId": "_PkgD6NbGpA",
-      "type": "shorts",
-      "title": "김가현 金佳賢 엠퍼러 34_60秒_字幕版 #金佳賢 #김가현 #KT위즈 #emperorphoto #치어리더 #Shorts #一龍馬斯客",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-14T18:26:18Z"
+      "videoId": "7kJ4Fe9dQTs",
+      "type": "video",
+      "title": "역시 춤하면 김해리치어리더 #김해리",
+      "member_id": "kim-haeri",
+      "query": "치어리더 김해리",
+      "publishedAt": "2026-06-15T20:17:50Z"
     },
     {
-      "videoId": "ttx5g_zLo5w",
+      "videoId": "44tS3br80MQ",
       "type": "video",
-      "title": "이서윤치어리더 아웃송  #이서윤  #이서윤치어리더   #fancam  #치어리더  #아웃송",
+      "title": "합류하는 이예빈 치어리더!? #김해리 #이예빈",
+      "member_id": "lee-yebin",
+      "query": "치어리더 이예빈",
+      "publishedAt": "2026-06-15T20:15:01Z"
+    },
+    {
+      "videoId": "nX9DHBKwMpw",
+      "type": "video",
+      "title": "🥰매 Goat &#39;피리아웃송&#39; 유부녀 김해리(Kim Hae-ril숲;@*|)치어리더 #viralshort",
+      "member_id": "kim-haeri",
+      "query": "치어리더 김해리",
+      "publishedAt": "2026-06-15T18:19:00Z"
+    },
+    {
+      "videoId": "vVXtFO_RkvQ",
+      "type": "shorts",
+      "title": "김가현 金佳賢 펌킨 삼성 02_60秒_字幕版 #金佳賢 #김가현 #삼성라이온즈 #삼성라이온즈 #SamsungLions #펌킨이야 #치어리더 #Shorts #一龍馬斯客",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-15T16:56:16Z"
+    },
+    {
+      "videoId": "tyhAg-oyb30",
+      "type": "shorts",
+      "title": "김가현 金佳賢 펌킨 삼성 01_60秒_字幕版 #金佳賢 #김가현 #삼성라이온즈 #삼성라이온즈 #SamsungLions #펌킨이야 #치어리더 #Shorts #一龍馬斯客",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-15T16:52:42Z"
+    },
+    {
+      "videoId": "XP103jY5Swg",
+      "type": "video",
+      "title": "허리 난리났네..ㄷㄷ 김해리 치어리더 金海莉 Kim Hae-Ri cheerleader ktwiz",
+      "member_id": "kim-haeri",
+      "query": "치어리더 김해리",
+      "publishedAt": "2026-06-15T16:12:41Z"
+    },
+    {
+      "videoId": "z6ZeaqYcGc4",
+      "type": "video",
+      "title": "2026 #김한슬 치어리더  ktwiz ✨️  Kim Han-seul  #케이티위즈 [4K60P]",
+      "member_id": "kim-hanseul",
+      "query": "치어리더 김한슬",
+      "publishedAt": "2026-06-15T16:08:56Z"
+    },
+    {
+      "videoId": "UwEQsOwvmSU",
+      "type": "video",
+      "title": "김가현&quot;(Kim Ga-hyun) Princess 👑🤍💜💟💖 #ktwiz #cheerleader #dance #baseballcheerleader #치어리더 #fancam #kpop",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-15T14:35:44Z"
+    },
+    {
+      "videoId": "KxELC--umuI",
+      "type": "video",
+      "title": "이예빈 李藝斌&quot;(Lee Ye-bin) Princess 👑🤍💜❤️💟 #ktwiz #cheerleader #dance #baseballcheerleader #치어리더 #fancam",
+      "member_id": "lee-yebin",
+      "query": "치어리더 이예빈",
+      "publishedAt": "2026-06-15T14:34:42Z"
+    },
+    {
+      "videoId": "j7ALdEigIWU",
+      "type": "shorts",
+      "title": "끼 있는 권가영 치어리더 hit me 아웃송 #shorts #끼 #치어리더 #권가영",
+      "member_id": "kwon-gayoung",
+      "query": "치어리더 권가영",
+      "publishedAt": "2026-06-15T14:23:44Z"
+    },
+    {
+      "videoId": "h_2Cadabg4I",
+      "type": "video",
+      "title": "26.06.07 레울파크 서울 이랜드 FC 이서윤 치어리더 직캠",
       "member_id": "lee-seoyun",
       "query": "치어리더 이서윤",
-      "publishedAt": "2026-06-14T17:14:10Z"
+      "publishedAt": "2026-06-15T13:36:37Z"
     },
     {
-      "videoId": "n7ZTAmhetQg",
+      "videoId": "RrGQMOKKf60",
       "type": "video",
-      "title": "한승택선수 응원가 #김가현 #김가현치어리더 #kimgahyun #金佳賢  #한승택",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-14T17:09:03Z"
-    },
-    {
-      "videoId": "IRpmqXbSLQw",
-      "type": "video",
-      "title": "한승택 응원가  #김가현 #김가현치어리더 #kimgahyun #金佳賢",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-14T16:47:41Z"
-    },
-    {
-      "videoId": "tpB1kWWIhmM",
-      "type": "shorts",
-      "title": "김가현 金佳賢 엠퍼러 33_60秒_字幕版 #金佳賢 #김가현 #KT위즈 #emperorphoto #치어리더 #Shorts #一龍馬斯客",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-14T16:43:29Z"
-    },
-    {
-      "videoId": "jNDJp3Nc89M",
-      "type": "video",
-      "title": "김가현 치어리더 공연  #김가현 #김가현치어리더 #kimgahyun #金佳賢  #치어리더 #치어리더공연 ",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-14T16:37:45Z"
-    },
-    {
-      "videoId": "vPJAiBVbJ3g",
-      "type": "video",
-      "title": "김가현&quot;(Kim Ga-hyun) Princess 👑🤍💜💟 #ktwiz #cheerleader #dance #치어리더 #baseballcheerleader #fancam #kpop",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-14T16:36:07Z"
-    },
-    {
-      "videoId": "PFJj9JJxZ9w",
-      "type": "video",
-      "title": "고화질 만들기 테스트 아웃송   #김가현 #김가현치어리더 #kimgahyun #金佳賢",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-14T16:27:54Z"
-    },
-    {
-      "videoId": "b0O1QCNfEws",
-      "type": "shorts",
-      "title": "가혀니  공연 shorts #shorts #김가현 #김가현치어리더 #kimgahyun #金佳賢 #fancam  #치어리더공연",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-14T16:09:06Z"
-    },
-    {
-      "videoId": "0OC1j2Pioqk",
-      "type": "video",
-      "title": "구독자님  요청으로 올리는  가로 영상   #김가현 #김가현치어리더 #kimgahyun #金佳賢 ",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-14T15:58:41Z"
-    },
-    {
-      "videoId": "3oywQmDSZ5k",
-      "type": "shorts",
-      "title": "김가현 金佳賢 엠퍼러 32_60秒_字幕版 #金佳賢 #김가현 #KT위즈 #emperorphoto #치어리더 #Shorts #一龍馬斯客",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-14T15:24:59Z"
-    },
-    {
-      "videoId": "qB0ehw6lUh4",
-      "type": "video",
-      "title": "나도  앞에서 찍고 싶었다고!  #정희정 #鄭熙靜  #cheerleader #정희정치어리더  #ktwiz #아웃송 #치어리더  #앞태  #뒤태",
-      "member_id": "jeong-huijeong",
-      "query": "치어리더 정희정",
-      "publishedAt": "2026-06-14T14:34:45Z"
+      "title": "26.06.07 레울파크 서울 이랜드 FC 이서윤 치어리더 직캠",
+      "member_id": "lee-seoyun",
+      "query": "치어리더 이서윤",
+      "publishedAt": "2026-06-15T13:35:16Z"
     }
   ]
 }
