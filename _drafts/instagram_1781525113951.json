@@ -1,0 +1,68 @@
+[
+  {
+    "member_id": "kim-gahyun",
+    "name_ko": "김가현",
+    "file_path": "cheerleaders/kim-gahyun.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "(생성 실패 - 검토 필요)",
+        "en": "(generation failed - needs review)",
+        "ja": "(生成失敗)",
+        "zh": "(產生失敗)"
+      },
+      "body": {
+        "ko": "Claude 응답 파싱 오류: Unexpected token '`', \"```json\n{\"\"... is not valid JSON",
+        "en": "",
+        "ja": "",
+        "zh": ""
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DZmt8c1gZNm/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026. 6. 15. PM 9:05:01"
+    }
+  },
+  {
+    "member_id": "kim-jina",
+    "name_ko": "김진아",
+    "file_path": "cheerleaders/kim-jina.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "(생성 실패 - 검토 필요)",
+        "en": "(generation failed - needs review)",
+        "ja": "(生成失敗)",
+        "zh": "(產生失敗)"
+      },
+      "body": {
+        "ko": "Claude 응답 파싱 오류: Unexpected token '`', \"```json\n{\"\"... is not valid JSON",
+        "en": "",
+        "ja": "",
+        "zh": ""
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DZmtLnoAcuC/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026. 6. 15. PM 9:05:01"
+    }
+  }
+]
