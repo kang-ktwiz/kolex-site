@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>문의 | KOLEX Cheerleaders</title>
+  <title>ë¬¸ì | KOLEX Cheerleaders</title>
   <meta name="description" content="Contact KOLEX Cheerleaders. Send us a message, report an issue, or collaborate with us." />
   <link rel="canonical" href="https://koreacheerleaders.com/contact.html" />
   <meta name="google" content="notranslate" />
@@ -34,17 +34,19 @@
     select option{background:#1a1d24;}
     .btn-submit{width:100%;background:var(--red);color:#fff;border:none;border-radius:8px;padding:0.9rem;font-size:1rem;font-weight:700;cursor:pointer;transition:background 0.2s;}
     .btn-submit:hover{background:#c01430;}
+    .btn-submit:disabled{background:#555;cursor:not-allowed;}
     .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem;}
     .contact-item{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:1.25rem;text-align:center;}
     .contact-item .icon{font-size:1.5rem;margin-bottom:0.5rem;}
     .contact-item h3{font-size:0.9rem;font-weight:700;margin-bottom:0.25rem;}
     .contact-item p{font-size:0.82rem;color:var(--text-muted);}
     .success-msg{display:none;background:rgba(0,200,100,0.1);border:1px solid rgba(0,200,100,0.3);border-radius:8px;padding:1rem;text-align:center;color:#00c864;margin-top:1rem;}
+    .error-msg{display:none;background:rgba(220,50,50,0.1);border:1px solid rgba(220,50,50,0.3);border-radius:8px;padding:1rem;text-align:center;color:#e05050;margin-top:1rem;}
     footer{background:var(--black);border-top:1px solid var(--border);padding:2rem 1.5rem;text-align:center;color:#444;font-size:0.8rem;}
     footer a{color:#555;}
     @media(max-width:600px){.contact-grid{grid-template-columns:1fr;}.nav-links .nav-text{display:none;}}
   </style>
-  <!-- Google Analytics GA4 — 실제 ID로 교체: analytics.google.com → 관리 → 데이터 스트림 → Measurement ID -->
+  <!-- Google Analytics GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2BYFTLPLT"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -57,66 +59,67 @@
 <nav>
   <a href="index.html" class="nav-logo"><span>KOLEX</span>&nbsp;Cheerleaders</a>
   <div class="nav-links">
-    <a href="index.html#members" class="nav-text" id="navMembers">멤버</a>
+    <a href="index.html#members" class="nav-text" id="navMembers">ë©¤ë²</a>
     <div class="lang-switcher">
       <button class="lang-btn" onclick="setLang('ko')">KO</button>
       <button class="lang-btn" onclick="setLang('en')">EN</button>
       <button class="lang-btn" onclick="setLang('ja')">JP</button>
-      <button class="lang-btn" onclick="setLang('zh')">繁中</button>
+      <button class="lang-btn" onclick="setLang('zh')">ç¹ä¸­</button>
     </div>
   </div>
 </nav>
 
 <div class="hero">
-  <h1 id="heroTitle">문의 <span>하기</span></h1>
-  <p id="heroDesc">질문이 있거나 협업을 원하신다면 언제든지 연락주세요.</p>
+  <h1 id="heroTitle">ë¬¸ì <span>íê¸°</span></h1>
+  <p id="heroDesc">ì§ë¬¸ì´ ìê±°ë íìì ìíì ë¤ë©´ ì¸ì ë ì§ ì°ë½ì£¼ì¸ì.</p>
 </div>
 
 <div class="container">
   <div class="contact-grid">
     <div class="contact-item">
-      <div class="icon">📧</div>
-      <h3 id="ci1title">이메일</h3>
+      <div class="icon">ð§</div>
+      <h3 id="ci1title">ì´ë©ì¼</h3>
       <p><a href="mailto:dreams197176@gmail.com" style="color:var(--red);font-weight:700;">dreams197176@gmail.com</a></p>
-      <p id="ci1desc">48시간 이내 답변</p>
+      <p id="ci1desc">48ìê° ì´ë´ ëµë³</p>
     </div>
     <div class="contact-item">
-      <div class="icon">🌏</div>
-      <h3 id="ci2title">지원 언어</h3>
-      <p>KO · EN · 日本語 · 繁中</p>
+      <div class="icon">ð</div>
+      <h3 id="ci2title">ì§ì ì¸ì´</h3>
+      <p>KO Â· EN Â· æ¥æ¬èª Â· ç¹ä¸­</p>
     </div>
     <div class="contact-item">
-      <div class="icon">🛡️</div>
-      <h3 id="ci3title">저작권 문의</h3>
-      <p id="ci3desc">DMCA 요청 신속 처리</p>
+      <div class="icon">ð¡ï¸</div>
+      <h3 id="ci3title">ì ìê¶ ë¬¸ì</h3>
+      <p id="ci3desc">DMCA ìì²­ ì ì ì²ë¦¬</p>
     </div>
     <div class="contact-item">
-      <div class="icon">🤝</div>
-      <h3 id="ci4title">협업</h3>
-      <p id="ci4desc">팬 프로젝트 환영</p>
+      <div class="icon">ð¤</div>
+      <h3 id="ci4title">íì</h3>
+      <p id="ci4desc">í¬ íë¡ì í¸ íì</p>
     </div>
   </div>
 
   <div class="form-card">
     <form id="contactForm" onsubmit="handleSubmit(event)">
       <div class="form-group">
-        <label id="lblName" for="name">이름</label>
+        <label id="lblName" for="name">ì´ë¦</label>
         <input type="text" id="name" name="name" required />
       </div>
       <div class="form-group">
-        <label id="lblEmail" for="email">이메일</label>
+        <label id="lblEmail" for="email">ì´ë©ì¼</label>
         <input type="email" id="email" name="email" placeholder="your@email.com" required />
       </div>
       <div class="form-group">
-        <label id="lblSubject" for="subject">문의 유형</label>
+        <label id="lblSubject" for="subject">ë¬¸ì ì í</label>
         <select id="subject" name="subject"></select>
       </div>
       <div class="form-group">
-        <label id="lblMessage" for="message">메시지</label>
+        <label id="lblMessage" for="message">ë©ìì§</label>
         <textarea id="message" name="message" required></textarea>
       </div>
-      <button type="submit" class="btn-submit" id="btnSubmit">메시지 보내기 →</button>
+      <button type="submit" class="btn-submit" id="btnSubmit">ë©ìì§ ë³´ë´ê¸° â</button>
       <div class="success-msg" id="successMsg"></div>
+      <div class="error-msg" id="errorMsg"></div>
     </form>
   </div>
 
@@ -125,26 +128,30 @@
 </div>
 
 <footer>
-  <p>© 2025 KOLEX Sports Entertainment Co., Ltd. All rights reserved.</p>
-  <p style="margin-top:0.5rem;"><a href="index.html">Home</a> · <a href="privacy-policy.html">Privacy Policy</a> · <a href="about.html">About</a> · <a href="terms.html">Terms</a></p>
+  <p>Â© 2025 KOLEX Sports Entertainment Co., Ltd. All rights reserved.</p>
+  <p style="margin-top:0.5rem;"><a href="index.html">Home</a> Â· <a href="privacy-policy.html">Privacy Policy</a> Â· <a href="about.html">About</a></p>
 </footer>
 
 <script>
+const WEBHOOK_URL = 'https://eddey-kang.app.n8n.cloud/webhook/kolex-contact';
+
 const T = {
   ko: {
-    title: '문의 <span style="color:var(--red)">하기</span>',
-    desc: '질문이 있거나 협업을 원하신다면 언제든지 연락주세요.',
-    ci1t:'이메일', ci1d:'48시간 이내 답변',
-    ci2t:'지원 언어',
-    ci3t:'저작권 문의', ci3d:'DMCA 요청 신속 처리',
-    ci4t:'협업', ci4d:'팬 프로젝트 환영',
-    lblName:'이름', lblEmail:'이메일', lblSubject:'문의 유형', lblMessage:'메시지',
-    namePh:'성함을 입력하세요', msgPh:'메시지를 입력하세요...',
-    subjects:['일반 문의','저작권 / DMCA','협업 제안','내용 수정 요청','기타'],
-    btn:'메시지 보내기 →',
-    success:'✅ 메시지가 전송됐습니다! 48시간 이내에 답변드리겠습니다.',
-    note:'공식 KOLEX 에이전시 문의는 <a href="https://www.kolex.co.kr" target="_blank" rel="noopener" style="color:var(--red);">kolex.co.kr</a> 또는 <a href="https://www.instagram.com/kolexent/" target="_blank" rel="noopener" style="color:var(--red);">@kolexent</a>을 이용해 주세요.',
-    navMembers:'멤버', navBlog:'블로그'
+    title: 'ë¬¸ì <span style="color:var(--red)">íê¸°</span>',
+    desc: 'ì§ë¬¸ì´ ìê±°ë íìì ìíì ë¤ë©´ ì¸ì ë ì§ ì°ë½ì£¼ì¸ì.',
+    ci1t:'ì´ë©ì¼', ci1d:'48ìê° ì´ë´ ëµë³',
+    ci2t:'ì§ì ì¸ì´',
+    ci3t:'ì ìê¶ ë¬¸ì', ci3d:'DMCA ìì²­ ì ì ì²ë¦¬',
+    ci4t:'íì', ci4d:'í¬ íë¡ì í¸ íì',
+    lblName:'ì´ë¦', lblEmail:'ì´ë©ì¼', lblSubject:'ë¬¸ì ì í', lblMessage:'ë©ìì§',
+    namePh:'ì±í¨ì ìë ¥íì¸ì', msgPh:'ë©ìì§ë¥¼ ìë ¥íì¸ì...',
+    subjects:['ì¼ë° ë¬¸ì','ì ìê¶ / DMCA','íì ì ì','ë´ì© ìì  ìì²­','ê¸°í'],
+    btn:'ë©ìì§ ë³´ë´ê¸° â',
+    btnSending:'ì ì¡ ì¤...',
+    success:'â ë©ìì§ê° ì ì¡ëìµëë¤! 48ìê° ì´ë´ì ëµë³ëë¦¬ê² ìµëë¤.',
+    error:'â ì ì¡ì ì¤í¨íìµëë¤. ì ì í ë¤ì ìëí´ ì£¼ì¸ì.',
+    note:'ê³µì KOLEX ìì´ì ì ë¬¸ìë <a href="https://www.kolex.co.kr" target="_blank" rel="noopener" style="color:var(--red);">kolex.co.kr</a> ëë <a href="https://www.instagram.com/kolexent/" target="_blank" rel="noopener" style="color:var(--red);">@kolexent</a>ì ì´ì©í´ ì£¼ì¸ì.',
+    navMembers:'ë©¤ë²', navBlog:'ë¸ë¡ê·¸'
   },
   en: {
     title: 'Get in <span style="color:var(--red)">Touch</span>',
@@ -156,40 +163,46 @@ const T = {
     lblName:'Name', lblEmail:'Email', lblSubject:'Subject', lblMessage:'Message',
     namePh:'Your name', msgPh:'Your message...',
     subjects:['General Inquiry','Copyright / DMCA','Collaboration','Content Correction','Other'],
-    btn:'Send Message →',
-    success:'✅ Message sent! We\'ll get back to you within 48 hours.',
+    btn:'Send Message â',
+    btnSending:'Sending...',
+    success:'â Message sent! We\'ll get back to you within 48 hours.',
+    error:'â Failed to send. Please try again later.',
     note:'For official KOLEX agency inquiries, visit <a href="https://www.kolex.co.kr" target="_blank" rel="noopener" style="color:var(--red);">kolex.co.kr</a> or follow <a href="https://www.instagram.com/kolexent/" target="_blank" rel="noopener" style="color:var(--red);">@kolexent</a>.',
     navMembers:'Members', navBlog:'Blog'
   },
   ja: {
-    title: 'お<span style="color:var(--red)">問い合わせ</span>',
-    desc: 'ご質問やコラボレーションのご要望はお気軽にどうぞ。',
-    ci1t:'メール', ci1d:'48時間以内に返信',
-    ci2t:'対応言語',
-    ci3t:'著作権について', ci3d:'DMCAリクエストを迅速対応',
-    ci4t:'コラボレーション', ci4d:'ファンプロジェクト歓迎',
-    lblName:'お名前', lblEmail:'メールアドレス', lblSubject:'お問い合わせ種別', lblMessage:'メッセージ',
-    namePh:'お名前', msgPh:'メッセージを入力してください...',
-    subjects:['一般のお問い合わせ','著作権 / DMCA','コラボレーション','内容の修正','その他'],
-    btn:'送信する →',
-    success:'✅ 送信しました！48時間以内にご返信いたします。',
-    note:'KOLEXへの公式お問い合わせは <a href="https://www.kolex.co.kr" target="_blank" rel="noopener" style="color:var(--red);">kolex.co.kr</a> またはInstagram <a href="https://www.instagram.com/kolexent/" target="_blank" rel="noopener" style="color:var(--red);">@kolexent</a> まで。',
-    navMembers:'メンバー', navBlog:'ブログ'
+    title: 'ã<span style="color:var(--red)">åãåãã</span>',
+    desc: 'ãè³ªåãã³ã©ãã¬ã¼ã·ã§ã³ã®ãè¦æã¯ãæ°è»½ã«ã©ããã',
+    ci1t:'ã¡ã¼ã«', ci1d:'48æéä»¥åã«è¿ä¿¡',
+    ci2t:'å¯¾å¿è¨èª',
+    ci3t:'èä½æ¨©ã«ã¤ãã¦', ci3d:'DMCAãªã¯ã¨ã¹ããè¿éå¯¾å¿',
+    ci4t:'ã³ã©ãã¬ã¼ã·ã§ã³', ci4d:'ãã¡ã³ãã­ã¸ã§ã¯ãæ­è¿',
+    lblName:'ãåå', lblEmail:'ã¡ã¼ã«ã¢ãã¬ã¹', lblSubject:'ãåãåããç¨®å¥', lblMessage:'ã¡ãã»ã¼ã¸',
+    namePh:'ãåå', msgPh:'ã¡ãã»ã¼ã¸ãå¥åãã¦ãã ãã...',
+    subjects:['ä¸è¬ã®ãåãåãã','èä½æ¨© / DMCA','ã³ã©ãã¬ã¼ã·ã§ã³','åå®¹ã®ä¿®æ­£','ãã®ä»'],
+    btn:'éä¿¡ãã â',
+    btnSending:'éä¿¡ä¸­...',
+    success:'â éä¿¡ãã¾ããï¼48æéä»¥åã«ãè¿ä¿¡ãããã¾ãã',
+    error:'â éä¿¡ã«å¤±æãã¾ããããã°ãããã¦ããååº¦ãè©¦ããã ããã',
+    note:'KOLEXã¸ã®å¬å¼ãåãåããã¯ <a href="https://www.kolex.co.kr" target="_blank" rel="noopener" style="color:var(--red);">kolex.co.kr</a> ã¾ãã¯Instagram <a href="https://www.instagram.com/kolexent/" target="_blank" rel="noopener" style="color:var(--red);">@kolexent</a> ã¾ã§ã',
+    navMembers:'ã¡ã³ãã¼', navBlog:'ãã­ã°'
   },
   zh: {
-    title: '聯絡<span style="color:var(--red)">我們</span>',
-    desc: '有任何問題或合作邀請，歡迎隨時聯絡我們。',
-    ci1t:'電子郵件', ci1d:'48小時內回覆',
-    ci2t:'支援語言',
-    ci3t:'版權問題', ci3d:'DMCA請求迅速處理',
-    ci4t:'合作', ci4d:'歡迎粉絲計畫',
-    lblName:'姓名', lblEmail:'電子郵件', lblSubject:'問題類型', lblMessage:'訊息',
-    namePh:'請輸入姓名', msgPh:'請輸入您的訊息...',
-    subjects:['一般詢問','版權 / DMCA','合作提案','內容更正','其他'],
-    btn:'發送訊息 →',
-    success:'✅ 訊息已送出！我們將在48小時內回覆您。',
-    note:'如需官方KOLEX查詢，請造訪 <a href="https://www.kolex.co.kr" target="_blank" rel="noopener" style="color:var(--red);">kolex.co.kr</a> 或追蹤 <a href="https://www.instagram.com/kolexent/" target="_blank" rel="noopener" style="color:var(--red);">@kolexent</a>。',
-    navMembers:'成員', navBlog:'部落格'
+    title: 'è¯çµ¡<span style="color:var(--red)">æå</span>',
+    desc: 'æä»»ä½åé¡æåä½éè«ï¼æ­¡è¿é¨æè¯çµ¡æåã',
+    ci1t:'é»å­éµä»¶', ci1d:'48å°æå§åè¦',
+    ci2t:'æ¯æ´èªè¨',
+    ci3t:'çæ¬åé¡', ci3d:'DMCAè«æ±è¿éèç',
+    ci4t:'åä½', ci4d:'æ­¡è¿ç²çµ²è¨ç«',
+    lblName:'å§å', lblEmail:'é»å­éµä»¶', lblSubject:'åé¡é¡å', lblMessage:'è¨æ¯',
+    namePh:'è«è¼¸å¥å§å', msgPh:'è«è¼¸å¥æ¨çè¨æ¯...',
+    subjects:['ä¸è¬è©¢å','çæ¬ / DMCA','åä½ææ¡','å§å®¹æ´æ­£','å¶ä»'],
+    btn:'ç¼éè¨æ¯ â',
+    btnSending:'ç¼éä¸­...',
+    success:'â è¨æ¯å·²éåºï¼æåå°å¨48å°æå§åè¦æ¨ã',
+    error:'â ç¼éå¤±æï¼è«ç¨å¾åè©¦ã',
+    note:'å¦éå®æ¹KOLEXæ¥è©¢ï¼è«é è¨ª <a href="https://www.kolex.co.kr" target="_blank" rel="noopener" style="color:var(--red);">kolex.co.kr</a> æè¿½è¹¤ <a href="https://www.instagram.com/kolexent/" target="_blank" rel="noopener" style="color:var(--red);">@kolexent</a>ã',
+    navMembers:'æå¡', navBlog:'é¨è½æ ¼'
   }
 };
 
@@ -218,7 +231,7 @@ function setLang(lang) {
   document.getElementById('btnSubmit').textContent = t.btn;
   document.getElementById('officialNote').innerHTML = t.note;
   document.getElementById('navMembers').textContent = t.navMembers;
-  
+
   // Rebuild subject options
   const sel = document.getElementById('subject');
   sel.innerHTML = '';
@@ -230,29 +243,66 @@ function setLang(lang) {
   });
 
   // Active lang button
-  const map = {ko:'KO',en:'EN',ja:'JP',zh:'繁中'};
+  const map = {ko:'KO',en:'EN',ja:'JP',zh:'ç¹ä¸­'};
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.textContent === map[lang]);
   });
 
   // Page title
-  const titles = {ko:'문의 | KOLEX Cheerleaders',en:'Contact | KOLEX Cheerleaders',ja:'お問い合わせ | KOLEX Cheerleaders',zh:'聯絡 | KOLEX Cheerleaders'};
+  const titles = {ko:'ë¬¸ì | KOLEX Cheerleaders',en:'Contact | KOLEX Cheerleaders',ja:'ãåãåãã | KOLEX Cheerleaders',zh:'åçµ¡ | KOLEX Cheerleaders'};
   document.title = titles[lang];
 }
 
-function handleSubmit(e) {
+async function handleSubmit(e) {
   e.preventDefault();
   const lang = localStorage.getItem('kolexLang') || 'ko';
-  const msg = document.getElementById('successMsg');
-  msg.textContent = T[lang].success.replace('✅ ','');
-  msg.innerHTML = T[lang].success;
-  msg.style.display = 'block';
-  e.target.reset();
-  setTimeout(() => msg.style.display = 'none', 4000);
+  const t = T[lang];
+  const btn = document.getElementById('btnSubmit');
+  const successMsg = document.getElementById('successMsg');
+  const errorMsg = document.getElementById('errorMsg');
+
+  btn.disabled = true;
+  btn.textContent = t.btnSending;
+  successMsg.style.display = 'none';
+  errorMsg.style.display = 'none';
+
+  const payload = {
+    name: document.getElementById('name').value.trim(),
+    email: document.getElementById('email').value.trim(),
+    subject: document.getElementById('subject').value,
+    message: document.getElementById('message').value.trim(),
+    lang: lang
+  };
+
+  try {
+    const res = await fetch(WEBHOOK_URL, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(payload)
+    });
+
+    if (res.ok) {
+      successMsg.innerHTML = t.success;
+      successMsg.style.display = 'block';
+      e.target.reset();
+      setTimeout(() => { successMsg.style.display = 'none'; }, 8000);
+    } else {
+      throw new Error('Server error ' + res.status);
+    }
+  } catch (err) {
+    errorMsg.textContent = t.error;
+    errorMsg.style.display = 'block';
+    setTimeout(() => { errorMsg.style.display = 'none'; }, 8000);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = t.btn;
+  }
 }
 
-const saved = localStorage.getItem('kolexLang') || 'ko';
-setLang(saved);
+(function init() {
+  const lang = localStorage.getItem('kolexLang') || 'ko';
+  setLang(lang);
+})();
 </script>
 </body>
 </html>
