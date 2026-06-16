@@ -36,7 +36,7 @@
     .btn-submit:hover{background:#c01430;}
     .btn-submit:disabled{background:#555;cursor:not-allowed;}
     .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem;}
-    .contact-item{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:1.25rem;text-align:center;}
+  2 .contact-item{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:1.25rem;text-align:center;}
     .contact-item .icon{font-size:1.5rem;margin-bottom:0.5rem;}
     .contact-item h3{font-size:0.9rem;font-weight:700;margin-bottom:0.25rem;}
     .contact-item p{font-size:0.82rem;color:var(--text-muted);}
@@ -179,7 +179,7 @@ const T = {
     ci4t:'コラボレーション', ci4d:'ファンプロジェクト歓迎',
     lblName:'お名前', lblEmail:'メールアドレス', lblSubject:'お問い合わせ種別', lblMessage:'メッセージ',
     namePh:'お名前', msgPh:'メッセージを入力してください...',
-    subjects:['一般のお問い合わせ','著作権 / DMCA','コラボレーション','内容の修正','その他'],
+    subjects:['一般のお���い合わせ','著作権 / DMCA','コラボレーション','内容の修正','その他'],
     btn:'送信する →',
     btnSending:'送信中...',
     success:'✅ 送信しました！48時間以内にご返信いたします。',
@@ -189,7 +189,7 @@ const T = {
   },
   zh: {
     title: '聯絡<span style="color:var(--red)">我們</span>',
-    desc: '有任何問題或合作邀請，歡迚隨時聯絡我們。',
+    desc: '有任何問題或合作邀請，歡连隨時聯絡我們。',
     ci1t:'電子郵件', ci1d:'48小時內回覆',
     ci2t:'支援語言',
     ci3t:'版權問題', ci3d:'DMCA請求迅速處理',
@@ -245,4 +245,60 @@ function setLang(lang) {
   // Active lang button
   const map = {ko:'KO',en:'EN',ja:'JP',zh:'繁中'};
   document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.cl
+    btn.classList.toggle('active', btn.textContent === map[lang]);
+  });
+}
+
+async function handleSubmit(e) {
+  e.preventDefault();
+  const lang = localStorage.getItem('kolexLang') || 'ko';
+  const t = T[lang];
+  const btn = document.getElementById('btnSubmit');
+  const successMsg = document.getElementById('successMsg');
+  const errorMsg = document.getElementById('errorMsg');
+
+  btn.disabled = true;
+  btn.textContent = t.btnSending;
+  successMsg.style.display = 'none';
+  errorMsg.style.display = 'none';
+
+  const formData = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    subject: document.getElementById('subject').value,
+    message: document.getElementById('message').value,
+    lang: lang,
+    timestamp: new Date().toISOString()
+  };
+
+  try {
+    const res = await fetch(WEBHOOK_URL, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(formData)
+    });
+    if (res.ok) {
+      successMsg.textContent = t.success;
+      successMsg.style.display = 'block';
+      document.getElementById('contactForm').reset();
+      setLang(lang);
+    } else {
+      throw new Error('Server error');
+    }
+  } catch (err) {
+    errorMsg.textContent = t.error;
+    errorMsg.style.display = 'block';
+  } finally {
+    btn.disabled = false;
+    btn.textContent = t.btn;
+  }
+}
+
+// Init on load
+document.addEventListener('DOMContentLoaded', () => {
+  const lang = localStorage.getItem('kolexLang') || 'ko';
+  setLang(lang);
+});
+</script>
+</body>
+  </html>
