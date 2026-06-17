@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kwon Ga-young | KOLEX Cheerleaders</title>
-  <meta name="description" content="Profile of Kwon Ga-young (권가영) - KOLEX Cheerleader since 2025. 13.6K Instagram followers." />
+  <meta name="description" content="Profile of Kwon Ga-young (권가영) - KOLEX Cheerleader since 2025. 10K Instagram followers." />
   <link rel="canonical" href="https://koreacheerleaders.com/cheerleaders/kwon-gayoung.html" />
   <meta name="google" content="notranslate" />
   <style>
@@ -117,7 +117,7 @@
       <p class="name-ko">권가영 · Born 2001 · 165cm</p>
       <div class="role-badge" id="roleText">Cheerleader</div>
       <div class="stats-row">
-        <div class="stat-pill"><div class="sv">📱 13.6K</div><div class="sk">Followers</div></div>
+        <div class="stat-pill"><div class="sv">📱 10K</div><div class="sk">Followers</div></div>
         <div class="stat-pill"><div class="sv">📅 2025</div><div class="sk">Active Since</div></div>
         <div class="stat-pill"><div class="sv">165cm</div><div class="sk">Height</div></div>
       </div>
@@ -313,10 +313,74 @@ function renderBlogPosts(lang){
 
 // ===== PHOTOS TAB =====
 const _photos = [
-{"url":"https://www.instagram.com/p/DZRzovWlGLM/","thumb":"https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/719490860_18598567114054325_7741654050215011_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=I4z-uosA4LQQ7kNvwF8vKuR&_nc_oc=Adob4YmK2gTWcI7KTZGQ-TB2_G4LobexlRh1XruyC-yh-ig_eBXiN2mHueQ5etS_lRk&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=Rm-ICoL6c-svdfIG6-oQrQ&_nc_tpa=Q5bMBQG5nY-m02jJMMj3QNTJvREGYDQ4fNM472NiqIpaQbn9-VKnXQu6_EdMkYRaW6BNZZuCMVf8B7JdGw&oh=00_Af8ha3chJ2NOaKqoiF1QPj76krGKgnLtbFUTKLCQnsWoRA&oe=6A37DAEF"},
-{"url":"https://www.instagram.com/p/DYjz2u4FIa0/","thumb":"https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/704187967_18593151760054325_5601272412673098402_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Snrr0MLrmZQQ7kNvwEISvxg&_nc_oc=AdpcOhfl5X9MIeaop63fyzmb9AvIqAoIS1NcjUmqLwWzrNZoz7Vw9HL6G5kTYaWacDw&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=Rm-ICoL6c-svdfIG6-oQrQ&_nc_tpa=Q5bMBQFlYZNxJi7IZ65mxrwrGOsG0FNkGrMLBgg2zADUY_fD7zTKZ-vv3V5tXirZbVHlFIM1oL2wiyHZ5w&oh=00_Af8PCjt3tM_46G-PPyS6YvVJPPqW9-_PMsH22XRAP_v_ww&oe=6A37BED2"},
-{"url":"https://www.instagram.com/p/DYWo4irFEBi/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/696266581_18591661387054325_4320126466119204590_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=WyYC98LLimIQ7kNvwHj2-b3&_nc_oc=AdrvewPXghOi8GiOmY63cmG3XZ4Ru8PehKoFJt6QanOzGJsn6vLRiXhYvVi1Zc4eX1w&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=Rm-ICoL6c-svdfIG6-oQrQ&_nc_tpa=Q5bMBQFEEJRVU3nBhsFjT-DKpqee2cVftAzFp9HXVfGZ2U1rypFCm9PQvBIcXoIC177PRYW22L3ZZo-gGw&oh=00_Af8ojuFrpJXF08O1ixxX7PYj-XE4LvUw04L8hMsQzb7olQ&oe=6A37EBFF"},
-]
+  'https://www.instagram.com/yo_ung__vely/',
+]; // n8n automation: populate with Instagram post URLs
+
+function setLang(lang) {
+  localStorage.setItem('kolexLang', lang);
+  // Update display name
+  const dn = document.getElementById('displayName');
+  if(dn && typeof names !== 'undefined') dn.textContent = names[lang] || names.ko;
+  // Update role badge
+  const rb = document.getElementById('roleText');
+  if(rb && typeof roles !== 'undefined') rb.textContent = roles[lang] || roles.ko;
+  // Update back link
+  const bl = document.getElementById('backTxt');
+  if(bl && typeof backs !== 'undefined') bl.textContent = backs[lang] || backs.ko;
+  // Update profile button text
+  const pb = document.getElementById('fullProfileBtnTxt');
+  if(pb) pb.textContent = lang==='ko'?'PROFILE ↓':lang==='ja'?'プロフィール ↓':lang==='zh'?'個人資料 ↓':'PROFILE ↓';
+  // Show correct language profile block
+  ['ko','en','ja','zh'].forEach(l => {
+    const el = document.getElementById('fp-' + l);
+    if(el) el.style.display = (l === lang) ? 'block' : 'none';
+  });
+  // Highlight active lang button
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.textContent.toLowerCase().includes(lang) || 
+      (lang==='ja' && btn.textContent==='JP') || (lang==='zh' && btn.textContent==='繁中'));
+  });
+  renderBlogPosts(lang);
+}
+
+function switchFpTab(tab) {
+  const profileContent = document.getElementById('fullProfileContent');
+  const photosPanel = document.getElementById('photosPanel');
+  if (tab === 'profile') {
+    const open = profileContent && profileContent.style.display !== 'none';
+    if(profileContent) profileContent.style.display = open ? 'none' : 'block';
+    if(photosPanel) photosPanel.style.display = 'none';
+    if(!open) {
+      const lang = localStorage.getItem('kolexLang') || 'ko';
+      ['ko','en','ja','zh'].forEach(l => {
+        const el = document.getElementById('fp-' + l);
+        if(el) el.style.display = (l === lang) ? 'block' : 'none';
+      });
+    }
+  } else if (tab === 'photos') {
+    const open = photosPanel && photosPanel.style.display !== 'none';
+    if(profileContent) profileContent.style.display = 'none';
+    if(photosPanel) photosPanel.style.display = open ? 'none' : 'block';
+    if(!open) renderPhotos();
+  }
+}
+
+function renderPhotos() {
+  const grid = document.getElementById('photoGrid');
+  if (!grid) return;
+  if (!_photos || _photos.length === 0) {
+    grid.innerHTML = '<p style="color:#666;padding:2rem;text-align:center;font-size:.9rem;">Instagram Reels 준비 중...</p>';
+    return;
+  }
+  // Unique gradient per index for visual variety
+  const _gradients = [
+    'linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045)',
+    'linear-gradient(135deg,#405de6,#5851db,#833ab4)',
+    'linear-gradient(135deg,#f09433,#e6683c,#dc2743)',
+    'linear-gradient(135deg,#12c2e9,#c471ed,#f64f59)',
+    'linear-gradient(135deg,#f7971e,#ffd200)',
+    'linear-gradient(135deg,#1a1a2e,#e94560)',
+  ];
   const isReel = u => u.includes('/reel/');
   grid.innerHTML = '<div style="display:flex;flex-direction:row;gap:.5rem;overflow-x:auto;padding:.4rem 0 .6rem;scrollbar-width:thin;-webkit-overflow-scrolling:touch;">' +
     _photos.map((item, i) => {
