@@ -317,76 +317,10 @@ function renderBlogPosts(lang){
 
 // ===== PHOTOS TAB =====
 const _photos = [
-{"url":"https://www.instagram.com/p/DZPhUnTFArJ/","thumb":""},
-{"url":"https://www.instagram.com/reel/DYkD_dYM6FF/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.71878-15/702176468_1469413591078385_5851156627289290259_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=-A_q_TQU82MQ7kNvwFb0XKw&_nc_oc=AdrXly-6XG_Bo9DH8oizzaE0xulhf-2sU14DsR3Yzbkr6xqC8ZbuAkNaqWKPu6a6HRI&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=S3MWY_yTSR4kShToRGxmAw&_nc_tpa=Q5bMBQH5WsCpVR_A2tMcKObvQHOS9785-Dv8OvDQVrGAm1-gHyINAsc13O85m6h_Ytl6KsSMmF49g1IVuA&oh=00_Af89m9Nk8MkYp4pROG-GotdKsZRbXoR9IZ9eTHKUSjBaHA&oe=6A37DE07"},
-{"url":"https://www.instagram.com/reel/DYhXEwhMqzu/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.71878-15/703752254_1889099688418296_1932669849411941220_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=A45HEPKNfFcQ7kNvwEGa_sl&_nc_oc=AdpVVl_4DeHUzPCGoFLPuvF6yuW7wi9_JS2ahIeFtHhdtyeD7DTPKJN8vOiIjGjQdzc&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=S3MWY_yTSR4kShToRGxmAw&_nc_tpa=Q5bMBQG20VoBKNnmRP4DH1ceDMw_UcH9AlfYL04ZOU4ZG8P5gMaBJu-9WixqrljQHWjEob7zUsBTkPTmgA&oh=00_Af-debIH4EUU5u1Zk8BGtniNHEGSpfB0_Onep-laYYP9NQ&oe=6A37C742"},
-] // n8n automation: populate with Instagram post URLs
-
-function setLang(lang) {
-  localStorage.setItem('kolexLang', lang);
-  // Update display name
-  const dn = document.getElementById('displayName');
-  if(dn && typeof names !== 'undefined') dn.textContent = names[lang] || names.ko;
-  // Update role badge
-  const rb = document.getElementById('roleText');
-  if(rb && typeof roles !== 'undefined') rb.textContent = roles[lang] || roles.ko;
-  // Update back link
-  const bl = document.getElementById('backTxt');
-  if(bl && typeof backs !== 'undefined') bl.textContent = backs[lang] || backs.ko;
-  // Update profile button text
-  const pb = document.getElementById('fullProfileBtnTxt');
-  if(pb) pb.textContent = lang==='ko'?'PROFILE ↓':lang==='ja'?'プロフィール ↓':lang==='zh'?'個人資料 ↓':'PROFILE ↓';
-  // Show correct language profile block
-  ['ko','en','ja','zh'].forEach(l => {
-    const el = document.getElementById('fp-' + l);
-    if(el) el.style.display = (l === lang) ? 'block' : 'none';
-  });
-  // Highlight active lang button
-  document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.textContent.toLowerCase().includes(lang) || 
-      (lang==='ja' && btn.textContent==='JP') || (lang==='zh' && btn.textContent==='繁中'));
-  });
-  renderBlogPosts(lang);
-}
-
-function switchFpTab(tab) {
-  const profileContent = document.getElementById('fullProfileContent');
-  const photosPanel = document.getElementById('photosPanel');
-  if (tab === 'profile') {
-    const open = profileContent && profileContent.style.display !== 'none';
-    if(profileContent) profileContent.style.display = open ? 'none' : 'block';
-    if(photosPanel) photosPanel.style.display = 'none';
-    if(!open) {
-      const lang = localStorage.getItem('kolexLang') || 'ko';
-      ['ko','en','ja','zh'].forEach(l => {
-        const el = document.getElementById('fp-' + l);
-        if(el) el.style.display = (l === lang) ? 'block' : 'none';
-      });
-    }
-  } else if (tab === 'photos') {
-    const open = photosPanel && photosPanel.style.display !== 'none';
-    if(profileContent) profileContent.style.display = 'none';
-    if(photosPanel) photosPanel.style.display = open ? 'none' : 'block';
-    if(!open) renderPhotos();
-  }
-}
-
-function renderPhotos() {
-  const grid = document.getElementById('photoGrid');
-  if (!grid) return;
-  if (!_photos || _photos.length === 0) {
-    grid.innerHTML = '<p style="color:#666;padding:2rem;text-align:center;font-size:.9rem;">Instagram Reels 준비 중...</p>';
-    return;
-  }
-  // Unique gradient per index for visual variety
-  const _gradients = [
-    'linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045)',
-    'linear-gradient(135deg,#405de6,#5851db,#833ab4)',
-    'linear-gradient(135deg,#f09433,#e6683c,#dc2743)',
-    'linear-gradient(135deg,#12c2e9,#c471ed,#f64f59)',
-    'linear-gradient(135deg,#f7971e,#ffd200)',
-    'linear-gradient(135deg,#1a1a2e,#e94560)',
-  ];
+{"url":"https://www.instagram.com/p/DZPhUnTFArJ/","thumb":"https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/719160724_18600687907058677_6341246755616623598_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=FLQ9amEP1HEQ7kNvwH1wPya&_nc_oc=AdpzeMXTWIZ0xQHmhVzrqBxtDZUYzJ3iXxhHC7K44Hn2LgTwwCh-mbLuvciqWxNPjs8&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A-q6yohMz29pAOSEjxx3sw&_nc_tpa=Q5bMBQHjNT7ql2Y-XmIYMkkAI3F4uA3qN8n2fQiz5kHykWa2ZTzILp3qTLZLLjM4s_IrsXkdKC45tzymiA&oh=00_Af8HHVTEGfQppD9TjLlBspFDHtdntwerSW3ktZYWNJ1GhA&oe=6A37CF41"},
+{"url":"https://www.instagram.com/reel/DYkD_dYM6FF/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.71878-15/702176468_1469413591078385_5851156627289290259_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=-A_q_TQU82MQ7kNvwFb0XKw&_nc_oc=AdrXly-6XG_Bo9DH8oizzaE0xulhf-2sU14DsR3Yzbkr6xqC8ZbuAkNaqWKPu6a6HRI&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A-q6yohMz29pAOSEjxx3sw&_nc_tpa=Q5bMBQEO6Jx9e0VURL2ORzFNnF5OlB0zYflXG23rV9JkvxhNHJOeyAZCB5ZalUoQhiTKPgR3id1euCE_nA&oh=00_Af9PLi1Fj15rZeJbJcE6CoKbwpZgZPaPmQtT7PsWAGLC8A&oe=6A37DE07"},
+{"url":"https://www.instagram.com/reel/DYhXEwhMqzu/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.71878-15/703752254_1889099688418296_1932669849411941220_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=A45HEPKNfFcQ7kNvwEGa_sl&_nc_oc=AdpVVl_4DeHUzPCGoFLPuvF6yuW7wi9_JS2ahIeFtHhdtyeD7DTPKJN8vOiIjGjQdzc&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A-q6yohMz29pAOSEjxx3sw&_nc_tpa=Q5bMBQEk6R8dEpIa7i1-S4RFOFX5GXe2ngXMdhOYGavn-JOaWdZlSna3YkgrnRhcWoNOhDqiY2u_awXfnA&oh=00_Af9ae5PCpd_efk1USAlJvrmDCIwkQaUj4lnqF02Sk4uEmA&oe=6A37C742"},
+]
   const isReel = u => u.includes('/reel/');
   grid.innerHTML = '<div style="display:flex;flex-direction:row;gap:.5rem;overflow-x:auto;padding:.4rem 0 .6rem;scrollbar-width:thin;-webkit-overflow-scrolling:touch;">' +
     _photos.map((item, i) => {
