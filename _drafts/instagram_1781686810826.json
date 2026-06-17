@@ -1,0 +1,35 @@
+[
+  {
+    "member_id": "kim-jina",
+    "name_ko": "김진아",
+    "file_path": "cheerleaders/kim-jina.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "찌나의 대만두컷 🇹🇼",
+        "en": "Jina's Taiwan Two-Shot 🇹🇼",
+        "ja": "ジナの台湾ツーショット 🇹🇼",
+        "zh": "吉娜的台灣兩格 🇹🇼"
+      },
+      "body": {
+        "ko": "김진아 님의 인스타그램에 대만 여행 사진이 담긴 새 게시물이 올라왔어요! 설레는 대만두컷, 지금 바로 확인해 보세요 🩷",
+        "en": "A new post featuring photos from Taiwan has just been uploaded to Kim Jin-a's Instagram! Go check out her adorable Taiwan two-shot now 🩷",
+        "ja": "キム・ジナさんのインスタグラムに台湾旅行の写真を収めた新しい投稿がアップされました！ときめく台湾ツーショット、ぜひチェックしてみてください 🩷",
+        "zh": "金珍娥的 Instagram 上傳了收錄台灣旅行照片的全新貼文！心動的台灣兩格，快去看看吧 🩷"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DZpIzusEce5/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.06.17"
+    }
+  }
+]
