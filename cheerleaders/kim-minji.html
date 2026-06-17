@@ -316,76 +316,10 @@ function renderBlogPosts(lang){
 
 // ===== PHOTOS TAB =====
 const _photos = [
-{"url":"https://www.instagram.com/reel/DZh81gVz3z9/","thumb":"https://scontent-fra3-1.cdninstagram.com/v/t51.71878-15/723014459_4470636309921107_4189891711099098553_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ucabjnQ90uMQ7kNvwGWwquO&_nc_oc=Ado7L6VZx06lX8B_tMVc3erx4eMVwgXmukdM9FGa2oGcqGk8Wd0DLBV7dKddnq0MXJ8&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=IUsBMRyKC4BTpbIESJqbXw&_nc_tpa=Q5bMBQG3ekrq-W7P2zJMBF4YGKcEuuv7uimqxmC4bVIxWZ-B49p4xQ24RUljRbjkhagXBNFXbSYecLAcCg&oh=00_Af9XfzyFo7YtTC_3tz0pdQ0XXXobJTW79Ou2Re4E2UYliQ&oe=6A37E228"},
-{"url":"https://www.instagram.com/p/DZPUdt1kyA2/","thumb":""},
-{"url":"https://www.instagram.com/p/DZFgR4kk4Cf/","thumb":""},
-] // n8n automation: populate with Instagram post URLs
-
-function setLang(lang) {
-  localStorage.setItem('kolexLang', lang);
-  // Update display name
-  const dn = document.getElementById('displayName');
-  if(dn && typeof names !== 'undefined') dn.textContent = names[lang] || names.ko;
-  // Update role badge
-  const rb = document.getElementById('roleText');
-  if(rb && typeof roles !== 'undefined') rb.textContent = roles[lang] || roles.ko;
-  // Update back link
-  const bl = document.getElementById('backTxt');
-  if(bl && typeof backs !== 'undefined') bl.textContent = backs[lang] || backs.ko;
-  // Update profile button text
-  const pb = document.getElementById('fullProfileBtnTxt');
-  if(pb) pb.textContent = lang==='ko'?'PROFILE ↓':lang==='ja'?'プロフィール ↓':lang==='zh'?'個人資料 ↓':'PROFILE ↓';
-  // Show correct language profile block
-  ['ko','en','ja','zh'].forEach(l => {
-    const el = document.getElementById('fp-' + l);
-    if(el) el.style.display = (l === lang) ? 'block' : 'none';
-  });
-  // Highlight active lang button
-  document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.textContent.toLowerCase().includes(lang) || 
-      (lang==='ja' && btn.textContent==='JP') || (lang==='zh' && btn.textContent==='繁中'));
-  });
-  renderBlogPosts(lang);
-}
-
-function switchFpTab(tab) {
-  const profileContent = document.getElementById('fullProfileContent');
-  const photosPanel = document.getElementById('photosPanel');
-  if (tab === 'profile') {
-    const open = profileContent && profileContent.style.display !== 'none';
-    if(profileContent) profileContent.style.display = open ? 'none' : 'block';
-    if(photosPanel) photosPanel.style.display = 'none';
-    if(!open) {
-      const lang = localStorage.getItem('kolexLang') || 'ko';
-      ['ko','en','ja','zh'].forEach(l => {
-        const el = document.getElementById('fp-' + l);
-        if(el) el.style.display = (l === lang) ? 'block' : 'none';
-      });
-    }
-  } else if (tab === 'photos') {
-    const open = photosPanel && photosPanel.style.display !== 'none';
-    if(profileContent) profileContent.style.display = 'none';
-    if(photosPanel) photosPanel.style.display = open ? 'none' : 'block';
-    if(!open) renderPhotos();
-  }
-}
-
-function renderPhotos() {
-  const grid = document.getElementById('photoGrid');
-  if (!grid) return;
-  if (!_photos || _photos.length === 0) {
-    grid.innerHTML = '<p style="color:#666;padding:2rem;text-align:center;font-size:.9rem;">Instagram Reels 준비 중...</p>';
-    return;
-  }
-  // Unique gradient per index for visual variety
-  const _gradients = [
-    'linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045)',
-    'linear-gradient(135deg,#405de6,#5851db,#833ab4)',
-    'linear-gradient(135deg,#f09433,#e6683c,#dc2743)',
-    'linear-gradient(135deg,#12c2e9,#c471ed,#f64f59)',
-    'linear-gradient(135deg,#f7971e,#ffd200)',
-    'linear-gradient(135deg,#1a1a2e,#e94560)',
-  ];
+{"url":"https://www.instagram.com/reel/DZh81gVz3z9/","thumb":"https://scontent-fra3-1.cdninstagram.com/v/t51.71878-15/723014459_4470636309921107_4189891711099098553_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ucabjnQ90uMQ7kNvwGWwquO&_nc_oc=Ado7L6VZx06lX8B_tMVc3erx4eMVwgXmukdM9FGa2oGcqGk8Wd0DLBV7dKddnq0MXJ8&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=nDnvDK4U_Ud7rC7jE-3nsQ&_nc_tpa=Q5bMBQGpBs4OW8dBrbF8uN-7_TFRQIgoVpXf7Dktjj1VT0nEjSlB-SiJYjBMBkiEO2n-Tc68sZ2gm6VVBA&oh=00_Af9wZGFmLaayjWzam7HtppOfkStETx9vyZ17LxwgW22uMg&oe=6A37E228"},
+{"url":"https://www.instagram.com/p/DZPUdt1kyA2/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/716050358_18445341376186326_8227410449183538067_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=sVt5ExFlCfUQ7kNvwGMZTeC&_nc_oc=AdrgpGSa3xUwsdRMHyk3CC8fQdDITlR8b3o_KbL116xQ9fjn-N1T-yD2CiBbfG-4zBo&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=nDnvDK4U_Ud7rC7jE-3nsQ&_nc_tpa=Q5bMBQGQaNCjFbaNmekHe5-0AGzYh0wiarGknRr2De7AytBlAxdyOrVdwcVqsOQw0SZ1sEtZJxVnOasLcQ&oh=00_Af9p0TVzSky6jOW2p8C-tm_O6Xg-ZJPN2VQAA7YK6YkPHQ&oe=6A37D30B"},
+{"url":"https://www.instagram.com/p/DZFgR4kk4Cf/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/715570399_18444697714186326_6601886938606244544_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=c7VaOlLeaIsQ7kNvwEr-suX&_nc_oc=AdoV-8UG3I4wbNlXAQVV6-cDIroxhqrEqV4uoNh3pTQEe8JrpVhI1fA-BTLVRQsiK7w&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=nDnvDK4U_Ud7rC7jE-3nsQ&_nc_tpa=Q5bMBQH8gjfpYxiMUn3KVbTz9oBG4V4eV-v88k9SaqYVohMr1zJu8z0G8tYvn5IxI36dL37vasH3feLr5Q&oh=00_Af-d4KzjbAORq_abvOxbHl0mKB6gtXnYwBD9CaI1eVmpRw&oe=6A37ED89"},
+]
   const isReel = u => u.includes('/reel/');
   grid.innerHTML = '<div style="display:flex;flex-direction:row;gap:.5rem;overflow-x:auto;padding:.4rem 0 .6rem;scrollbar-width:thin;-webkit-overflow-scrolling:touch;">' +
     _photos.map((item, i) => {
