@@ -53,6 +53,10 @@
     }
     [data-bio]{display:none;}
     [data-bio].active{display:block;}
+    ._reel-thumb{display:inline-flex;width:120px;height:160px;flex-shrink:0;border-radius:12px;position:relative;overflow:hidden;cursor:pointer;transition:transform .2s,opacity .2s;text-decoration:none;}
+    ._reel-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.6) 0%,transparent 50%);}
+    ._reel-icon{position:absolute;bottom:8px;left:0;right:0;text-align:center;color:#fff;font-size:.7rem;font-weight:700;letter-spacing:.5px;}
+    ._reel-label{margin-top:2px;letter-spacing:.3px;}
   
     .post-body-inline h2{font-size:1rem;font-weight:700;margin:1.2rem 0 .5rem;color:#f0f0ff;}
     .post-body-inline p{color:#a0a0b8;margin-bottom:.75rem;font-size:.85rem;}
@@ -216,7 +220,7 @@ const backs = { ko:"전체 멤버", en:"All Members", ja:"メンバー一覧", z
 
 
 // ===== 개인 블로그 JS =====
-const _posts = [{"type":"greeting","title":{"ko":"안녕하세요, 김가현이에요 🌸","en":"Hello, it's Kim Ga-hyun! 🌸","ja":"こんにちは、キム・ガヒョンです 🌸","zh":"大家好，我是金佳賢！🌸"},"body":{"ko":"언제나 응원해 주시는 팬 여러분 덕분에 매일매일 더 열심히 할 수 있어요! 여러분의 따뜻한 마음이 저에게 가장 큰 힘이 된답니다 💪🔴⚫","en":"It's all thanks to you, our wonderful fans, that I can give my best every single day! Your warm support is truly my greatest strength 💪🔴⚫","ja":"いつも応援してくださるファンの皆さんのおかげで、毎日全力で頑張ることができます！皆さんの温かい気持ちが私の一番の力になっています 💪🔴⚫","zh":"每天都是因為有您們這些溫暖的粉絲支持，我才能全力以赴！您們的心意是我最大的力量 💪🔴⚫"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2026.06.11"},{"type":"video","title":{"ko":"새 Reel 업로드! 🎬","en":"New Reel! 🎬","ja":"新しいReel公開！ 🎬","zh":"新Reel上傳！ 🎬"},"body":{"ko":"새 영상이 업로드됐어요! 인스타그램에서 확인해보세요 👉 @keemgahyun","en":"New content just dropped! Head to Instagram to watch it 👉 @keemgahyun","ja":"新しい動画が公開されました！Instagramでチェックしてみてください 👉 @keemgahyun","zh":"新影片已上傳！快去Instagram看看吧 👉 @keemgahyun"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2026.05.15","url":"https://www.instagram.com/keemgahyun/"},{"type":"milestone","title":{"ko":"2026 시즌 개막 🎉","en":"2026 Season Opens 🎉","ja":"2026シーズン開幕 🎉","zh":"2026賽季開幕 🎉"},"body":{"ko":"드디어 2026 KBO 시즌이 시작됐어요! 올해도 전력을 다해 응원할게요. 경기장에서 만나요! 🔥","en":"The 2026 KBO season is here! I will give everything I have on that field this year. See you at the stadium! 🔥","ja":"2026シーズンがついに開幕！今年も全力で頑張ります！ 🔥","zh":"2026賽季正式開始！今年也會全力以赴，球場見！ 🔥"},"tag":{"ko":"마일스톤","en":"Milestone","ja":"マイルストーン","zh":"里程碑"},"tagClass":"tag-milestone","date":"2026.04.01"},{"type":"greeting","title":{"ko":"김가현의 오늘 하루 인사 👋","en":"Hello from Kim Ga-hyun! 👋","ja":"Kim Ga-hyunからのご挨拶 👋","zh":"김가현的今日問候 👋"},"body":{"ko":"안녕하세요! 김가현입니다. 오늘도 최선을 다해 응원할게요. 여러분의 응원이 저에게 가장 큰 힘이에요. 경기장에서 만나요! 💕","en":"Hello everyone, it is Kim Ga-hyun! I will give my absolute best today. Your cheers fuel me. See you at the game! 💕","ja":"こんにちは！今日も全力で応援します。皆さんの応援が一番の力 💕","zh":"大家好！今天也會全力以赴！你們的加油是我最大的動力 💕"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.06.08"},{"type":"greeting","title":{"ko":"연습 후기: 오늘도 열심히 했어요 💪","en":"Practice update — gave it my all today 💪","ja":"練習レポート：今日も頑張りました 💪","zh":"練習回顧：今天也全力拼了 💪"},"body":{"ko":"오늘 팀 전체 합동 연습이 있었어요! 새 안무가 완성되면 경기장에서 보여드릴게요 🙌","en":"Full team rehearsal today! When the new choreography comes together, the feeling is incredible 🙌","ja":"今日はチーム全体で合同練習！完成したときは嬉しい 🙌","zh":"今天整個團隊合練！完成後真的超有成就感 🙌"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.05.20"}];
+const _posts = [{"type": "greeting", "title": {"ko": "오늘도 함께해요! 🎉", "en": "Let's Cheer Together Today! 🎉", "ja": "今日も一緒に応援しよう！🎉", "zh": "今天也一起加油吧！🎉"}, "body": {"ko": "안녕하세요, 위즈 팬 여러분! 오늘도 팀원들과 함께 최선을 다하는 응원을 선보이기 위해 연습 한 동작 한 동작에 온 마음을 담고 있어요. 여러분의 응원이 저희에게 가장 큰 힘이 된답니다, 오늘도 함께 뜨겁게 응원해요! 🔴⚫", "en": "Hello, Wiz fans! Today, my teammates and I are putting our whole hearts into every single move during practice to bring you the most spirited cheer performance possible. Your support is our greatest strength, so let's fire it up together today! 🔴⚫", "ja": "ウィズファンの皆さん、こんにちは！今日もチームメンバーと一緒に、一つひとつの動きに心を込めて練習に取り組んでいます。皆さんの応援が私たちの一番の力になっています、今日も熱く一緒に応援しましょう！🔴⚫", "zh": "嗨，威茲球迷們！今天我和夥伴們正在將每一個動作都傾注全力練習，只為給大家帶來最熱情的應援表演。你們的支持是我們最大的力量，今天也讓我們一起熱血加油吧！🔴⚫"}, "tag": {"ko": "일일 인사", "en": "Daily Greeting", "ja": "デイリーグリーティング", "zh": "每日問候"}, "tagClass": "tag-greeting", "date": "2026.06.17"},{"type":"video","title":{"ko":"새 Reel 업로드! 🎬","en":"New Reel! 🎬","ja":"新しいReel公開！ 🎬","zh":"新Reel上傳！ 🎬"},"body":{"ko":"새 영상이 업로드됐어요! 인스타그램에서 확인해보세요 👉 @keemgahyun","en":"New content just dropped! Head to Instagram to watch it 👉 @keemgahyun","ja":"新しい動画が公開されました！Instagramでチェックしてみてください 👉 @keemgahyun","zh":"新影片已上傳！快去Instagram看看吧 👉 @keemgahyun"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2026.05.15","url":"https://www.instagram.com/keemgahyun/"},{"type":"milestone","title":{"ko":"2026 시즌 개막 🎉","en":"2026 Season Opens 🎉","ja":"2026シーズン開幕 🎉","zh":"2026賽季開幕 🎉"},"body":{"ko":"드디어 2026 KBO 시즌이 시작됐어요! 올해도 전력을 다해 응원할게요. 경기장에서 만나요! 🔥","en":"The 2026 KBO season is here! I will give everything I have on that field this year. See you at the stadium! 🔥","ja":"2026シーズンがついに開幕！今年も全力で頑張ります！ 🔥","zh":"2026賽季正式開始！今年也會全力以赴，球場見！ 🔥"},"tag":{"ko":"마일스톤","en":"Milestone","ja":"マイルストーン","zh":"里程碑"},"tagClass":"tag-milestone","date":"2026.04.01"},{"type":"greeting","title":{"ko":"김가현의 오늘 하루 인사 👋","en":"Hello from Kim Ga-hyun! 👋","ja":"Kim Ga-hyunからのご挨拶 👋","zh":"김가현的今日問候 👋"},"body":{"ko":"안녕하세요! 김가현입니다. 오늘도 최선을 다해 응원할게요. 여러분의 응원이 저에게 가장 큰 힘이에요. 경기장에서 만나요! 💕","en":"Hello everyone, it is Kim Ga-hyun! I will give my absolute best today. Your cheers fuel me. See you at the game! 💕","ja":"こんにちは！今日も全力で応援します。皆さんの応援が一番の力 💕","zh":"大家好！今天也會全力以赴！你們的加油是我最大的動力 💕"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.06.08"},{"type":"greeting","title":{"ko":"연습 후기: 오늘도 열심히 했어요 💪","en":"Practice update — gave it my all today 💪","ja":"練習レポート：今日も頑張りました 💪","zh":"練習回顧：今天也全力拼了 💪"},"body":{"ko":"오늘 팀 전체 합동 연습이 있었어요! 새 안무가 완성되면 경기장에서 보여드릴게요 🙌","en":"Full team rehearsal today! When the new choreography comes together, the feeling is incredible 🙌","ja":"今日はチーム全体で合同練習！完成したときは嬉しい 🙌","zh":"今天整個團隊合練！完成後真的超有成就感 🙌"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.05.20"}];
 let _af = 'all';
 const _bi = {
   sec:{ko:'개인 블로그',en:'Personal Blog',ja:'個人ブログ',zh:'個人部落格'},
@@ -320,25 +324,9 @@ function renderBlogPosts(lang){
 
 // ===== PHOTOS TAB =====
 const _photos = [
-  'https://www.instagram.com/reel/DWGj6bHAfkm/',
-  'https://www.instagram.com/reel/DYCKvZYCWvg/',
-  'https://www.instagram.com/reel/DTFoPDsAco_/'
+  'https://www.instagram.com/keemgahyun/',
 ]; // n8n automation: populate with Instagram post URLs
 
-function _mkFpLang(lang) {
-  if(document.getElementById('fp-'+lang)) return;
-  if(lang!=='ja'&&lang!=='zh') return;
-  const pc=document.getElementById('fullProfileContent');
-  if(!pc) return;
-  const bio=document.querySelector('[data-bio="'+lang+'"]');
-  if(!bio) return;
-  const el=document.createElement('div');
-  el.id='fp-'+lang;
-  el.style.display='none';
-  el.innerHTML='<div class="post-body-inline"><p>'+bio.textContent.trim()+'</p></div>';
-  const ref=pc.querySelector('[style*="text-align:right"]')||pc.lastElementChild;
-  pc.insertBefore(el,ref);
-}
 function setLang(lang) {
   localStorage.setItem('kolexLang', lang);
   // Update display name
@@ -353,12 +341,12 @@ function setLang(lang) {
   // Update profile button text
   const pb = document.getElementById('fullProfileBtnTxt');
   if(pb) pb.textContent = lang==='ko'?'PROFILE ↓':lang==='ja'?'プロフィール ↓':lang==='zh'?'個人資料 ↓':'PROFILE ↓';
-  // Toggle short bio text by language
+  // Toggle bio text by language
   document.querySelectorAll('[data-bio]').forEach(el => {
     el.style.display = (el.getAttribute('data-bio') === lang) ? 'block' : 'none';
   });
-  // Show correct language profile block (create fp-ja/fp-zh if needed)
-  _mkFpLang(lang);
+  if(!document.querySelector('[data-bio="'+lang+'"')){const fbBio=document.querySelector('[data-bio="en"]');if(fbBio)fbBio.style.display='block';}
+  // Show correct language profile block
   ['ko','en','ja','zh'].forEach(l => {
     const el = document.getElementById('fp-' + l);
     if(el) el.style.display = (l === lang) ? 'block' : 'none';
@@ -381,12 +369,10 @@ function switchFpTab(tab) {
     if(photosPanel) photosPanel.style.display = 'none';
     if(!open) {
       const lang = localStorage.getItem('kolexLang') || 'ko';
-      _mkFpLang(lang);
       ['ko','en','ja','zh'].forEach(l => {
         const el = document.getElementById('fp-' + l);
         if(el) el.style.display = (l === lang) ? 'block' : 'none';
       });
-      if(!document.getElementById('fp-'+lang)){const fb=document.getElementById('fp-en')||document.getElementById('fp-ko');if(fb)fb.style.display='block';}
     }
   } else if (tab === 'photos') {
     const open = photosPanel && photosPanel.style.display !== 'none';

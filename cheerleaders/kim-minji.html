@@ -53,6 +53,10 @@
     }
     [data-bio]{display:none;}
     [data-bio].active{display:block;}
+    ._reel-thumb{display:inline-flex;width:120px;height:160px;flex-shrink:0;border-radius:12px;position:relative;overflow:hidden;cursor:pointer;transition:transform .2s,opacity .2s;text-decoration:none;}
+    ._reel-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.6) 0%,transparent 50%);}
+    ._reel-icon{position:absolute;bottom:8px;left:0;right:0;text-align:center;color:#fff;font-size:.7rem;font-weight:700;letter-spacing:.5px;}
+    ._reel-label{margin-top:2px;letter-spacing:.3px;}
   
     .post-body-inline h2{font-size:1rem;font-weight:700;margin:1.2rem 0 .5rem;color:#f0f0ff;}
     .post-body-inline p{color:#a0a0b8;margin-bottom:.75rem;font-size:.85rem;}
@@ -213,7 +217,7 @@ const backs = { ko:"전체 멤버", en:"All Members", ja:"メンバー一覧", z
 
 
 // ===== 개인 블로그 JS =====
-const _posts = [{"type":"greeting","title":{"ko":"안녕하세요, 민지예요 🌸","en":"Hello, it's Min-ji! 🌸","ja":"こんにちは、ミンジです 🌸","zh":"你好，我是民智 🌸"},"body":{"ko":"6월의 따뜻한 바람이 기분 좋은 하루예요! 요즘 저는 시원한 레몬에이드 한 잔과 함께 좋아하는 노래를 들으며 여름 감성을 만끽하고 있답니다 🍋🎵 오늘 하루도 위즈 팬 여러분과 함께라서 더욱 행복해요, 항상 응원해 주셔서 감사합니다!","en":"The warm June breeze makes every day feel wonderful! Lately, I've been enjoying the summer vibes with a glass of refreshing lemonade and my favorite songs 🍋🎵 I'm so happy to have all the Wiz fans by my side today — thank you always for your incredible support!","ja":"6月の温かい風がとっても気持ちいい一日ですね！最近は冷たいレモネードを飲みながら好きな曲を聴いて、夏の気分を満喫しています 🍋🎵 今日もウィズのファンの皆さんと一緒にいられて、本当に幸せです。いつも応援ありがとうございます！","zh":"六月溫暖的微風讓每一天都格外美好！最近我喜歡一邊喝著清涼的檸檬水，一邊聆聽最愛的歌曲，感受夏日的浪漫氣息 🍋🎵 今天也因為有 Wiz 的粉絲們陪伴而感到無比幸福，感謝大家一直以來的支持與應援！"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2026.06.11"},{"type":"video","title":{"ko":"새 Reel 업로드! 🎬","en":"New Reel! 🎬","ja":"新しいReel公開！ 🎬","zh":"新Reel上傳！ 🎬"},"body":{"ko":"새 영상이 업로드됐어요! 인스타그램에서 확인해보세요 👉 @mischguy2","en":"New content just dropped! Head to Instagram to watch it 👉 @mischguy2","ja":"新しい動画が公開されました！Instagramでチェックしてみてください 👉 @mischguy2","zh":"新影片已上傳！快去Instagram看看吧 👉 @mischguy2"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2026.05.15","url":"https://www.instagram.com/mischguy2/"},{"type":"milestone","title":{"ko":"KT Wiz 치어리더 데뷔 🌟","en":"KT Wiz Debut 🌟","ja":"KTウィズデビュー 🌟","zh":"KT Wiz出道 🌟"},"body":{"ko":"KT Wiz 치어리더로 공식 데뷔했어요! 많이 떨렸지만 팬 여러분 덕분에 잘 마칠 수 있었어요. 앞으로 잘 부탁드립니다! 🙏","en":"I made my official debut as a KT Wiz cheerleader! I was so nervous, but the fans carried me through. Please continue to support me 🙏","ja":"KTウィズチアリーダーとして正式デビュー！緊張したけど、ファンの皆さんのおかげで頑張れた 🙏","zh":"正式以KT Wiz啦啦隊員身份出道！很緊張但因為粉絲才能撐過去，請多關照！ 🙏"},"tag":{"ko":"마일스톤","en":"Milestone","ja":"マイルストーン","zh":"里程碑"},"tagClass":"tag-milestone","date":"2026.04.01"},{"type":"greeting","title":{"ko":"김민지의 오늘 하루 인사 👋","en":"Hello from Kim Min-ji! 👋","ja":"Kim Min-jiからのご挨拶 👋","zh":"김민지的今日問候 👋"},"body":{"ko":"안녕하세요! 김민지입니다. 오늘도 최선을 다해 응원할게요. 여러분의 응원이 저에게 가장 큰 힘이에요. 경기장에서 만나요! 💕","en":"Hello everyone, it is Kim Min-ji! I will give my absolute best today. Your cheers fuel me. See you at the game! 💕","ja":"こんにちは！今日も全力で応援します。皆さんの応援が一番の力 💕","zh":"大家好！今天也會全力以赴！你們的加油是我最大的動力 💕"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.06.08"},{"type":"greeting","title":{"ko":"연습 후기: 오늘도 열심히 했어요 💪","en":"Practice update — gave it my all today 💪","ja":"練習レポート：今日も頑張りました 💪","zh":"練習回顧：今天也全力拼了 💪"},"body":{"ko":"오늘 팀 전체 합동 연습이 있었어요! 새 안무가 완성되면 경기장에서 보여드릴게요 🙌","en":"Full team rehearsal today! When the new choreography comes together, the feeling is incredible 🙌","ja":"今日はチーム全体で合同練習！完成したときは嬉しい 🙌","zh":"今天整個團隊合練！完成後真的超有成就感 🙌"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.05.20"}];
+const _posts = [{"type": "greeting", "title": {"ko": "오늘도 힘차게, 함께해요! 🎉", "en": "Let's Power Up Together Today! 🎉", "ja": "今日も元気いっぱい、一緒に盛り上がろう！🎉", "zh": "今天也充滿活力，一起加油！🎉"}, "body": {"ko": "안녕하세요, 위즈팬 여러분! 😊 요즘 동료들이랑 응원 루틴 연습할 때 꼭 신나는 플레이리스트를 틀어놓는데, 그 에너지가 그대로 무대까지 전해지는 것 같아서 너무 좋아요! 오늘도 여러분의 응원이 저희에게 가장 큰 힘이 된답니다, 항상 감사해요! 💪🔴⚫", "en": "Hello, Wiz fans! 😊 Lately, whenever we practice our cheer routines with the team, we always have an upbeat playlist going, and it feels like that energy flows straight onto the stage! Your cheers are always our greatest strength, and we're so grateful for each and every one of you! 💪🔴⚫", "ja": "ウィズファンの皆さん、こんにちは！😊 最近、仲間たちと応援ルーティンを練習するとき、必ず盛り上がるプレイリストをかけているんですが、そのエネルギーがそのままステージに伝わる感じでとっても嬉しいです！いつも皆さんの応援が私たちの一番の力になっています、本当にありがとうございます！💪🔴⚫", "zh": "哈囉，所有威茲球迷！😊 最近和夥伴們練習應援套路的時候，總是會播放超嗨的播放清單，感覺那股能量直接傳到舞台上，真的超棒的！大家的加油聲永遠是我們最大的力量，非常感謝你們！💪🔴⚫"}, "tag": {"ko": "일일 인사", "en": "Daily Greeting", "ja": "デイリーグリーティング", "zh": "每日問候"}, "tagClass": "tag-greeting", "date": "2026.06.17"},{"type":"video","title":{"ko":"새 Reel 업로드! 🎬","en":"New Reel! 🎬","ja":"新しいReel公開！ 🎬","zh":"新Reel上傳！ 🎬"},"body":{"ko":"새 영상이 업로드됐어요! 인스타그램에서 확인해보세요 👉 @mischguy2","en":"New content just dropped! Head to Instagram to watch it 👉 @mischguy2","ja":"新しい動画が公開されました！Instagramでチェックしてみてください 👉 @mischguy2","zh":"新影片已上傳！快去Instagram看看吧 👉 @mischguy2"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2026.05.15","url":"https://www.instagram.com/mischguy2/"},{"type":"milestone","title":{"ko":"KT Wiz 치어리더 데뷔 🌟","en":"KT Wiz Debut 🌟","ja":"KTウィズデビュー 🌟","zh":"KT Wiz出道 🌟"},"body":{"ko":"KT Wiz 치어리더로 공식 데뷔했어요! 많이 떨렸지만 팬 여러분 덕분에 잘 마칠 수 있었어요. 앞으로 잘 부탁드립니다! 🙏","en":"I made my official debut as a KT Wiz cheerleader! I was so nervous, but the fans carried me through. Please continue to support me 🙏","ja":"KTウィズチアリーダーとして正式デビュー！緊張したけど、ファンの皆さんのおかげで頑張れた 🙏","zh":"正式以KT Wiz啦啦隊員身份出道！很緊張但因為粉絲才能撐過去，請多關照！ 🙏"},"tag":{"ko":"마일스톤","en":"Milestone","ja":"マイルストーン","zh":"里程碑"},"tagClass":"tag-milestone","date":"2026.04.01"},{"type":"greeting","title":{"ko":"김민지의 오늘 하루 인사 👋","en":"Hello from Kim Min-ji! 👋","ja":"Kim Min-jiからのご挨拶 👋","zh":"김민지的今日問候 👋"},"body":{"ko":"안녕하세요! 김민지입니다. 오늘도 최선을 다해 응원할게요. 여러분의 응원이 저에게 가장 큰 힘이에요. 경기장에서 만나요! 💕","en":"Hello everyone, it is Kim Min-ji! I will give my absolute best today. Your cheers fuel me. See you at the game! 💕","ja":"こんにちは！今日も全力で応援します。皆さんの応援が一番の力 💕","zh":"大家好！今天也會全力以赴！你們的加油是我最大的動力 💕"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.06.08"},{"type":"greeting","title":{"ko":"연습 후기: 오늘도 열심히 했어요 💪","en":"Practice update — gave it my all today 💪","ja":"練習レポート：今日も頑張りました 💪","zh":"練習回顧：今天也全力拼了 💪"},"body":{"ko":"오늘 팀 전체 합동 연습이 있었어요! 새 안무가 완성되면 경기장에서 보여드릴게요 🙌","en":"Full team rehearsal today! When the new choreography comes together, the feeling is incredible 🙌","ja":"今日はチーム全体で合同練習！完成したときは嬉しい 🙌","zh":"今天整個團隊合練！完成後真的超有成就感 🙌"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.05.20"}];
 let _af = 'all';
 const _bi = {
   sec:{ko:'개인 블로그',en:'Personal Blog',ja:'個人ブログ',zh:'個人部落格'},
@@ -317,25 +321,9 @@ function renderBlogPosts(lang){
 
 // ===== PHOTOS TAB =====
 const _photos = [
-  'https://www.instagram.com/reel/DYFtaO7BC1s/',
-  'https://www.instagram.com/reel/DXAi8N_EgYH/',
-  'https://www.instagram.com/reel/DWL8J4Zkoni/'
+  'https://www.instagram.com/mischguy2/',
 ]; // n8n automation: populate with Instagram post URLs
 
-function _mkFpLang(lang) {
-  if(document.getElementById('fp-'+lang)) return;
-  if(lang!=='ja'&&lang!=='zh') return;
-  const pc=document.getElementById('fullProfileContent');
-  if(!pc) return;
-  const bio=document.querySelector('[data-bio="'+lang+'"]');
-  if(!bio) return;
-  const el=document.createElement('div');
-  el.id='fp-'+lang;
-  el.style.display='none';
-  el.innerHTML='<div class="post-body-inline"><p>'+bio.textContent.trim()+'</p></div>';
-  const ref=pc.querySelector('[style*="text-align:right"]')||pc.lastElementChild;
-  pc.insertBefore(el,ref);
-}
 function setLang(lang) {
   localStorage.setItem('kolexLang', lang);
   // Update display name
@@ -350,12 +338,12 @@ function setLang(lang) {
   // Update profile button text
   const pb = document.getElementById('fullProfileBtnTxt');
   if(pb) pb.textContent = lang==='ko'?'PROFILE ↓':lang==='ja'?'プロフィール ↓':lang==='zh'?'個人資料 ↓':'PROFILE ↓';
-  // Toggle short bio text by language
+  // Toggle bio text by language
   document.querySelectorAll('[data-bio]').forEach(el => {
     el.style.display = (el.getAttribute('data-bio') === lang) ? 'block' : 'none';
   });
-  // Show correct language profile block (create fp-ja/fp-zh if needed)
-  _mkFpLang(lang);
+  if(!document.querySelector('[data-bio="'+lang+'"')){const fbBio=document.querySelector('[data-bio="en"]');if(fbBio)fbBio.style.display='block';}
+  // Show correct language profile block
   ['ko','en','ja','zh'].forEach(l => {
     const el = document.getElementById('fp-' + l);
     if(el) el.style.display = (l === lang) ? 'block' : 'none';
@@ -378,12 +366,10 @@ function switchFpTab(tab) {
     if(photosPanel) photosPanel.style.display = 'none';
     if(!open) {
       const lang = localStorage.getItem('kolexLang') || 'ko';
-      _mkFpLang(lang);
       ['ko','en','ja','zh'].forEach(l => {
         const el = document.getElementById('fp-' + l);
         if(el) el.style.display = (l === lang) ? 'block' : 'none';
       });
-      if(!document.getElementById('fp-'+lang)){const fb=document.getElementById('fp-en')||document.getElementById('fp-ko');if(fb)fb.style.display='block';}
     }
   } else if (tab === 'photos') {
     const open = photosPanel && photosPanel.style.display !== 'none';
