@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kim Hae-ri | KOLEX Cheerleaders</title>
-  <meta name="description" content="Profile of Kim Hae-ri (김해리) - KOLEX Cheerleader since 2019. 548.7K Instagram followers." />
+  <meta name="description" content="Profile of Kim Hae-ri (김해리) - KOLEX Cheerleader since 2019. 547K Instagram followers." />
   <link rel="canonical" href="https://koreacheerleaders.com/cheerleaders/kim-haeri.html" />
   <meta name="google" content="notranslate" />
   <style>
@@ -117,7 +117,7 @@
       <p class="name-ko">김해리 · Born 1999 · 173cm</p>
       <div class="role-badge" id="roleText">Cheerleader</div>
       <div class="stats-row">
-        <div class="stat-pill"><div class="sv">📱 548.7K</div><div class="sk">Followers</div></div>
+        <div class="stat-pill"><div class="sv">📱 547K</div><div class="sk">Followers</div></div>
         <div class="stat-pill"><div class="sv">📅 2019</div><div class="sk">Active Since</div></div>
         <div class="stat-pill"><div class="sv">173cm</div><div class="sk">Height</div></div>
       </div>
@@ -289,6 +289,7 @@ function renderBlogPosts(lang){
     const realIdx=_posts.indexOf(p);
     const k='lk_'+location.pathname+'_'+realIdx;
     const lk=!!localStorage.getItem(k);
+    const vUrl=(p.type==='video'&&_photos[0]&&!(p.url||'').match(/\/(p|reel)\//)? _photos[0].url:p.url);
     return `<div style="background:#111118;border:1px solid #2a2a3e;border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.borderColor='rgba(255,31,69,.4)'" onmouseout="this.style.transform='';this.style.borderColor='#2a2a3e'">
       <div style="padding:.7rem 1rem;border-bottom:1px solid #1e1e2e;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.4rem;">
         <div style="display:flex;align-items:center;gap:.35rem;flex-wrap:wrap;">
@@ -305,7 +306,7 @@ function renderBlogPosts(lang){
         <button onclick="_like(${realIdx},this)" style="background:none;border:none;cursor:pointer;display:flex;align-items:center;gap:4px;color:${lk?'var(--red)':'#666'};font-size:.75rem;padding:0;">
           <span class="lh">${lk?'❤️':'🤍'}</span><span class="lc">1</span>
         </button>
-        ${p.url ? `<a href="${p.url}" target="_blank" rel="noopener" style="font-size:.72rem;color:var(--red);font-weight:700;padding:0;text-decoration:none;">${_bi.rm[lang]||'더 읽기 →'}</a>` : `<button onclick="_openModal(${realIdx})" style="background:none;border:none;cursor:pointer;font-size:.72rem;color:var(--red);font-weight:700;padding:0;">${_bi.rm[lang]||'더 읽기 →'}</button>`}
+        ${vUrl ? `<a href="${vUrl}" target="_blank" rel="noopener" style="font-size:.72rem;color:var(--red);font-weight:700;padding:0;text-decoration:none;">${_bi.rm[lang]||'더 읽기 →'}</a>` : `<button onclick="_openModal(${realIdx})" style="background:none;border:none;cursor:pointer;font-size:.72rem;color:var(--red);font-weight:700;padding:0;">${_bi.rm[lang]||'더 읽기 →'}</button>`}
       </div>
     </div>`;
   }).join('')||`<p style="color:#666;font-size:.85rem;padding:.5rem 0;">포스트 준비 중...</p>`;
@@ -322,10 +323,8 @@ function renderBlogPosts(lang){
 
 // ===== PHOTOS TAB =====
 const _photos = [
-{"url":"https://www.instagram.com/reel/DZe_iddNJ59/","thumb":"https://scontent-fra3-1.cdninstagram.com/v/t51.71878-15/722702782_1005483678733344_2640498904174485935_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=TYwRtOr21NoQ7kNvwGZ7Mqc&_nc_oc=AdpSoT_huhCByRIJ0C3H1SHyyZ_PusZEK30Y6oL5mqSX416-nMF0d7_5sSJFE7tRWyk&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=AbdO6JTKeD9nrxXj-Zvp-A&_nc_tpa=Q5bMBQEkXfpxehpR-CUtRFySDwyEsaWsc3SLi9bq5ifb4i8ubLqQVJba1FaacqP7Njydsmosmvsu84VZzw&oh=00_Af_9jQKXL6O_UmfalyXnTTNXEC1AGdpCB05Afwpf0HvjUw&oe=6A37CA34"},
-{"url":"https://www.instagram.com/reel/DZenhe5Nm5n/","thumb":"https://scontent-fra5-1.cdninstagram.com/v/t51.71878-15/722956141_1340691448128193_3812773690717113766_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=q-9mXKB0eSkQ7kNvwE1WADE&_nc_oc=AdrFxKrOXBcsF9ltjC9YwaftAwnZxgiTGpIsxFjMbz1mXRKjJwwDsYm7aukPHlf204k&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=AbdO6JTKeD9nrxXj-Zvp-A&_nc_tpa=Q5bMBQFDcEq1kjzSmTUrnHGv8dIwGUpsEnNuSkmuxTGQk9VxHcZE7_DQQnnvAeYTXYoStMxwyWGlrZmXAA&oh=00_Af_j3H1d8xirjm43cEQNLRmhQjAVaV1p5bWth9By9ODK2g&oe=6A37CA19"},
-{"url":"https://www.instagram.com/reel/DZc2qK5t1cU/","thumb":"https://scontent-fra3-1.cdninstagram.com/v/t51.71878-15/723131161_1325722346423808_4596745812393390018_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=kHPhpETvx28Q7kNvwHNv2gA&_nc_oc=AdrCUbuQn3TQ04n846O6iKGQq0XJOLqyMlr2lsSOVWT-NIpLpP55RgPBbDb_taT8sMk&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=AbdO6JTKeD9nrxXj-Zvp-A&_nc_tpa=Q5bMBQFr9jGTSNvAJpPgbyTNad0eDmq8pNCWtSzov_JHAPT6vdqjaGIDIXnTZJymQnYBNuuEKIWf_BXGIA&oh=00_Af8EvjUcQ1dOvguaBxIFbMh8XM-si3dYimaxtMBUwVA-YQ&oe=6A37DBDC"},
-] // n8n automation: populate with Instagram post URLs
+  'https://www.instagram.com/you_r_hr/',
+]; // n8n automation: populate with Instagram post URLs
 
 function setLang(lang) {
   localStorage.setItem('kolexLang', lang);
@@ -346,6 +345,7 @@ function setLang(lang) {
     const el = document.getElementById('fp-' + l);
     if(el) el.style.display = (l === lang) ? 'block' : 'none';
   });
+  if(!document.getElementById('fp-'+lang)){const fb=document.getElementById('fp-en')||document.getElementById('fp-ko');if(fb)fb.style.display='block';}
   // Highlight active lang button
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.classList.toggle('active', btn.textContent.toLowerCase().includes(lang) || 
