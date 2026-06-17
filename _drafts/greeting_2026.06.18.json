@@ -1,0 +1,398 @@
+[
+  {
+    "member_id": "shin-sehee",
+    "name_ko": "신세희",
+    "name_en": "Shin Se-hee",
+    "instagram": "se_heee2e",
+    "file_path": "cheerleaders/shin-sehee.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.18",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "오늘도 힘차게, 건강하게! 🌟",
+        "en": "Stay Strong, Stay Healthy Today! 🌟",
+        "ja": "今日も元気に、健やかに！🌟",
+        "zh": "今天也活力滿滿、健康快樂！🌟"
+      },
+      "body": {
+        "ko": "안녕하세요, 위즈 팬 여러분! 저는 KOLEX 팀장 신세희입니다 😊 오늘도 최고의 퍼포먼스를 위해 아침부터 스트레칭과 충분한 수분 섭취로 컨디션 관리를 시작했어요! 팬 여러분도 오늘 하루 건강 챙기시고, 저희 KOLEX와 함께 즐거운 하루 보내세요 💛❤️",
+        "en": "Hello, Wiz fans! I'm Shin Se-hee, team leader of KOLEX 😊 I've already started my day with some good stretching and plenty of water to keep my condition at its best! I hope you all take good care of your health today too, and let's make it a wonderful day together with KOLEX 💛❤️",
+        "ja": "こんにちは、Wizファンの皆さん！KOLEXチームリーダーのシン・セヒです 😊 今日も最高のパフォーマンスのために、朝からストレッチと水分補給でコンディション管理をスタートしました！皆さんも今日一日、健康に気をつけて、KOLEXと一緒に素敵な一日をお過ごしください 💛❤️",
+        "zh": "大家好，我是KOLEX隊長申世熙 😊 為了今天能展現最佳狀態，我一早就開始做伸展運動並充分補充水分來調整身體狀況！希望各位Wiz球迷今天也好好照顧自己的健康，讓我們一起和KOLEX度過美好的一天吧 💛❤️"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.18"
+    }
+  },
+  {
+    "member_id": "kim-jina",
+    "name_ko": "김진아",
+    "name_en": "Kim Jin-a",
+    "instagram": "jjina_v0v",
+    "file_path": "cheerleaders/kim-jina.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.18",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "오늘도 함께라서 더 빛나요 ✨",
+        "en": "Shining Brighter Together Today ✨",
+        "ja": "今日も一緒だからもっと輝ける ✨",
+        "zh": "今天因為有你更加閃耀 ✨"
+      },
+      "body": {
+        "ko": "안녕하세요, 위즈 팬 여러분! 💕 소중한 팀원이 오늘도 최고의 모습으로 무대를 빛낼 수 있도록 저도 온 마음을 다해 응원하고 있어요. 서로 힘이 되어주는 동료가 있다는 것, 정말 큰 행복이랍니다! 팬 여러분도 오늘 하루 건강하고 활기차게 보내세요 🩷",
+        "en": "Hello, Wiz fans! 💕 I'm cheering with all my heart so that our wonderful teammate can shine her very best on stage today. Having a teammate who gives you strength is truly one of the greatest joys! Wishing all of you a healthy and energetic day as well 🩷",
+        "ja": "こんにちは、Wizファンのみなさん！💕 大切なチームメンバーが今日も最高の姿でステージを輝かせられるよう、私も全力で応援しています。お互いに力を与え合える仲間がいることって、本当に大きな幸せですよね！ファンのみなさんも今日一日、健やかで元気にお過ごしください 🩷",
+        "zh": "大家好，Wiz的球迷們！💕 我全心全意為珍貴的隊友加油打氣，希望她今天也能在舞台上閃耀出最美的光芒。能有一位互相給予力量的夥伴，真的是莫大的幸福呢！也祝福各位球迷今天健康滿滿、活力充沛 🩷"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.18"
+    }
+  },
+  {
+    "member_id": "kim-hanseul",
+    "name_ko": "김한슬",
+    "name_en": "Kim Han-seul",
+    "instagram": "kim_han_seul",
+    "file_path": "cheerleaders/kim-hanseul.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.18",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "안녕하세요, 오늘도 활기차게! 🎉",
+        "en": "Hello, Stay Energized Today! 🎉",
+        "ja": "こんにちは、今日も元気いっぱいに！🎉",
+        "zh": "您好，今天也充滿活力！🎉"
+      },
+      "body": {
+        "ko": "안녕하세요, 위즈 팬 여러분! 💕 여러분의 따뜻한 응원 덕분에 팀원들과 함께 매일 최선을 다할 수 있어요. 오늘도 서로 건강 잘 챙기면서 함께 힘차게 나아가요! 🔴⚫",
+        "en": "Hello, Wiz fans! 💕 Thanks to your warm cheers, all of us on the team can give our very best every single day. Let's take good care of our health and keep moving forward together today too! 🔴⚫",
+        "ja": "こんにちは、ウィズファンの皆さん！💕 皆さんの温かい応援のおかげで、チームメンバー全員が毎日全力を尽くせています。今日もお互い体に気をつけながら、一緒に元気よく前に進みましょう！🔴⚫",
+        "zh": "您好，Wiz球迷們！💕 因為有大家溫暖的加油聲，我們所有團隊成員才能每天全力以赴。今天也請大家好好保重身體，讓我們一起充滿活力地向前邁進吧！🔴⚫"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.18"
+    }
+  },
+  {
+    "member_id": "kim-haeri",
+    "name_ko": "김해리",
+    "name_en": "Kim Hae-ri",
+    "instagram": "you_r_hr",
+    "file_path": "cheerleaders/kim-haeri.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.18",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "오늘도 함께해줘서 고마워요! 🧡",
+        "en": "Thank you for being with us today! 🧡",
+        "ja": "今日も一緒にいてくれてありがとう！🧡",
+        "zh": "謝謝你今天也陪伴著我們！🧡"
+      },
+      "body": {
+        "ko": "안녕하세요, 위즈팬 여러분! 요즘 팀원들과 함께 연습 분위기가 정말 뜨겁게 달아오르고 있어요. 서로 응원하며 더 좋은 무대를 만들기 위해 매일 최선을 다하고 있으니, 우리를 향한 따뜻한 응원 언제나 큰 힘이 됩니다! 💪🔥",
+        "en": "Hello, WizFans! These days, the practice atmosphere with our teammates is absolutely on fire. We cheer each other on every single day, working hard to bring you an even better performance, and your warm support always gives us the greatest strength! 💪🔥",
+        "ja": "こんにちは、ウィズファンの皆さん！最近、チームメンバーたちと練習の雰囲気がとても熱く盛り上がっています。お互いを応援しながら、より良いステージを作るために毎日全力を尽くしていますので、皆さんの温かい応援がいつも大きな力になります！💪🔥",
+        "zh": "嗨，Wiz球迷們！最近和隊員們一起練習的氣氛非常熱烈。我們每天互相加油打氣，努力為大家呈現更棒的表演，你們溫暖的應援永遠是我們最大的力量！💪🔥"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.18"
+    }
+  },
+  {
+    "member_id": "lee-geumju",
+    "name_ko": "이금주",
+    "name_en": "Lee Geum-ju",
+    "instagram": "2geum_j._.j",
+    "file_path": "cheerleaders/lee-geumju.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.18",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "오늘도 건강하게, 활기차게! 🌟",
+        "en": "Stay Healthy and Full of Energy Today! 🌟",
+        "ja": "今日も元気に、健やかに！🌟",
+        "zh": "今天也要健康活力滿滿！🌟"
+      },
+      "body": {
+        "ko": "안녕하세요, 위즈 팬 여러분! 저는 요즘 팀원들과 함께 컨디션 관리에 더욱 신경 쓰고 있어요. 충분한 휴식과 스트레칭으로 항상 최고의 모습을 보여드릴게요. 오늘도 여러분의 하루가 밝고 에너지 넘치길 응원합니다! 💛❤️",
+        "en": "Hello, Wiz fans! These days, my teammates and I are paying extra attention to managing our condition and staying healthy. With plenty of rest and stretching, we'll always show you our very best! Wishing you a bright and energetic day today! 💛❤️",
+        "ja": "こんにちは、Wizファンの皆さん！最近はチームメンバーと一緒にコンディション管理により気をつけています。十分な休息とストレッチで、いつも最高の姿をお見せしますね。今日も皆さんの1日が明るくエネルギーに満ちますように！💛❤️",
+        "zh": "哈囉，Wiz球迷們！最近我和隊員們一起更加注重體能狀態的管理與健康維持。透過充足的休息和伸展運動，我們會一直展現最好的一面給大家！祝福各位今天也活力充沛、開心滿滿！💛❤️"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.18"
+    }
+  },
+  {
+    "member_id": "lee-yebin",
+    "name_ko": "이예빈",
+    "name_en": "Lee Ye-bin",
+    "instagram": "1eeyebin_",
+    "file_path": "cheerleaders/lee-yebin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.18",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "안녕하세요, 오늘도 활기차게! 🌟",
+        "en": "Hello, Stay Bright Today! 🌟",
+        "ja": "こんにちは、今日も元気いっぱい！🌟",
+        "zh": "您好，今天也活力滿滿！🌟"
+      },
+      "body": {
+        "ko": "안녕하세요, 여러분! 팀원들과 함께 컨디션 관리에 더욱 신경 쓰며 하루하루 최선을 다하고 있어요. 항상 응원해 주시는 팬 여러분 덕분에 오늘도 힘차게 달릴 수 있답니다! 💪🍒",
+        "en": "Hello, everyone! Together with my teammates, I'm taking extra care of my health and well-being every single day. Thanks to your unwavering support, I'm ready to give my all today too! 💪🍒",
+        "ja": "みなさん、こんにちは！チームメンバーと一緒に体調管理に気をつけながら、毎日全力で頑張っています。いつも応援してくださるファンの皆さんのおかげで、今日も元気いっぱい走り続けられます！💪🍒",
+        "zh": "大家好！我和團隊夥伴們一起注重健康管理，每一天都全力以赴。感謝一直為我們加油的粉絲們，讓我今天也能充滿活力地向前衝！💪🍒"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.18"
+    }
+  },
+  {
+    "member_id": "jeong-huijeong",
+    "name_ko": "정희정",
+    "name_en": "Jeong Hui-jeong",
+    "instagram": "_jung_u",
+    "file_path": "cheerleaders/jeong-huijeong.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.18",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "오늘도 최고의 하루를 함께해요! 🎉",
+        "en": "Let's Make Today the Best Day Together! 🎉",
+        "ja": "今日も最高の一日を一緒に！🎉",
+        "zh": "今天也一起度過最棒的一天！🎉"
+      },
+      "body": {
+        "ko": "안녕하세요, 위즈 팬 여러분! 😊 동료와 함께 매일 몸 상태를 꼼꼼히 체크하며 항상 최상의 모습으로 여러분 앞에 설 수 있도록 건강 관리에 힘쓰고 있어요. 오늘도 활짝 웃는 에너지로 여러분께 힘찬 응원을 전할게요! 💪🔴⚫",
+        "en": "Hello, WIZ fans! 😊 Together with my teammates, I make sure to check on our well-being every day so we can always show up at our very best for you. Today, too, I'll be bringing you the brightest energy and cheers! 💪🔴⚫",
+        "ja": "こんにちは、WIZファンの皆さん！😊 チームメンバーと一緒に毎日体調をしっかり確認しながら、いつでも最高の姿をお見せできるよう健康管理を頑張っています。今日も元気いっぱいの笑顔でみなさんに応援をお届けします！💪🔴⚫",
+        "zh": "大家好，WIZ球迷們！😊 我和團隊夥伴們每天認真確認身體狀況，努力保持最佳狀態出現在大家面前。今天也要帶著滿滿的笑容與活力，為大家加油打氣！💪🔴⚫"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.18"
+    }
+  },
+  {
+    "member_id": "lee-seoyun",
+    "name_ko": "이서윤",
+    "name_en": "Lee Seo-yun",
+    "instagram": "tjdbs__06",
+    "file_path": "cheerleaders/lee-seoyun.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.18",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "오늘도 최선을 다해 응원할게요! 🔥",
+        "en": "Cheering for You with Everything I've Got Today! 🔥",
+        "ja": "今日も全力で応援します！🔥",
+        "zh": "今天也全力為你加油！🔥"
+      },
+      "body": {
+        "ko": "안녕하세요, 위즈 팬 여러분! 오늘도 동료들과 함께 최고의 무대를 만들겠다는 다짐으로 하루를 시작했어요. 우리가 함께라면 어떤 순간도 빛날 수 있다고 믿어요. 오늘도 힘찬 응원, 함께해 주세요! 💛❤️",
+        "en": "Hello, WIZ fans! Today, I started the day with a firm promise to myself — to create the most amazing moment on the field alongside my teammates. I truly believe that when we're together, every single moment shines. Let's cheer with all our hearts today! 💛❤️",
+        "ja": "こんにちは、WIZファンの皆さん！今日は仲間たちと一緒に最高の舞台を作ろうという決意を胸に一日をスタートしました。みんなが一緒なら、どんな瞬間も輝けると信じています。今日も熱い応援、よろしくお願いします！💛❤️",
+        "zh": "嗨，WIZ球迷們！今天我帶著與隊友們共同打造最棒舞台的決心開始了新的一天。我相信，只要我們在一起，每一個瞬間都能閃閃發光。今天也請大家一起熱情加油！💛❤️"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.18"
+    }
+  },
+  {
+    "member_id": "kim-gahyun",
+    "name_ko": "김가현",
+    "name_en": "Kim Ga-hyun",
+    "instagram": "keemgahyun",
+    "file_path": "cheerleaders/kim-gahyun.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.18",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "오늘도 활기차게, 함께해요! 🎉",
+        "en": "Stay Energized Together Today! 🎉",
+        "ja": "今日も元気いっぱい、一緒に盛り上がろう！🎉",
+        "zh": "今天也活力滿滿，一起加油！🎉"
+      },
+      "body": {
+        "ko": "안녕하세요, 위즈팬 여러분! 😊 오늘도 최고의 에너지로 여러분 곁에 있을게요! 요즘 동료들이랑 컨디션 관리에 진심인데, 맛있는 간식 한 입이 하루의 활력이 되더라고요 🍡 오늘 하루도 건강하고 즐겁게 보내세요!",
+        "en": "Hello, Wiz fans! 😊 We're here for you today with the best energy we've got! Lately, our teammates and I have been really serious about staying in top condition — and honestly, a little tasty snack goes a long way in keeping the energy up 🍡 Have a healthy and wonderful day!",
+        "ja": "こんにちは、ウィズファンの皆さん！😊 今日も最高のエネルギーで皆さんのそばにいますよ！最近、チームメイトとコンディション管理に真剣に取り組んでいて、美味しいおやつ一口がその日の活力になるって実感しています🍡 今日も元気で楽しい一日をお過ごしください！",
+        "zh": "大家好，威茲球迷們！😊 今天也要以最棒的活力陪伴在你們身邊！最近和團隊夥伴們都很認真管理狀態，發現一口美味的小點心真的能為一整天注入能量呢🍡 希望大家今天也健康快樂！"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.18"
+    }
+  },
+  {
+    "member_id": "kye-yujin",
+    "name_ko": "계유진",
+    "name_en": "Kye Yu-jin",
+    "instagram": "kyeyujin",
+    "file_path": "cheerleaders/kye-yujin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.18",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "오늘도 최고의 컨디션으로 여러분 곁에! 🎉",
+        "en": "Here with You at Our Best Today! 🎉",
+        "ja": "今日も最高のコンディションでみなさんのそばに！🎉",
+        "zh": "今天也以最佳狀態陪伴大家！🎉"
+      },
+      "body": {
+        "ko": "안녕하세요, 팬 여러분! 팀원들과 함께 컨디션 관리에 집중하면서 늘 활기찬 응원을 전할 준비를 하고 있어요. 건강을 꼼꼼히 챙기는 것이 최고의 응원을 선물하는 첫걸음이라고 믿거든요! 오늘도 여러분의 하루가 빛나길 바라며, KT Wiz와 함께 힘차게 달려봐요! 💪❤️",
+        "en": "Hello, dear fans! Our team members are focusing on staying in great condition so we can always cheer with the most energy for you. We truly believe that taking good care of our health is the very first step to delivering the best cheers possible! Wishing you a bright and wonderful day — let's go together with KT Wiz! 💪❤️",
+        "ja": "ファンのみなさん、こんにちは！チームメンバー一同、コンディション管理に力を入れながら、いつも全力の応援をお届けできるよう準備しています。健康をしっかり整えることが、最高の応援への第一歩だと信じています！今日も皆さんの一日が輝きますように。KT Wizと一緒に元気よく進みましょう！💪❤️",
+        "zh": "親愛的球迷朋友們，大家好！我們的團隊夥伴們正專注於調整最佳狀態，隨時準備以滿滿活力為大家加油打氣。我們相信，用心照顧好自己的健康，才是獻上最棒應援的第一步！祝大家今天也閃閃發光，讓我們與KT Wiz一起全力以赴！💪❤️"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.18"
+    }
+  },
+  {
+    "member_id": "kwon-gayoung",
+    "name_ko": "권가영",
+    "name_en": "Kwon Ga-young",
+    "instagram": "yo_ung__vely",
+    "file_path": "cheerleaders/kwon-gayoung.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.18",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "건강하게, 활기차게! 오늘도 함께해요 🎀",
+        "en": "Stay Healthy, Stay Bright! Let's Cheer Together Today 🎀",
+        "ja": "健やかに、元気よく！今日も一緒に盛り上がろう 🎀",
+        "zh": "健康活力！今天也一起加油吧 🎀"
+      },
+      "body": {
+        "ko": "안녕하세요, 여러분! 팀원들과 함께 요즘 컨디션 관리에 특히 신경 쓰고 있어요. 잘 먹고, 잘 자고, 잘 움직이는 게 최고라는 걸 다시 한번 느끼는 요즘이에요. 오늘도 여러분 모두 몸 건강 챙기시고, 활짝 웃는 하루 되세요! 💕",
+        "en": "Hello, everyone! These days, my teammates and I are paying extra attention to staying in great shape. Eating well, sleeping well, and keeping active — I'm reminded all over again how important it all is! Take good care of yourselves today and keep that bright smile going! 💕",
+        "ja": "みなさん、こんにちは！最近はチームのみんなとコンディション管理に特に気をつけています。よく食べて、よく寝て、よく動くことが一番だと改めて感じている今日この頃です。今日も皆さん、体に気をつけて、笑顔いっぱいの一日をお過ごしください！💕",
+        "zh": "大家好！最近我和隊友們都特別注意保持良好的身體狀態。好好吃飯、好好睡覺、保持活動——再次深刻感受到這些有多重要！今天也請大家好好照顧自己，帶著燦爛的笑容度過美好的一天吧！💕"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.18"
+    }
+  },
+  {
+    "member_id": "kim-minji",
+    "name_ko": "김민지",
+    "name_en": "Kim Min-ji",
+    "instagram": "mischguy2",
+    "file_path": "cheerleaders/kim-minji.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.18",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "오늘도 활기차게, 건강하게! 🌟",
+        "en": "Stay Energetic and Healthy Today! 🌟",
+        "ja": "今日も元気いっぱい、健康に！🌟",
+        "zh": "今天也活力滿滿、健康快樂！🌟"
+      },
+      "body": {
+        "ko": "안녕하세요, 여러분! 저는 오늘도 동료들과 함께 최선을 다해 응원 준비를 하고 있어요 💪 바쁜 일상 속에서도 스트레칭과 충분한 수분 보충으로 컨디션 관리를 꼼꼼히 챙기는 것이 저만의 루틴이랍니다! 오늘 하루도 여러분 모두 건강하고 에너지 넘치는 하루 보내세요 🧡⚾",
+        "en": "Hello, everyone! Today as well, I'm preparing our best cheers together with my teammates 💪 Even in the midst of our busy days, taking care of my condition through stretching and staying well-hydrated is my personal routine! Wishing you all a healthy and energetic day today 🧡⚾",
+        "ja": "みなさん、こんにちは！今日もチームメンバーと一緒に、全力で応援の準備をしています💪 忙しい毎日の中でも、ストレッチと十分な水分補給でコンディション管理をしっかり行うのが私のルーティンです！今日も皆さんが健康で元気いっぱいな一日を過ごせますように🧡⚾",
+        "zh": "大家好！今天我也和隊友們一起全力準備加油助威💪 即使在忙碌的日常中，透過伸展運動和充分補充水分來管理身體狀態，是我個人的固定習慣！祝大家今天也健康滿滿、活力充沛🧡⚾"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.18"
+    }
+  }
+]
