@@ -322,9 +322,23 @@ function renderBlogPosts(lang){
 
 
 // ===== PHOTOS TAB =====
-const _photos = [
-  'https://www.instagram.com/jjina_v0v/',
-]; // n8n automation: populate with Instagram post URLs
+const _photos = [{"url":"https://www.instagram.com/p/DZpIzusEce5/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/724858449_18598781419000110_1830312090229116752_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&_nc_aid=0&efg=eyJlZmdfdGFuIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=vM8Fc7nC0aYQ7kNvwHkSe6M&_nc_oc=Adr7gPJR6oeM_lCoqjlLkXiI8eakWWrdTzFpqMZOJsj1so3Y6YVNPEzg5wOprHXX4fU&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_Af8U-IqrKtJVtX5KdXK38KCTan7YUBPanx7cSFQMXI8hsQ&oe=6A37E1B6"},{"url":"https://www.instagram.com/p/DZmtLnoAcuC/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/722986408_18598521103000110_3575440182157824048_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&_nc_aid=0&efg=eyJlZmdfdGFuIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=CxtOY__oOHcQ7kNvwFjHMNx&_nc_oc=AdpDJKO1vk6Inl3FTBpsY-KePw5oQ2608aQAn-F-Le_JmxdEiMcc2lFvjKOy6EKazkw&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_Af8JsN_iaihbgz_yw8ApKyx6skeSS12Q_HkPC5J9WO0vLw&oe=6A37D4A3"},{"url":"https://www.instagram.com/p/DZSWNo-Ek_Z/","thumb":"https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/718659695_18596285872000110_4191862928508580533_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&_nc_aid=0&efg=eyJlZmdfdGFuIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=XDTkPOvHzO8Q7kNvwFzcUJw&_nc_oc=Ado_u4NFha3xkL32JoXsFcZVC6oIXXxLbYxUSdC-s1XPaRDkRkO019uWU5y6ODCakPE&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_Af_RQkDsM25m3JjfxqK6S5EkfAWMx3HRHbQjUzLuAltRVg&oe=6A37EF28"}]
+// n8n automation: populate with Instagram post URLs
+
+function _mkFpLang(lang) {
+  if(document.getElementById('fp-'+lang)) return;
+  if(lang!=='ja'&&lang!=='zh') return;
+  const pc=document.getElementById('fullProfileContent');
+  if(!pc) return;
+  const bio=document.querySelector('[data-bio="'+lang+'"]');
+  if(!bio) return;
+  const el=document.createElement('div');
+  el.id='fp-'+lang;
+  el.style.display='none';
+  el.innerHTML='<div class="post-body-inline"><p>'+bio.textContent.trim()+'</p></div>';
+  const ref=pc.querySelector('[style*="text-align:right"]')||pc.lastElementChild;
+  pc.insertBefore(el,ref);
+}
 
 function setLang(lang) {
   localStorage.setItem('kolexLang', lang);
@@ -346,6 +360,7 @@ function setLang(lang) {
   });
   if(!document.querySelector('[data-bio="'+lang+'"')){const fbBio=document.querySelector('[data-bio="en"]');if(fbBio)fbBio.style.display='block';}
   // Show correct language profile block
+  _mkFpLang(lang);
   ['ko','en','ja','zh'].forEach(l => {
     const el = document.getElementById('fp-' + l);
     if(el) el.style.display = (l === lang) ? 'block' : 'none';
@@ -368,6 +383,7 @@ function switchFpTab(tab) {
     if(photosPanel) photosPanel.style.display = 'none';
     if(!open) {
       const lang = localStorage.getItem('kolexLang') || 'ko';
+      _mkFpLang(lang);
       ['ko','en','ja','zh'].forEach(l => {
         const el = document.getElementById('fp-' + l);
         if(el) el.style.display = (l === lang) ? 'block' : 'none';

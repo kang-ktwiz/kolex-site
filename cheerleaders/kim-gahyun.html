@@ -323,9 +323,23 @@ function renderBlogPosts(lang){
 
 
 // ===== PHOTOS TAB =====
-const _photos = [
-  'https://www.instagram.com/keemgahyun/',
-]; // n8n automation: populate with Instagram post URLs
+const _photos = [{"url":"https://www.instagram.com/p/DZmt8c1gZNm/","thumb":"https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/724242905_18556167658070388_8628891020945980999_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFuIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=MWXlSWLqUegQ7kNvwEbvE71&_nc_oc=AdqFRTQzS44X7PDkoUaNV_tQqY_2zKlo4yIigjBfCkdPUSmhtBzSABuaw7eoEBRZkGs&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_Af8TE-PXBr1An8w_WaZWoa8EVwJzjZRtD2SrdMHQaWFwkQ&oe=6A37DB05"},{"url":"https://www.instagram.com/reel/DZZ_mvzBYUI/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.71878-15/720647326_27197174549942783_6948712530248730655_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFuIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=XMOogHQXMJUQ7kNvwHI9z_6&_nc_oc=Adqnpj9txVMSx9_S7JTkju3i-DUQwXi0-Um3auX7T81DjvEd7EHjdKFehC-gheLBGvM&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_Af8aGw5uuTt73r0ngvjakCvWf55NFDbWpV3UmP1zlMUexw&oe=6A37FF4D"},{"url":"https://www.instagram.com/reel/DZZbOy2hM9o/","thumb":"https://scontent-fra5-1.cdninstagram.com/v/t51.71878-15/720655510_1581983226835888_1344451253270498513_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFuIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=2yDMrUZc-KkQ7kNvwEs53wU&_nc_oc=Ado6uTAFlG4d6Z9qdAbGs185Jf6X54UoUJTx7uHqmfhpvK81VS-G_P1AcngkQ6I4U3Q&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_Af_uOlUNpBpWAUOzLNHT-1XAj7ERAPtF2LiAYAjTVBnw4g&oe=6A37EDCC"}]
+// n8n automation: populate with Instagram post URLs
+
+function _mkFpLang(lang) {
+  if(document.getElementById('fp-'+lang)) return;
+  if(lang!=='ja'&&lang!=='zh') return;
+  const pc=document.getElementById('fullProfileContent');
+  if(!pc) return;
+  const bio=document.querySelector('[data-bio="'+lang+'"]');
+  if(!bio) return;
+  const el=document.createElement('div');
+  el.id='fp-'+lang;
+  el.style.display='none';
+  el.innerHTML='<div class="post-body-inline"><p>'+bio.textContent.trim()+'</p></div>';
+  const ref=pc.querySelector('[style*="text-align:right"]')||pc.lastElementChild;
+  pc.insertBefore(el,ref);
+}
 
 function setLang(lang) {
   localStorage.setItem('kolexLang', lang);
@@ -347,6 +361,7 @@ function setLang(lang) {
   });
   if(!document.querySelector('[data-bio="'+lang+'"')){const fbBio=document.querySelector('[data-bio="en"]');if(fbBio)fbBio.style.display='block';}
   // Show correct language profile block
+  _mkFpLang(lang);
   ['ko','en','ja','zh'].forEach(l => {
     const el = document.getElementById('fp-' + l);
     if(el) el.style.display = (l === lang) ? 'block' : 'none';
@@ -369,6 +384,7 @@ function switchFpTab(tab) {
     if(photosPanel) photosPanel.style.display = 'none';
     if(!open) {
       const lang = localStorage.getItem('kolexLang') || 'ko';
+      _mkFpLang(lang);
       ['ko','en','ja','zh'].forEach(l => {
         const el = document.getElementById('fp-' + l);
         if(el) el.style.display = (l === lang) ? 'block' : 'none';
