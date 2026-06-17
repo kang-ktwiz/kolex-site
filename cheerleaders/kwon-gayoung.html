@@ -415,17 +415,12 @@ function renderPhotos() {
       const thumb = (typeof item === 'object' && item.thumb) ? item.thumb : '';
       const isR = isReel(url);
       const grad = _gradients[i % _gradients.length];
-      const thumbStyle = thumb
-        ? `background:url('${thumb}') center/cover;`
-        : `background:${grad};`;
-      const thumbAttr = thumb
-        ? `onerror="this.style.background='${grad}';this.removeAttribute('onerror');" style="${thumbStyle}"`
-        : `style="${thumbStyle}"`;
       return `<a href="${url}" target="_blank" rel="noopener"
-        ${thumbAttr}
+        style="background:${grad};"
         class="_reel-thumb"
         onmouseover="this.style.opacity='.82';this.style.transform='scale(1.08)'"
         onmouseout="this.style.opacity='1';this.style.transform=''">
+        ${thumb ? `<img src="${thumb}" referrerpolicy="no-referrer" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:inherit;" onerror="this.style.display='none';">` : ''}
         <div class="_reel-overlay"></div>
         <div class="_reel-icon">
           <div>${isR ? '▶' : '🖼'}</div>
