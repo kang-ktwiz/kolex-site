@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kwon Ga-young | KOLEX Cheerleaders</title>
-  <meta name="description" content="Profile of Kwon Ga-young (권가영) - KOLEX Cheerleader since 2025. 13.6K Instagram followers." />
+  <meta name="description" content="Profile of Kwon Ga-young (권가영) - KOLEX Cheerleader since 2025. 10K Instagram followers." />
   <link rel="canonical" href="https://koreacheerleaders.com/cheerleaders/kwon-gayoung.html" />
   <meta name="google" content="notranslate" />
   <style>
@@ -117,7 +117,7 @@
       <p class="name-ko">권가영 · Born 2001 · 165cm</p>
       <div class="role-badge" id="roleText">Cheerleader</div>
       <div class="stats-row">
-        <div class="stat-pill"><div class="sv">📱 13.6K</div><div class="sk">Followers</div></div>
+        <div class="stat-pill"><div class="sv">📱 10K</div><div class="sk">Followers</div></div>
         <div class="stat-pill"><div class="sv">📅 2025</div><div class="sk">Active Since</div></div>
         <div class="stat-pill"><div class="sv">165cm</div><div class="sk">Height</div></div>
       </div>
@@ -314,11 +314,23 @@ function renderBlogPosts(lang){
 
 // ===== PHOTOS TAB =====
 const _photos = [
-{"url":"https://www.instagram.com/p/DZRzovWlGLM/","thumb":"https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/719490860_18598567114054325_7741654050215011_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=I4z-uosA4LQQ7kNvwF8vKuR&_nc_oc=Adob4YmK2gTWcI7KTZGQ-TB2_G4LobexlRh1XruyC-yh-ig_eBXiN2mHueQ5etS_lRk&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=xB34rYF6lbUWv757aeUpBQ&_nc_tpa=Q5bMBQGWi0DTAIf5Z2Zzlwvw4gDsG_zc-QXLyrqDrIfRbWLw-Kz5j61LRxciAlslsK_TASf9OXpMajWT7A&oh=00_Af9MX867_8EtbLpUrjb3-tQdDFvE40etgGZLm3fV4G53JQ&oe=6A37DAEF"},
-{"url":"https://www.instagram.com/p/DYjz2u4FIa0/","thumb":"https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/704187967_18593151760054325_5601272412673098402_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=Snrr0MLrmZQQ7kNvwEISvxg&_nc_oc=AdpcOhfl5X9MIeaop63fyzmb9AvIqAoIS1NcjUmqLwWzrNZoz7Vw9HL6G5kTYaWacDw&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=xB34rYF6lbUWv757aeUpBQ&_nc_tpa=Q5bMBQHSvpZgQeZ13cn2_TzdBVJIpkS2mX_LYJmBwxNMTdAIuGgGtr-ZY8r1csqLWqfP0ypW_EKe7VjVOw&oh=00_Af95ZHwtMLj1LU8QhI7CH6QV5K5qrlcsG8D1c7EaxApeYg&oe=6A37F712"},
-{"url":"https://www.instagram.com/p/DYWo4irFEBi/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/696266581_18591661387054325_4320126466119204590_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=WyYC98LLimIQ7kNvwHj2-b3&_nc_oc=AdrvewPXghOi8GiOmY63cmG3XZ4Ru8PehKoFJt6QanOzGJsn6vLRiXhYvVi1Zc4eX1w&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=xB34rYF6lbUWv757aeUpBQ&_nc_tpa=Q5bMBQEEXM4gIHoG2-0VzCsmKwOfAd2gY4Jj5UVLf_3SsidN-TTxcTxLbjNVoFnQOECWtXheHJ1Nwfs5Tw&oh=00_Af85Ga25pyaQ-LFbzhtC6bS1QCrTApvqPR9gE38eqZP2lw&oe=6A37EBFF"},
-] // n8n automation: populate with Instagram post URLs
+  'https://www.instagram.com/yo_ung__vely/',
+]; // n8n automation: populate with Instagram post URLs
 
+function _mkFpLang(lang) {
+  if(document.getElementById('fp-'+lang)) return;
+  if(lang!=='ja'&&lang!=='zh') return;
+  const pc=document.getElementById('fullProfileContent');
+  if(!pc) return;
+  const bio=document.querySelector('[data-bio="'+lang+'"]');
+  if(!bio) return;
+  const el=document.createElement('div');
+  el.id='fp-'+lang;
+  el.style.display='none';
+  el.innerHTML='<div class="post-body-inline"><p>'+bio.textContent.trim()+'</p></div>';
+  const ref=pc.querySelector('[style*="text-align:right"]')||pc.lastElementChild;
+  pc.insertBefore(el,ref);
+}
 function setLang(lang) {
   localStorage.setItem('kolexLang', lang);
   // Update display name
@@ -333,7 +345,12 @@ function setLang(lang) {
   // Update profile button text
   const pb = document.getElementById('fullProfileBtnTxt');
   if(pb) pb.textContent = lang==='ko'?'PROFILE ↓':lang==='ja'?'プロフィール ↓':lang==='zh'?'個人資料 ↓':'PROFILE ↓';
-  // Show correct language profile block
+  // Toggle short bio text by language
+  document.querySelectorAll('[data-bio]').forEach(el => {
+    el.style.display = (el.getAttribute('data-bio') === lang) ? 'block' : 'none';
+  });
+  // Show correct language profile block (create fp-ja/fp-zh if needed)
+  _mkFpLang(lang);
   ['ko','en','ja','zh'].forEach(l => {
     const el = document.getElementById('fp-' + l);
     if(el) el.style.display = (l === lang) ? 'block' : 'none';
@@ -356,10 +373,12 @@ function switchFpTab(tab) {
     if(photosPanel) photosPanel.style.display = 'none';
     if(!open) {
       const lang = localStorage.getItem('kolexLang') || 'ko';
+      _mkFpLang(lang);
       ['ko','en','ja','zh'].forEach(l => {
         const el = document.getElementById('fp-' + l);
         if(el) el.style.display = (l === lang) ? 'block' : 'none';
       });
+      if(!document.getElementById('fp-'+lang)){const fb=document.getElementById('fp-en')||document.getElementById('fp-ko');if(fb)fb.style.display='block';}
     }
   } else if (tab === 'photos') {
     const open = photosPanel && photosPanel.style.display !== 'none';

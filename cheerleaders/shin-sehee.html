@@ -326,6 +326,20 @@ const _photos = [
   'https://www.instagram.com/reel/DVqnAArEWBk/'
 ]; // n8n automation: populate with Instagram post URLs
 
+function _mkFpLang(lang) {
+  if(document.getElementById('fp-'+lang)) return;
+  if(lang!=='ja'&&lang!=='zh') return;
+  const pc=document.getElementById('fullProfileContent');
+  if(!pc) return;
+  const bio=document.querySelector('[data-bio="'+lang+'"]');
+  if(!bio) return;
+  const el=document.createElement('div');
+  el.id='fp-'+lang;
+  el.style.display='none';
+  el.innerHTML='<div class="post-body-inline"><p>'+bio.textContent.trim()+'</p></div>';
+  const ref=pc.querySelector('[style*="text-align:right"]')||pc.lastElementChild;
+  pc.insertBefore(el,ref);
+}
 function setLang(lang) {
   localStorage.setItem('kolexLang', lang);
   // Update display name
@@ -340,7 +354,12 @@ function setLang(lang) {
   // Update profile button text
   const pb = document.getElementById('fullProfileBtnTxt');
   if(pb) pb.textContent = lang==='ko'?'PROFILE ↓':lang==='ja'?'プロフィール ↓':lang==='zh'?'個人資料 ↓':'PROFILE ↓';
-  // Show correct language profile block
+  // Toggle short bio text by language
+  document.querySelectorAll('[data-bio]').forEach(el => {
+    el.style.display = (el.getAttribute('data-bio') === lang) ? 'block' : 'none';
+  });
+  // Show correct language profile block (create fp-ja/fp-zh if needed)
+  _mkFpLang(lang);
   ['ko','en','ja','zh'].forEach(l => {
     const el = document.getElementById('fp-' + l);
     if(el) el.style.display = (l === lang) ? 'block' : 'none';
@@ -363,10 +382,12 @@ function switchFpTab(tab) {
     if(photosPanel) photosPanel.style.display = 'none';
     if(!open) {
       const lang = localStorage.getItem('kolexLang') || 'ko';
+      _mkFpLang(lang);
       ['ko','en','ja','zh'].forEach(l => {
         const el = document.getElementById('fp-' + l);
         if(el) el.style.display = (l === lang) ? 'block' : 'none';
       });
+      if(!document.getElementById('fp-'+lang)){const fb=document.getElementById('fp-en')||document.getElementById('fp-ko');if(fb)fb.style.display='block';}
     }
   } else if (tab === 'photos') {
     const open = photosPanel && photosPanel.style.display !== 'none';

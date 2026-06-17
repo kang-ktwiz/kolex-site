@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kim Min-ji | KOLEX Cheerleaders</title>
-  <meta name="description" content="Profile of Kim Min-ji (김민지) - KOLEX Cheerleader since 2025. 42K Instagram followers." />
+  <meta name="description" content="Profile of Kim Min-ji (김민지) - KOLEX Cheerleader since 2025. 15K Instagram followers." />
   <link rel="canonical" href="https://koreacheerleaders.com/cheerleaders/kim-minji.html" />
   <meta name="google" content="notranslate" />
   <style>
@@ -117,7 +117,7 @@
       <p class="name-ko">김민지 · Born 2005 · 173cm</p>
       <div class="role-badge" id="roleText">Cheerleader</div>
       <div class="stats-row">
-        <div class="stat-pill"><div class="sv">📱 42K</div><div class="sk">Followers</div></div>
+        <div class="stat-pill"><div class="sv">📱 15K</div><div class="sk">Followers</div></div>
         <div class="stat-pill"><div class="sv">📅 2025</div><div class="sk">Active Since</div></div>
         <div class="stat-pill"><div class="sv">173cm</div><div class="sk">Height</div></div>
       </div>
@@ -284,7 +284,6 @@ function renderBlogPosts(lang){
     const k='lk_'+location.pathname+'_'+realIdx;
     const lk=!!localStorage.getItem(k);
     const vUrl=(p.type==='video'&&_photos[0]&&!(p.url||'').match(/\/(p|reel)\//)? _photos[0].url:p.url);
-    const vUrl=(p.type==='video'&&_photos[0]&&!(p.url||'').match(/\/(p|reel)\//)? _photos[0].url:p.url);
     return `<div style="background:#111118;border:1px solid #2a2a3e;border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.borderColor='rgba(255,31,69,.4)'" onmouseout="this.style.transform='';this.style.borderColor='#2a2a3e'">
       <div style="padding:.7rem 1rem;border-bottom:1px solid #1e1e2e;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.4rem;">
         <div style="display:flex;align-items:center;gap:.35rem;flex-wrap:wrap;">
@@ -323,6 +322,20 @@ const _photos = [
   'https://www.instagram.com/reel/DWL8J4Zkoni/'
 ]; // n8n automation: populate with Instagram post URLs
 
+function _mkFpLang(lang) {
+  if(document.getElementById('fp-'+lang)) return;
+  if(lang!=='ja'&&lang!=='zh') return;
+  const pc=document.getElementById('fullProfileContent');
+  if(!pc) return;
+  const bio=document.querySelector('[data-bio="'+lang+'"]');
+  if(!bio) return;
+  const el=document.createElement('div');
+  el.id='fp-'+lang;
+  el.style.display='none';
+  el.innerHTML='<div class="post-body-inline"><p>'+bio.textContent.trim()+'</p></div>';
+  const ref=pc.querySelector('[style*="text-align:right"]')||pc.lastElementChild;
+  pc.insertBefore(el,ref);
+}
 function setLang(lang) {
   localStorage.setItem('kolexLang', lang);
   // Update display name
@@ -337,7 +350,12 @@ function setLang(lang) {
   // Update profile button text
   const pb = document.getElementById('fullProfileBtnTxt');
   if(pb) pb.textContent = lang==='ko'?'PROFILE ↓':lang==='ja'?'プロフィール ↓':lang==='zh'?'個人資料 ↓':'PROFILE ↓';
-  // Show correct language profile block
+  // Toggle short bio text by language
+  document.querySelectorAll('[data-bio]').forEach(el => {
+    el.style.display = (el.getAttribute('data-bio') === lang) ? 'block' : 'none';
+  });
+  // Show correct language profile block (create fp-ja/fp-zh if needed)
+  _mkFpLang(lang);
   ['ko','en','ja','zh'].forEach(l => {
     const el = document.getElementById('fp-' + l);
     if(el) el.style.display = (l === lang) ? 'block' : 'none';
@@ -360,10 +378,12 @@ function switchFpTab(tab) {
     if(photosPanel) photosPanel.style.display = 'none';
     if(!open) {
       const lang = localStorage.getItem('kolexLang') || 'ko';
+      _mkFpLang(lang);
       ['ko','en','ja','zh'].forEach(l => {
         const el = document.getElementById('fp-' + l);
         if(el) el.style.display = (l === lang) ? 'block' : 'none';
       });
+      if(!document.getElementById('fp-'+lang)){const fb=document.getElementById('fp-en')||document.getElementById('fp-ko');if(fb)fb.style.display='block';}
     }
   } else if (tab === 'photos') {
     const open = photosPanel && photosPanel.style.display !== 'none';
@@ -377,7 +397,7 @@ function renderPhotos() {
   const grid = document.getElementById('photoGrid');
   if (!grid) return;
   if (!_photos || _photos.length === 0) {
-    grid.innerHTML = '<p style="color:#666;padding:2rem;text-align:center;font-size:.9rem;">인스타그램 Reels 준비 중...</p>';
+    grid.innerHTML = '<p style="color:#666;padding:2rem;text-align:center;font-size:.9rem;">Instagram Reels 준비 중...</p>';
     return;
   }
   // Unique gradient per index for visual variety

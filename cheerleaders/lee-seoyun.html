@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lee Seo-yun | KOLEX Cheerleaders</title>
-  <meta name="description" content="Profile of Lee Seo-yun (이서윤) - KOLEX Cheerleader since 2025. 37.1K Instagram followers." />
+  <meta name="description" content="Profile of Lee Seo-yun (이서윤) - KOLEX Cheerleader since 2025. 28K Instagram followers." />
   <link rel="canonical" href="https://koreacheerleaders.com/cheerleaders/lee-seoyun.html" />
   <meta name="google" content="notranslate" />
   <style>
@@ -117,7 +117,7 @@
       <p class="name-ko">이서윤 · Born 2006 · 168cm</p>
       <div class="role-badge" id="roleText">Cheerleader</div>
       <div class="stats-row">
-        <div class="stat-pill"><div class="sv">📱 37.1K</div><div class="sk">Followers</div></div>
+        <div class="stat-pill"><div class="sv">📱 28K</div><div class="sk">Followers</div></div>
         <div class="stat-pill"><div class="sv">📅 2025</div><div class="sk">Active Since</div></div>
         <div class="stat-pill"><div class="sv">168cm</div><div class="sk">Height</div></div>
       </div>
@@ -317,11 +317,23 @@ function renderBlogPosts(lang){
 
 // ===== PHOTOS TAB =====
 const _photos = [
-{"url":"https://www.instagram.com/reel/DZg6OWtSfrN/","thumb":"https://scontent-fra3-1.cdninstagram.com/v/t51.71878-15/721625393_1524426219325301_687676865427607513_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=1daEzpUaw94Q7kNvwFdQ7d9&_nc_oc=AdpTbmQx1Nr5jgGj3xmPbPqcgVSpVRGZES2OpgVZdfqOp4BLECYNn_z-CczjC_-CWds&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=RZgGP75WBI1o7POIL1YtrA&_nc_tpa=Q5bMBQEP5QmwJ3YFjjp3nOW5QyodSGno60289wgrU1Wf1SyR0drEopijslYCWDRd1GHLK9pi5pGkHQOmtg&oh=00_Af9cqrPrLyYTgHBxkOXgElFmSBnnRMNbFW5c2tV3jGNdNA&oe=6A37D025"},
-{"url":"https://www.instagram.com/p/DZfLbirEkC5/","thumb":"https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/722810795_18005501651921885_8141924748245218038_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=JDZ9c-9BwlYQ7kNvwGEBodC&_nc_oc=AdoOa4ioRHnLgIo0K9UtyF2qJgBAD5h-nl8WWAjEtBE2IP1ygiJnGd_bmwwhsqQQIvU&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=RZgGP75WBI1o7POIL1YtrA&_nc_tpa=Q5bMBQEeIZ4EyB3hYOfAEdAav8yQdFw7Yr0vLOKu70jw6GyTnEGJqnT4VMVB4J9EBLtlBNEThsXY3hJCCQ&oh=00_Af9vmIyRoRVGvINWdXgLcOdZOoHeLgzHegtywxOel8BhZw&oe=6A37FFF7"},
-{"url":"https://www.instagram.com/reel/DZXbu7Yy4dR/","thumb":"https://scontent-fra5-1.cdninstagram.com/v/t51.71878-15/719908579_2225131048315093_687135970344808090_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=c3Ts4wY845wQ7kNvwG-iFhX&_nc_oc=AdqAexhs9N3Nb-V41NkA-w9BJYGmcdmgpgTdGMSpopKQKxJfN3JgIADtlPAUOlC8wA0&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=RZgGP75WBI1o7POIL1YtrA&_nc_tpa=Q5bMBQHSWr3iyYhEeZFtt4ebNa9froFUbq5wBW6j-87VmpWanpbI2Sa4b1tJZbayAfrLZMcr9YkoHJDM1Q&oh=00_Af-CXSTg0ab2vJRwKhBVldeG-OpPmyMp8tCvWwnmKND8eQ&oe=6A37D039"},
-] // n8n automation: populate with Instagram post URLs
+  'https://www.instagram.com/tjdbs__06/',
+]; // n8n automation: populate with Instagram post URLs
 
+function _mkFpLang(lang) {
+  if(document.getElementById('fp-'+lang)) return;
+  if(lang!=='ja'&&lang!=='zh') return;
+  const pc=document.getElementById('fullProfileContent');
+  if(!pc) return;
+  const bio=document.querySelector('[data-bio="'+lang+'"]');
+  if(!bio) return;
+  const el=document.createElement('div');
+  el.id='fp-'+lang;
+  el.style.display='none';
+  el.innerHTML='<div class="post-body-inline"><p>'+bio.textContent.trim()+'</p></div>';
+  const ref=pc.querySelector('[style*="text-align:right"]')||pc.lastElementChild;
+  pc.insertBefore(el,ref);
+}
 function setLang(lang) {
   localStorage.setItem('kolexLang', lang);
   // Update display name
@@ -336,7 +348,12 @@ function setLang(lang) {
   // Update profile button text
   const pb = document.getElementById('fullProfileBtnTxt');
   if(pb) pb.textContent = lang==='ko'?'PROFILE ↓':lang==='ja'?'プロフィール ↓':lang==='zh'?'個人資料 ↓':'PROFILE ↓';
-  // Show correct language profile block
+  // Toggle short bio text by language
+  document.querySelectorAll('[data-bio]').forEach(el => {
+    el.style.display = (el.getAttribute('data-bio') === lang) ? 'block' : 'none';
+  });
+  // Show correct language profile block (create fp-ja/fp-zh if needed)
+  _mkFpLang(lang);
   ['ko','en','ja','zh'].forEach(l => {
     const el = document.getElementById('fp-' + l);
     if(el) el.style.display = (l === lang) ? 'block' : 'none';
@@ -359,10 +376,12 @@ function switchFpTab(tab) {
     if(photosPanel) photosPanel.style.display = 'none';
     if(!open) {
       const lang = localStorage.getItem('kolexLang') || 'ko';
+      _mkFpLang(lang);
       ['ko','en','ja','zh'].forEach(l => {
         const el = document.getElementById('fp-' + l);
         if(el) el.style.display = (l === lang) ? 'block' : 'none';
       });
+      if(!document.getElementById('fp-'+lang)){const fb=document.getElementById('fp-en')||document.getElementById('fp-ko');if(fb)fb.style.display='block';}
     }
   } else if (tab === 'photos') {
     const open = photosPanel && photosPanel.style.display !== 'none';
