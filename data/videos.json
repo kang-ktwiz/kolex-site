@@ -1,8 +1,16 @@
 {
   "_comment": "n8n 워크플로우(10_kolex_youtube_search_update.json)가 매일 1회 자동 갱신하는 파일입니다. videos[].member_id가 null이면 팀 전체(team-wide) 검색 결과입니다.",
   "schema_version": 1,
-  "updated_at": "2026-06-17T23:00:02.673Z",
+  "updated_at": "2026-06-18T01:25:40.138Z",
   "videos": [
+    {
+      "videoId": "-LQCdRFVKsI",
+      "type": "video",
+      "title": "계유진계유진치어리더 KTWIZCHEERLEADER #계유진#치어리더#CHEERLEADER",
+      "member_id": "kye-yujin",
+      "query": "치어리더 계유진",
+      "publishedAt": "2026-06-18T01:13:38Z"
+    },
     {
       "videoId": "FQ-VQxNxChI",
       "type": "shorts",
@@ -90,14 +98,6 @@
       "member_id": "kim-haeri",
       "query": "치어리더 김해리",
       "publishedAt": "2026-06-17T14:22:15Z"
-    },
-    {
-      "videoId": "BZGJFRnRIIE",
-      "type": "video",
-      "title": "MuseGirls 20260411 #鄭熙靜 #정희정 #啦啦隊 #台湾チア #치어리더 #cheerleader",
-      "member_id": "jeong-huijeong",
-      "query": "치어리더 정희정",
-      "publishedAt": "2026-06-17T14:17:51Z"
     }
   ]
 }
