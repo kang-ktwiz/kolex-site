@@ -36,7 +36,7 @@
     .btn-submit:hover{background:#c01430;}
     .btn-submit:disabled{background:#555;cursor:not-allowed;}
     .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem;}
-  2 .contact-item{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:1.25rem;text-align:center;}
+    .contact-item{background:var(--card-bg);border:1px solid var(--border);border-radius:12px;padding:1.25rem;text-align:center;}
     .contact-item .icon{font-size:1.5rem;margin-bottom:0.5rem;}
     .contact-item h3{font-size:0.9rem;font-weight:700;margin-bottom:0.25rem;}
     .contact-item p{font-size:0.82rem;color:var(--text-muted);}
@@ -47,7 +47,16 @@
     @media(max-width:600px){.contact-grid{grid-template-columns:1fr;}.nav-links .nav-text{display:none;}}
   </style>
   <!-- Google Analytics GA4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2BYFTLPLT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      ad_storage: 'denied', analytics_storage: 'denied',
+      ad_user_data: 'denied', ad_personalization: 'denied',
+      wait_for_update: 500
+    });
+  </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2BYFTLPLT"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -179,7 +188,7 @@ const T = {
     ci4t:'コラボレーション', ci4d:'ファンプロジェクト歓迎',
     lblName:'お名前', lblEmail:'メールアドレス', lblSubject:'お問い合わせ種別', lblMessage:'メッセージ',
     namePh:'お名前', msgPh:'メッセージを入力してください...',
-    subjects:['一般のお���い合わせ','著作権 / DMCA','コラボレーション','内容の修正','その他'],
+    subjects:['一般のお問い合わせ','著作権 / DMCA','コラボレーション','内容の修正','その他'],
     btn:'送信する →',
     btnSending:'送信中...',
     success:'✅ 送信しました！48時間以内にご返信いたします。',
@@ -189,7 +198,7 @@ const T = {
   },
   zh: {
     title: '聯絡<span style="color:var(--red)">我們</span>',
-    desc: '有任何問題或合作邀請，歡连隨時聯絡我們。',
+    desc: '有任何問題或合作邀請，歡迎隨時聯絡我們。',
     ci1t:'電子郵件', ci1d:'48小時內回覆',
     ci2t:'支援語言',
     ci3t:'版權問題', ci3d:'DMCA請求迅速處理',
@@ -300,5 +309,6 @@ document.addEventListener('DOMContentLoaded', () => {
   setLang(lang);
 });
 </script>
+  <script src="/js/cookie-consent.js"></script>
 </body>
-  </html>
+</html>

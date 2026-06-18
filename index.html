@@ -765,7 +765,16 @@
   <link rel="preload" as="image" href="images/kim-minji.jpg">
   <link rel="preload" as="image" href="images/kolex_logo_1.png">
   <!-- Google Analytics GA4 — 실제 ID로 교체: analytics.google.com → 관리 → 데이터 스트림 → Measurement ID -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2BYFTLPLT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      ad_storage: 'denied', analytics_storage: 'denied',
+      ad_user_data: 'denied', ad_personalization: 'denied',
+      wait_for_update: 500
+    });
+  </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2BYFTLPLT"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -1399,6 +1408,7 @@
         <span>LINE公式アカウントを追加</span>
       </a>
     </div>
+
     <!-- ZH: LINE Official Account -->
     <div class="channel-card ch-zh">
       <a class="line-channel-btn" href="https://line.me/R/ti/p/%40595hivih" id="lineChannelLinkZh" target="_blank" rel="noopener">
@@ -1423,10 +1433,11 @@
 <footer>
   <div class="footer-bottom">
     <span class="footer-copy">© 2025 KOLEX Sports Entertainment Co., Ltd. 코렉스 스포츠 엔터테인먼트 (주)</span>
-    <span style="font-size:.7rem;color:var(--muted);margin-left:1rem;"><a href="about.html" style="color:inherit;" data-i18n="nav_about">소개</a> · <a href="contact.html" style="color:inherit;" data-i18n="nav_contact">문의</a> · <a href="privacy-policy.html" style="color:inherit;" data-i18n="privacy">개인정보처리방침</a> · <a href="terms.html" style="color:inherit;" data-i18n="terms">이용약관</a></span>
+    <span style="font-size:.7rem;color:var(--muted);margin-left:1rem;"><a href="about.html" style="color:inherit;" data-i18n="nav_about">소개</a> · <a href="contact.html" style="color:inherit;" data-i18n="nav_contact">문의</a> · <a href="privacy-policy.html" style="color:inherit;" data-i18n="privacy">개인정보처리방침</a></span>
   </div>
 </footer>
 
 <script src="js/main.js"></script>
+  <script src="/js/cookie-consent.js"></script>
 </body>
 </html>
