@@ -78,7 +78,16 @@
   <link rel="prefetch" as="image" href="../images/kwon-gayoung.jpg">
   <link rel="prefetch" as="image" href="../images/kim-minji.jpg">
   <!-- Google Analytics GA4 — 실제 ID로 교체: analytics.google.com → 관리 → 데이터 스트림 → Measurement ID -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2BYFTLPLT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      ad_storage: 'denied', analytics_storage: 'denied',
+      ad_user_data: 'denied', ad_personalization: 'denied',
+      wait_for_update: 500
+    });
+  </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2BYFTLPLT"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -129,6 +138,16 @@
       <p class="bio-text" data-bio="ja">キム・ガヒョンはサムスンのバスケットボールチームで培った経験をKTウィズに持ち込む新戦力。Instagramで11万2千人のフォロワーを誇り、急成長中のスターとして注目を集めています。</p>
       <p class="bio-text" data-bio="ko">삼성 농구팀 출신으로 2025년부터 KOLEX에 합류한 치어리더. 팔로워 11만 2천 명을 보유하고 있으며 야구·농구 경기에서 활약하고 있습니다.</p>
       <p class="bio-text" data-bio="zh">金佳賢帶著在三星籃球隊的珍貴經驗加入KOLEX，為球隊注入新活力。在Instagram上擁有11.2萬追蹤者，正迅速確立自己新星的地位。</p>
+      <div style="margin-top:1.1rem;padding:.9rem 1.2rem;background:rgba(255,45,85,.06);border-left:3px solid var(--red);border-radius:0 8px 8px 0;">
+        <p data-bio="ko" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX 에디터 픽</p>
+        <p data-bio="en" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX Editor's Pick</p>
+        <p data-bio="ja" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX エディターズ・ピック</p>
+        <p data-bio="zh" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX 編輯推薦</p>
+        <p data-bio="ko" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">김가현 치어리더는 25년 10월에 농구장에서 처음 면접을 봤는데 치어리더 경험이 하나도 없었고 '그냥 춤을 좀 춰봤다' 정도였습니다. 첫 인상이 너무 강렬하고 팬들에게 진심이 보여서 바로 실전에 투입했던 치어리더입니다. 판단은 틀리지 않았고 지금은 치어리더계에 없어서는 안 될 인플루언서가 되어 있습니다.</p>
+        <p data-bio="en" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">Kim Gahyun had zero cheerleading experience when she first auditioned at a basketball arena in October 2025 — she simply said she had 'danced a little.' But her first impression was electric and her sincerity toward fans was unmistakable. She was placed straight into action, and the instinct proved right — she is now an indispensable influencer in the cheerleading world.</p>
+        <p data-bio="ja" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">キム・ガヒョンは2025年10月にバスケットボールアリーナで初めて面接を受けたとき、チアリーダーの経験がまったくなく「ちょっとダンスをしたことがある程度」でした。しかし第一印象が非常に強烈で、ファンへの真摯な姿勢が伝わったため、すぐに現場に投入しました。その判断は間違いではなく、今ではチアリーダー界に欠かせないインフルエンサーとなっています。</p>
+        <p data-bio="zh" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">金佳賢於2025年10月在籃球館第一次面試時，完全沒有啦啦隊經驗，只說自己「稍微跳過一點舞」。但她的第一印象太過強烈，對粉絲的真誠更是一目了然，因此當場決定直接讓她上場。事後證明這個判斷完全正確，她如今已成為啦啦隊界不可或缺的人氣網紅。</p>
+      </div>
       <div id="fullProfileContent" style="display:none;margin-top:1.25rem;padding:1.25rem 1.5rem;background:rgba(255,255,255,.03);border:1px solid rgba(255,45,85,.2);border-radius:14px;line-height:1.8;color:#c0c0d0;">
         <div id="fp-ko" style="display:none;"><div class="post-body-inline">
 <p>갑자기 스포트라이트를 받는 퍼포머가 있는가 하면, 꾸준히 존재감을 쌓아가다 어느 날 돌아보니 없어서는 안 될 존재가 되어 있는 퍼포머도 있습니다. 2003년생, 키 173cm의 <strong>김가현</strong>은 후자의 타입. <strong>인스타그램 팔로워 11만 2,000명</strong>은 처음부터 꾸준히 지켜봐 온 팬들을 반영합니다.</p>
@@ -177,10 +196,10 @@
 </div></div>
         <div style="margin-top:1rem;text-align:right;">
           <a href="../blog/posts/kim-gahyun-profile.html" style="color:var(--red);font-size:.78rem;font-weight:700;">Full standalone post →</a>
-        </div>
 <div id="photosPanel" style="display:none;margin-top:1.25rem;">
         <div id="photoGrid"></div>
       </div>
+        </div>
       </div>
       </div>
     </div>
@@ -240,7 +259,7 @@ const backs = { ko:"전체 멤버", en:"All Members", ja:"メンバー一覧", z
 
 
 // ===== 개인 블로그 JS =====
-const _posts = [{"type":"greeting","title":{"ko":"오늘도 활기차게, 함께해요! 🎉","en":"Stay Energized Together Today! 🎉","ja":"今日も元気いっぱい、一緒に盛り上がろう！🎉","zh":"今天也活力滿滿，一起加油！🎉"},"body":{"ko":"안녕하세요, 위즈팬 여러분! 😊 오늘도 최고의 에너지로 여러분 곁에 있을게요! 요즘 동료들이랑 컨디션 관리에 진심인데, 맛있는 간식 한 입이 하루의 활력이 되더라고요 🍡 오늘 하루도 건강하고 즐겁게 보내세요!","en":"Hello, Wiz fans! 😊 We're here for you today with the best energy we've got! Lately, our teammates and I have been really serious about staying in top condition — and honestly, a little tasty snack goes a long way in keeping the energy up 🍡 Have a healthy and wonderful day!","ja":"こんにちは、ウィズファンの皆さん！😊 今日も最高のエネルギーで皆さんのそばにいますよ！最近、チームメイトとコンディション管理に真剣に取り組んでいて、美味しいおやつ一口がその日の活力になるって実感しています🍡 今日も元気で楽しい一日をお過ごしください！","zh":"大家好，威茲球迷們！😊 今天也要以最棒的活力陪伴在你們身邊！最近和團隊夥伴們都很認真管理狀態，發現一口美味的小點心真的能為一整天注入能量呢🍡 希望大家今天也健康快樂！"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2026.06.18"},{"type":"greeting","title":{"ko":"오늘도 함께해요! 🎉","en":"Let's Cheer Together Today! 🎉","ja":"今日も一緒に応援しよう！🎉","zh":"今天也一起加油吧！🎉"},"body":{"ko":"안녕하세요, 위즈 팬 여러분! 오늘도 팀원들과 함께 최선을 다하는 응원을 선보이기 위해 연습 한 동작 한 동작에 온 마음을 담고 있어요. 여러분의 응원이 저희에게 가장 큰 힘이 된답니다, 오늘도 함께 뜨겁게 응원해요! 🔴⚫","en":"Hello, Wiz fans! Today, my teammates and I are putting our whole hearts into every single move during practice to bring you the most spirited cheer performance possible. Your support is our greatest strength, so let's fire it up together today! 🔴⚫","ja":"ウィズファンの皆さん、こんにちは！今日もチームメンバーと一緒に、一つひとつの動きに心を込めて練習に取り組んでいます。皆さんの応援が私たちの一番の力になっています、今日も熱く一緒に応援しましょう！🔴⚫","zh":"嗨，威茲球迷們！今天我和夥伴們正在將每一個動作都傾注全力練習，只為給大家帶來最熱情的應援表演。你們的支持是我們最大的力量，今天也讓我們一起熱血加油吧！🔴⚫"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2026.06.17"},{"type":"video","title":{"ko":"새 Reel 업로드! 🎬","en":"New Reel! 🎬","ja":"新しいReel公開！ 🎬","zh":"新Reel上傳！ 🎬"},"body":{"ko":"새 영상이 업로드됐어요! 인스타그램에서 확인해보세요 👉 @keemgahyun","en":"New content just dropped! Head to Instagram to watch it 👉 @keemgahyun","ja":"新しい動画が公開されました！Instagramでチェックしてみてください 👉 @keemgahyun","zh":"新影片已上傳！快去Instagram看看吧 👉 @keemgahyun"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2026.05.15","url":"https://www.instagram.com/keemgahyun/"},{"type":"milestone","title":{"ko":"2026 시즌 개막 🎉","en":"2026 Season Opens 🎉","ja":"2026シーズン開幕 🎉","zh":"2026賽季開幕 🎉"},"body":{"ko":"드디어 2026 KBO 시즌이 시작됐어요! 올해도 전력을 다해 응원할게요. 경기장에서 만나요! 🔥","en":"The 2026 KBO season is here! I will give everything I have on that field this year. See you at the stadium! 🔥","ja":"2026シーズンがついに開幕！今年も全力で頑張ります！ 🔥","zh":"2026賽季正式開始！今年也會全力以赴，球場見！ 🔥"},"tag":{"ko":"마일스톤","en":"Milestone","ja":"マイルストーン","zh":"里程碑"},"tagClass":"tag-milestone","date":"2026.04.01"},{"type":"greeting","title":{"ko":"김가현의 오늘 하루 인사 👋","en":"Hello from Kim Ga-hyun! 👋","ja":"Kim Ga-hyunからのご挨拶 👋","zh":"김가현的今日問候 👋"},"body":{"ko":"안녕하세요! 김가현입니다. 오늘도 최선을 다해 응원할게요. 여러분의 응원이 저에게 가장 큰 힘이에요. 경기장에서 만나요! 💕","en":"Hello everyone, it is Kim Ga-hyun! I will give my absolute best today. Your cheers fuel me. See you at the game! 💕","ja":"こんにちは！今日も全力で応援します。皆さんの応援が一番の力 💕","zh":"大家好！今天也會全力以赴！你們的加油是我最大的動力 💕"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.06.08"},{"type":"greeting","title":{"ko":"연습 후기: 오늘도 열심히 했어요 💪","en":"Practice update — gave it my all today 💪","ja":"練習レポート：今日も頑張りました 💪","zh":"練習回顧：今天也全力拼了 💪"},"body":{"ko":"오늘 팀 전체 합동 연습이 있었어요! 새 안무가 완성되면 경기장에서 보여드릴게요 🙌","en":"Full team rehearsal today! When the new choreography comes together, the feeling is incredible 🙌","ja":"今日はチーム全体で合同練習！完成したときは嬉しい 🙌","zh":"今天整個團隊合練！完成後真的超有成就感 🙌"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.05.20"}];
+const _posts = [{"type": "greeting", "title": {"ko": "오늘도 함께해요! 🎉", "en": "Let's Cheer Together Today! 🎉", "ja": "今日も一緒に応援しよう！🎉", "zh": "今天也一起加油吧！🎉"}, "body": {"ko": "안녕하세요, 위즈 팬 여러분! 오늘도 팀원들과 함께 최선을 다하는 응원을 선보이기 위해 연습 한 동작 한 동작에 온 마음을 담고 있어요. 여러분의 응원이 저희에게 가장 큰 힘이 된답니다, 오늘도 함께 뜨겁게 응원해요! 🔴⚫", "en": "Hello, Wiz fans! Today, my teammates and I are putting our whole hearts into every single move during practice to bring you the most spirited cheer performance possible. Your support is our greatest strength, so let's fire it up together today! 🔴⚫", "ja": "ウィズファンの皆さん、こんにちは！今日もチームメンバーと一緒に、一つひとつの動きに心を込めて練習に取り組んでいます。皆さんの応援が私たちの一番の力になっています、今日も熱く一緒に応援しましょう！🔴⚫", "zh": "嗨，威茲球迷們！今天我和夥伴們正在將每一個動作都傾注全力練習，只為給大家帶來最熱情的應援表演。你們的支持是我們最大的力量，今天也讓我們一起熱血加油吧！🔴⚫"}, "tag": {"ko": "일일 인사", "en": "Daily Greeting", "ja": "デイリーグリーティング", "zh": "每日問候"}, "tagClass": "tag-greeting", "date": "2026.06.17"},{"type":"video","title":{"ko":"새 Reel 업로드! 🎬","en":"New Reel! 🎬","ja":"新しいReel公開！ 🎬","zh":"新Reel上傳！ 🎬"},"body":{"ko":"새 영상이 업로드됐어요! 인스타그램에서 확인해보세요 👉 @keemgahyun","en":"New content just dropped! Head to Instagram to watch it 👉 @keemgahyun","ja":"新しい動画が公開されました！Instagramでチェックしてみてください 👉 @keemgahyun","zh":"新影片已上傳！快去Instagram看看吧 👉 @keemgahyun"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2026.05.15","url":"https://www.instagram.com/keemgahyun/"},{"type":"milestone","title":{"ko":"2026 시즌 개막 🎉","en":"2026 Season Opens 🎉","ja":"2026シーズン開幕 🎉","zh":"2026賽季開幕 🎉"},"body":{"ko":"드디어 2026 KBO 시즌이 시작됐어요! 올해도 전력을 다해 응원할게요. 경기장에서 만나요! 🔥","en":"The 2026 KBO season is here! I will give everything I have on that field this year. See you at the stadium! 🔥","ja":"2026シーズンがついに開幕！今年も全力で頑張ります！ 🔥","zh":"2026賽季正式開始！今年也會全力以赴，球場見！ 🔥"},"tag":{"ko":"마일스톤","en":"Milestone","ja":"マイルストーン","zh":"里程碑"},"tagClass":"tag-milestone","date":"2026.04.01"},{"type":"greeting","title":{"ko":"김가현의 오늘 하루 인사 👋","en":"Hello from Kim Ga-hyun! 👋","ja":"Kim Ga-hyunからのご挨拶 👋","zh":"김가현的今日問候 👋"},"body":{"ko":"안녕하세요! 김가현입니다. 오늘도 최선을 다해 응원할게요. 여러분의 응원이 저에게 가장 큰 힘이에요. 경기장에서 만나요! 💕","en":"Hello everyone, it is Kim Ga-hyun! I will give my absolute best today. Your cheers fuel me. See you at the game! 💕","ja":"こんにちは！今日も全力で応援します。皆さんの応援が一番の力 💕","zh":"大家好！今天也會全力以赴！你們的加油是我最大的動力 💕"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.06.08"},{"type":"greeting","title":{"ko":"연습 후기: 오늘도 열심히 했어요 💪","en":"Practice update — gave it my all today 💪","ja":"練習レポート：今日も頑張りました 💪","zh":"練習回顧：今天也全力拼了 💪"},"body":{"ko":"오늘 팀 전체 합동 연습이 있었어요! 새 안무가 완성되면 경기장에서 보여드릴게요 🙌","en":"Full team rehearsal today! When the new choreography comes together, the feeling is incredible 🙌","ja":"今日はチーム全体で合同練習！完成したときは嬉しい 🙌","zh":"今天整個團隊合練！完成後真的超有成就感 🙌"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.05.20"}];
 let _af = 'all';
 const _bi = {
   sec:{ko:'개인 블로그',en:'Personal Blog',ja:'個人ブログ',zh:'個人部落格'},
@@ -471,5 +490,6 @@ document.addEventListener('DOMContentLoaded', function() {
     <p id="modalBody" style="font-size:.9rem;color:#a0a0b8;line-height:1.8;margin:0;white-space:pre-wrap;"></p>
   </div>
 </div>
+  <script src="/js/cookie-consent.js"></script>
 </body>
 </html>

@@ -78,7 +78,16 @@
   <link rel="prefetch" as="image" href="../images/kwon-gayoung.jpg">
   <link rel="prefetch" as="image" href="../images/kim-minji.jpg">
   <!-- Google Analytics GA4 — 실제 ID로 교체: analytics.google.com → 관리 → 데이터 스트림 → Measurement ID -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2BYFTLPLT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      ad_storage: 'denied', analytics_storage: 'denied',
+      ad_user_data: 'denied', ad_personalization: 'denied',
+      wait_for_update: 500
+    });
+  </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2BYFTLPLT"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -129,6 +138,16 @@
       <p class="bio-text" data-bio="ja">イ・グムジュは2022年にKTウィズに加入し、InstagramでまたたくまにO10万7千人以上のフォロワーを獲得。エネルギッシュなパフォーマンスとカリスマ的な存在感でファンを魅了しています。</p>
       <p class="bio-text" data-bio="ko">생동감 넘치는 에너지로 경기장을 가득 채우는 치어리더. 야구·농구·배구 등 여러 스포츠팀에서 활약하며 팬들에게 꾸준한 응원을 보내고 있습니다.</p>
       <p class="bio-text" data-bio="zh">李錦珠於2022年加入KOLEX，迅速在Instagram上積累超過10.7萬粉絲。以充滿活力的表演和迷人的個人魅力廣受球迷喜愛。</p>
+      <div style="margin-top:1.1rem;padding:.9rem 1.2rem;background:rgba(255,45,85,.06);border-left:3px solid var(--red);border-radius:0 8px 8px 0;">
+        <p data-bio="ko" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX 에디터 픽</p>
+        <p data-bio="en" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX Editor's Pick</p>
+        <p data-bio="ja" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX エディターズ・ピック</p>
+        <p data-bio="zh" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX 編輯推薦</p>
+        <p data-bio="ko" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">이금주 치어리더는 제가 본 치어리더 중 가장 밝고 명랑한 친구입니다. 이름이 '금주'인데 한국말 해석으로 '술을 끊었다'로 놀리기도 하는데, 어느 자리건 자진해서 참석하고 많은 사람이 모인 자리에서는 적당한 술과 분위기 메이커로서 단연 최고의 치어리더입니다.</p>
+        <p data-bio="en" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">Lee Geumju is the brightest and most cheerful cheerleader I've ever seen. Her name ironically means 'abstain from alcohol' in Korean — a running joke — since she's the first to show up to any gathering and the undisputed mood-maker of every occasion.</p>
+        <p data-bio="ja" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">イ・グムジュは私が見てきたチアリーダーの中で最も明るく元気な存在です。名前の「금주（グムジュ）」は韓国語で「禁酒」という意味で、よくからかわれますが、どんな場にも積極的に参加し、場の雰囲気を盛り上げる最高のムードメーカーです。</p>
+        <p data-bio="zh" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">李錦珠是我見過的啦啦隊員中最陽光開朗的一位。她的名字「금주」在韓語中意為「戒酒」，常被大家拿來開玩笑——因為她無論任何場合都積極出席，在人多的聚會中更是當之無愧的氣氛擔當。</p>
+      </div>
       <div id="fullProfileContent" style="display:none;margin-top:1.25rem;padding:1.25rem 1.5rem;background:rgba(255,255,255,.03);border:1px solid rgba(255,45,85,.2);border-radius:14px;line-height:1.8;color:#c0c0d0;">
         <div id="fp-ko" style="display:none;"><div class="post-body-inline">
 <p><strong>이금주</strong>의 첫인상을 팬들에게 물으면 많은 이들이 같은 단어를 꼽습니다—"에너지". 신체적인 에너지만이 아닌, 밖으로 뿜어져 나와 주변 사람들을 끌어당기는 "생동감 있는 질감". 2000년생, 키 172cm, <strong>인스타그램 팔로워 10만 7,000명</strong>의 그녀는 KOLEX에서 완전히 자신만의 독자적인 정체성을 구축했습니다.</p>
@@ -176,10 +195,10 @@
 </div></div>
         <div style="margin-top:1rem;text-align:right;">
           <a href="../blog/posts/lee-geumju-profile.html" style="color:var(--red);font-size:.78rem;font-weight:700;">Full standalone post →</a>
-        </div>
 <div id="photosPanel" style="display:none;margin-top:1.25rem;">
         <div id="photoGrid"></div>
       </div>
+        </div>
       </div>
       </div>
     </div>
@@ -238,7 +257,7 @@ const backs = { ko:"전체 멤버", en:"All Members", ja:"メンバー一覧", z
 
 
 // ===== 개인 블로그 JS =====
-const _posts = [{"type":"greeting","title":{"ko":"오늘도 건강하게, 활기차게! 🌟","en":"Stay Healthy and Full of Energy Today! 🌟","ja":"今日も元気に、健やかに！🌟","zh":"今天也要健康活力滿滿！🌟"},"body":{"ko":"안녕하세요, 위즈 팬 여러분! 저는 요즘 팀원들과 함께 컨디션 관리에 더욱 신경 쓰고 있어요. 충분한 휴식과 스트레칭으로 항상 최고의 모습을 보여드릴게요. 오늘도 여러분의 하루가 밝고 에너지 넘치길 응원합니다! 💛❤️","en":"Hello, Wiz fans! These days, my teammates and I are paying extra attention to managing our condition and staying healthy. With plenty of rest and stretching, we'll always show you our very best! Wishing you a bright and energetic day today! 💛❤️","ja":"こんにちは、Wizファンの皆さん！最近はチームメンバーと一緒にコンディション管理により気をつけています。十分な休息とストレッチで、いつも最高の姿をお見せしますね。今日も皆さんの1日が明るくエネルギーに満ちますように！💛❤️","zh":"哈囉，Wiz球迷們！最近我和隊員們一起更加注重體能狀態的管理與健康維持。透過充足的休息和伸展運動，我們會一直展現最好的一面給大家！祝福各位今天也活力充沛、開心滿滿！💛❤️"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2026.06.18"},{"type":"greeting","title":{"ko":"오늘도 힘차게, 팀원과 함께! 🎉","en":"Full of Energy Today, Together with the Team! 🎉","ja":"今日も元気いっぱい、チームメイトと一緒に！🎉","zh":"今天也活力滿滿，與隊員一起加油！🎉"},"body":{"ko":"안녕하세요, 위즈 팬 여러분! 💕 요즘 연습 현장에서 팀원들과 함께 에너지를 맞춰가는 시간이 정말 즐거워요. 오늘 하루도 여러분의 응원 덕분에 더 힘차게 달려갈게요! 🔥","en":"Hello, Wiz fans! 💕 These days, syncing our energy together with the team during practice has been so much fun. Thanks to your cheers, we'll keep pushing forward with all our heart today too! 🔥","ja":"ウィズファンの皆さん、こんにちは！💕 最近、チームメイトと練習でエネルギーを合わせていく時間がとても楽しいんです。皆さんの応援のおかげで、今日も全力で頑張ります！🔥","zh":"嗨，Wiz的粉絲們！💕 最近和隊員們在練習中互相激勵、磨合的時光真的超開心。有了大家的加油打氣，今天也要全力以赴！🔥"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2026.06.17"},{"type":"video","title":{"ko":"새 Reel 업로드! 🎬","en":"New Reel! 🎬","ja":"新しいReel公開！ 🎬","zh":"新Reel上傳！ 🎬"},"body":{"ko":"새 영상이 업로드됐어요! 인스타그램에서 확인해보세요 👉 @2geum_j._.j","en":"New content just dropped! Head to Instagram to watch it 👉 @2geum_j._.j","ja":"新しい動画が公開されました！Instagramでチェックしてみてください 👉 @2geum_j._.j","zh":"新影片已上傳！快去Instagram看看吧 👉 @2geum_j._.j"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2026.05.15","url":"https://www.instagram.com/2geum_j._.j/"},{"type":"milestone","title":{"ko":"팔로워 10만 돌파 🎊","en":"100K Followers 🎊","ja":"フォロワー10万人突破 🎊","zh":"突破10萬粉絲 🎊"},"body":{"ko":"팔로워 10만 명! 2022년에 시작했는데 벌써 여기까지 왔네요. 응원해주신 모든 분께 감사드려요 🌷","en":"100K followers! I started in 2022 and we built this together — every comment, every share mattered. Thank you 🌷","ja":"フォロワー10万人！2022年から応援してくれた皆さん、ありがとう 🌷","zh":"10萬粉絲！從2022年開始，謝謝每一位陪我走到這裡的你們 🌷"},"tag":{"ko":"마일스톤","en":"Milestone","ja":"マイルストーン","zh":"里程碑"},"tagClass":"tag-milestone","date":"2026.04.01"},{"type":"greeting","title":{"ko":"주말이다! 경기 보러 오는 분 있어요? 🏟️","en":"Weekend — who is coming to the game? 🏟️","ja":"週末！試合に来る人いる？🏟️","zh":"週末到了！有人要來看比賽嗎？🏟️"},"body":{"ko":"주말이 왔어요! 수원 홈경기 오실 분은 ❤️ 남겨주세요!","en":"Weekend is HERE! Suwon Stadium home game. Drop a ❤️ if you will be there!","ja":"週末！スウォンでのホームゲーム。来れる人は❤️を！","zh":"週末到了！要來的給我按個❤️！"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.05.31"},{"type":"video","title":{"ko":"시즌 첫 번째 경기 응원 하이라이트 🎉","en":"Season opener cheer highlight reel 🎉","ja":"シーズン開幕戦の応援ハイライト 🎉","zh":"開季賽應援精華集錦 🎉"},"body":{"ko":"개막전 응원 하이라이트 영상을 모아봤어요! 팬 여러분도 정말 완벽하게 함께해주셨어요 💪🔥","en":"Compiled the best moments from the season opener! Let us ride this energy all season! 💪🔥","ja":"開幕戦の応援ハイライトをまとめました！💪🔥","zh":"整理了開季賽的應援精華！就用這股能量貫穿整個賽季！ 💪🔥"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2025.04.12"}];
+const _posts = [{"type": "greeting", "title": {"ko": "오늘도 힘차게, 팀원과 함께! 🎉", "en": "Full of Energy Today, Together with the Team! 🎉", "ja": "今日も元気いっぱい、チームメイトと一緒に！🎉", "zh": "今天也活力滿滿，與隊員一起加油！🎉"}, "body": {"ko": "안녕하세요, 위즈 팬 여러분! 💕 요즘 연습 현장에서 팀원들과 함께 에너지를 맞춰가는 시간이 정말 즐거워요. 오늘 하루도 여러분의 응원 덕분에 더 힘차게 달려갈게요! 🔥", "en": "Hello, Wiz fans! 💕 These days, syncing our energy together with the team during practice has been so much fun. Thanks to your cheers, we'll keep pushing forward with all our heart today too! 🔥", "ja": "ウィズファンの皆さん、こんにちは！💕 最近、チームメイトと練習でエネルギーを合わせていく時間がとても楽しいんです。皆さんの応援のおかげで、今日も全力で頑張ります！🔥", "zh": "嗨，Wiz的粉絲們！💕 最近和隊員們在練習中互相激勵、磨合的時光真的超開心。有了大家的加油打氣，今天也要全力以赴！🔥"}, "tag": {"ko": "일일 인사", "en": "Daily Greeting", "ja": "デイリーグリーティング", "zh": "每日問候"}, "tagClass": "tag-greeting", "date": "2026.06.17"},{"type":"video","title":{"ko":"새 Reel 업로드! 🎬","en":"New Reel! 🎬","ja":"新しいReel公開！ 🎬","zh":"新Reel上傳！ 🎬"},"body":{"ko":"새 영상이 업로드됐어요! 인스타그램에서 확인해보세요 👉 @2geum_j._.j","en":"New content just dropped! Head to Instagram to watch it 👉 @2geum_j._.j","ja":"新しい動画が公開されました！Instagramでチェックしてみてください 👉 @2geum_j._.j","zh":"新影片已上傳！快去Instagram看看吧 👉 @2geum_j._.j"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2026.05.15","url":"https://www.instagram.com/2geum_j._.j/"},{"type":"milestone","title":{"ko":"팔로워 10만 돌파 🎊","en":"100K Followers 🎊","ja":"フォロワー10万人突破 🎊","zh":"突破10萬粉絲 🎊"},"body":{"ko":"팔로워 10만 명! 2022년에 시작했는데 벌써 여기까지 왔네요. 응원해주신 모든 분께 감사드려요 🌷","en":"100K followers! I started in 2022 and we built this together — every comment, every share mattered. Thank you 🌷","ja":"フォロワー10万人！2022年から応援してくれた皆さん、ありがとう 🌷","zh":"10萬粉絲！從2022年開始，謝謝每一位陪我走到這裡的你們 🌷"},"tag":{"ko":"마일스톤","en":"Milestone","ja":"マイルストーン","zh":"里程碑"},"tagClass":"tag-milestone","date":"2026.04.01"},{"type":"greeting","title":{"ko":"주말이다! 경기 보러 오는 분 있어요? 🏟️","en":"Weekend — who is coming to the game? 🏟️","ja":"週末！試合に来る人いる？🏟️","zh":"週末到了！有人要來看比賽嗎？🏟️"},"body":{"ko":"주말이 왔어요! 수원 홈경기 오실 분은 ❤️ 남겨주세요!","en":"Weekend is HERE! Suwon Stadium home game. Drop a ❤️ if you will be there!","ja":"週末！スウォンでのホームゲーム。来れる人は❤️を！","zh":"週末到了！要來的給我按個❤️！"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.05.31"},{"type":"video","title":{"ko":"시즌 첫 번째 경기 응원 하이라이트 🎉","en":"Season opener cheer highlight reel 🎉","ja":"シーズン開幕戦の応援ハイライト 🎉","zh":"開季賽應援精華集錦 🎉"},"body":{"ko":"개막전 응원 하이라이트 영상을 모아봤어요! 팬 여러분도 정말 완벽하게 함께해주셨어요 💪🔥","en":"Compiled the best moments from the season opener! Let us ride this energy all season! 💪🔥","ja":"開幕戦の応援ハイライトをまとめました！💪🔥","zh":"整理了開季賽的應援精華！就用這股能量貫穿整個賽季！ 💪🔥"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2025.04.12"}];
 let _af = 'all';
 const _bi = {
   sec:{ko:'개인 블로그',en:'Personal Blog',ja:'個人ブログ',zh:'個人部落格'},
@@ -469,5 +488,6 @@ document.addEventListener('DOMContentLoaded', function() {
     <p id="modalBody" style="font-size:.9rem;color:#a0a0b8;line-height:1.8;margin:0;white-space:pre-wrap;"></p>
   </div>
 </div>
+  <script src="/js/cookie-consent.js"></script>
 </body>
 </html>

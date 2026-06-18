@@ -78,7 +78,16 @@
   <link rel="prefetch" as="image" href="../images/kwon-gayoung.jpg">
   <link rel="prefetch" as="image" href="../images/kim-minji.jpg">
   <!-- Google Analytics GA4 — 실제 ID로 교체: analytics.google.com → 관리 → 데이터 스트림 → Measurement ID -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2BYFTLPLT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      ad_storage: 'denied', analytics_storage: 'denied',
+      ad_user_data: 'denied', ad_personalization: 'denied',
+      wait_for_update: 500
+    });
+  </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2BYFTLPLT"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -129,6 +138,16 @@
       <p class="bio-text" data-bio="ja">ケ・ユジンは2025年にKTウィズ及び関連チームに加入。野球とバレーボールの観客にその才能を披露し、次世代の韓国スポーツエンターテイナーとして注目されています。</p>
       <p class="bio-text" data-bio="ko">야구·농구 경기에서 활약 중인 치어리더로, 특유의 밝은 미소와 안정적인 퍼포먼스로 팬들의 응원을 받고 있습니다.</p>
       <p class="bio-text" data-bio="zh">桂有珍於2025年加入KOLEX及相關隊伍，將她的才華帶給棒球與排球的觀眾。她代表著韓國體育娛樂界的下一個世代。</p>
+      <div style="margin-top:1.1rem;padding:.9rem 1.2rem;background:rgba(255,45,85,.06);border-left:3px solid var(--red);border-radius:0 8px 8px 0;">
+        <p data-bio="ko" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX 에디터 픽</p>
+        <p data-bio="en" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX Editor's Pick</p>
+        <p data-bio="ja" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX エディターズ・ピック</p>
+        <p data-bio="zh" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX 編輯推薦</p>
+        <p data-bio="ko" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">계유진 치어리더는 처음보다 시간이 지날수록 매력이 더 크게 느껴지는 친구입니다. 조용해 보이는 첫 인상 때문에 낯을 가린다고 생각할 수 있지만, 볼수록 사람들과 어울리는 것을 좋아하고 흥도 많은 반전 매력의 소유자입니다. 현장에서 팬들과 함께하는 모습을 보면 진심이 자연스럽게 느껴지고, 시간이 지날수록 팬 층이 두터워질 수밖에 없는 이유를 알게 됩니다. 스타성도 가지고 있지만, 무엇보다 사람을 편안하게 끌어당기는 친근함이 가장 큰 강점인 치어리더입니다.</p>
+        <p data-bio="en" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">Kye Yujin is one of those people whose charm grows the more time you spend with them. Her quiet first impression might suggest shyness, but get to know her and you'll discover someone who genuinely loves connecting with people and has no shortage of fun energy — a delightful contrast. Watching her interact with fans at events, you can feel her sincerity radiating naturally, and it becomes clear why her fanbase only keeps growing. She has undeniable star quality, but her greatest strength is the effortless warmth that draws people in.</p>
+        <p data-bio="ja" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">ケ・ユジンは、知れば知るほど魅力が増す存在です。物静かな第一印象から人見知りに見えるかもしれませんが、打ち解けるほどに人と交わることが好きで、ノリもいいというギャップの持ち主です。現場でファンと触れ合う姿を見ると、その真心が自然と伝わってきて、時を経るごとにファンが増え続ける理由がよくわかります。スター性もありますが、何より人を自然と惹きつける親しみやすさが最大の強みです。</p>
+        <p data-bio="zh" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">桂裕珍是一位越深入了解越能感受到魅力的人。安靜的第一印象或許讓人覺得她怕生，但其實她喜歡與人交流，也很有活力，反差魅力十足。在現場看她與粉絲互動時，那份真心自然流露，讓人完全理解為什麼她的粉絲群會隨時間持續壯大。她有星氣質，但最大的強項是那種讓人不自覺靠近的親切感。</p>
+      </div>
       <div id="fullProfileContent" style="display:none;margin-top:1.25rem;padding:1.25rem 1.5rem;background:rgba(255,255,255,.03);border:1px solid rgba(255,45,85,.2);border-radius:14px;line-height:1.8;color:#c0c0d0;">
         <div id="fp-ko" style="display:none;"><div class="post-body-inline">
 <p>2001년생, 키 171cm의 <strong>계유진</strong>의 퍼포먼스 스타일에는 한눈에 알아볼 수 있는 무언가가 있습니다. KOLEX의 다른 멤버들이 파워나 정확함을 앞세운다면, 유진은 예술적 표현을 선행시켜 경기장 무대에 독자적인 품격을 더합니다.</p>
@@ -173,10 +192,10 @@
 </div></div>
         <div style="margin-top:1rem;text-align:right;">
           <a href="../blog/posts/kye-yujin-profile.html" style="color:var(--red);font-size:.78rem;font-weight:700;">Full standalone post →</a>
-        </div>
 <div id="photosPanel" style="display:none;margin-top:1.25rem;">
         <div id="photoGrid"></div>
       </div>
+        </div>
       </div>
       </div>
     </div>
@@ -233,7 +252,7 @@ const backs = { ko:"전체 멤버", en:"All Members", ja:"メンバー一覧", z
 
 
 // ===== 개인 블로그 JS =====
-const _posts = [{"type":"greeting","title":{"ko":"오늘도 최고의 컨디션으로 여러분 곁에! 🎉","en":"Here with You at Our Best Today! 🎉","ja":"今日も最高のコンディションでみなさんのそばに！🎉","zh":"今天也以最佳狀態陪伴大家！🎉"},"body":{"ko":"안녕하세요, 팬 여러분! 팀원들과 함께 컨디션 관리에 집중하면서 늘 활기찬 응원을 전할 준비를 하고 있어요. 건강을 꼼꼼히 챙기는 것이 최고의 응원을 선물하는 첫걸음이라고 믿거든요! 오늘도 여러분의 하루가 빛나길 바라며, KT Wiz와 함께 힘차게 달려봐요! 💪❤️","en":"Hello, dear fans! Our team members are focusing on staying in great condition so we can always cheer with the most energy for you. We truly believe that taking good care of our health is the very first step to delivering the best cheers possible! Wishing you a bright and wonderful day — let's go together with KT Wiz! 💪❤️","ja":"ファンのみなさん、こんにちは！チームメンバー一同、コンディション管理に力を入れながら、いつも全力の応援をお届けできるよう準備しています。健康をしっかり整えることが、最高の応援への第一歩だと信じています！今日も皆さんの一日が輝きますように。KT Wizと一緒に元気よく進みましょう！💪❤️","zh":"親愛的球迷朋友們，大家好！我們的團隊夥伴們正專注於調整最佳狀態，隨時準備以滿滿活力為大家加油打氣。我們相信，用心照顧好自己的健康，才是獻上最棒應援的第一步！祝大家今天也閃閃發光，讓我們與KT Wiz一起全力以赴！💪❤️"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2026.06.18"},{"type":"greeting","title":{"ko":"오늘도 힘차게, 함께해요! 🎉","en":"Full of Energy Today, Together! 🎉","ja":"今日も元気いっぱい、一緒に！🎉","zh":"今天也充滿活力，一起加油！🎉"},"body":{"ko":"안녕하세요, 위즈팬 여러분! 오늘도 여러분과 함께할 수 있어서 너무 행복해요 🥰 응원 연습을 마치고 나면 동료들이랑 꼭 달달한 간식을 먹는 게 우리만의 소소한 루틴인데, 오늘도 그 에너지로 최고의 응원을 펼칠게요! 언제나 위즈팬 여러분의 응원이 저희에게 가장 큰 힘이 됩니다 💪❤️","en":"Hello, Wiz fans! I'm so happy to be with you all again today 🥰 After cheer practice, having a sweet snack together with our teammates is our little daily routine — and today we'll bring that same positive energy to every single cheer for you! Your support always means the world to us 💪❤️","ja":"ウィズファンの皆さん、こんにちは！今日も皆さんと一緒にいられてとっても嬉しいです🥰 チア練習が終わったあと、チームメイトと甘いおやつを食べるのが私たちのこっそりルーティンなんですよ♪ 今日もその元気をいっぱい込めて、精一杯応援しますね！皆さんの声援がいつも一番の力になっています💪❤️","zh":"嗨，威茲球迷們！今天也能和大家在一起，真的好開心🥰 每次加油練習結束後，和隊員們一起吃點甜甜的小零食，是我們最喜歡的小小日常儀式♪ 今天也要把這份滿滿的能量，化作最熱情的應援獻給大家！你們的支持一直是我們最大的力量💪❤️"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2026.06.17"},{"type":"video","title":{"ko":"새 포스트 업로드! 🎬","en":"New Post! 🎬","ja":"新しい投稿公開！ 🎬","zh":"新貼文上傳！ 🎬"},"body":{"ko":"새 영상이 업로드됐어요! 인스타그램에서 확인해보세요 👉 @kyeyujin","en":"New content just dropped! Head to Instagram to watch it 👉 @kyeyujin","ja":"新しい動画が公開されました！Instagramでチェックしてみてください 👉 @kyeyujin","zh":"新影片已上傳！快去Instagram看看吧 👉 @kyeyujin"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2026.05.15","url":"https://www.instagram.com/kyeyujin/"},{"type":"milestone","title":{"ko":"2026 시즌 첫 경기 ⚾","en":"First Game of 2026 ⚾","ja":"2026シーズン初戦 ⚾","zh":"2026賽季首場比賽 ⚾"},"body":{"ko":"2026 시즌 첫 경기를 마쳤어요! 첫 경기의 긴장감은 언제나 특별해요. 앞으로 남은 경기들도 최선을 다할게요 ⚾","en":"First game of the 2026 season — done! There is nothing quite like that opening-day energy. I will bring it every single game 🔥","ja":"2026シーズン開幕戦を終えました！初戦の緊張感はいつも特別 ⚾","zh":"2026賽季首場比賽結束！開幕日的緊張感總是特別的，整季都會全力以赴 ⚾"},"tag":{"ko":"마일스톤","en":"Milestone","ja":"マイルストーン","zh":"里程碑"},"tagClass":"tag-milestone","date":"2026.04.01"},{"type":"greeting","title":{"ko":"계유진의 오늘 하루 인사 👋","en":"Hello from Kye Yu-jin! 👋","ja":"Kye Yu-jinからのご挨拶 👋","zh":"계유진的今日問候 👋"},"body":{"ko":"안녕하세요! 계유진입니다. 오늘도 최선을 다해 응원할게요. 여러분의 응원이 저에게 가장 큰 힘이에요. 경기장에서 만나요! 💕","en":"Hello everyone, it is Kye Yu-jin! I will give my absolute best today. Your cheers fuel me. See you at the game! 💕","ja":"こんにちは！今日も全力で応援します。皆さんの応援が一番の力 💕","zh":"大家好！今天也會全力以赴！你們的加油是我最大的動力 💕"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.06.08"},{"type":"greeting","title":{"ko":"연습 후기: 오늘도 열심히 했어요 💪","en":"Practice update — gave it my all today 💪","ja":"練習レポート：今日も頑張りました 💪","zh":"練習回顧：今天也全力拼了 💪"},"body":{"ko":"오늘 팀 전체 합동 연습이 있었어요! 새 안무가 완성되면 경기장에서 보여드릴게요 🙌","en":"Full team rehearsal today! When the new choreography comes together, the feeling is incredible 🙌","ja":"今日はチーム全体で合同練習！完成したときは嬉しい 🙌","zh":"今天整個團隊合練！完成後真的超有成就感 🙌"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.05.20"}];
+const _posts = [{"type": "greeting", "title": {"ko": "오늘도 힘차게, 함께해요! 🎉", "en": "Full of Energy Today, Together! 🎉", "ja": "今日も元気いっぱい、一緒に！🎉", "zh": "今天也充滿活力，一起加油！🎉"}, "body": {"ko": "안녕하세요, 위즈팬 여러분! 오늘도 여러분과 함께할 수 있어서 너무 행복해요 🥰 응원 연습을 마치고 나면 동료들이랑 꼭 달달한 간식을 먹는 게 우리만의 소소한 루틴인데, 오늘도 그 에너지로 최고의 응원을 펼칠게요! 언제나 위즈팬 여러분의 응원이 저희에게 가장 큰 힘이 됩니다 💪❤️", "en": "Hello, Wiz fans! I'm so happy to be with you all again today 🥰 After cheer practice, having a sweet snack together with our teammates is our little daily routine — and today we'll bring that same positive energy to every single cheer for you! Your support always means the world to us 💪❤️", "ja": "ウィズファンの皆さん、こんにちは！今日も皆さんと一緒にいられてとっても嬉しいです🥰 チア練習が終わったあと、チームメイトと甘いおやつを食べるのが私たちのこっそりルーティンなんですよ♪ 今日もその元気をいっぱい込めて、精一杯応援しますね！皆さんの声援がいつも一番の力になっています💪❤️", "zh": "嗨，威茲球迷們！今天也能和大家在一起，真的好開心🥰 每次加油練習結束後，和隊員們一起吃點甜甜的小零食，是我們最喜歡的小小日常儀式♪ 今天也要把這份滿滿的能量，化作最熱情的應援獻給大家！你們的支持一直是我們最大的力量💪❤️"}, "tag": {"ko": "일일 인사", "en": "Daily Greeting", "ja": "デイリーグリーティング", "zh": "每日問候"}, "tagClass": "tag-greeting", "date": "2026.06.17"},{"type":"video","title":{"ko":"새 포스트 업로드! 🎬","en":"New Post! 🎬","ja":"新しい投稿公開！ 🎬","zh":"新貼文上傳！ 🎬"},"body":{"ko":"새 영상이 업로드됐어요! 인스타그램에서 확인해보세요 👉 @kyeyujin","en":"New content just dropped! Head to Instagram to watch it 👉 @kyeyujin","ja":"新しい動画が公開されました！Instagramでチェックしてみてください 👉 @kyeyujin","zh":"新影片已上傳！快去Instagram看看吧 👉 @kyeyujin"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2026.05.15","url":"https://www.instagram.com/kyeyujin/"},{"type":"milestone","title":{"ko":"2026 시즌 첫 경기 ⚾","en":"First Game of 2026 ⚾","ja":"2026シーズン初戦 ⚾","zh":"2026賽季首場比賽 ⚾"},"body":{"ko":"2026 시즌 첫 경기를 마쳤어요! 첫 경기의 긴장감은 언제나 특별해요. 앞으로 남은 경기들도 최선을 다할게요 ⚾","en":"First game of the 2026 season — done! There is nothing quite like that opening-day energy. I will bring it every single game 🔥","ja":"2026シーズン開幕戦を終えました！初戦の緊張感はいつも特別 ⚾","zh":"2026賽季首場比賽結束！開幕日的緊張感總是特別的，整季都會全力以赴 ⚾"},"tag":{"ko":"마일스톤","en":"Milestone","ja":"マイルストーン","zh":"里程碑"},"tagClass":"tag-milestone","date":"2026.04.01"},{"type":"greeting","title":{"ko":"계유진의 오늘 하루 인사 👋","en":"Hello from Kye Yu-jin! 👋","ja":"Kye Yu-jinからのご挨拶 👋","zh":"계유진的今日問候 👋"},"body":{"ko":"안녕하세요! 계유진입니다. 오늘도 최선을 다해 응원할게요. 여러분의 응원이 저에게 가장 큰 힘이에요. 경기장에서 만나요! 💕","en":"Hello everyone, it is Kye Yu-jin! I will give my absolute best today. Your cheers fuel me. See you at the game! 💕","ja":"こんにちは！今日も全力で応援します。皆さんの応援が一番の力 💕","zh":"大家好！今天也會全力以赴！你們的加油是我最大的動力 💕"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.06.08"},{"type":"greeting","title":{"ko":"연습 후기: 오늘도 열심히 했어요 💪","en":"Practice update — gave it my all today 💪","ja":"練習レポート：今日も頑張りました 💪","zh":"練習回顧：今天也全力拼了 💪"},"body":{"ko":"오늘 팀 전체 합동 연습이 있었어요! 새 안무가 완성되면 경기장에서 보여드릴게요 🙌","en":"Full team rehearsal today! When the new choreography comes together, the feeling is incredible 🙌","ja":"今日はチーム全体で合同練習！完成したときは嬉しい 🙌","zh":"今天整個團隊合練！完成後真的超有成就感 🙌"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.05.20"}];
 let _af = 'all';
 const _bi = {
   sec:{ko:'개인 블로그',en:'Personal Blog',ja:'個人ブログ',zh:'個人部落格'},
@@ -464,5 +483,6 @@ document.addEventListener('DOMContentLoaded', function() {
     <p id="modalBody" style="font-size:.9rem;color:#a0a0b8;line-height:1.8;margin:0;white-space:pre-wrap;"></p>
   </div>
 </div>
+  <script src="/js/cookie-consent.js"></script>
 </body>
 </html>

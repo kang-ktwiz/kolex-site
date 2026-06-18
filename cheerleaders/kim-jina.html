@@ -78,7 +78,16 @@
   <link rel="prefetch" as="image" href="../images/kwon-gayoung.jpg">
   <link rel="prefetch" as="image" href="../images/kim-minji.jpg">
   <!-- Google Analytics GA4 — 실제 ID로 교체: analytics.google.com → 관리 → 데이터 스트림 → Measurement ID -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2BYFTLPLT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      ad_storage: 'denied', analytics_storage: 'denied',
+      ad_user_data: 'denied', ad_personalization: 'denied',
+      wait_for_update: 500
+    });
+  </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2BYFTLPLT"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -129,6 +138,16 @@
       <p class="bio-text" data-bio="ja">キム・ジナは2017年からKTウィズに所属するベテランチアリーダー。Instagramで22万8千人以上のフォロワーを持ち、台湾のCPBLリーグでのパフォーマンス経験もある国際的なスターです。</p>
       <p class="bio-text" data-bio="ko">2014년부터 활동을 시작한 KOLEX의 대선배. 야구·농구·배구 등 다양한 스포츠에서 완성도 높은 퍼포먼스를 선보이며 인스타그램 팔로워 22만 8천 명을 보유하고 있습니다.</p>
       <p class="bio-text" data-bio="zh">金真兒是球隊中最資深的啦啦隊員之一，自2017年起加入KOLEX。她在Instagram上擁有超過22.8萬名追蹤者，更曾遠赴台灣CPBL進行演出，是真正的國際明星。</p>
+      <div style="margin-top:1.1rem;padding:.9rem 1.2rem;background:rgba(255,45,85,.06);border-left:3px solid var(--red);border-radius:0 8px 8px 0;">
+        <p data-bio="ko" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX 에디터 픽</p>
+        <p data-bio="en" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX Editor's Pick</p>
+        <p data-bio="ja" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX エディターズ・ピック</p>
+        <p data-bio="zh" style="font-size:.75rem;font-weight:700;color:var(--red);margin-bottom:.45rem;letter-spacing:.06em;">✦ KOLEX 編輯推薦</p>
+        <p data-bio="ko" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">김진아 치어리더는 자기관리 면에서 최고의 모범이 되는 친구입니다. 본인의 일에는 누구보다 프로이고 어떠한 구설에도 엮인 적이 없는 성실한 치어리더입니다. 지금은 한국뿐 아니라 대만에서도 왕성하게 활동을 이어가고 있습니다. 에디터의 입장에서 우리 김진아 치어리더가 은퇴 없이 계속 이 일을 했으면 좋겠습니다.</p>
+        <p data-bio="en" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">Kim Jina is the ultimate role model for self-discipline. More professional than anyone when it comes to her work, she has never once been caught up in controversy. Now active not only in Korea but also in Taiwan, our editor sincerely hopes she never retires.</p>
+        <p data-bio="ja" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">キム・ジナは自己管理において最高の模範となる存在です。仕事に対しては誰よりもプロフェッショナルで、いかなる噂にも巻き込まれたことがない誠実なチアリーダーです。現在は韓国だけでなく台湾でも精力的に活動しています。エディターとして、引退せずにこの仕事を続けてほしいと心から願っています。</p>
+        <p data-bio="zh" style="font-size:.9rem;line-height:1.8;color:#c0c0d0;">金真兒是自我管理方面的最佳典範。她對工作比任何人都更專業，從未捲入任何風波，是一位誠懇踏實的啦啦隊員。目前她不僅在韓國活躍，也積極拓展台灣市場。以編輯的立場，真心希望她永遠不要退休。</p>
+      </div>
       <div id="fullProfileContent" style="display:none;margin-top:1.25rem;padding:1.25rem 1.5rem;background:rgba(255,255,255,.03);border:1px solid rgba(255,45,85,.2);border-radius:14px;line-height:1.8;color:#c0c0d0;">
         <div id="fp-ko" style="display:none;"><div class="post-body-inline">
 <p>1992년생의 <strong>김진아</strong>는 한국 스포츠 엔터테인먼트 업계에서 가장 경험이 풍부한 퍼포머 중 하나입니다. <strong>인스타그램 팔로워 22만 8,000명</strong>과 10년이 넘는 커리어를 통해 쌓인 깊이와 마스터리를 무대에 가져옵니다.</p>
@@ -183,10 +202,10 @@
 </div></div>
         <div style="margin-top:1rem;text-align:right;">
           <a href="../blog/posts/kim-jina-profile.html" style="color:var(--red);font-size:.78rem;font-weight:700;">Full standalone post →</a>
-        </div>
 <div id="photosPanel" style="display:none;margin-top:1.25rem;">
         <div id="photoGrid"></div>
       </div>
+        </div>
       </div>
       </div>
     </div>
@@ -246,7 +265,7 @@ const backs = { ko:"전체 멤버", en:"All Members", ja:"メンバー一覧", z
 
 
 // ===== 개인 블로그 JS =====
-const _posts = [{"type":"greeting","title":{"ko":"오늘도 함께라서 더 빛나요 ✨","en":"Shining Brighter Together Today ✨","ja":"今日も一緒だからもっと輝ける ✨","zh":"今天因為有你更加閃耀 ✨"},"body":{"ko":"안녕하세요, 위즈 팬 여러분! 💕 소중한 팀원이 오늘도 최고의 모습으로 무대를 빛낼 수 있도록 저도 온 마음을 다해 응원하고 있어요. 서로 힘이 되어주는 동료가 있다는 것, 정말 큰 행복이랍니다! 팬 여러분도 오늘 하루 건강하고 활기차게 보내세요 🩷","en":"Hello, Wiz fans! 💕 I'm cheering with all my heart so that our wonderful teammate can shine her very best on stage today. Having a teammate who gives you strength is truly one of the greatest joys! Wishing all of you a healthy and energetic day as well 🩷","ja":"こんにちは、Wizファンのみなさん！💕 大切なチームメンバーが今日も最高の姿でステージを輝かせられるよう、私も全力で応援しています。お互いに力を与え合える仲間がいることって、本当に大きな幸せですよね！ファンのみなさんも今日一日、健やかで元気にお過ごしください 🩷","zh":"大家好，Wiz的球迷們！💕 我全心全意為珍貴的隊友加油打氣，希望她今天也能在舞台上閃耀出最美的光芒。能有一位互相給予力量的夥伴，真的是莫大的幸福呢！也祝福各位球迷今天健康滿滿、活力充沛 🩷"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2026.06.18"},{"type":"greeting","title":{"ko":"오늘도 응원 루틴으로 활력 충전! 🎉","en":"Energized by Our Cheer Routine Today! 🎉","ja":"今日も応援ルーティンで元気いっぱい！🎉","zh":"今天也靠應援例行活力滿滿！🎉"},"body":{"ko":"안녕하세요, 위즈 팬 여러분! 🩷 무대에 서기 전, 동료들과 함께하는 응원 루틴이 저에게 큰 힘이 돼요. 오늘도 최고의 에너지로 여러분 곁에 있을게요!","en":"Hello, Wiz fans! 🩷 The cheer routine I share with my teammates before taking the stage always gives me so much strength. I'll bring my very best energy to you all today!","ja":"こんにちは、Wizファンの皆さん！🩷 ステージに立つ前にチームメンバーと一緒に行う応援ルーティンが、いつも私の大きな力になっています。今日も最高のエネルギーでみなさんのそばにいますね！","zh":"大家好，Wiz球迷們！🩷 每次上台前和隊友們一起進行應援例行，都給了我莫大的力量。今天也會帶著最棒的能量陪伴大家！"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2026.06.17"},{"type":"video","title":{"ko":"새 Reel 업로드! 🎬","en":"New Reel! 🎬","ja":"新しいReel公開！ 🎬","zh":"新Reel上傳！ 🎬"},"body":{"ko":"새 영상이 업로드됐어요! 인스타그램에서 확인해보세요 👉 @jjina_v0v","en":"New content just dropped! Head to Instagram to watch it 👉 @jjina_v0v","ja":"新しい動画が公開されました！Instagramでチェックしてみてください 👉 @jjina_v0v","zh":"新影片已上傳！快去Instagram看看吧 👉 @jjina_v0v"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2026.05.15","url":"https://www.instagram.com/jjina_v0v/"},{"type":"milestone","title":{"ko":"팔로워 20만 돌파 🎊","en":"200K Followers 🎊","ja":"20万人突破 🎊","zh":"突破20萬粉絲 🎊"},"body":{"ko":"팔로워 20만 명 감사해요! 2017년부터 이 순간을 위해 달려왔어요. 앞으로도 더 좋은 모습 보여드릴게요 🌸","en":"200,000 followers! Since 2017 I have poured everything into this, and moments like this remind me why. Thank you 🌸","ja":"フォロワー20万人！2017年からずっと積み上げてきたこと、嬉しい 🌸","zh":"20萬粉絲！從2017年到現在，謝謝所有人的陪伴 🌸"},"tag":{"ko":"마일스톤","en":"Milestone","ja":"マイルストーン","zh":"里程碑"},"tagClass":"tag-milestone","date":"2026.04.01"},{"type":"greeting","title":{"ko":"김진아의 월요일 에너지 충전 ☀️","en":"Monday motivation from Kim Jin-a ☀️","ja":"キム・ジナのマンデーモチベーション ☀️","zh":"金真兒的週一能量補充 ☀️"},"body":{"ko":"안녕하세요 월요일 전사 여러분! 새로운 한 주는 빛날 새로운 기회예요.","en":"Good morning Monday warriors! A new week, new opportunities. 8+ years of cheerleading and every Monday I remember why I love this.","ja":"おはようございます！新しい週は輝く新チャンス。","zh":"早安週一戰士們！每個週一都提醒自己為何熱愛這份工作。"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.06.02"},{"type":"video","title":{"ko":"응원단장의 루틴 연습 영상 🎬","en":"My pre-game warm-up routine 🎬","ja":"試合前ウォームアップルーティン 🎬","zh":"比賽前暖身例行動作影片 🎬"},"body":{"ko":"오늘 경기 전에 제가 항상 하는 준비 루틴을 처음으로 공개해봐요! 8년 동안 쌓아온 나만의 루틴이에요. 🔥","en":"Sharing my personal pre-game routine for the first time! Built over 8 years. Full video on Instagram! 🔥","ja":"試合前の準備ルーティンを初公開！フル動画はインスタにあります 🔥","zh":"今天第一次公開我賽前的個人例行程序！完整影片在Instagram 🔥"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2025.05.28"},{"type":"milestone","title":{"ko":"팔로워 22만 돌파 감사해요! 🎊","en":"220K followers — thank you! 🎊","ja":"フォロワー22万人突破！🎊","zh":"突破22萬追蹤者！謝謝大家 🎊"},"body":{"ko":"22만 명이 저를 응원해주신다니 정말 믿기지 않아요 🙏","en":"220,000 followers! Thank you all so much from the bottom of my heart 🙏","ja":"22万人！皆さんに心から感謝します 🙏","zh":"22萬人！感謝你們每一個人 🙏"},"tag":{"ko":"마일스톤","en":"Milestone","ja":"マイルストーン","zh":"里程碑"},"tagClass":"tag-milestone","date":"2025.05.01"}];
+const _posts = [{"type": "greeting", "title": {"ko": "오늘도 응원 루틴으로 활력 충전! 🎉", "en": "Energized by Our Cheer Routine Today! 🎉", "ja": "今日も応援ルーティンで元気いっぱい！🎉", "zh": "今天也靠應援例行活力滿滿！🎉"}, "body": {"ko": "안녕하세요, 위즈 팬 여러분! 🩷 무대에 서기 전, 동료들과 함께하는 응원 루틴이 저에게 큰 힘이 돼요. 오늘도 최고의 에너지로 여러분 곁에 있을게요!", "en": "Hello, Wiz fans! 🩷 The cheer routine I share with my teammates before taking the stage always gives me so much strength. I'll bring my very best energy to you all today!", "ja": "こんにちは、Wizファンの皆さん！🩷 ステージに立つ前にチームメンバーと一緒に行う応援ルーティンが、いつも私の大きな力になっています。今日も最高のエネルギーでみなさんのそばにいますね！", "zh": "大家好，Wiz球迷們！🩷 每次上台前和隊友們一起進行應援例行，都給了我莫大的力量。今天也會帶著最棒的能量陪伴大家！"}, "tag": {"ko": "일일 인사", "en": "Daily Greeting", "ja": "デイリーグリーティング", "zh": "每日問候"}, "tagClass": "tag-greeting", "date": "2026.06.17"},{"type":"video","title":{"ko":"새 Reel 업로드! 🎬","en":"New Reel! 🎬","ja":"新しいReel公開！ 🎬","zh":"新Reel上傳！ 🎬"},"body":{"ko":"새 영상이 업로드됐어요! 인스타그램에서 확인해보세요 👉 @jjina_v0v","en":"New content just dropped! Head to Instagram to watch it 👉 @jjina_v0v","ja":"新しい動画が公開されました！Instagramでチェックしてみてください 👉 @jjina_v0v","zh":"新影片已上傳！快去Instagram看看吧 👉 @jjina_v0v"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2026.05.15","url":"https://www.instagram.com/jjina_v0v/"},{"type":"milestone","title":{"ko":"팔로워 20만 돌파 🎊","en":"200K Followers 🎊","ja":"20万人突破 🎊","zh":"突破20萬粉絲 🎊"},"body":{"ko":"팔로워 20만 명 감사해요! 2017년부터 이 순간을 위해 달려왔어요. 앞으로도 더 좋은 모습 보여드릴게요 🌸","en":"200,000 followers! Since 2017 I have poured everything into this, and moments like this remind me why. Thank you 🌸","ja":"フォロワー20万人！2017年からずっと積み上げてきたこと、嬉しい 🌸","zh":"20萬粉絲！從2017年到現在，謝謝所有人的陪伴 🌸"},"tag":{"ko":"마일스톤","en":"Milestone","ja":"マイルストーン","zh":"里程碑"},"tagClass":"tag-milestone","date":"2026.04.01"},{"type":"greeting","title":{"ko":"김진아의 월요일 에너지 충전 ☀️","en":"Monday motivation from Kim Jin-a ☀️","ja":"キム・ジナのマンデーモチベーション ☀️","zh":"金真兒的週一能量補充 ☀️"},"body":{"ko":"안녕하세요 월요일 전사 여러분! 새로운 한 주는 빛날 새로운 기회예요.","en":"Good morning Monday warriors! A new week, new opportunities. 8+ years of cheerleading and every Monday I remember why I love this.","ja":"おはようございます！新しい週は輝く新チャンス。","zh":"早安週一戰士們！每個週一都提醒自己為何熱愛這份工作。"},"tag":{"ko":"일일 인사","en":"Daily Greeting","ja":"デイリーグリーティング","zh":"每日問候"},"tagClass":"tag-greeting","date":"2025.06.02"},{"type":"video","title":{"ko":"응원단장의 루틴 연습 영상 🎬","en":"My pre-game warm-up routine 🎬","ja":"試合前ウォームアップルーティン 🎬","zh":"比賽前暖身例行動作影片 🎬"},"body":{"ko":"오늘 경기 전에 제가 항상 하는 준비 루틴을 처음으로 공개해봐요! 8년 동안 쌓아온 나만의 루틴이에요. 🔥","en":"Sharing my personal pre-game routine for the first time! Built over 8 years. Full video on Instagram! 🔥","ja":"試合前の準備ルーティンを初公開！フル動画はインスタにあります 🔥","zh":"今天第一次公開我賽前的個人例行程序！完整影片在Instagram 🔥"},"tag":{"ko":"영상 업데이트","en":"Video Update","ja":"動画更新","zh":"影片更新"},"tagClass":"tag-video","date":"2025.05.28"},{"type":"milestone","title":{"ko":"팔로워 22만 돌파 감사해요! 🎊","en":"220K followers — thank you! 🎊","ja":"フォロワー22万人突破！🎊","zh":"突破22萬追蹤者！謝謝大家 🎊"},"body":{"ko":"22만 명이 저를 응원해주신다니 정말 믿기지 않아요 🙏","en":"220,000 followers! Thank you all so much from the bottom of my heart 🙏","ja":"22万人！皆さんに心から感謝します 🙏","zh":"22萬人！感謝你們每一個人 🙏"},"tag":{"ko":"마일스톤","en":"Milestone","ja":"マイルストーン","zh":"里程碑"},"tagClass":"tag-milestone","date":"2025.05.01"}];
 let _af = 'all';
 const _bi = {
   sec:{ko:'개인 블로그',en:'Personal Blog',ja:'個人ブログ',zh:'個人部落格'},
@@ -477,5 +496,6 @@ document.addEventListener('DOMContentLoaded', function() {
     <p id="modalBody" style="font-size:.9rem;color:#a0a0b8;line-height:1.8;margin:0;white-space:pre-wrap;"></p>
   </div>
 </div>
+  <script src="/js/cookie-consent.js"></script>
 </body>
 </html>
