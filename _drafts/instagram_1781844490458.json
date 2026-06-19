@@ -1,0 +1,35 @@
+[
+  {
+    "member_id": "kim-gahyun",
+    "name_ko": "김가현",
+    "file_path": "cheerleaders/kim-gahyun.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요! 🎉",
+        "en": "New Post Alert! 🎉",
+        "ja": "新しい投稿が届きました！🎉",
+        "zh": "新貼文來啦！🎉"
+      },
+      "body": {
+        "ko": "김가현의 인스타그램에 새 게시물이 올라왔어요! 설레는 순간들을 함께 느껴보세요 ⚽️🇰🇷♥️",
+        "en": "Ga-hyun just posted something new on Instagram! Come share in all the excitement and good vibes ⚽️🇰🇷♥️",
+        "ja": "カヒョンのインスタグラムに新しい投稿が届きました！ワクワクする瞬間をぜひ一緒に感じてみてください ⚽️🇰🇷♥️",
+        "zh": "佳賢的Instagram新貼文上線啦！一起來感受這份令人雀躍的心情吧 ⚽️🇰🇷♥️"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DZwAu1SgWJ0/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.06.19"
+    }
+  }
+]
