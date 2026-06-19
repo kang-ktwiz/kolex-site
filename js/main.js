@@ -402,7 +402,7 @@ function renderYtVideos() {
   <div class="yt-ratio">
     <a class="yt-thumb-link" href="${url}" target="_blank" rel="noopener" title="${v.title}">
       <img src="https://img.youtube.com/vi/${v.videoId}/hqdefault.jpg" alt="${v.title}" loading="lazy"
-        onerror="this.src='https://img.youtube.com/vi/${v.videoId}/mqdefault.jpg'">
+        onerror="if(this.dataset.fb){this.closest('.yt-card').style.display='none'}else{this.dataset.fb='1';this.src=this.src.replace('hqdefault','mqdefault')}" onload="if(this.naturalWidth<10)this.closest('.yt-card').style.display='none'">
       <div class="yt-play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
       <div class="yt-thumb-label">▶ ${watchLabel}</div>
     </a>
