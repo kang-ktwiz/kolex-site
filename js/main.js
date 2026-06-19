@@ -63,11 +63,11 @@ const i18n = {
     ai_badge_sub:"AI가 치어리더 일상 인사·영상 소개·마일스톤 글 초안을 작성하고, KOLEX 담당자 검토 후 발행됩니다",
     ai_live:"● LIVE",
     ai_feat_h:"KOLEX 팀이\n매일 업데이트",
-    ai_feat_p:"이 사이트는 n8n + Claude AI 자동화 시스템으로 운영됩니다. 치어리더들의 인스타그램·유튜브를 실시간 모니터링해 새 콘텐츠가 올라오면 자동으로 블로그 포스트를 생성하고 사이트를 업데이트합니다.",
+    ai_feat_p:"이 사이트는 n8n + Claude AI 보조 시스템으로 운영됩니다. 치어리더들의 인스타그램·유튜브를 실시간 모니터링해 새 콘텐츠가 올라오면 AI 보조로 블로그 포스트 초안을 작성하고, KOLEX 팀의 확인 후 사이트를 업데이트합니다.",
     ai_consent_note:"본 사이트의 치어리더 관련 콘텐츠는 소속 치어리더의 사전 동의 하에 제작·운영됩니다.",
     ai_f1_h:"사진 자동 수집", ai_f1_p:"인스타그램 새 게시물 감지 → 자동 임베드",
     ai_f2_h:"영상 자동 업데이트", ai_f2_p:"유튜브 새 영상 → AI 설명 생성 → 자동 게시",
-    ai_f3_h:"일일 인사 자동 작성", ai_f3_p:"매일 4개 국어로 팬 인사 포스트 자동 생성",
+    ai_f3_h:"일일 인사 AI 보조 작성", ai_f3_p:"매일 4개 국어로 팬 인사 포스트 AI 보조 작성",
     ai_f4_h:"다국어 자동 번역", ai_f4_p:"한국어·영어·일본어·중문 동시 발행",
     cta_h:"매일 새 소식,<br/>놓치지 마세요 💕",
     cta_p:"공식 채널을 추가하고 좋아하는 치어리더의 최신 소식을 가장 먼저 받아보세요. 인스타그램 팔로우도 잊지 마세요!",
@@ -123,11 +123,11 @@ const i18n = {
     ai_badge_sub:"AI writes draft posts; every piece is reviewed and approved by KOLEX staff before publishing",
     ai_live:"● LIVE",
     ai_feat_h:"Daily Updates\nby KOLEX Team",
-    ai_feat_p:"This site runs on n8n + Claude AI automation. Instagram and YouTube are monitored in real-time — when new content drops, blog posts are auto-generated and the site updates instantly.",
+    ai_feat_p:"This site is powered by n8n + Claude AI assistance. Instagram and YouTube are monitored in real-time — when new content drops, AI-assisted drafts are created, reviewed by KOLEX staff, and published to the site.",
     ai_consent_note:"All cheerleader-related content on this site is produced and operated with the prior consent of each featured cheerleader.",
     ai_f1_h:"Photo Auto-Collect", ai_f1_p:"Instagram new posts detected → auto-embedded",
     ai_f2_h:"Video Auto-Update", ai_f2_p:"YouTube new video → AI description → auto-published",
-    ai_f3_h:"Daily Greetings Auto-Written", ai_f3_p:"Fan greeting posts auto-generated daily in 4 languages",
+    ai_f3_h:"Daily Greetings, AI-Assisted", ai_f3_p:"Fan greeting posts AI-assisted and editor-reviewed daily in 4 languages",
     ai_f4_h:"Multilingual Auto-Translation", ai_f4_p:"Korean · English · Japanese · Chinese published simultaneously",
     cta_h:"Fresh updates<br/><em>every single day</em> 💕",
     cta_p:"Follow our official channels to be the first to hear from your favorite cheerleaders. Don't forget to follow us on Instagram!",
@@ -183,11 +183,11 @@ const i18n = {
     ai_badge_sub:"AIが挨拶・動画紹介・記念投稿の下書きを作成し、KOLEX担当者が確認・承認後に公開します",
     ai_live:"● LIVE",
     ai_feat_h:"KOLEXチームが\n毎日更新",
-    ai_feat_p:"このサイトはn8n + Claude AI自動化システムで運営されています。インスタグラム・YouTubeをリアルタイムで監視し、新コンテンツが投稿されると自動でブログ記事を生成・更新します。",
+    ai_feat_p:"このサイトはn8n + Claude AIサポートシステムで運営されています。インスタグラム・YouTubeをリアルタイムで監視し、新コンテンツが投稿されるとAIサポートでブログ記事の下書きを作成し、KOLEXスタッフが確認後に公開します。",
     ai_consent_note:"本サイトのチアリーダー関連コンテンツは、各チアリーダーの事前同意のもとに制作・運営されています。",
     ai_f1_h:"写真自動収集", ai_f1_p:"インスタ新投稿検知 → 自動埋め込み",
     ai_f2_h:"動画自動更新", ai_f2_p:"YouTube新動画 → AI説明生成 → 自動投稿",
-    ai_f3_h:"日次挨拶自動作成", ai_f3_p:"毎日4カ国語でファン挨拶投稿を自動生成",
+    ai_f3_h:"AIサポートで挨拶作成", ai_f3_p:"毎日4カ国語でファン挨拶投稿をAIサポートで作成",
     ai_f4_h:"多言語自動翻訳", ai_f4_p:"韓国語・英語・日本語・中文を同時に公開",
     cta_h:"毎日新しいニュース、<br/>見逃さないで 💕",
     cta_p:"公式チャンネルを追加して、お気に入りのチアリーダーの最新情報をいち早くチェックしましょう。Instagramのフォローもお忘れなく！",
@@ -243,11 +243,11 @@ const i18n = {
     ai_badge_sub:"AI撰寫問候、影片介紹、里程碑文章草稿，KOLEX人員審核後才發布",
     ai_live:"● 直播中",
     ai_feat_h:"KOLEX團隊\n每天更新",
-    ai_feat_p:"本網站由n8n + Claude AI自動化系統運營。即時監控啦啦隊員的Instagram和YouTube，有新內容發布時自動生成部落格文章並更新網站。",
+    ai_feat_p:"本網站由n8n + Claude AI輔助系統運營。即時監控啦啦隊員的Instagram和YouTube，有新內容發布時由AI輔助撰寫部落格文章草稿，經KOLEX團隊審核後發布。",
     ai_consent_note:"本網站之啦啦隊相關內容，皆於各啦啦隊員事前同意下製作與營運。",
     ai_f1_h:"自動收集照片", ai_f1_p:"偵測Instagram新貼文 → 自動嵌入",
     ai_f2_h:"自動更新影片", ai_f2_p:"YouTube新影片 → AI生成說明 → 自動發布",
-    ai_f3_h:"每日自動撰寫問候", ai_f3_p:"每天自動以4種語言生成粉絲問候文章",
+    ai_f3_h:"AI輔助每日撰寫問候", ai_f3_p:"每天以4種語言AI輔助撰寫粉絲問候文章",
     ai_f4_h:"多語言自動翻譯", ai_f4_p:"韓文・英文・日文・中文同時發布",
     cta_h:"每天的新消息，<br/>別錯過 💕",
     cta_p:"加入官方頻道，搶先收到你最喜歡的啦啦隊員最新消息。別忘了追蹤Instagram！",
@@ -402,7 +402,7 @@ function renderYtVideos() {
   <div class="yt-ratio">
     <a class="yt-thumb-link" href="${url}" target="_blank" rel="noopener" title="${v.title}">
       <img src="https://img.youtube.com/vi/${v.videoId}/hqdefault.jpg" alt="${v.title}" loading="lazy"
-        onerror="if(this.dataset.fb){this.closest('.yt-card').style.display='none'}else{this.dataset.fb='1';this.src=this.src.replace('hqdefault','mqdefault')}" onload="if(this.naturalWidth<10)this.closest('.yt-card').style.display='none'">
+        onerror="this.src='https://img.youtube.com/vi/${v.videoId}/mqdefault.jpg'">
       <div class="yt-play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
       <div class="yt-thumb-label">▶ ${watchLabel}</div>
     </a>
