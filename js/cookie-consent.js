@@ -148,3 +148,44 @@
     init();
   }
 })();
+
+/* ── postsGrid masonry layout ─────────────────────────────────────────────
+   개인 블로그 페이지(cheerleaders/*.html)에서 인스타그램 embed 카드 크기에
+   맞춰 옆 카드에 공백이 생기는 문제 해결. CSS columns 방식으로 각 카드가
+   자신의 높이만큼만 차지하도록 함. 12개 파일 공통 적용.
+   ──────────────────────────────────────────────────────────────────────── */
+(function () {
+  function applyMasonry() {
+    var grid = document.getElementById('postsGrid');
+    if (!grid) return;
+
+    function setGridStyle() {
+      grid.style.display = 'block';
+      grid.style.columns = '3 280px';
+      grid.style.columnGap = '1rem';
+      grid.style.gap = '';
+    }
+
+    function styleCards() {
+      Array.from(grid.children).forEach(function (c) {
+        c.style.breakInside = 'avoid';
+        c.style.marginBottom = '1rem';
+      });
+    }
+
+    setGridStyle();
+    styleCards();
+
+    // renderBlogPosts 재호출(탭 필터 전환) 시에도 자동 적용
+    new MutationObserver(function () {
+      setGridStyle();
+      styleCards();
+    }).observe(grid, { childList: true });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', applyMasonry);
+  } else {
+    applyMasonry();
+  }
+})();
