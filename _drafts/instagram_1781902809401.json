@@ -1,0 +1,35 @@
+[
+  {
+    "member_id": "jeong-huijeong",
+    "name_ko": "정희정",
+    "file_path": "cheerleaders/jeong-huijeong.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요! 🌟",
+        "en": "New Post is Up! 🌟",
+        "ja": "新しい投稿が届きました！🌟",
+        "zh": "新貼文來囉！🌟"
+      },
+      "body": {
+        "ko": "정희정의 인스타그램에 새 게시물이 업로드됐어요! 바쁜 일상 속에서도 에너지 넘치는 모습, 함께 응원해요 💪🩷",
+        "en": "A new post from Jeong Hui-jeong just dropped on Instagram! Full of energy and positivity even through a busy schedule — let's cheer her on together! 💪🩷",
+        "ja": "チョン・フィジョンのインスタグラムに新しい投稿が上がりました！忙しい日々の中でも元気いっぱいな姿、一緒に応援しましょう！💪🩷",
+        "zh": "鄭希晶的Instagram剛上傳了新貼文！在忙碌的日常中依然充滿活力，讓我們一起為她加油吧！💪🩷"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DZw_EVjuW9l/",
+      "media_type": "IMAGE",
+      "date": "2026.06.20"
+    }
+  }
+]
