@@ -460,7 +460,6 @@ const _bi = {
   sec:{ko:'개인 블로그',en:'Personal Blog',ja:'個人ブログ',zh:'個人部落格'},
   all:{ko:'전체',en:'All',ja:'全て',zh:'全部'},
   gr:{ko:'일일 인사',en:'Daily Greeting',ja:'デイリー',zh:'每日問候'},
-  vi:{ko:'영상 업데이트',en:'Video Update',ja:'動画更新',zh:'影片更新'},
   mi:{ko:'마일스톤',en:'Milestone',ja:'マイルストーン',zh:'里程碑'},
   lm:{ko:'더 보기 ↓',en:'Load more ↓',ja:'もっと見る ↓',zh:'載入更多 ↓'},
   rm:{ko:'더 읽기 →',en:'Read more →',ja:'続きを読む →',zh:'閱讀更多 →'},
@@ -470,8 +469,8 @@ const _bi = {
   ih:{ko:'📸 인스타그램 <span>최신 소식</span>',en:'📸 Latest from <span>Instagram</span>',ja:'📸 インスタグラム <span>最新情報</span>',zh:'📸 最新 <span>Instagram</span>'},
   if:{ko:'팔로우하세요 <strong>@_jung_u</strong> — 인스타그램에서 최신 소식을 받아보세요!',en:'Follow <strong>@_jung_u</strong> on Instagram for the latest updates!',ja:'<strong>@_jung_u</strong> をInstagramでフォロー！',zh:'在Instagram上追蹤 <strong>@_jung_u</strong> 獲取最新消息！'},
 };
-const _tc = {'tag-greeting':'rgba(155,89,255,.85)','tag-video':'rgba(255,31,69,.85)','tag-milestone':'rgba(255,200,0,.9)','tag-instagram':'rgba(225,48,108,.85)'};
-const _tk = {'tag-greeting':'#fff','tag-video':'#fff','tag-milestone':'#000','tag-instagram':'#fff'};
+const _tc = {'tag-greeting':'rgba(155,89,255,.85)','tag-milestone':'rgba(255,200,0,.9)','tag-instagram':'rgba(225,48,108,.85)'};
+const _tk = {'tag-greeting':'#fff','tag-milestone':'#000','tag-instagram':'#fff'};
 function _likeKey(i){return'lk_'+location.pathname+'_'+i+'_'+new Date().toISOString().slice(0,10);}
 function _like(i,btn){
   const k=_likeKey(i);
@@ -510,12 +509,12 @@ function renderBlogPosts(lang){
   if(se) se.textContent=_bi.sec[lang]||_bi.sec.ko;
   const bar=document.getElementById('blogFilterBar');
   if(bar){
-    const fs=[['all',_bi.all],['greeting',_bi.gr],['video',_bi.vi],['milestone',_bi.mi],['instagram_post',_bi.ig]];
+    const fs=[['all',_bi.all],['greeting',_bi.gr],['milestone',_bi.mi],['instagram_post',_bi.ig]];
     bar.innerHTML=fs.map(([k,l])=>`<button onclick="_af='${k}';renderBlogPosts('${lang}')" style="padding:5px 14px;border-radius:20px;border:1px solid ${_af===k?'var(--red)':'rgba(255,255,255,.18)'};background:${_af===k?'var(--red)':'transparent'};color:${_af===k?'#fff':'#aaa'};cursor:pointer;font-size:.78rem;font-weight:600;transition:all .2s;">${l[lang]||l.ko}</button>`).join('');
   }
   const grid=document.getElementById('postsGrid');
   if(!grid) return;
-  const _all=_af==='all'?_posts:_posts.filter(p=>p.type===_af);
+  const _all=_af==='all'?_posts.filter(p=>p.type!=='video'):_posts.filter(p=>p.type===_af);
   const _showAll=!!document.getElementById('blogLoadMore')?.dataset.expanded;
   const fp=_showAll?_all:_all.slice(0,6);
   grid.innerHTML=fp.map((p,i)=>{
