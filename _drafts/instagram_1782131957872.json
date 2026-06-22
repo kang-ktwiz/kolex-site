@@ -1,0 +1,72 @@
+[
+  {
+    "member_id": "lee-geumju",
+    "name_ko": "이금주",
+    "file_path": "cheerleaders/lee-geumju.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18355679686211459",
+    "checked_at": "2026-06-22T12:39:08.068Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "어디 갔다 왔을까? 👻 새 게시물 공개!",
+        "en": "Where did she go? 👻 New Post Alert!",
+        "ja": "どこへ行ってきたの？👻 新しい投稿公開！",
+        "zh": "去哪裡了呢？👻 新貼文上線！"
+      },
+      "body": {
+        "ko": "이금주 치어리더의 인스타그램에 새 게시물이 올라왔어요! 귀여운 유령 이모티콘과 함께 궁금증을 자아내는 캡션, 지금 바로 확인해 보세요 👀✨",
+        "en": "A brand-new post just dropped on Lee Geum-ju's Instagram! With a cute ghost emoji and a mysterious caption, go check it out right now 👀✨",
+        "ja": "イ・グムジュのインスタグラムに新しい投稿が上がりました！かわいいおばけの絵文字と気になるキャプションで、今すぐチェックしてみて 👀✨",
+        "zh": "이금주的Instagram上傳了新貼文！搭配可愛的幽靈表情符號和令人好奇的說明，快去看看吧 👀✨"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DZ4oI0UFI8n/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.06.22"
+    }
+  },
+  {
+    "member_id": "kim-hanseul",
+    "name_ko": "김한슬",
+    "file_path": "cheerleaders/kim-hanseul.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17956352448133411",
+    "checked_at": "2026-06-22T12:39:08.072Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물 업로드 🌟 여름 야구장 필수 아이템 소개!",
+        "en": "New Post 🌟 Must-Have Items for a Summer Baseball Game!",
+        "ja": "新着投稿 🌟 夏の野球場に欠かせないアイテムをご紹介！",
+        "zh": "新貼文 🌟 夏日棒球場必備好物登場！"
+      },
+      "body": {
+        "ko": "김한슬의 인스타그램에 새 게시물이 올라왔어요! 뜨거운 여름 야구장에서 시원하게 즐길 수 있는 쿨링 아이템을 소개하고 있으니, 직관 준비 중이라면 꼭 확인해보세요 🙌⚾️",
+        "en": "A new post is up on Kim Han-seul's Instagram! She's sharing cool and refreshing items perfect for a hot summer day at the ballpark — definitely worth checking out if you're planning a visit! 🙌⚾️",
+        "ja": "キム・ハンスルのインスタグラムに新しい投稿が届きました！暑い夏の球場でも快適に過ごせるクーリングアイテムをご紹介しています。観戦を予定している方はぜひチェックしてみてください 🙌⚾️",
+        "zh": "金韓瑟的 Instagram 上傳了新貼文！她正在介紹炎炎夏日在球場也能清涼舒適的好物，計畫去現場加油的朋友千萬別錯過 🙌⚾️"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DZPZTs6mEwv/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.06.22"
+    }
+  }
+]
