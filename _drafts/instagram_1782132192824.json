@@ -1,0 +1,72 @@
+[
+  {
+    "member_id": "lee-geumju",
+    "name_ko": "이금주",
+    "file_path": "cheerleaders/lee-geumju.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18355679686211459",
+    "checked_at": "2026-06-22T12:43:00.479Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "어디갔다왔게👻 새 게시물 업데이트!",
+        "en": "New Post Alert! Where Did She Go? 👻",
+        "ja": "どこ行ってきたの？👻 新しい投稿が公開中！",
+        "zh": "去哪裡了呢？👻 全新貼文上線啦！"
+      },
+      "body": {
+        "ko": "인스타그램에 새 게시물이 올라왔어요! 궁금한 분들은 지금 바로 확인해 보세요 🤍",
+        "en": "A brand new post is now live on Instagram! Go check it out right now 🤍",
+        "ja": "インスタグラムに新しい投稿がアップされました！気になる方はぜひチェックしてみてください 🤍",
+        "zh": "Instagram 上有全新貼文啦！快去看看吧 🤍"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DZ4oI0UFI8n/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.06.22"
+    }
+  },
+  {
+    "member_id": "kim-hanseul",
+    "name_ko": "김한슬",
+    "file_path": "cheerleaders/kim-hanseul.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17956352448133411",
+    "checked_at": "2026-06-22T12:43:00.482Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "여름 야구장, 이것만 있으면 끄떡없어요! 🧊⚾️",
+        "en": "Beat the Summer Heat at the Ballpark! 🧊⚾️",
+        "ja": "夏の球場も、これさえあれば大丈夫！🧊⚾️",
+        "zh": "夏日球場，有這個就搞定！🧊⚾️"
+      },
+      "body": {
+        "ko": "김한슬의 인스타그램에 새 게시물이 올라왔어요! 여름 야구 직관 필수템으로 쿨링패치와 썸머패치를 소개하며, 더운 날씨에도 즐겁게 응원할 수 있는 꿀팁을 나눠줬답니다 🙌 올여름 야구장 가기 전, 꼭 확인해보세요💙🖤❤️",
+        "en": "A brand-new post is up on Kim Han-seul's Instagram! She's sharing her must-have summer ballpark essentials—cooling patches and summer patches to keep you refreshed and in the spirit all season long 🙌 Don't miss her tips before your next stadium visit💙🖤❤️",
+        "ja": "キム・ハンスルのインスタグラムに新しい投稿が登場！夏の球場を乗り切るクーリングパッチとサマーパッチをご紹介🙌 暑い日も元気いっぱい応援できるアイテムを、ぜひチェックしてみてください💙🖤❤️",
+        "zh": "金韓瑟的Instagram上傳了全新貼文！她分享了夏日球場必備好物——清涼貼片與夏日貼片，讓你在炎熱天氣中也能盡情加油🙌 今夏前往球場前，一定要去看看💙🖤❤️"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DZPZTs6mEwv/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.06.22"
+    }
+  }
+]
