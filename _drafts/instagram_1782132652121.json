@@ -1,0 +1,72 @@
+[
+  {
+    "member_id": "lee-geumju",
+    "name_ko": "이금주",
+    "file_path": "cheerleaders/lee-geumju.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18355679686211459",
+    "checked_at": "2026-06-22T12:50:43.800Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "어디 갔다 왔을까? 👻 새 게시물 업로드!",
+        "en": "Guess Where She Went? 👻 New Post is Up!",
+        "ja": "どこ行ってきたの？👻 新しい投稿が公開！",
+        "zh": "猜猜去哪了？👻 全新貼文上線！"
+      },
+      "body": {
+        "ko": "이금주님의 인스타그램에 새 게시물이 올라왔어요! 살짝 궁금증을 자아내는 캡션과 함께 어떤 이야기를 담았는지 직접 확인해 보세요 🙌",
+        "en": "A brand-new post just dropped on Lee Geum-ju's Instagram! Head over and check out what mystery she's hinting at with her playful caption 🙌",
+        "ja": "イ・グムジュさんのインスタグラムに新しい投稿が公開されました！気になるキャプションの続きは、ぜひご本人のページでチェックしてみてください 🙌",
+        "zh": "李琴珠的 Instagram 上傳了全新貼文！搭配充滿神秘感的說明文字，快去她的頁面親自確認吧 🙌"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DZ4oI0UFI8n/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.06.22"
+    }
+  },
+  {
+    "member_id": "kim-hanseul",
+    "name_ko": "김한슬",
+    "file_path": "cheerleaders/kim-hanseul.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17956352448133411",
+    "checked_at": "2026-06-22T12:50:43.803Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "여름 야구장 필수템 소개✨",
+        "en": "Must-Have Summer Ballpark Essentials✨",
+        "ja": "夏の球場必須アイテムをご紹介✨",
+        "zh": "夏日球場必備好物介紹✨"
+      },
+      "body": {
+        "ko": "한슬 언니의 새 게시물이 올라왔어요🙌 여름 야구장에서 더위를 날려줄 쿨링 아이템 소개 캐러셀이 업로드됐으니 팬 여러분도 놓치지 마세요💙🖤❤️",
+        "en": "Han-seul's new carousel post is here🙌 She's sharing her favorite cooling items to beat the summer heat at the ballpark, so don't miss it💙🖤❤️",
+        "ja": "ハンスルのカルーセル新投稿がアップされました🙌 夏の球場で暑さを吹き飛ばすクーリングアイテムをご紹介しているので、ぜひチェックしてみてください💙🖤❤️",
+        "zh": "韓瑟的全新輪播貼文上線了🙌 她分享了夏日球場必備的清涼好物，球迷們千萬不要錯過💙🖤❤️"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DZPZTs6mEwv/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.06.22"
+    }
+  }
+]
