@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "lee-geumju",
+    "name_ko": "이금주",
+    "file_path": "cheerleaders/lee-geumju.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18114999773503077",
+    "checked_at": "2026-06-22T13:17:05.790Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "이금주의 새 인스타그램 영상이 올라왔어요!",
+        "en": "Lee Geum-ju's New Instagram Video Is Here!",
+        "ja": "イ・グムジュの新しいインスタグラム動画が公開されました！",
+        "zh": "李錦珠的全新Instagram影片上線啦！"
+      },
+      "body": {
+        "ko": "바쁜 스케줄 속에서도 꾸준히 피부 관리 루틴을 챙기는 금주의 새 영상이 올라왔어요💕 간편하게 활용할 수 있는 꿀템 소식도 함께 담겨 있으니, 지금 바로 인스타그램에서 확인해 보세요✨",
+        "en": "A new video from Geum-ju is up, sharing her go-to skincare routine that keeps her glowing even through the busiest days💕 Head over to her Instagram now to catch all the tips and good vibes✨",
+        "ja": "多忙なスケジュールの中でも欠かさないグムジュのスキンケアルーティンを紹介する新しい動画が公開されました💕 インスタグラムでぜひチェックしてみてください✨",
+        "zh": "金珠在百忙之中依然堅持護膚日常，全新影片現已上線💕 快前往她的Instagram，一起感受滿滿的正能量與美肌秘訣吧✨"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DZ45ttcMyhj/",
+      "media_type": "VIDEO",
+      "date": "2026.06.22"
+    }
+  }
+]
