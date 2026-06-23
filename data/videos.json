@@ -1,103 +1,103 @@
 {
   "_comment": "n8n 워크플로우(10_kolex_youtube_search_update.json)가 매일 1회 자동 갱신하는 파일입니다. videos[].member_id가 null이면 팀 전체(team-wide) 검색 결과입니다.",
   "schema_version": 1,
-  "updated_at": "2026-06-22T09:00:02.959Z",
+  "updated_at": "2026-06-23T09:00:03.085Z",
   "videos": [
     {
-      "videoId": "FbIdWjqZ8Us",
+      "videoId": "Op1I2jfnF8Q",
       "type": "video",
-      "title": "북중미월드컵 kt wiz 김진아(桂裕真)🎀치어리더~대한민국🇰🇷!!짝짝짝!!파이팅🔥#김진아 #김진아치어리더 #북중미월드컵 #kt치어리더 #광화문광장 #광화문거리응원",
-      "member_id": "kim-jina",
-      "query": "치어리더 김진아",
-      "publishedAt": "2026-06-22T08:50:40Z"
+      "title": "눈에 물 들어 갔을때 대처법 이예빈 치어리더 李藝斌 Lee Yebin cheerleader ktwiz",
+      "member_id": "lee-yebin",
+      "query": "치어리더 이예빈",
+      "publishedAt": "2026-06-23T08:54:41Z"
     },
     {
-      "videoId": "8gnm8Fde7Qk",
+      "videoId": "ScjfMuZFDKk",
       "type": "video",
-      "title": "북중미월드컵 kt wiz김민지,이금주🎀치어리더~대한민국🇰🇷투혼가🔥#김민지 #이금주#광화문광장#북중미월드컵",
-      "member_id": "lee-geumju",
-      "query": "치어리더 이금주",
-      "publishedAt": "2026-06-22T08:07:37Z"
+      "title": "꼬부기처럼 귀여운 미녀 김가현 치어리더",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-23T08:37:03Z"
     },
     {
-      "videoId": "J9rhzV-TgYQ",
-      "type": "video",
-      "title": "계유진계유진치어리더 KTWIZCHEERLEADER #계유진#치어리더#CHEERLEADER",
+      "videoId": "za70ms--Ais",
+      "type": "shorts",
+      "title": "상승세 이예빈 치어리더 안타 응원 #shorts #상승세 #치어리더 #이예빈 #leeyebin",
+      "member_id": "lee-yebin",
+      "query": "치어리더 이예빈",
+      "publishedAt": "2026-06-23T08:00:11Z"
+    },
+    {
+      "videoId": "igQdY4z6tN4",
+      "type": "shorts",
+      "title": "🍑 갓유진한테 이런 귀여움이 있다고 🍭✨ 계유진 Kye Yujin 桂裕眞 치어리더 직캠 fancam",
       "member_id": "kye-yujin",
       "query": "치어리더 계유진",
-      "publishedAt": "2026-06-22T07:47:59Z"
+      "publishedAt": "2026-06-23T08:00:09Z"
     },
     {
-      "videoId": "5hNSYYP9-oQ",
+      "videoId": "xOuVn9c0AnU",
+      "type": "shorts",
+      "title": "kt위즈 계유진치어리더 피리춤 아웃송 직캠 #shorts #계유진 #치어리더 #응원  #직캠 #영상 #kt위즈 #아웃송",
+      "member_id": "kye-yujin",
+      "query": "치어리더 계유진",
+      "publishedAt": "2026-06-23T07:31:30Z"
+    },
+    {
+      "videoId": "vOQ0gQGzYIY",
       "type": "video",
-      "title": "&#39;KTwiz&#39; 정희정 치어리더(Jeong Huijeong) #치어리더 #프로야구 #260613 #정희정",
-      "member_id": "jeong-huijeong",
-      "query": "치어리더 정희정",
-      "publishedAt": "2026-06-22T07:46:18Z"
+      "title": "[4K] &#39;한복 개문 이벤트 현장&#39; 이예빈, 박민서 치어리더",
+      "member_id": "lee-yebin",
+      "query": "치어리더 이예빈",
+      "publishedAt": "2026-06-23T06:22:28Z"
     },
     {
-      "videoId": "yQwF-sNRoKM",
+      "videoId": "o2hbuqZvO8E",
       "type": "video",
       "title": "MuseGirls 20260412 #鄭熙靜 #정희정 #啦啦隊 #台湾チア #치어리더 #cheerleader",
       "member_id": "jeong-huijeong",
       "query": "치어리더 정희정",
-      "publishedAt": "2026-06-22T06:51:35Z"
+      "publishedAt": "2026-06-23T06:15:16Z"
     },
     {
-      "videoId": "iaciycM7pME",
-      "type": "video",
-      "title": "포니테일 ‘리얼오리트월’ 김가현(Kim Gahyun[金佳賢])치어리더",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-22T06:00:13Z"
-    },
-    {
-      "videoId": "hhu9nE4hq30",
+      "videoId": "WaHdkar2ByQ",
       "type": "shorts",
-      "title": "🐶💦 금주는 괴로워 😭💥 이금주X권가영 치어리더 직캠 fancam",
-      "member_id": "lee-geumju",
-      "query": "치어리더 이금주",
-      "publishedAt": "2026-06-22T06:00:00Z"
+      "title": "매력 넘치는 신세희 치어리더 안현민 선수 등장곡 #shorts #매력 #치어리더 #신세희",
+      "member_id": "shin-sehee",
+      "query": "치어리더 신세희",
+      "publishedAt": "2026-06-23T06:09:10Z"
     },
     {
-      "videoId": "Vp2o0TAR2Zw",
-      "type": "video",
-      "title": "金佳賢💖김가현❤️‍🔥20260621-KT wiz 04-Out Song",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-22T05:54:25Z"
+      "videoId": "_-chc_dpwMk",
+      "type": "shorts",
+      "title": "✨ 비주얼은 천상계인데 피지컬은 마라맛 🛑🌶️ 김해리X계유진X김한슬X김민지  치어리더 직캠 fancam",
+      "member_id": "kim-hanseul",
+      "query": "치어리더 김한슬",
+      "publishedAt": "2026-06-23T06:00:01Z"
     },
     {
-      "videoId": "FhKAUBvexik",
+      "videoId": "XQqS9sZXbHI",
       "type": "video",
-      "title": "金佳賢💖김가현❤️‍🔥20260621-KT wiz 03-Out Song",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-22T05:51:56Z"
+      "title": "260609 늦었지만!!!  공연 고퀄리티 영상 #감사합니다",
+      "member_id": null,
+      "query": "kt wiz 치어리더",
+      "publishedAt": "2026-06-23T04:43:20Z"
     },
     {
-      "videoId": "4FGet-wx8FA",
+      "videoId": "ExdZq5aElfE",
       "type": "video",
-      "title": "金佳賢💖김가현❤️‍🔥20260621-KT wiz 02-Out Song",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-22T05:47:58Z"
-    },
-    {
-      "videoId": "KHXo5nWRZ4k",
-      "type": "video",
-      "title": "金佳賢💖김가현❤️‍🔥20260621-KT wiz 01-Out Song",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-22T05:45:09Z"
-    },
-    {
-      "videoId": "nzVFLOIjweI",
-      "type": "video",
-      "title": "제일 예쁜 어허 아웃송 이예빈 KT 위즈 치어리더",
+      "title": "2026 KT위즈 이예빈 치어리더 직캠",
       "member_id": "lee-yebin",
       "query": "치어리더 이예빈",
-      "publishedAt": "2026-06-22T05:00:38Z"
+      "publishedAt": "2026-06-23T04:15:28Z"
+    },
+    {
+      "videoId": "0nuCa3fJDOI",
+      "type": "shorts",
+      "title": "⚠️🚨 알고리즘이 밤마다 이 영상만 띄워줌;; ✨🧿 김해리X계유진X김한슬X김민지 치어리더 아웃송 직캠 fancam",
+      "member_id": "kim-hanseul",
+      "query": "치어리더 김한슬",
+      "publishedAt": "2026-06-23T04:15:25Z"
     }
   ]
 }
