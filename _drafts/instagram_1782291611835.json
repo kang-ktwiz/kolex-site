@@ -1,0 +1,72 @@
+[
+  {
+    "member_id": "lee-geumju",
+    "name_ko": "이금주",
+    "file_path": "cheerleaders/lee-geumju.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18099393107519931",
+    "checked_at": "2026-06-24T09:00:02.600Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 영상 게시물이 올라왔어요! 🎶",
+        "en": "A New Video Post Is Up! 🎶",
+        "ja": "新しい動画が投稿されました！🎶",
+        "zh": "新影片貼文上線啦！🎶"
+      },
+      "body": {
+        "ko": "신나는 음악과 함께한 새 영상이 인스타그램에 올라왔어요! 지금 바로 확인해 보세요 🕺✨",
+        "en": "A brand-new video filled with exciting music and great energy just dropped on Instagram — go check it out right now! 🕺✨",
+        "ja": "ノリノリな音楽と一緒に新しい動画がインスタグラムに投稿されました！今すぐチェックしてみてください 🕺✨",
+        "zh": "充滿活力與音樂感的全新影片已在Instagram上線！快去看看吧 🕺✨"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DZ9If6TP0K3/",
+      "media_type": "VIDEO",
+      "date": "2026.06.24"
+    }
+  },
+  {
+    "member_id": "kye-yujin",
+    "name_ko": "계유진",
+    "file_path": "cheerleaders/kye-yujin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18117230323868750",
+    "checked_at": "2026-06-24T09:00:02.601Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요! 🎉",
+        "en": "New Post is Up! 🎉",
+        "ja": "新しい投稿が届きました！🎉",
+        "zh": "新貼文上線啦！🎉"
+      },
+      "body": {
+        "ko": "KOLEX 계유진의 인스타그램에 새 영상 게시물이 올라왔어요! 설레는 에너지가 가득 담긴 이번 게시물, 지금 바로 확인해 보세요! 💙🔥",
+        "en": "A brand-new video post has just landed on KOLEX Kye Yu-jin's Instagram! Head over now and feel the amazing energy she's sharing with everyone! 💙🔥",
+        "ja": "KOLEXケ・ユジンのインスタグラムに新しい動画が投稿されました！わくわくするエネルギーたっぷりの投稿を、ぜひ今すぐチェックしてみてください！💙🔥",
+        "zh": "KOLEX 계유진的Instagram上傳了全新影片貼文！充滿活力與熱情的內容，快去看看吧！💙🔥"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DZ9MVC0zOmi/",
+      "media_type": "VIDEO",
+      "date": "2026.06.24"
+    }
+  }
+]
