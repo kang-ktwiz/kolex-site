@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "jeong-huijeong",
+    "name_ko": "정희정",
+    "file_path": "cheerleaders/jeong-huijeong.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18120318589684405",
+    "checked_at": "2026-06-24T01:27:57.607Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "정희정의 새 인스타그램 게시물이 올라왔어요! 🎀",
+        "en": "Jeong Hui-jeong Has a New Instagram Post! 🎀",
+        "ja": "ジョン・ヒジョンの新しいインスタグラム投稿が公開されました！🎀",
+        "zh": "鄭希靜的全新 Instagram 貼文上線啦！🎀"
+      },
+      "body": {
+        "ko": "희정 언니의 새 게시물이 업로드됐어요 ෆ˙ᵕ˙ෆ 취향 가득 담긴 콜라보 케이스와 특별한 사인 이벤트 소식이 담겨 있으니, 지금 바로 인스타그램에서 확인해 보세요!",
+        "en": "A brand-new post from Hui-jeong is now live! ෆ˙ᵕ˙ෆ It's packed with her personal taste and exciting collaboration news — head over to her Instagram to check it all out!",
+        "ja": "ヒジョンさんの新しい投稿が公開されました！ෆ˙ᵕ˙ෆ 彼女のこだわりが詰まったコラボ情報やスペシャルイベントの詳細が盛りだくさんです。ぜひインスタグラムでチェックしてみてください！",
+        "zh": "希靜的全新貼文已上線啦！ෆ˙ᵕ˙ෆ 滿載她個人風格的聯名商品資訊與特別活動詳情，快到她的 Instagram 去看看吧！"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DZ7wDC9mBSK/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.06.24"
+    }
+  }
+]
