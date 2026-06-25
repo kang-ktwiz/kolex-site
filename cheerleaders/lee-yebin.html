@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko" translate="no">
 <head>
   <meta charset="UTF-8" />
@@ -232,6 +232,7 @@
     </div>
       <p class="name-ko">이예빈 · Born 2001 · 168cm</p>
       <div class="role-badge" id="roleText">Cheerleader</div>
+      <button onclick="ftShowModal()" style="display:inline-flex;align-items:center;gap:4px;background:linear-gradient(135deg,#2d1b69,#4c1d95);border:1px solid #7c3aed;color:#a78bfa;padding:4px 12px;border-radius:16px;cursor:pointer;font-size:.7rem;font-weight:700;flex-shrink:0;">🔮 <span id="ft-nav-btn">운세</span></button>
       <div class="stats-row">
         <div class="stat-pill"><div class="sv">📱 268K</div><div class="sk">Followers</div></div>
         <div class="stat-pill"><div class="sv">📅 2025</div><div class="sk">Active Since</div></div>
@@ -962,5 +963,95 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
   </div>
 
+<script>
+const KPC_PHOTOS=["이예빈.avif","이예빈2.jpg","이예빈3.png"];
+
+kpcApplyFront = function(card){
+  const f=document.getElementById('kpc-front');if(f)f.className=`kpc-face kpc-front ${card.rarity}`;
+  const n=document.getElementById('kpc-num');if(n)n.textContent=card.id;
+  const rl=document.getElementById('kpc-rl');if(rl){rl.className=`kpc-rl ${KPC_RM[card.rarity].cls}`;rl.textContent=KPC_RL[card.rarity];}
+  const vn=document.getElementById('kpc-vn');if(vn)vn.textContent=KPC_MEMBER.ko;
+  const ph=document.getElementById('kpc-ph');const em=document.getElementById('kpc-em');const pid=document.getElementById('kpc-pid');
+  if(ph)ph.style.background=`linear-gradient(145deg,${card.gradient[0]},${card.gradient[1]})`;
+  if(em)em.textContent=card.emoji;if(pid)pid.textContent=card.id;
+  const img=document.getElementById('kpc-img');if(img){
+    img.style.display='none';if(ph)ph.style.display='flex';
+    img.onerror=()=>{img.style.display='none';if(ph)ph.style.display='flex';};
+    img.onload=()=>{img.style.display='block';if(ph)ph.style.display='none';};
+    const _ci=KPC_CARDS.indexOf(card);
+    const _pf=KPC_PHOTOS.length>0?KPC_PHOTOS[_ci%KPC_PHOTOS.length]:null;
+    if(_pf)img.src=`../포토카드_완성/${KPC_MEMBER.slug}/${encodeURIComponent(_pf)}`;
+  }
+};
+kpcRenderGrid = function(){
+  const col=kpcLoadCol();const grid=document.getElementById('kpc-grid');if(!grid)return;
+  const cc=document.getElementById('kpc-ccnt');if(cc)cc.textContent=`${col.length} / ${KPC_CARDS.length}`;
+  const glows={common:'#aaa',rare:'#f5c842',super_rare:'#a855f7',legend:'#ffd700'};
+  grid.innerHTML=KPC_CARDS.map((card,cardIdx)=>{
+    const entry=col.find(c=>c.id===card.id);const locked=!entry;
+    const dt=locked?card.id:entry.date.replace(/(\d{4})(\d{2})(\d{2})/,'$1.$2.$3');
+    const bg=`background:linear-gradient(145deg,${card.gradient[0]},${card.gradient[1]})`;
+    const photo=!locked&&KPC_PHOTOS.length>0?KPC_PHOTOS[cardIdx%KPC_PHOTOS.length]:null;
+    const ciInner=photo?`<img src="../포토카드_완성/${KPC_MEMBER.slug}/${encodeURIComponent(photo)}" style="width:100%;height:100%;object-fit:cover;display:block;" onerror="this.style.display='none'">`:(locked?'':card.emoji);
+    return `<div class="kpc-cc${locked?' locked':''}" title="${dt}"><div class="kpc-ci" style="${bg}">${ciInner}</div>${locked?`<div class="kpc-lo" style="color:${glows[card.rarity]}">✦</div>`:''}<div class="kpc-dt">${locked?'미등록':dt}</div></div>`;
+  }).join('');
+};
+kpcSetDone = function(){
+  const btn=document.getElementById('kpc-btn');
+  if(btn){btn.className='kpc-btn done';btn.textContent='✅ 오늘 뽑기 완료';}
+  const dlbtn=document.getElementById('kpc-dl-btn');if(dlbtn)dlbtn.style.display='';
+  const tom=new Date();tom.setDate(tom.getDate()+1);
+  const nm=document.getElementById('kpc-nm');
+  if(nm)nm.textContent=`다음 뽑기: ${String(tom.getMonth()+1).padStart(2,'0')}.${String(tom.getDate()).padStart(2,'0')} 00:00`;
+};
+function kpcDownload(){
+  if(!_kpcCard)return;
+  const canvas=document.createElement('canvas');canvas.width=300;canvas.height=450;
+  const ctx=canvas.getContext('2d');
+  const doRender=()=>{
+    ctx.fillStyle='#0a0a10';ctx.fillRect(0,0,300,450);
+    const ci=document.getElementById('kpc-img');
+    if(ci&&ci.naturalWidth>0){try{ctx.drawImage(ci,0,0,300,380);}catch(e){drawGrad();}}
+    else{drawGrad();}
+    function drawGrad(){const g=ctx.createLinearGradient(0,0,300,380);g.addColorStop(0,_kpcCard.gradient[0]);g.addColorStop(1,_kpcCard.gradient[1]);ctx.fillStyle=g;ctx.fillRect(0,0,300,380);ctx.font='72px serif';ctx.textAlign='center';ctx.fillText(_kpcCard.emoji,150,210);}
+    ctx.fillStyle='rgba(0,0,0,.88)';ctx.fillRect(0,370,300,80);
+    ctx.fillStyle='#fff';ctx.font='bold 15px sans-serif';ctx.textAlign='center';
+    ctx.fillText(KPC_MEMBER.ko,150,393);
+    ctx.fillStyle='rgba(255,255,255,.55)';ctx.font='11px sans-serif';
+    ctx.fillText(_kpcCard.id+' \xb7 KOLEX',150,412);
+    ctx.fillStyle='rgba(227,24,55,.9)';ctx.font='bold 9px sans-serif';
+    ctx.fillText('koreacheerleaders.com',150,432);
+    const a=document.createElement('a');a.href=canvas.toDataURL('image/png');a.download=`KOLEX_${KPC_MEMBER.slug}_${_kpcCard.id}.png`;document.body.appendChild(a);a.click();a.remove();
+  };
+  const ci=document.getElementById('kpc-img');
+  if(ci&&ci.naturalWidth>0){doRender();}
+  else{const img=new Image();img.crossOrigin='anonymous';const ci2=KPC_CARDS.indexOf(_kpcCard);const ph=KPC_PHOTOS.length>0?KPC_PHOTOS[ci2%KPC_PHOTOS.length]:null;if(ph){img.onload=doRender;img.onerror=doRender;img.src=`../포토카드_완성/${KPC_MEMBER.slug}/${encodeURIComponent(ph)}`;}else{doRender();}}
+}
+function _kpcTab(k,lang){
+  var kpc=document.getElementById('kpc-section');var grid=document.getElementById('postsGrid');var lm=document.getElementById('blogLoadMore');
+  if(k==='photocard'){_af='photocard';if(kpc){kpc.style.display='block';if(typeof kpcInit==='function')kpcInit();}if(grid)grid.style.display='none';if(lm)lm.style.display='none';}
+  else{_af=k;if(kpc)kpc.style.display='none';if(grid)grid.style.display='';if(lm)lm.style.display='none';renderBlogPosts(lang);}
+}
+(function(){
+  const _orig=renderBlogPosts;
+  renderBlogPosts=function(lang){
+    _orig(lang);
+    const bar=document.getElementById('blogFilterBar');
+    if(bar&&!document.getElementById('kpc-tab-btn')){
+      const lbl={ko:'🎴 포토카드',en:'🎴 Photocard',ja:'🎴 フォトカード',zh:'🎴 照片卡'};
+      const existing=bar.querySelectorAll('button');
+      if(existing.length>0){
+        const btn=document.createElement('button');btn.id='kpc-tab-btn';
+        if(existing[0].className)btn.className=existing[0].className;
+        if(existing[0].getAttribute('style'))btn.setAttribute('style',existing[0].getAttribute('style'));
+        btn.textContent=lbl[lang]||'🎴 Photocard';
+        btn.onclick=function(){bar.querySelectorAll('button').forEach(b=>b.classList&&b.classList.remove('active'));btn.classList&&btn.classList.add('active');_kpcTab('photocard',lang);};
+        bar.appendChild(btn);
+      }
+    }
+  };
+})();
+
+</script>
 </body>
 </html>

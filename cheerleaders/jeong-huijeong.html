@@ -78,7 +78,92 @@
     .post-body-inline ul{padding-left:1.2rem;margin-bottom:.75rem;}
     .post-body-inline li{color:#a0a0b8;font-size:.85rem;margin-bottom:.3rem;}
     .post-body-inline strong{color:#e0e0f0;}
-  </style>
+  
+  /* ===== KOLEX 포토카드 섹션 ===== */
+  .kpc-section{margin-top:2.5rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.1);}
+  .kpc-title{font-size:1.1rem;font-weight:700;margin-bottom:1rem;}
+  .kpc-wrap{background:linear-gradient(135deg,#0d0d18,#111118);border:1px solid #2a2a40;border-radius:16px;padding:20px 16px;text-align:center;}
+  .kpc-daily-lbl{font-size:9px;color:#666;letter-spacing:2px;text-transform:uppercase;margin-bottom:3px;}
+  .kpc-daily-date{font-size:12px;color:#555;margin-bottom:14px;}
+  .kpc-scene{width:150px;height:225px;perspective:800px;margin:0 auto 14px;cursor:pointer;}
+  .kpc-inner{width:100%;height:100%;position:relative;transform-style:preserve-3d;transition:transform .7s cubic-bezier(.4,0,.2,1);}
+  .kpc-inner.flipped{transform:rotateY(180deg);}
+  .kpc-face{position:absolute;width:100%;height:100%;backface-visibility:hidden;border-radius:12px;overflow:hidden;}
+  .kpc-back{background:linear-gradient(145deg,#1a1a2a,#0f0f18);border:2px solid #2a2a3a;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;}
+  .kpc-back .kpc-q{font-size:42px;color:#1e1e2e;}
+  .kpc-back .kpc-logo{font-size:14px;font-weight:900;letter-spacing:3px;background:linear-gradient(135deg,#e31837,#ff6b6b);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+  .kpc-front{transform:rotateY(180deg);display:flex;flex-direction:column;position:relative;}
+  .kpc-front.common{border:8px solid #666;box-shadow:0 0 8px rgba(120,120,120,.3);}
+  .kpc-front.rare{border:10px solid #f5c842;box-shadow:0 0 14px rgba(245,200,66,.5);}
+  .kpc-front.super_rare{border:12px solid #a855f7;box-shadow:0 0 18px rgba(168,85,247,.6);}
+  .kpc-front.legend{border:14px solid transparent;background-image:linear-gradient(#111,#111),linear-gradient(135deg,#ff6b6b,#ffd700,#00ff88,#00bfff,#ff6b6b);background-origin:border-box;background-clip:padding-box,border-box;animation:kpc-lglow 2s infinite;}
+  @keyframes kpc-lglow{0%{box-shadow:0 0 22px rgba(255,107,107,.8);}33%{box-shadow:0 0 22px rgba(255,215,0,.8);}66%{box-shadow:0 0 22px rgba(0,255,136,.8);}100%{box-shadow:0 0 22px rgba(255,107,107,.8);}}
+  .kpc-img{width:100%;flex:1;object-fit:cover;display:block;background:#111;}
+  .kpc-ph{width:100%;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;}
+  .kpc-ph .kpc-em{font-size:48px;}.kpc-ph .kpc-id{font-size:9px;color:rgba(255,255,255,.3);}
+  .kpc-info{background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.92));padding:6px 8px 8px;}
+  .kpc-rl{font-size:8px;letter-spacing:2px;font-weight:700;margin-bottom:2px;}
+  .kpc-rl.rl-c{color:#999;}.kpc-rl.rl-r{color:#f5c842;}.kpc-rl.rl-sr{color:#c084fc;}
+  .kpc-rl.rl-l{background:linear-gradient(90deg,#ff6b6b,#ffd700);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+  .kpc-vn{font-size:12px;font-weight:700;}
+  .kpc-num{position:absolute;top:5px;right:6px;font-size:7px;color:rgba(255,255,255,.3);font-weight:600;}
+  .kpc-btn{width:100%;padding:10px;border:none;border-radius:10px;font-size:13px;font-weight:700;cursor:pointer;transition:all .2s;margin-bottom:4px;}
+  .kpc-btn.ready{background:linear-gradient(135deg,#e31837,#b01818);color:#fff;box-shadow:0 3px 14px rgba(227,24,55,.4);}
+  .kpc-btn.done{background:#1a1a24;color:#555;cursor:default;}
+  .kpc-nm{font-size:10px;color:#444;margin-bottom:10px;}
+  .kpc-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin-bottom:10px;}
+  .kpc-stat{background:#111118;border:1px solid #2a2a3a;border-radius:8px;padding:7px 4px;text-align:center;}
+  .kpc-sv{font-size:18px;font-weight:700;}.kpc-sv.c{color:#999;}.kpc-sv.r{color:#f5c842;}.kpc-sv.sr{color:#c084fc;}
+  .kpc-sv.l{background:linear-gradient(90deg,#ff6b6b,#ffd700);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+  .kpc-slbl{font-size:8px;color:#555;margin-top:1px;}
+  .kpc-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;}
+  .kpc-cc{background:#111118;border:1px solid #2a2a3a;border-radius:7px;overflow:hidden;position:relative;}
+  .kpc-cc.locked .kpc-ci{filter:brightness(.1);}
+  .kpc-cc.locked .kpc-lo{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:16px;animation:kpc-pulse 2s ease-in-out infinite;}
+  @keyframes kpc-pulse{0%,100%{transform:scale(1);opacity:.6;}50%{transform:scale(1.2);opacity:1;}}
+  .kpc-ci{width:100%;aspect-ratio:2/3;display:flex;align-items:center;justify-content:center;font-size:20px;}
+  .kpc-lbar{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:6px;font-size:10px;color:#444;}
+  /* ===== 운세 모달 ===== */
+  .ft-modal{position:fixed;inset:0;background:rgba(0,0,0,.88);backdrop-filter:blur(8px);z-index:2000;display:none;overflow-y:auto;}
+  .ft-modal.open{display:block;}
+  .ft-inner{max-width:420px;margin:0 auto;padding:16px 14px 60px;}
+  .ft-header{display:flex;align-items:center;justify-content:space-between;padding:14px 0 12px;border-bottom:1px solid #1a1a2a;margin-bottom:14px;}
+  .ft-header h3{font-size:15px;font-weight:700;}
+  .ft-close{background:rgba(255,255,255,.08);border:none;color:#aaa;width:32px;height:32px;border-radius:50%;cursor:pointer;font-size:1rem;display:flex;align-items:center;justify-content:center;}
+  .ft-tabs{display:flex;gap:6px;margin-bottom:14px;}
+  .ft-tab{flex:1;padding:9px;border-radius:9px;border:1px solid #1a1a2a;background:#12121e;color:#666;font-size:12px;font-weight:600;cursor:pointer;transition:all .2s;text-align:center;}
+  .ft-tab.active{background:linear-gradient(135deg,#2d1b69,#4c1d95);border-color:#7c3aed;color:#fff;}
+  .ft-card{background:#12121e;border:1px solid #1e1e3a;border-radius:16px;overflow:hidden;margin-bottom:12px;}
+  .ft-banner{padding:22px 16px 14px;text-align:center;background:linear-gradient(160deg,#1a0a3e,#0d0d1e,#120028);position:relative;overflow:hidden;}
+  .ft-stars{position:absolute;inset:0;pointer-events:none;}
+  .ft-sd{position:absolute;width:2px;height:2px;border-radius:50%;background:#fff;animation:ft-tw var(--d,2s) ease-in-out infinite;}
+  @keyframes ft-tw{0%,100%{opacity:.1;transform:scale(.8);}50%{opacity:.85;transform:scale(1.4);}}
+  .ft-badge{display:inline-flex;align-items:center;gap:5px;background:rgba(124,58,237,.2);border:1px solid rgba(168,85,247,.3);border-radius:20px;padding:3px 10px;margin-bottom:8px;font-size:11px;font-weight:700;color:#a855f7;}
+  .ft-em{font-size:50px;display:block;margin-bottom:6px;filter:drop-shadow(0 0 8px rgba(168,85,247,.5));}
+  .ft-gl{font-size:10px;letter-spacing:2px;font-weight:700;color:#a855f7;margin-bottom:4px;}
+  .ft-bar{width:100px;height:3px;background:#1a1a3a;border-radius:2px;margin:0 auto;}
+  .ft-bf{height:100%;border-radius:2px;background:linear-gradient(90deg,#7c3aed,#a855f7);transition:width 1s cubic-bezier(.4,0,.2,1);}
+  .ft-body{padding:14px 14px 16px;}
+  .ft-mt{font-size:13px;font-weight:700;line-height:1.7;text-align:center;margin-bottom:12px;}
+  .ft-cats{display:flex;flex-direction:column;gap:7px;}
+  .ft-cat{display:flex;align-items:flex-start;gap:8px;background:#1a1a2a;border-radius:9px;padding:9px 11px;}
+  .ft-ci{font-size:16px;flex-shrink:0;margin-top:1px;}
+  .ft-cn{font-size:9px;color:#5a5a88;letter-spacing:1px;margin-bottom:2px;}
+  .ft-ct{font-size:11px;line-height:1.55;}.ft-cs{font-size:9px;color:#f5c842;margin-top:2px;}
+  .ft-lucky{display:flex;gap:6px;margin-top:11px;}
+  .ft-li{flex:1;background:#1a1a2a;border-radius:9px;padding:8px 5px;text-align:center;}
+  .ft-li .li-icon{font-size:17px;margin-bottom:2px;}.ft-li .li-lbl{font-size:8px;color:#5a5a88;margin-bottom:1px;}.ft-li .li-val{font-size:10px;font-weight:700;}
+  .ft-srow{display:flex;gap:7px;margin-top:10px;}
+  .ft-sbtn{flex:1;padding:8px;border-radius:9px;border:1px solid #1a1a2a;background:transparent;color:#5a5a88;font-size:11px;cursor:pointer;transition:all .2s;}
+  .ft-sbtn:hover{border-color:#a855f7;color:#a855f7;}
+  .ft-bform{background:#12121e;border:1px solid #1e1e3a;border-radius:14px;padding:16px;margin-bottom:12px;}
+  .ft-blbl{font-size:11px;color:#5a5a88;margin-bottom:7px;display:block;}
+  .ft-binp{display:flex;gap:7px;}
+  .ft-binp input{flex:1;padding:9px;border-radius:8px;border:1px solid #2a2a4a;background:#1a1a2a;color:#e8e8f0;font-size:13px;text-align:center;outline:none;}
+  .ft-binp input:focus{border-color:#a855f7;}
+  .ft-cbtn{width:100%;padding:11px;margin-top:9px;border-radius:11px;border:none;background:linear-gradient(135deg,#7c3aed,#a855f7);color:#fff;font-size:13px;font-weight:700;cursor:pointer;}
+  .ft-dis{margin-top:12px;padding:10px 12px;background:#0a0a10;border:1px solid #1a1a2a;border-radius:9px;font-size:9px;color:#2a2a3a;line-height:1.8;white-space:pre-line;}
+</style>
   <link rel="preload" as="image" href="../images/jeong-huijeong.jpg">
   <link rel="prefetch" as="image" href="../images/shin-sehee.jpg">
   <link rel="prefetch" as="image" href="../images/kim-jina.jpg">
@@ -144,6 +229,7 @@
     </div>
       <p class="name-ko">정희정 · Born 2002 · 167cm</p>
       <div class="role-badge" id="roleText">Cheerleader</div>
+      <button onclick="ftShowModal()" style="display:inline-flex;align-items:center;gap:4px;background:linear-gradient(135deg,#2d1b69,#4c1d95);border:1px solid #7c3aed;color:#a78bfa;padding:4px 12px;border-radius:16px;cursor:pointer;font-size:.7rem;font-weight:700;flex-shrink:0;">🔮 <span id="ft-nav-btn">운세</span></button>
       <div class="stats-row">
         <div class="stat-pill"><div class="sv">📱 238K</div><div class="sk">Followers</div></div>
         <div class="stat-pill"><div class="sv">📅 2025</div><div class="sk">Active Since</div></div>
@@ -510,5 +596,401 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 </div>
   <script src="../js/cookie-consent.js"></script>
+  <!-- ===== 운세 모달 ===== -->
+  <div class="ft-modal" id="ft-modal">
+    <div class="ft-inner">
+      <div class="ft-header"><h3>🔮 <span id="ft-title">이예빈 운세</span></h3><button class="ft-close" onclick="ftClose()">✕</button></div>
+      <div class="ft-tabs">
+        <button class="ft-tab active" id="ft-tab-member" onclick="ftSwitchTab('member')">🌸 멤버 운세</button>
+        <button class="ft-tab" id="ft-tab-my" onclick="ftSwitchTab('my')">⭐ 내 운세</button>
+      </div>
+      <div id="ft-member-tab">
+        <div class="ft-card">
+          <div class="ft-banner"><div class="ft-stars" id="ft-sf1"></div><div class="ft-badge" id="ft-badge">🌸 이예빈</div><span class="ft-em" id="ft-mem-em">🔮</span><div class="ft-gl" id="ft-mem-gl"></div><div class="ft-bar"><div class="ft-bf" id="ft-mem-bar" style="width:0%"></div></div></div>
+          <div class="ft-body">
+            <div class="ft-mt" id="ft-mem-mt"></div>
+            <div class="ft-cats" id="ft-mem-cats"></div>
+            <div class="ft-lucky">
+              <div class="ft-li"><div class="li-icon" id="ft-m-ci">🎨</div><div class="li-lbl" id="ft-m-cl"></div><div class="li-val" id="ft-m-cv"></div></div>
+              <div class="ft-li"><div class="li-icon">🔢</div><div class="li-lbl" id="ft-m-nl"></div><div class="li-val" id="ft-m-nv"></div></div>
+              <div class="ft-li"><div class="li-icon">🕐</div><div class="li-lbl" id="ft-m-tl"></div><div class="li-val" id="ft-m-tv"></div></div>
+            </div>
+            <div class="ft-srow"><button class="ft-sbtn" id="ft-m-copy" onclick="ftCopy('member')">📋 복사</button><button class="ft-sbtn" id="ft-m-share" onclick="ftShare()">📤 공유</button></div>
+          </div>
+        </div>
+        <div style="font-size:10px;color:#2a2a3a;text-align:center;margin-bottom:8px;" id="ft-m-tom"></div>
+      </div>
+      <div id="ft-my-tab" style="display:none;">
+        <div class="ft-bform" id="ft-bform">
+          <label class="ft-blbl" id="ft-blbl">내 생년월일</label>
+          <div class="ft-binp">
+            <input type="number" id="ft-by" placeholder="1998" min="1950" max="2010">
+            <input type="number" id="ft-bm" placeholder="03" min="1" max="12">
+            <input type="number" id="ft-bd" placeholder="15" min="1" max="31">
+          </div>
+          <div class="ft-bhint" id="ft-bhint">예: 1998 / 03 / 15</div>
+          <button class="ft-cbtn" id="ft-cbtn" onclick="ftCalcMy()">✨ 내 운세 보기</button>
+        </div>
+        <div id="ft-my-result" style="display:none;">
+          <div class="ft-card">
+            <div class="ft-banner"><div class="ft-stars" id="ft-sf2"></div><span class="ft-em" id="ft-my-em">⭐</span><div class="ft-gl" id="ft-my-gl"></div><div class="ft-bar"><div class="ft-bf" id="ft-my-bar" style="width:0%"></div></div></div>
+            <div class="ft-body">
+              <div class="ft-mt" id="ft-my-mt"></div>
+              <div class="ft-cats" id="ft-my-cats"></div>
+              <div class="ft-lucky">
+                <div class="ft-li"><div class="li-icon" id="ft-y-ci">🎨</div><div class="li-lbl" id="ft-y-cl"></div><div class="li-val" id="ft-y-cv"></div></div>
+                <div class="ft-li"><div class="li-icon">🔢</div><div class="li-lbl" id="ft-y-nl"></div><div class="li-val" id="ft-y-nv"></div></div>
+                <div class="ft-li"><div class="li-icon">🕐</div><div class="li-lbl" id="ft-y-tl"></div><div class="li-val" id="ft-y-tv"></div></div>
+              </div>
+              <div class="ft-srow"><button class="ft-sbtn" id="ft-y-copy" onclick="ftCopy('my')">📋 복사</button><button class="ft-sbtn" id="ft-y-reset" onclick="ftResetMy()">🔄 다시 입력</button></div>
+            </div>
+          </div>
+          <div style="font-size:10px;color:#2a2a3a;text-align:center;margin-bottom:8px;" id="ft-my-tom"></div>
+        </div>
+      </div>
+      <div class="ft-dis" id="ft-dis"></div>
+    </div>
+  </div>
+
+<script>
+// ===== KOLEX 포토카드 =====
+const KPC_MEMBER = {slug:"jeong-huijeong",ko:"정희정",en:"Jeong Hui-jeong",by:2002,bm:0,bd:0,emoji:"🌟"};
+const KPC_MSG = "안녕하세요! 저 이예빈이에요 💜\n\n30일 동안 매일매일 제 포토카드를 모아주셔서 정말 감사해요.\n팬 여러분의 응원 덕분에 저도 더 열심히 할 수 있어요!\n\n앞으로도 KT Wiz 많이 응원해주시고,\n� 도 항상 최선을 다하는 모습 보여드릴게요 🎉\n\n언제나 행복하세요 ✨\n— 이예빈 드림";
+const KPC_GRADS = {
+  common:[["#e96c8b","#ffd3a5"],["#c94b4b","#4b134f"],["#1a1a2e","#16213e"],["#0f2027","#203a43"],["#3a1c71","#d76d77"],["#141e30","#243b55"],["#2d1b69","#11998e"],["#4a1942","#c74b50"],["#0f3460","#533483"],["#1b1b2f","#e94560"],["#16213e","#0f3460"],["#2c3e50","#fd746c"],["#1a2a6c","#b21f1f"],["#373b44","#4286f4"],["#0f0c29","#302b63"],["#24243e","#302b63"],["#1f4037","#99f2c8"],["#200122","#6f0000"],["#0d0d0d","#434343"],["#434343","#000000"]],
+  rare:[["#12c2e9","#c471ed"],["#f7971e","#ffd200"],["#c94b4b","#4b134f"],["#1d976c","#93f9b9"],["#ee0979","#ff6a00"],["#2980b9","#6dd5fa"]],
+  super_rare:[["#7f00ff","#e100ff"],["#f83600","#f9d423"],["#1a1a2e","#e94560"]],
+  legend:[["#f7971e","#ffd200"]]
+};
+const KPC_EMOJIS_C = ["🦋","📸","🎤","⭐","🌸","💫","🎀","🌙","✨","💝","🎵","🌺","🌟","💖","🎊","🌈","🏵️","💎","🎶","🌻"];
+const KPC_EMOJIS_R = ["⚾","🎊","🏆","🎯","🔥","💥"];
+const KPC_EMOJIS_SR = ["🏟️","✍️","🎪"];
+const KPC_CARDS = [
+  ...Array.from({length:20},(_,i)=>({id:`C${String(i+1).padStart(2,'0')}`,rarity:"common",emoji:KPC_EMOJIS_C[i],gradient:KPC_GRADS.common[i]})),
+  ...Array.from({length:6},(_,i)=>({id:`R${String(i+1).padStart(2,'0')}`,rarity:"rare",emoji:KPC_EMOJIS_R[i],gradient:KPC_GRADS.rare[i]})),
+  ...Array.from({length:3},(_,i)=>({id:`SR${String(i+1).padStart(2,'0')}`,rarity:"super_rare",emoji:KPC_EMOJIS_SR[i],gradient:KPC_GRADS.super_rare[i]})),
+  {id:"L01",rarity:"legend",emoji:"👑",gradient:KPC_GRADS.legend[0]}
+];
+const KPC_RM = {common:{cls:"rl-c"},rare:{cls:"rl-r"},super_rare:{cls:"rl-sr"},legend:{cls:"rl-l"}};
+const KPC_RL = {common:"● COMMON",rare:"▲ RARE",super_rare:"◆ SUPER RARE",legend:"★ LEGEND"};
+const KPC_SK = `kolex_${KPC_MEMBER.slug}_v1`;
+const KPC_TK = `kolex_today_${KPC_MEMBER.slug}`;
+const KPC_CK = `kolex_cycle_${KPC_MEMBER.slug}`;
+function kpcDK(){const d=new Date();return `${d.getFullYear()}${String(d.getMonth()+1).padStart(2,'0')}${String(d.getDate()).padStart(2,'0')}`;}
+function kpcSR(seed){let x=Math.sin(seed+17)*99999;return x-Math.floor(x);}
+function kpcGetDaily(){
+  const seed=parseInt(kpcDK());const col=kpcLoadCol();const owned=new Set(col.map(c=>c.id));
+  const avail=KPC_CARDS.filter(c=>!owned.has(c.id));if(!avail.length)return null;
+  const w={common:4,rare:2,super_rare:1,legend:1};const pool=[];
+  avail.forEach(c=>{for(let i=0;i<w[c.rarity];i++)pool.push(c);});
+  return pool[Math.floor(kpcSR(seed)*pool.length)];
+}
+function kpcLoadCol(){try{return JSON.parse(localStorage.getItem(KPC_SK)||'[]');}catch{return [];}}
+function kpcSaveCol(c){localStorage.setItem(KPC_SK,JSON.stringify(c));}
+function kpcAddCard(id,rarity){
+  const col=kpcLoadCol();const ex=col.find(c=>c.id===id);
+  if(ex)ex.count=(ex.count||1)+1;else col.push({id,rarity,count:1,date:kpcDK()});
+  kpcSaveCol(col);if(rarity==='legend')setTimeout(kpcShowLegend,800);
+}
+function kpcPulledToday(){return localStorage.getItem(KPC_TK)===kpcDK();}
+function kpcMarkToday(){localStorage.setItem(KPC_TK,kpcDK());}
+let _kpcCard=null,_kpcRevealed=false;
+function kpcInit(){
+  const d=new Date();
+  const days=['일','월','화','수','목','금','토'];
+  const el=document.getElementById('kpc-date');
+  if(el)el.textContent=`${d.getFullYear()}.${String(d.getMonth()+1).padStart(2,'0')}.${String(d.getDate()).padStart(2,'0')} (${days[d.getDay()]})`;
+  _kpcCard=kpcGetDaily();if(_kpcCard)kpcApplyFront(_kpcCard);
+  if(kpcPulledToday()){_kpcRevealed=true;const ci=document.getElementById('kpc-inner');if(ci)ci.classList.add('flipped');kpcSetDone();}
+  kpcRenderGrid();kpcRenderStats();
+}
+function kpcApplyFront(card){
+  const f=document.getElementById('kpc-front');if(f)f.className=`kpc-face kpc-front ${card.rarity}`;
+  const n=document.getElementById('kpc-num');if(n)n.textContent=card.id;
+  const rl=document.getElementById('kpc-rl');if(rl){rl.className=`kpc-rl ${KPC_RM[card.rarity].cls}`;rl.textContent=KPC_RL[card.rarity];}
+  const vn=document.getElementById('kpc-vn');if(vn)vn.textContent=KPC_MEMBER.ko;
+  const ph=document.getElementById('kpc-ph');const em=document.getElementById('kpc-em');const pid=document.getElementById('kpc-pid');
+  if(ph)ph.style.background=`linear-gradient(145deg,${card.gradient[0]},${card.gradient[1]})`;
+  if(em)em.textContent=card.emoji;if(pid)pid.textContent=card.id;
+  const img=document.getElementById('kpc-img');if(img){
+    img.style.display='none';if(ph)ph.style.display='flex';
+    img.onerror=()=>{img.style.display='none';if(ph)ph.style.display='flex';};
+    img.onload=()=>{img.style.display='block';if(ph)ph.style.display='none';};
+    img.src=`../포토카드_완성/${KPC_MEMBER.slug}/${card.id}.png`;
+  }
+}
+function kpcOnClick(){if(!kpcPulledToday()&&!_kpcRevealed)kpcReveal();}
+function kpcReveal(){
+  if(_kpcRevealed)return;_kpcRevealed=true;
+  const sc=document.getElementById('kpc-scene');if(sc)sc.onclick=null;
+  const ci=document.getElementById('kpc-inner');if(ci)ci.classList.add('flipped');
+  setTimeout(()=>{kpcAddCard(_kpcCard.id,_kpcCard.rarity);kpcMarkToday();kpcSetDone();kpcRenderGrid();kpcRenderStats();},750);
+}
+function kpcSetDone(){
+  const btn=document.getElementById('kpc-btn');
+  if(btn){btn.className='kpc-btn done';btn.textContent='✅ 오늘 뽑기 완료';}
+  const tom=new Date();tom.setDate(tom.getDate()+1);
+  const nm=document.getElementById('kpc-nm');
+  if(nm)nm.textContent=`다음 뽑기: ${String(tom.getMonth()+1).padStart(2,'0')}.${String(tom.getDate()).padStart(2,'0')} 00:00`;
+}
+function kpcRenderGrid(){
+  const col=kpcLoadCol();const grid=document.getElementById('kpc-grid');if(!grid)return;
+  const cc=document.getElementById('kpc-ccnt');if(cc)cc.textContent=`${col.length} / ${KPC_CARDS.length}`;
+  const glows={common:'#aaa',rare:'#f5c842',super_rare:'#a855f7',legend:'#ffd700'};
+  grid.innerHTML=KPC_CARDS.map(card=>{
+    const entry=col.find(c=>c.id===card.id);const locked=!entry;
+    const dt=locked?card.id:entry.date.replace(/(\d{4})(\d{2})(\d{2})/,'$1.$2.$3');
+    const bg=`background:linear-gradient(145deg,${card.gradient[0]},${card.gradient[1]})`;
+    return `<div class="kpc-cc${locked?' locked':''}" title="${dt}"><div class="kpc-ci" style="${bg}">${locked?'':card.emoji}</div>${locked?`<div class="kpc-lo" style="color:${glows[card.rarity]}">✦</div>`:''}</div>`;
+  }).join('');
+}
+function kpcRenderStats(){
+  const col=kpcLoadCol();const cnt={common:0,rare:0,super_rare:0,legend:0};
+  col.forEach(c=>{if(cnt[c.rarity]!==undefined)cnt[c.rarity]++;});
+  [['kpc-sc',cnt.common],['kpc-sr',cnt.rare],['kpc-ssr',cnt.super_rare],['kpc-sl',cnt.legend]].forEach(([id,v])=>{const el=document.getElementById(id);if(el)el.textContent=v;});
+}
+function kpcShowLegend(){
+  const cycles=parseInt(localStorage.getItem(KPC_CK)||'0')+1;
+  localStorage.setItem(KPC_CK,cycles);
+  const ov=document.createElement('div');
+  ov.id='kpc-ov';
+  ov.style.cssText='position:fixed;inset:0;background:rgba(0,0,0,.95);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999;padding:24px;overflow-y:auto;';
+  const wrap=document.createElement('div');
+  wrap.style.cssText='max-width:340px;width:100%;text-align:center';
+  wrap.innerHTML='<div style="font-size:48px;margin-bottom:8px;">👑</div>'
+    +'<div style="font-size:20px;font-weight:900;color:#ffd700;margin-bottom:4px;">LEGEND 획득!</div>'
+    +'<div style="font-size:13px;color:#ccc;margin-bottom:16px;">'+KPC_MEMBER.ko+' 컬렉션 '+cycles+'주기 완성 🎉</div>'
+    +'<div style="background:#0e0800;border:1px solid rgba(255,215,0,.27);border-radius:14px;padding:16px;margin-bottom:14px;text-align:left;">'
+    +'<div style="font-size:10px;color:#ffd700;font-weight:700;margin-bottom:8px;">💌 '+KPC_MEMBER.ko+'의 축하 메세지</div>'
+    +'<div style="font-size:12px;color:#ddd;line-height:1.9;white-space:pre-line;">'+KPC_MSG+'</div></div>'
+    +'<div style="background:#141414;border:1px solid #2a2a2a;border-radius:12px;padding:14px;margin-bottom:12px;">'
+    +'<div style="font-size:11px;color:#777;margin-bottom:8px;text-align:center;">📨 이메일로 받으시겠어요?</div>'
+    +'<input id="kpc-email" type="email" placeholder="your@email.com" style="width:100%;padding:9px 10px;border-radius:7px;border:1px solid #2a2a2a;background:#1a1a1a;color:#eee;font-size:12px;outline:none;box-sizing:border-box;margin-bottom:7px;">'
+    +'<button onclick="kpcSubmitReward()" style="width:100%;background:linear-gradient(135deg,#f7971e,#ffd200);border:none;color:#000;font-size:12px;font-weight:700;padding:10px;border-radius:9px;cursor:pointer;">메세지 받기 →</button></div>'
+    +'<button onclick="kpcNewCycle()" style="width:100%;background:#1a1a1a;border:1px solid #2a2a2a;color:#555;font-size:12px;padding:11px;border-radius:9px;cursor:pointer;">새 컬렉션 시작하기 →</button>';
+  ov.appendChild(wrap);document.body.appendChild(ov);
+}
+function kpcSubmitReward(){
+  const email=document.getElementById('kpc-email').value.trim();
+  if(!email||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){alert('이메일 주소를 올바르게 입력해주세요.');return;}
+  alert('✅ '+email+' 로 '+KPC_MEMBER.ko+'의 축하 메세지가 전송됩니다!');
+  kpcNewCycle();
+}
+function kpcNewCycle(){
+  const ov=document.getElementById('kpc-ov');if(ov)ov.remove();
+  localStorage.removeItem(KPC_SK);localStorage.removeItem(KPC_TK);
+  _kpcRevealed=false;_kpcCard=kpcGetDaily();
+  if(_kpcCard)kpcApplyFront(_kpcCard);
+  const ci=document.getElementById('kpc-inner');if(ci)ci.classList.remove('flipped');
+  const btn=document.getElementById('kpc-btn');if(btn){btn.className='kpc-btn ready';btn.textContent='🎴 오늘의 카드 뽑기';}
+  const nm=document.getElementById('kpc-nm');if(nm)nm.textContent='';
+  const sc=document.getElementById('kpc-scene');if(sc)sc.onclick=kpcReveal;
+  kpcRenderGrid();kpcRenderStats();
+}
+
+</script>
+<script>
+// ===== KOLEX 운세 =====
+const FT_MEMBER = {slug:"lee-yebin",ko:"이예빈",en:"Lee Ye-bin",ja:"イ・イェビン",zh:"李藝彬",emoji:"🌸",by:2001,bm:1,bd:1};
+const FT_MSGS = {
+  love:[["마음이 설레는 만남이 있을 거예요.","감정을 솔직하게 표현하는 날이에요."],
+    ["기존 관계를 되돌아볼 시간이에요.","오해가 생길 수 있으니 신중하게 행동하세요."],
+    ["특별한 일은 없지만 안정된 하루예요.","평소대로 지내면 좋은 결과가 와요."],
+    ["좋아하는 사람에게 먼저 다가가 보세요.","오늘의 인연이 오래 이어질 수 있어요."],
+    ["운명적인 만남이 기다리고 있어요!","사랑이 활짝 꽃피는 날이에요 💕"]],
+  work:[["집중력이 흐트러지기 쉬운 날이에요.","중요한 결정은 내일로 미루세요."],
+    ["동료와의 협력이 성과를 만들어요.","팀 분위기에 맞춰 유연하게 행동하세요."],
+    ["꾸준히 노력하면 결실이 가까워요.","오늘 한 걸음이 내일의 도약이에요."],
+    ["창의적인 아이디어가 빛나는 날이에요.","새로운 제안에 귀를 기울여 보세요."],
+    ["인정받을 기회가 찾아오는 날이에요!","자신감을 갖고 도전하세요 🌟"]],
+  money:[["불필요한 지출을 줄이는 게 좋아요.","투자보다 절약에 집중하는 날이에요."],
+    ["예상치 못한 지출이 생길 수 있어요.","충동구매를 피하세요."],
+    ["수입과 지출이 균형을 이루는 날이에요.","소소한 행운이 들어올 수 있어요."],
+    ["재물운이 좋으니 적극 활용해 보세요.","작은 투자가 큰 결실로 이어질 수 있어요."],
+    ["예상치 못한 횡재 기운이 있어요!","오늘은 재물이 들어오는 날 💰"]],
+  health:[["체력이 떨어지기 쉬운 날이에요.","충분한 휴식과 수면을 취하세요."],
+    ["소화나 컨디션에 신경 써야 해요.","무리하지 말고 몸의 신호를 들어보세요."],
+    ["평소와 비슷한 컨디션의 하루예요.","규칙적인 생활이 건강을 지켜줄 거예요."],
+    ["활기차고 에너지 넘치는 날이에요.","가벼운 운동으로 더 좋은 기운을 받으세요."],
+    ["최상의 컨디션! 무엇이든 할 수 있어요!","활력이 넘치는 하루를 즐기세요 ✨"]]
+};
+const FT_GRADES = ["★ 힘든 하루","★★ 조심하는 날","★★★ 무난한 하루","★★★★ 좋은 기운","★★★★★ 행운의 날!","✦ 특별한 날"];
+const FT_MT_M = ["오늘은 조금 힘든 날이 될 수 있어요.","조심스러운 하루예요. 신중하게 행동하면 괜찮아질 거예요.","무난하고 안정된 하루가 될 것 같아요 🙂","좋은 기운이 흘러요! 자신감을 가지고 하루를 보내요.","행운이 가득한 날이에요! 무엇이든 잘 될 거예요 ✨","오늘은 정말 특별한 날이에요! 최상의 하루가 될 거예요 🌟"];
+const FT_MT_Y = ["힘든 하루일 수 있지만 이겨낼 수 있어요. 오늘 하루도 화이팅!","조심하는 날이에요. 중요한 일은 신중하게 처리하세요.","무난하고 평화로운 하루가 될 거예요 🙂","오늘은 좋은 기운이 가득해요! 마음껏 즐기세요.","행운이 넘치는 날이요! 적극적으로 움직여 보세요 ✨","최고의 날이요! 원하는 모든 것이 잘 풀릴 거예요 🌟"];
+const FT_CATS = [{i:"❤️",n:"연애운"},{i:"💼",n:"직업운"},{i:"💰",n:"재물운"},{i:"💪",n:"건강운"}];
+const FT_CKEYS = ["love","work","money","health"];
+const FT_LC = [["핑크","🌸"],["퍼플","💜"],["화이트","🤍"],["골드","✨"],["민트","🌿"],["코랄","🌺"],["블루","💙"],["라벤더","🔮"]];
+const FT_LN = [3,7,11,17,22,28,33,42,55,77];
+const FT_LT = ["09:00","11:30","14:00","16:30","19:00","21:00"];
+let _ftMyBirth=null;
+function _ftSR(seed){let x=Math.sin(seed*9301+49297)*233280;return x-Math.floor(x);}
+function _ftSI(seed,min,max){return min+Math.floor(_ftSR(seed)*(max-min+1));}
+function _ftToday(){const d=new Date();return d.getFullYear()*10000+(d.getMonth()+1)*100+d.getDate();}
+function _ftBS(y,m,d){return y*10000+m*100+d;}
+function _ftMemSeed(){const by=FT_MEMBER.by||1998,bm=FT_MEMBER.bm||6,bd=FT_MEMBER.bd||1;return (_ftBS(by,bm,bd))^_ftToday();}
+function _ftMySeed(y,m,d){return _ftBS(y,m,d)^_ftToday();}
+function _ftCalcFortune(seed){
+  const score=20+Math.floor(_ftSR(seed)*80);
+  const gi=score<35?0:score<50?1:score<65?2:score<78?3:score<90?4:5;
+  const emojis=['😔','😐','🙂','😊','😄','🌟'];
+  const catMsgs=FT_CKEYS.map((key,ci)=>{const pool=FT_MSGS[key][Math.min(gi,4)];return pool[_ftSI(seed+ci*77,0,pool.length-1)];});
+  const ci2=_ftSI(seed*3,0,FT_LC.length-1);
+  return {score,gi,emoji:emojis[gi],gl:FT_GRADES[gi],catMsgs,color:FT_LC[ci2],num:FT_LN[_ftSI(seed*7,0,FT_LN.length-1)],time:FT_LT[_ftSI(seed*11,0,FT_LT.length-1)]};
+}
+function _ftRenderCard(pref,seed,mtype){
+  const data=_ftCalcFortune(seed);
+  const s=(id,v)=>{const el=document.getElementById(id);if(el)el.textContent=v;};
+  s('ft-'+pref+'-em',data.emoji);s('ft-'+pref+'-gl',data.gl);
+  s('ft-'+pref+'-mt',(mtype==='m'?FT_MT_M:FT_MT_Y)[data.gi]);
+  const isM=(pref==='mem');
+  s(isM?'ft-m-cl':'ft-y-cl','럭키 컬러');s(isM?'ft-m-nl':'ft-y-nl','럭키 넘버');s(isM?'ft-m-tl':'ft-y-tl','행운의 시간');
+  s(isM?'ft-m-ci':'ft-y-ci',data.color[1]);s(isM?'ft-m-cv':'ft-y-cv',data.color[0]);
+  s(isM?'ft-m-nv':'ft-y-nv',data.num);s(isM?'ft-m-tv':'ft-y-tv',data.time);
+  const cats=document.getElementById('ft-'+pref+'-cats');
+  if(cats){cats.innerHTML='';FT_CATS.forEach((cat,i)=>{
+    const stars='★'.repeat(Math.max(1,data.gi))+'☆'.repeat(Math.max(0,5-data.gi));
+    const div=document.createElement('div');div.className='ft-cat';
+    div.innerHTML='<span class="ft-ci">'+cat.i+'</span><div style="flex:1"><div class="ft-cn">'+cat.n+'</div><div class="ft-ct">'+data.catMsgs[i]+'</div><div class="ft-cs">'+stars+'</div></div>';
+    cats.appendChild(div);
+  });}
+  setTimeout(()=>{const bar=document.getElementById('ft-'+pref+'-bar');if(bar)bar.style.width=data.score+'%';},200);
+}
+function _ftStars(id){
+  const f=document.getElementById(id);if(!f)return;f.innerHTML='';
+  for(let i=0;i<22;i++){const s=document.createElement('div');s.className='ft-sd';s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';s.style.setProperty('--d',(1.5+Math.random()*2.5)+'s');s.style.animationDelay=Math.random()*2+'s';f.appendChild(s);}
+}
+function ftShowModal(){
+  const modal=document.getElementById('ft-modal');if(!modal)return;
+  modal.classList.add('open');document.body.style.overflow='hidden';
+  _ftStars('ft-sf1');_ftRenderCard('mem',_ftMemSeed(),'m');
+  const el=document.getElementById('ft-dis');
+  if(el)el.textContent='🔮 운세는 재미 목적의 콘텐츠로 실제 운명을 예측하지 않습니다.\nAI가 생성한 창작 콘텐츠이며, 멤버 본인의 견해와 무관합니다.';
+  const tom=document.getElementById('ft-m-tom');if(tom)tom.textContent='✨ 내일의 운세는 자정에 업데이트돼요';
+}
+function ftClose(){const m=document.getElementById('ft-modal');if(m)m.classList.remove('open');document.body.style.overflow='';}
+function ftSwitchTab(tab){
+  document.getElementById('ft-member-tab').style.display=tab==='member'?'block':'none';
+  document.getElementById('ft-my-tab').style.display=tab==='my'?'block':'none';
+  document.getElementById('ft-tab-member').classList.toggle('active',tab==='member');
+  document.getElementById('ft-tab-my').classList.toggle('active',tab==='my');
+}
+function ftCalcMy(){
+  const y=parseInt(document.getElementById('ft-by').value)||0;
+  const m2=parseInt(document.getElementById('ft-bm').value)||0;
+  const d2=parseInt(document.getElementById('ft-bd').value)||0;
+  if(!y||!m2||!d2||y<1950||y>2010||m2<1||m2>12||d2<1||d2>31){alert('생년월일을 올바르게 입력해주세요.');return;}
+  _ftMyBirth={y,m:m2,d:d2};_ftStars('ft-sf2');
+  const bf=document.getElementById('ft-bform');if(bf)bf.style.display='none';
+  const mr=document.getElementById('ft-my-result');if(mr){mr.style.display='block';mr.scrollIntoView({behavior:'smooth',block:'nearest'});}
+  _ftRenderCard('my',_ftMySeed(y,m2,d2),'y');
+  const tom=document.getElementById('ft-my-tom');if(tom)tom.textContent='✨ 내일의 운세는 자정에 업데이트돼요';
+}
+function ftResetMy(){
+  _ftMyBirth=null;
+  const bf=document.getElementById('ft-bform');if(bf)bf.style.display='block';
+  const mr=document.getElementById('ft-my-result');if(mr)mr.style.display='none';
+  ['ft-by','ft-bm','ft-bd'].forEach(id=>{const el=document.getElementById(id);if(el)el.value='';});
+}
+function ftCopy(type){
+  const name=type==='member'?FT_MEMBER.ko:'나';
+  const d=new Date();const ds=d.getFullYear()+'.'+String(d.getMonth()+1).padStart(2,'0')+'.'+String(d.getDate()).padStart(2,'0');
+  const seed=type==='member'?_ftMemSeed():(_ftMyBirth?_ftMySeed(_ftMyBirth.y,_ftMyBirth.m,_ftMyBirth.d):_ftToday());
+  const data=_ftCalcFortune(seed);
+  const text='🔮 '+name+' 오늘의 운세 ('+ds+')\n'+data.gl+'\n\nkoreacheerleaders.com';
+  navigator.clipboard.writeText(text).then(()=>alert(name+'의 운세가 복사됐어요!')).catch(()=>alert(text));
+}
+function ftShare(){alert('공유 기능 준비 중이에요!');}
+
+</script>
+<script>
+const KPC_PHOTOS=["KakaoTalk_20260609_172654266_11.png","정희정.webp","정희정2.jpg","정희정3.jpg"];
+
+kpcApplyFront = function(card){
+  const f=document.getElementById('kpc-front');if(f)f.className=`kpc-face kpc-front ${card.rarity}`;
+  const n=document.getElementById('kpc-num');if(n)n.textContent=card.id;
+  const rl=document.getElementById('kpc-rl');if(rl){rl.className=`kpc-rl ${KPC_RM[card.rarity].cls}`;rl.textContent=KPC_RL[card.rarity];}
+  const vn=document.getElementById('kpc-vn');if(vn)vn.textContent=KPC_MEMBER.ko;
+  const ph=document.getElementById('kpc-ph');const em=document.getElementById('kpc-em');const pid=document.getElementById('kpc-pid');
+  if(ph)ph.style.background=`linear-gradient(145deg,${card.gradient[0]},${card.gradient[1]})`;
+  if(em)em.textContent=card.emoji;if(pid)pid.textContent=card.id;
+  const img=document.getElementById('kpc-img');if(img){
+    img.style.display='none';if(ph)ph.style.display='flex';
+    img.onerror=()=>{img.style.display='none';if(ph)ph.style.display='flex';};
+    img.onload=()=>{img.style.display='block';if(ph)ph.style.display='none';};
+    const _ci=KPC_CARDS.indexOf(card);
+    const _pf=KPC_PHOTOS.length>0?KPC_PHOTOS[_ci%KPC_PHOTOS.length]:null;
+    if(_pf)img.src=`../포토카드_완성/${KPC_MEMBER.slug}/${encodeURIComponent(_pf)}`;
+  }
+};
+kpcRenderGrid = function(){
+  const col=kpcLoadCol();const grid=document.getElementById('kpc-grid');if(!grid)return;
+  const cc=document.getElementById('kpc-ccnt');if(cc)cc.textContent=`${col.length} / ${KPC_CARDS.length}`;
+  const glows={common:'#aaa',rare:'#f5c842',super_rare:'#a855f7',legend:'#ffd700'};
+  grid.innerHTML=KPC_CARDS.map((card,cardIdx)=>{
+    const entry=col.find(c=>c.id===card.id);const locked=!entry;
+    const dt=locked?card.id:entry.date.replace(/(\d{4})(\d{2})(\d{2})/,'$1.$2.$3');
+    const bg=`background:linear-gradient(145deg,${card.gradient[0]},${card.gradient[1]})`;
+    const photo=!locked&&KPC_PHOTOS.length>0?KPC_PHOTOS[cardIdx%KPC_PHOTOS.length]:null;
+    const ciInner=photo?`<img src="../포토카드_완성/${KPC_MEMBER.slug}/${encodeURIComponent(photo)}" style="width:100%;height:100%;object-fit:cover;display:block;" onerror="this.style.display='none'">`:(locked?'':card.emoji);
+    return `<div class="kpc-cc${locked?' locked':''}" title="${dt}"><div class="kpc-ci" style="${bg}">${ciInner}</div>${locked?`<div class="kpc-lo" style="color:${glows[card.rarity]}">✦</div>`:''}<div class="kpc-dt">${locked?'미등록':dt}</div></div>`;
+  }).join('');
+};
+kpcSetDone = function(){
+  const btn=document.getElementById('kpc-btn');
+  if(btn){btn.className='kpc-btn done';btn.textContent='✅ 오늘 뽑기 완료';}
+  const dlbtn=document.getElementById('kpc-dl-btn');if(dlbtn)dlbtn.style.display='';
+  const tom=new Date();tom.setDate(tom.getDate()+1);
+  const nm=document.getElementById('kpc-nm');
+  if(nm)nm.textContent=`다음 뽑기: ${String(tom.getMonth()+1).padStart(2,'0')}.${String(tom.getDate()).padStart(2,'0')} 00:00`;
+};
+function kpcDownload(){
+  if(!_kpcCard)return;
+  const canvas=document.createElement('canvas');canvas.width=300;canvas.height=450;
+  const ctx=canvas.getContext('2d');
+  const doRender=()=>{
+    ctx.fillStyle='#0a0a10';ctx.fillRect(0,0,300,450);
+    const ci=document.getElementById('kpc-img');
+    if(ci&&ci.naturalWidth>0){try{ctx.drawImage(ci,0,0,300,380);}catch(e){drawGrad();}}
+    else{drawGrad();}
+    function drawGrad(){const g=ctx.createLinearGradient(0,0,300,380);g.addColorStop(0,_kpcCard.gradient[0]);g.addColorStop(1,_kpcCard.gradient[1]);ctx.fillStyle=g;ctx.fillRect(0,0,300,380);ctx.font='72px serif';ctx.textAlign='center';ctx.fillText(_kpcCard.emoji,150,210);}
+    ctx.fillStyle='rgba(0,0,0,.88)';ctx.fillRect(0,370,300,80);
+    ctx.fillStyle='#fff';ctx.font='bold 15px sans-serif';ctx.textAlign='center';
+    ctx.fillText(KPC_MEMBER.ko,150,393);
+    ctx.fillStyle='rgba(255,255,255,.55)';ctx.font='11px sans-serif';
+    ctx.fillText(_kpcCard.id+' \xb7 KOLEX',150,412);
+    ctx.fillStyle='rgba(227,24,55,.9)';ctx.font='bold 9px sans-serif';
+    ctx.fillText('koreacheerleaders.com',150,432);
+    const a=document.createElement('a');a.href=canvas.toDataURL('image/png');a.download=`KOLEX_${KPC_MEMBER.slug}_${_kpcCard.id}.png`;document.body.appendChild(a);a.click();a.remove();
+  };
+  const ci=document.getElementById('kpc-img');
+  if(ci&&ci.naturalWidth>0){doRender();}
+  else{const img=new Image();img.crossOrigin='anonymous';const ci2=KPC_CARDS.indexOf(_kpcCard);const ph=KPC_PHOTOS.length>0?KPC_PHOTOS[ci2%KPC_PHOTOS.length]:null;if(ph){img.onload=doRender;img.onerror=doRender;img.src=`../포토카드_완성/${KPC_MEMBER.slug}/${encodeURIComponent(ph)}`;}else{doRender();}}
+}
+function _kpcTab(k,lang){
+  var kpc=document.getElementById('kpc-section');var grid=document.getElementById('postsGrid');var lm=document.getElementById('blogLoadMore');
+  if(k==='photocard'){_af='photocard';if(kpc){kpc.style.display='block';if(typeof kpcInit==='function')kpcInit();}if(grid)grid.style.display='none';if(lm)lm.style.display='none';}
+  else{_af=k;if(kpc)kpc.style.display='none';if(grid)grid.style.display='';if(lm)lm.style.display='none';renderBlogPosts(lang);}
+}
+(function(){
+  const _orig=renderBlogPosts;
+  renderBlogPosts=function(lang){
+    _orig(lang);
+    const bar=document.getElementById('blogFilterBar');
+    if(bar&&!document.getElementById('kpc-tab-btn')){
+      const lbl={ko:'🎴 포토카드',en:'🎴 Photocard',ja:'🎴 フォトカード',zh:'🎴 照片卡'};
+      const existing=bar.querySelectorAll('button');
+      if(existing.length>0){
+        const btn=document.createElement('button');btn.id='kpc-tab-btn';
+        if(existing[0].className)btn.className=existing[0].className;
+        if(existing[0].getAttribute('style'))btn.setAttribute('style',existing[0].getAttribute('style'));
+        btn.textContent=lbl[lang]||'🎴 Photocard';
+        btn.onclick=function(){bar.querySelectorAll('button').forEach(b=>b.classList&&b.classList.remove('active'));btn.classList&&btn.classList.add('active');_kpcTab('photocard',lang);};
+        bar.appendChild(btn);
+      }
+    }
+  };
+})();
+
+</script>
 </body>
 </html>
