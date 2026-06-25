@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ko" translate="no">
 <head>
   <meta charset="UTF-8" />
@@ -335,8 +335,15 @@
   
 </section>
 
-  <!-- ===== 포토카드 SECTION ===== -->
-  <section class="kpc-section" id="kpc-section">
+  <div id="blogFilterBar" style="display:flex;gap:.5rem;flex-wrap:wrap;"></div>
+    </div>
+    <div id="postsGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;"></div>
+  <div style="text-align:center;margin-top:1.25rem;">
+    <button id="blogLoadMore" style="display:none;background:rgba(255,31,69,.1);border:1px solid rgba(255,31,69,.3);color:var(--red);padding:10px 32px;border-radius:24px;cursor:pointer;font-size:.82rem;font-weight:700;"
+      onclick="this.dataset.expanded='1';this.style.display='none';renderBlogPosts(localStorage.getItem('kolexLang')||'ko')">더 보기 ↓</button>
+  </div>
+<!-- ===== 포토카드 SECTION ===== -->
+  <section class="kpc-section" id="kpc-section" style="display:none">
     <h2 class="kpc-title">🎴 <span id="kpcSecTitle">포토카드 컬렉션</span></h2>
     <div class="kpc-wrap">
       <div class="kpc-daily-lbl">TODAY'S PULL</div>
@@ -369,13 +376,7 @@
     </div>
   </section>
 
-      <div id="blogFilterBar" style="display:flex;gap:.5rem;flex-wrap:wrap;"></div>
-    </div>
-    <div id="postsGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;"></div>
-  <div style="text-align:center;margin-top:1.25rem;">
-    <button id="blogLoadMore" style="display:none;background:rgba(255,31,69,.1);border:1px solid rgba(255,31,69,.3);color:var(--red);padding:10px 32px;border-radius:24px;cursor:pointer;font-size:.82rem;font-weight:700;"
-      onclick="this.dataset.expanded='1';this.style.display='none';renderBlogPosts(localStorage.getItem('kolexLang')||'ko')">더 보기 ↓</button>
-  </div>
+      
   </section>
 
   <!-- ===== INSTAGRAM SECTION ===== -->
@@ -705,13 +706,31 @@ function _loadIgEmbed(){
   s.onload=function(){if(window.instgrm)window.instgrm.Embeds.process();};
   document.body.appendChild(s);
 }
+
+function _kpcTab(k,lang){
+  var kpc=document.getElementById('kpc-section');
+  var grid=document.getElementById('postsGrid');
+  var lm=document.getElementById('blogLoadMore');
+  if(k==='photocard'){
+    _af='photocard';
+    if(kpc){kpc.style.display='block';if(typeof kpcInit==='function')kpcInit();}
+    if(grid)grid.style.display='none';
+    if(lm)lm.style.display='none';
+  }else{
+    _af=k;
+    if(kpc)kpc.style.display='none';
+    if(grid)grid.style.display='';
+    if(lm)lm.style.display='none';
+    renderBlogPosts(lang);
+  }
+}
 function renderBlogPosts(lang){
   const se=document.getElementById('postsSecTitle');
   if(se) se.textContent=_bi.sec[lang]||_bi.sec.ko;
   const bar=document.getElementById('blogFilterBar');
   if(bar){
-    const fs=[['all',_bi.all],['greeting',_bi.gr],['milestone',_bi.mi],['instagram_post',_bi.ig]];
-    bar.innerHTML=fs.map(([k,l])=>`<button onclick="_af='${k}';renderBlogPosts('${lang}')" style="padding:5px 14px;border-radius:20px;border:1px solid ${_af===k?'var(--red)':'rgba(255,255,255,.18)'};background:${_af===k?'var(--red)':'transparent'};color:${_af===k?'#fff':'#aaa'};cursor:pointer;font-size:.78rem;font-weight:600;transition:all .2s;">${l[lang]||l.ko}</button>`).join('');
+    const fs=[['all',_bi.all],['greeting',_bi.gr],['milestone',_bi.mi],['instagram_post',_bi.ig],['photocard',{ko:'🎴 포토카드',en:'🎴 Photocard',ja:'🎴 フォトカード',zh:'🎴 照片卡'}]];
+    bar.innerHTML=fs.map(([k,l])=>`<button onclick="_kpcTab('${k}','${lang}')" style="padding:5px 14px;border-radius:20px;border:1px solid ${_af===k?'var(--red)':'rgba(255,255,255,.18)'};background:${_af===k?'var(--red)':'transparent'};color:${_af===k?'#fff':'#aaa'};cursor:pointer;font-size:.78rem;font-weight:600;transition:all .2s;">${l[lang]||l.ko}</button>`).join('');
   }
   const grid=document.getElementById('postsGrid');
   if(!grid) return;
@@ -886,79 +905,61 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 </div>
   <script src="../js/cookie-consent.js"></script>
-<div class="ft-modal" id="ft-modal">
-  <div class="ft-inner">
-    <div class="ft-header">
-      <h3>🔮 운세모달</h3>
-      <button class="ft-close" onclick="ftClose()">&times;</button>
-    </div>
-    <div class="ft-tabs">
-      <button class="ft-tab active" id="ft-tab-member" onclick="ftSwitchTab('member')">
-        <span>🌸</span> 이예름모달</button>
-      <button class="ft-tab" id="ft-tab-my" onclick="ftSwitchTab('my')">
-        <span>🔪</span> 볼제 운세</button>
-    </div>
-    <!-- Member tab -->
-    <div id="ft-member-tab">
-      <div class="ft-card">
-        <div class="ft-banner">
-          <div class="ft-stars" id="ft-sf1"></div>
-          <span class="ft-badge">👑 KOLEX 운세모달</span>
-          <div class="ft-em" id="ft-mem-em"></div>
-          <div class="ft-gl" id="ft-mem-gl"></div>
-          <div class="ft-bar"><div class="ft-bf" id="ft-mem-bar" style="width:0"></div></div>
-        </div>
-        <div class="ft-body">
-          <div class="ft-mt" id="ft-mem-mt"></div>
-          <div class="ft-cats" id="ft-mem-cats"></div>
-          <div class="ft-lucky">
-            <div class="ft-li"><div class="li-icon"><span id="ft-m-ci"></span></div><div class="li-lbl">웤저 DL</div><div class="li-val" id="ft-m-cv"></div></div>
-            <div class="ft-li"><div class="li-icon"><span id="ft-m-cl"></span></div><div class="li-�bl">헤중 노아</div><div class="li�-val" id="ft-m-nl"></div></div>
-            <div class="ft-li"><div class="li�-icon"><span id="ft-m-tl"></span></div><div class="li�-lbl">앤니세</div><div class="li�-val" id="ft-m-tv"></div></div>
-          </div>
-          <div id="ft-dis" class="ft-dis"></div>
-          <div id="ft-m-tom" style="font-size:9px;color:#333;text-align:center;margin-top:8px;"></div>
-        </div>
+  <!-- ===== 운세 모달 ===== -->
+  <div class="ft-modal" id="ft-modal">
+    <div class="ft-inner">
+      <div class="ft-header"><h3>🔮 <span id="ft-title">이예빈 운세</span></h3><button class="ft-close" onclick="ftClose()">✕</button></div>
+      <div class="ft-tabs">
+        <button class="ft-tab active" id="ft-tab-member" onclick="ftSwitchTab('member')">🌸 멤버 운세</button>
+        <button class="ft-tab" id="ft-tab-my" onclick="ftSwitchTab('my')">⭐ 내 운세</button>
       </div>
-    </div>
-    <!-- My tab -->
-    <div id="ft-my-tab" style="display:none">
-      <div class="ft-bform" id="ft-bform">
-        <label class="ft-blbl">🎈 완던 이른 있기 이예빈세요</label>
-        <div class="ft-binp">
-          <input id="ft-by" type="number" placeholder="폴(1960~2010)" min="1950" max="2010">
-          <input id="ft-bm" type="number" placeholder="���(1~12)" min="1" max="12">
-          <input id="ft-bd" type="number" placeholder="일(1~31)" min="1" max="31">
-        </div>
-        <button class="ft-cbtn" onclick="ftCalcMy()">🔮 볼제 운세는 자정에기 😄</button>
-      </div>
-      <div id="ft-my-result" style="display:none">
+      <div id="ft-member-tab">
         <div class="ft-card">
-          <div class="ft-banner">
-            <div class="ft-stars" id="ft-sf2"></div>
-            <span class="ft-badge">🔪 븰딩 운세</span>
-            <div class="ft-em" id="ft-my-em"></div>
-            <div class="ft-gl" id="ft-my-gl"></div>
-            <div class="ft-bar"><div class="ft-bf" id="ft-my-bar" style="width:0"></div></div>
-          </div>
+          <div class="ft-banner"><div class="ft-stars" id="ft-sf1"></div><div class="ft-badge" id="ft-badge">🌸 이예빈</div><span class="ft-em" id="ft-mem-em">🔮</span><div class="ft-gl" id="ft-mem-gl"></div><div class="ft-bar"><div class="ft-bf" id="ft-mem-bar" style="width:0%"></div></div></div>
           <div class="ft-body">
-            <div class="ft-mt" id="ft-my-mt"></div>
-            <div class="ft-cats" id="ft-my-cats"></div>
+            <div class="ft-mt" id="ft-mem-mt"></div>
+            <div class="ft-cats" id="ft-mem-cats"></div>
             <div class="ft-lucky">
-              <div class="ft-li"><div class="li-icon"><span id="ft-y-ci"></span></div><div class="li-lbl">엤원 �\�</div><div class="li-val" id="ft-y-cv"></div></div>
-              <div class="ft-li"><div class="li-icon"><span id="ft-y-cl"></span></div><div class="li-lbl">읔니 노아</div><div class="li-val" id="ft-y-nl"></div></div>
-              <div class="ft-li"><div class="li-icon"><span id="ft-y-tl"></span></div><div class="li-lbl">앤니세</div><div class="li�-val" id="ft-y-tv"></div></div>
+              <div class="ft-li"><div class="li-icon" id="ft-m-ci">🎨</div><div class="li-lbl" id="ft-m-cl"></div><div class="li-val" id="ft-m-cv"></div></div>
+              <div class="ft-li"><div class="li-icon">🔢</div><div class="li-lbl" id="ft-m-nl"></div><div class="li-val" id="ft-m-nv"></div></div>
+              <div class="ft-li"><div class="li-icon">🕐</div><div class="li-lbl" id="ft-m-tl"></div><div class="li-val" id="ft-m-tv"></div></div>
             </div>
-            <div class="ft-srow">
-              <button class="ft-sbtn" onclick="ftResetMy()">🔻 다은 다해 그</button>
-              <button class="ft-sbtn" onclick="ftCopy('my')">🔔 회와 컬러</button>
-            </div>
-            <div id="ft-my-tom" style="font-size:9px;color:#333;text-align:center;margin-top:8px;"></div>
+            <div class="ft-srow"><button class="ft-sbtn" id="ft-m-copy" onclick="ftCopy('member')">📋 복사</button><button class="ft-sbtn" id="ft-m-share" onclick="ftShare()">📤 공유</button></div>
           </div>
         </div>
+        <div style="font-size:10px;color:#2a2a3a;text-align:center;margin-bottom:8px;" id="ft-m-tom"></div>
       </div>
+      <div id="ft-my-tab" style="display:none;">
+        <div class="ft-bform" id="ft-bform">
+          <label class="ft-blbl" id="ft-blbl">내 생년월일</label>
+          <div class="ft-binp">
+            <input type="number" id="ft-by" placeholder="1998" min="1950" max="2010">
+            <input type="number" id="ft-bm" placeholder="03" min="1" max="12">
+            <input type="number" id="ft-bd" placeholder="15" min="1" max="31">
+          </div>
+          <div class="ft-bhint" id="ft-bhint">예: 1998 / 03 / 15</div>
+          <button class="ft-cbtn" id="ft-cbtn" onclick="ftCalcMy()">✨ 내 운세 보기</button>
+        </div>
+        <div id="ft-my-result" style="display:none;">
+          <div class="ft-card">
+            <div class="ft-banner"><div class="ft-stars" id="ft-sf2"></div><span class="ft-em" id="ft-my-em">⭐</span><div class="ft-gl" id="ft-my-gl"></div><div class="ft-bar"><div class="ft-bf" id="ft-my-bar" style="width:0%"></div></div></div>
+            <div class="ft-body">
+              <div class="ft-mt" id="ft-my-mt"></div>
+              <div class="ft-cats" id="ft-my-cats"></div>
+              <div class="ft-lucky">
+                <div class="ft-li"><div class="li-icon" id="ft-y-ci">🎨</div><div class="li-lbl" id="ft-y-cl"></div><div class="li-val" id="ft-y-cv"></div></div>
+                <div class="ft-li"><div class="li-icon">🔢</div><div class="li-lbl" id="ft-y-nl"></div><div class="li-val" id="ft-y-nv"></div></div>
+                <div class="ft-li"><div class="li-icon">🕐</div><div class="li-lbl" id="ft-y-tl"></div><div class="li-val" id="ft-y-tv"></div></div>
+              </div>
+              <div class="ft-srow"><button class="ft-sbtn" id="ft-y-copy" onclick="ftCopy('my')">📋 복사</button><button class="ft-sbtn" id="ft-y-reset" onclick="ftResetMy()">🔄 다시 입력</button></div>
+            </div>
+          </div>
+          <div style="font-size:10px;color:#2a2a3a;text-align:center;margin-bottom:8px;" id="ft-my-tom"></div>
+        </div>
+      </div>
+      <div class="ft-dis" id="ft-dis"></div>
     </div>
   </div>
-</div>
+
 </body>
 </html>
