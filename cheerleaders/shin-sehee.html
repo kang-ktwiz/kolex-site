@@ -1371,7 +1371,7 @@ function _showLegendPopup(cycles){
  var l=localStorage.getItem('kolexLang')||'ko';
  var msgs=_LM[slug]||{};
  var msg=msgs[l]||msgs.ko||'';
- var imgUrl='https://raw.githubusercontent.com/kang-ktwiz/kolex-site/main/'+encodeURIComponent('포토카드_완성')+'/'+slug+'/legend_card.png';
+ var _ph=typeof KPC_PHOTOS!=='undefined'?KPC_PHOTOS:[];var _lf=_ph.find(function(f){return /^legend_card\./i.test(f);})||'legend_card.png';var imgUrl='https://raw.githubusercontent.com/kang-ktwiz/kolex-site/main/'+encodeURIComponent('포토카드_완성')+'/'+slug+'/'+encodeURIComponent(_lf);
  var cyclesTxt=cycles>1?(' · '+cycles+'주기'):'' ;
  var titles={ko:'👑 레전드 달성'+cyclesTxt+'!',en:'👑 Legend Complete'+cyclesTxt+'!',ja:'👑 レジェンド達成'+cyclesTxt+'！',zh:'👑 傳說達成'+cyclesTxt+'！'};
  var btnTxt={ko:'닫기',en:'Close',ja:'閉じる',zh:'關閉'};
@@ -1420,6 +1420,33 @@ kpcShowLegend=function(){
   }
   // setTimeout 0: 다른 모든 스크립트(chunk2 override 포함) 완료 후 실행
   setTimeout(_applyFix,0);
+})();
+</script>
+<script>
+/* KPC update-condition note — v1 */
+(function(){
+  var _NC={
+    ko:'🗓️ 매일 자정 새 카드 뽑기 가능  ·  💾 컬렉션은 이 브라우저/기기에 저장됩니다 (캐시 삭제 시 초기화)',
+    en:'🗓️ New card available daily at midnight  ·  💾 Collection is saved in this browser/device (cleared if cache is reset)',
+    ja:'🗓️ 毎日深夜に新しいカードを引けます  ·  💾 コレクションはこのブラウザ/端末に保存されます（キャッシュ削除で初期化）',
+    zh:'🗓️ 每天午夜可抽新卡  ·  💾 收藏保存於此瀏覽器/裝置（清除快取後將重置）'
+  };
+  function _injectNote(){
+    if(document.getElementById('kpc-cond'))return;
+    var bar=document.querySelector('.kpc-lbar');
+    if(!bar)return;
+    var el=document.createElement('p');
+    el.id='kpc-cond';
+    el.style.cssText='font-size:.68rem;color:rgba(255,255,255,.45);text-align:center;margin:10px 0 0;line-height:1.6;padding:0 8px;';
+    var l=localStorage.getItem('kolexLang')||'ko';
+    el.textContent=_NC[l]||_NC.ko;
+    bar.insertAdjacentElement('afterend',el);
+  }
+  document.addEventListener('DOMContentLoaded',function(){setTimeout(_injectNote,200);});
+  document.addEventListener('langChanged',function(){
+    var el=document.getElementById('kpc-cond');
+    if(el){var l=localStorage.getItem('kolexLang')||'ko';el.textContent=_NC[l]||_NC.ko;}
+  });
 })();
 </script>
 </body>
