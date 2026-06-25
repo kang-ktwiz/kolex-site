@@ -226,10 +226,10 @@
       <button id="photosTabBtn" onclick="switchFpTab('photos')" style="display:inline-flex;align-items:center;gap:5px;background:rgba(139,92,246,.12);border:1px solid rgba(139,92,246,.35);color:#a78bfa;padding:5px 13px;border-radius:16px;cursor:pointer;font-size:.75rem;font-weight:700;white-space:nowrap;flex-shrink:0;">
         ▶ Reels
       </button>
+      <button onclick="ftShowModal()" style="display:inline-flex;align-items:center;gap:4px;background:linear-gradient(135deg,#2d1b69,#4c1d95);border:1px solid #7c3aed;color:#a78bfa;padding:4px 12px;border-radius:16px;cursor:pointer;font-size:.7rem;font-weight:700;flex-shrink:0;">🔮 <span id="ft-nav-btn">운세</span></button>
     </div>
       <p class="name-ko">권가영 · Born 2001 · 165cm</p>
       <div class="role-badge" id="roleText">Cheerleader</div>
-      <button onclick="ftShowModal()" style="display:inline-flex;align-items:center;gap:4px;background:linear-gradient(135deg,#2d1b69,#4c1d95);border:1px solid #7c3aed;color:#a78bfa;padding:4px 12px;border-radius:16px;cursor:pointer;font-size:.7rem;font-weight:700;flex-shrink:0;">🔮 <span id="ft-nav-btn">운세</span></button>
       <div class="stats-row">
         <div class="stat-pill"><div class="sv">📱 10K</div><div class="sk">Followers</div></div>
         <div class="stat-pill"><div class="sv">📅 2025</div><div class="sk">Active Since</div></div>
@@ -324,6 +324,42 @@
     <button id="blogLoadMore" style="display:none;background:rgba(255,31,69,.1);border:1px solid rgba(255,31,69,.3);color:var(--red);padding:10px 32px;border-radius:24px;cursor:pointer;font-size:.82rem;font-weight:700;"
       onclick="this.dataset.expanded='1';this.style.display='none';renderBlogPosts(localStorage.getItem('kolexLang')||'ko')">더 보기 ↓</button>
   </div>
+  </section>
+
+  
+  <!-- ===== 포토카드 SECTION ===== -->
+  <section class="kpc-section" id="kpc-section" style="display:none">
+    <h2 class="kpc-title">🎴 <span id="kpcSecTitle">포토카드 컬렉션</span></h2>
+    <div class="kpc-wrap">
+      <div class="kpc-daily-lbl">TODAY'S PULL</div>
+      <div class="kpc-daily-date" id="kpc-date"></div>
+      <div class="kpc-scene" id="kpc-scene" onclick="kpcReveal()">
+        <div class="kpc-inner" id="kpc-inner">
+          <div class="kpc-face kpc-back"><div class="kpc-q">？</div><div class="kpc-logo">KOLEX</div></div>
+          <div class="kpc-face kpc-front" id="kpc-front">
+            <div class="kpc-num" id="kpc-num"></div>
+            <div class="kpc-ph" id="kpc-ph"><span class="kpc-em" id="kpc-em"></span><span class="kpc-id" id="kpc-pid"></span></div>
+            <img class="kpc-img" id="kpc-img" style="display:none" crossorigin="anonymous">
+            <div class="kpc-info"><div class="kpc-rl" id="kpc-rl"></div><div class="kpc-vn" id="kpc-vn"></div></div>
+          </div>
+        </div>
+      </div>
+      <button class="kpc-btn ready" id="kpc-btn" onclick="kpcOnClick()">🎴 오늘의 카드 뽑기</button>
+      <button id="kpc-dl-btn" class="kpc-btn" style="background:#1a1d24;border:1px solid #2a2a3a;color:rgba(255,255,255,.6);display:none;margin-bottom:4px" onclick="kpcDownload()">⬇️ 카드 저장</button>
+      <div class="kpc-nm" id="kpc-nm"></div>
+      <div class="kpc-stats">
+        <div class="kpc-stat"><div class="kpc-sv c" id="kpc-sc">0</div><div class="kpc-slbl" id="kpcLblC">일반</div></div>
+        <div class="kpc-stat"><div class="kpc-sv r" id="kpc-sr">0</div><div class="kpc-slbl" id="kpcLblR">레어</div></div>
+        <div class="kpc-stat"><div class="kpc-sv sr" id="kpc-ssr">0</div><div class="kpc-slbl" id="kpcLblSR">슈퍼레어</div></div>
+        <div class="kpc-stat"><div class="kpc-sv l" id="kpc-sl">0</div><div class="kpc-slbl" id="kpcLblL">레전드</div></div>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
+        <div class="kpc-title" style="font-size:.85rem;margin:0;">📦 <span id="kpcColTitle">컬렉션</span></div>
+        <div style="font-size:.7rem;color:#444;" id="kpc-ccnt">0 / 30</div>
+      </div>
+      <div class="kpc-grid" id="kpc-grid"></div>
+      <div class="kpc-lbar"><span id="kpcLegendTxt">👑 30일 완성 → 레전드 카드 + 멤버 축하 메세지 💌</span></div>
+    </div>
   </section>
 
   <!-- ===== INSTAGRAM SECTION ===== -->
@@ -979,6 +1015,25 @@ function _kpcTab(k,lang){
   };
 })();
 
+</script>
+<script>
+/* FT_MEMBER patch: per-member fortune — 권가영 */
+(function(){
+  var ko=typeof KPC_MEMBER!=='undefined'&&KPC_MEMBER.ko?KPC_MEMBER.ko:'권가영';
+  var em=typeof KPC_MEMBER!=='undefined'&&KPC_MEMBER.emoji?KPC_MEMBER.emoji:'🌙';
+  var by_=typeof KPC_MEMBER!=='undefined'&&KPC_MEMBER.by?KPC_MEMBER.by:2001;
+  var bm_=typeof KPC_MEMBER!=='undefined'?KPC_MEMBER.bm:0;
+  var bd_=typeof KPC_MEMBER!=='undefined'?KPC_MEMBER.bd:0;
+  var sl=typeof KPC_MEMBER!=='undefined'&&KPC_MEMBER.slug?KPC_MEMBER.slug:'kwon-gayoung';
+  if(typeof FT_MEMBER!=='undefined'){
+    FT_MEMBER.slug=sl;FT_MEMBER.ko=ko;FT_MEMBER.emoji=em;
+    FT_MEMBER.by=by_;FT_MEMBER.bm=bm_;FT_MEMBER.bd=bd_;
+  }
+  document.addEventListener('DOMContentLoaded',function(){
+    var t=document.getElementById('ft-title');if(t)t.textContent=ko+' 운세';
+    var b=document.getElementById('ft-badge');if(b)b.innerHTML=em+' '+ko;
+  });
+})();
 </script>
 </body>
 </html>

@@ -232,7 +232,6 @@
     </div>
       <p class="name-ko">이예빈 · Born 2001 · 168cm</p>
       <div class="role-badge" id="roleText">Cheerleader</div>
-      <button onclick="ftShowModal()" style="display:inline-flex;align-items:center;gap:4px;background:linear-gradient(135deg,#2d1b69,#4c1d95);border:1px solid #7c3aed;color:#a78bfa;padding:4px 12px;border-radius:16px;cursor:pointer;font-size:.7rem;font-weight:700;flex-shrink:0;">🔮 <span id="ft-nav-btn">운세</span></button>
       <div class="stats-row">
         <div class="stat-pill"><div class="sv">📱 268K</div><div class="sk">Followers</div></div>
         <div class="stat-pill"><div class="sv">📅 2025</div><div class="sk">Active Since</div></div>
@@ -1052,6 +1051,25 @@ function _kpcTab(k,lang){
   };
 })();
 
+</script>
+<script>
+/* FT_MEMBER patch: per-member fortune — 이예빈 */
+(function(){
+  var ko=typeof KPC_MEMBER!=='undefined'&&KPC_MEMBER.ko?KPC_MEMBER.ko:'이예빈';
+  var em=typeof KPC_MEMBER!=='undefined'&&KPC_MEMBER.emoji?KPC_MEMBER.emoji:'🌸';
+  var by_=typeof KPC_MEMBER!=='undefined'&&KPC_MEMBER.by?KPC_MEMBER.by:2001;
+  var bm_=typeof KPC_MEMBER!=='undefined'?KPC_MEMBER.bm:1;
+  var bd_=typeof KPC_MEMBER!=='undefined'?KPC_MEMBER.bd:1;
+  var sl=typeof KPC_MEMBER!=='undefined'&&KPC_MEMBER.slug?KPC_MEMBER.slug:'lee-yebin';
+  if(typeof FT_MEMBER!=='undefined'){
+    FT_MEMBER.slug=sl;FT_MEMBER.ko=ko;FT_MEMBER.emoji=em;
+    FT_MEMBER.by=by_;FT_MEMBER.bm=bm_;FT_MEMBER.bd=bd_;
+  }
+  document.addEventListener('DOMContentLoaded',function(){
+    var t=document.getElementById('ft-title');if(t)t.textContent=ko+' 운세';
+    var b=document.getElementById('ft-badge');if(b)b.innerHTML=em+' '+ko;
+  });
+})();
 </script>
 </body>
 </html>
