@@ -4,7 +4,7 @@
   <!-- 메인 -->
   <url>
     <loc>https://koreacheerleaders.com/</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -12,19 +12,19 @@
   <!-- 서브 페이지 -->
   <url>
     <loc>https://koreacheerleaders.com/about.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://koreacheerleaders.com/contact.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://koreacheerleaders.com/privacy-policy.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
@@ -38,7 +38,7 @@
   <!-- 블로그 -->
   <url>
     <loc>https://koreacheerleaders.com/blog/index.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
@@ -46,86 +46,86 @@
   <!-- 치어리더 프로필 페이지 12개 -->
   <url>
     <loc>https://koreacheerleaders.com/cheerleaders/shin-sehee.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://koreacheerleaders.com/cheerleaders/kim-jina.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://koreacheerleaders.com/cheerleaders/kim-hanseul.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://koreacheerleaders.com/cheerleaders/kim-haeri.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://koreacheerleaders.com/cheerleaders/lee-geumju.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://koreacheerleaders.com/cheerleaders/lee-yebin.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://koreacheerleaders.com/cheerleaders/jeong-huijeong.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://koreacheerleaders.com/cheerleaders/lee-seoyun.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://koreacheerleaders.com/cheerleaders/kim-gahyun.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://koreacheerleaders.com/cheerleaders/kye-yujin.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://koreacheerleaders.com/cheerleaders/kwon-gayoung.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://koreacheerleaders.com/cheerleaders/kim-minji.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://koreacheerleaders.com/blog/index.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://koreacheerleaders.com/blog/posts/kim-haeri-profile.html</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
