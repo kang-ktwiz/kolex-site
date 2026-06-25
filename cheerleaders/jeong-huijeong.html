@@ -1273,5 +1273,134 @@ document.addEventListener('DOMContentLoaded',function(){
   _loadPhotos();
 })();
 </script>
+<script>
+/* KPC legend popup — v1 */
+(function(){
+// ── KPC_CARDS 희귀도 순 정렬 (Common→Rare→SR→Legend)
+// DOMContentLoaded 전에 실행되어 kpcRenderGrid 호출 시 정렬된 순서로 표시됨
+var _ro={common:0,rare:1,super_rare:2,legend:3};
+document.addEventListener('DOMContentLoaded',function(){
+ if(typeof KPC_CARDS!=='undefined'&&Array.isArray(KPC_CARDS)){
+  KPC_CARDS.sort(function(a,b){return (_ro[a.rarity]||0)-(_ro[b.rarity]||0);});
+  if(typeof kpcRenderGrid==='function')kpcRenderGrid();
+ }
+});
+var _LM={
+'jeong-huijeong':{
+ ko:'와, 드디어 30일을 완성해 주셨어요! 🌟 매일 저의 포토카드를 뽑아주신 여러분께 진심으로 감사드려요. 여러분의 응원 덕분에 무대 위에서 더욱 빛날 수 있었어요! 앞으로도 함께해요 💜',
+ en:'Wow, you completed all 30 days! 🌟 I\'m truly grateful to everyone who drew my photocards every day. Thanks to your support, I can shine even brighter on stage! Let\'s stay together 💜',
+ ja:'わあ、30日を達成してくれた！🌟 毎日私のフォトカードを引いてくれて、本当にありがとうございます。皆さんの応援のおかげでもっと輝けます！これからも一緒にいましょう 💜',
+ zh:'哇，終於完成了30天！🌟 感謝每天抽取我照片卡的各位。有了您們的支持，我在舞台上能更加閃耀！以後也請繼續陪伴我 💜'
+},
+'kim-gahyun':{
+ ko:'30일 완성 정말 대단해요! 🌺 저를 이렇게 응원해주는 팬이 있다는 게 너무 행복해요. 여러분이 있어서 매일매일 열심히 할 수 있어요! 항상 건강하고 행복하세요 🌸',
+ en:'Completing 30 days is amazing! 🌺 I\'m so happy to have fans who support me like this. Because of you, I can work hard every day! Always stay healthy and happy 🌸',
+ ja:'30日達成、本当にすごい！🌺 こんなに応援してくれるファンがいて、とても幸せです。皆さんがいるから毎日頑張れます！いつも元気で幸せでいてください 🌸',
+ zh:'完成30天真的太棒了！🌺 有這樣支持我的粉絲真的太幸福了。因為有你們，我每天都能努力！請永遠健康幸福 🌸'
+},
+'kim-haeri':{
+ ko:'30일 동안 저와 함께해 주셔서 너무 감동이에요! 💫 여러분이 제 포토카드를 하나씩 모아가는 상상을 하면 가슴이 따뜻해져요. 앞으로도 제 곁에 있어주실 거죠? 사랑해요 💕',
+ en:'I\'m so touched that you stayed with me for 30 days! 💫 Just imagining you collecting my photocards one by one warms my heart. You\'ll stay by my side, right? I love you 💕',
+ ja:'30日間一緒にいてくれて、とても感動しています！💫 一枚ずつ私のフォトカードを集めてくれる姿を想像すると胸が温かくなります。これからも傍にいてくれますよね？愛してます 💕',
+ zh:'30天陪伴著我，真的好感動！💫 想像您一張一張收集我照片卡的樣子，我的心就暖暖的。以後也會在我身邊嗎？愛您 💕'
+},
+'kim-hanseul':{
+ ko:'30일이라는 시간 동안 저를 기억해 주셔서 감사해요 🎵 한 장 한 장 모아가는 여정이 저에겐 정말 소중해요. 여러분의 꿈과 일상에도 언제나 좋은 일만 가득하길 바랍니다. 고마워요 🤍',
+ en:'Thank you for remembering me throughout these 30 days 🎵 The journey of collecting card by card is so precious to me. I hope only good things fill your dreams and daily life. Thank you 🤍',
+ ja:'30日間、私を覚えてくれてありがとうございます🎵 一枚ずつ集めていくこの旅が、私には本当に大切です。皆さんの夢と日常にもいつも良いことが溢れますように。ありがとう 🤍',
+ zh:'感謝您在這30天裡記住我🎵 一張一張收集的旅程對我來說真的非常珍貴。希望您的夢想和日常生活中也永遠充滿美好。謝謝您 🤍'
+},
+'kim-jina':{
+ ko:'30일 완성, 정말 멋져요! ⭐ 이렇게 꾸준하게 응원해주는 팬이 있다는 게 치어리더로서 정말 큰 힘이 돼요. 여러분의 열정이 저를 더 강하게 만들어줘요. 앞으로도 함께 달려봐요! 💪',
+ en:'Completing 30 days, truly wonderful! ⭐ Having fans who cheer this consistently gives me great strength as a cheerleader. Your passion makes me stronger. Let\'s keep running together! 💪',
+ ja:'30日達成、本当に素晴らしい！⭐ こんなに継続して応援してくれるファンがいることが、チアリーダーとして本当に大きな力です。皆さんの情熱が私をもっと強くしてくれます。これからも一緒に走りましょう！💪',
+ zh:'完成30天，真的太棒了！⭐ 有這樣持續應援的粉絲，作為啦啦隊員真的是巨大的力量。您們的熱情讓我更加堅強。以後也一起奔跑吧！💪'
+},
+'kim-minji':{
+ ko:'어머! 30일을 다 모으셨어요?! 🌸 저 너무 기쁘고 설레요! 여러분이 응원해주실 때마다 무대에서 온 힘을 다해 춤출 수 있어요. 저도 여러분께 행복을 드릴 수 있는 치어리더가 될게요! 🎉',
+ en:'Oh my! You collected all 30?! 🌸 I\'m so happy and excited! Every time you cheer for me, I can dance my heart out on stage. I\'ll be a cheerleader who brings happiness to you too! 🎉',
+ ja:'えっ！30日全部集めてくれたの?！🌸 すごく嬉しくてドキドキしています！応援してくれるたびに、舞台で全力で踊れます。私も皆さんに幸せをお届けできるチアリーダーになりますね！🎉',
+ zh:'哇！全部30天都收集了?！🌸 我好開心好興奮！每次您們應援的時候，我就能在舞台上全力舞動。我也要成為能給您們帶來幸福的啦啦隊員！🎉'
+},
+'kwon-gayoung':{
+ ko:'30일 완성이라니, 너무 감사해요 🌙 여러분이 저의 포토카드를 모으며 함께한 시간이 꿈처럼 소중해요. 여러분의 일상에 제가 작은 설렘이 될 수 있었으면 해요. 언제나 응원할게요 ✨',
+ en:'Completing 30 days, I\'m so grateful 🌙 The time you spent collecting my photocards is precious like a dream. I hope I could bring a little flutter to your daily life. I\'ll always cheer for you ✨',
+ ja:'30日達成、本当にありがとうございます🌙 私のフォトカードを集めながら一緒に過ごした時間が夢のように大切です。皆さんの日常に小さなときめきを届けられたなら嬉しいです。いつも応援しています ✨',
+ zh:'完成30天，太感謝了🌙 您收集我照片卡共度的時光珍貴如夢。希望能成為您日常中小小的心動。永遠為您加油 ✨'
+},
+'kye-yujin':{
+ ko:'30일 완성! 정말 대단하세요 🎤 제가 무대 위에서 열정을 다할 수 있는 건 여러분 같은 팬들이 있기 때문이에요. 여러분의 응원은 저에게 가장 큰 에너지예요. 더 열심히 할게요! 🔥',
+ en:'30 days complete! You\'re truly amazing 🎤 The reason I can give my all on stage is because of fans like you. Your support is my biggest energy. I\'ll work even harder! 🔥',
+ ja:'30日完成！本当にすごいですね🎤 舞台で全力を出せるのは、あなたみたいなファンがいるからです。皆さんの応援が私の一番大きなエネルギーです。もっと頑張ります！🔥',
+ zh:'30天完成！真的太厲害了🎤 我能在舞台上全力以赴，是因為有您這樣的粉絲。您的應援是我最大的能量。我會更加努力的！🔥'
+},
+'lee-geumju':{
+ ko:'30일을 함께해 주셔서 진심으로 감사드려요 💜 여러분의 응원 하나하나가 저를 만들어가는 것 같아요. 오늘도, 내일도, 항상 여러분 곁에서 웃고 싶어요. 고마워요, 사랑해요 💜',
+ en:'Thank you from the bottom of my heart for 30 days together 💜 Each and every cheer from you shapes who I am. Today, tomorrow, and always, I want to smile by your side. Thank you, I love you 💜',
+ ja:'30日間一緒にいてくれて、心からありがとうございます💜 皆さんの一つ一つの応援が私を作っているようです。今日も、明日も、いつも皆さんのそばで笑っていたいです。ありがとう、愛しています 💜',
+ zh:'衷心感謝您30天的陪伴💜 您們每一份應援都感覺在塑造著我。今天、明天、永遠，我都想在您身邊微笑。謝謝您，愛您 💜'
+},
+'lee-seoyun':{
+ ko:'30일 완성 너무 축하드려요! 🌈 저의 포토카드를 모두 모아주셔서 정말 기뻐요. 여러분의 응원 덕분에 저도 매일 성장할 수 있어요. 앞으로도 더 멋진 모습 보여드릴게요! 🌟',
+ en:'Congratulations on completing 30 days! 🌈 I\'m so happy you collected all my photocards. Thanks to your support, I grow a little more every day. I\'ll show you an even better me! 🌟',
+ ja:'30日達成、おめでとうございます！🌈 私のフォトカードを全部集めてくれて本当に嬉しいです。皆さんの応援のおかげで毎日成長できます。これからもっと素敵な姿をお見せしますね！🌟',
+ zh:'恭喜完成30天！🌈 您收集了我所有的照片卡，真的好開心。因為您的應援，我每天都能成長。以後給您看更棒的樣子！🌟'
+},
+'shin-sehee':{
+ ko:'30일, 완성했어요! 🔥 이렇게 열정적으로 응원해주시는 분이 있다는 게 정말 큰 힘이에요. 저도 여러분의 열정에 답하듯 더 강하게, 더 뜨겁게 무대를 불태울게요! 같이 가요 💪',
+ en:'30 days, completed! 🔥 Having someone who cheers so passionately is truly a great strength. I\'ll burn the stage even hotter and stronger, answering your passion! Let\'s go together 💪',
+ ja:'30日、達成した！🔥 こんなに情熱的に応援してくれる方がいることが本当に大きな力です。皆さんの情熱に応えるように、もっと強く、もっと熱く舞台を燃やします！一緒に行きましょう 💪',
+ zh:'30天，完成了！🔥 有這樣熱情應援的人，真的是巨大的力量。我也會像回應您們的熱情一樣，更強、更熱地燃燒舞台！一起走吧 💪'
+},
+'lee-yebin':{
+ ko:'30일 다 모았어요?! 정말 너무 감사해요! 🌸 여러분이 있어서 제가 웃을 수 있어요. 매일 조금씩 응원해주셔서 정말 큰 힘이 됐어요. 앞으로도 저와 함께해 주실 거죠? 사랑해요 💕',
+ en:'You collected all 30?! I\'m really so grateful! 🌸 Because of you, I can smile every day. Your little daily cheers have been such a great strength. You\'ll keep being with me, right? I love you 💕',
+ ja:'全部30枚集めてくれたの?！本当にありがとうございます！🌸 皆さんがいるから笑えます。毎日少しずつ応援してくれて、本当に大きな力になりました。これからも一緒にいてくれますよね？愛しています 💕',
+ zh:'全部30張都收集到了?！真的非常感謝！🌸 因為有您，我才能微笑。每天一點點的應援，給了我巨大的力量。以後也請繼續陪伴我好嗎？愛您 💕'
+}
+};
+// ── 팝업 CSS 주입
+var _lgCss=document.createElement('style');
+_lgCss.textContent='#kpc-lg-ov{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:10000;display:flex;align-items:center;justify-content:center;animation:lgFadeIn .4s ease;}@keyframes lgFadeIn{from{opacity:0}to{opacity:1}}#kpc-lg-box{background:linear-gradient(145deg,#0d0d1a,#1a0a2e);border:2px solid #ffd700;border-radius:20px;max-width:340px;width:90%;padding:28px 24px;text-align:center;position:relative;box-shadow:0 0 40px rgba(255,215,0,.3),0 0 80px rgba(168,85,247,.2);animation:lgPopIn .5s cubic-bezier(.34,1.56,.64,1);}@keyframes lgPopIn{from{transform:scale(.7);opacity:0}to{transform:scale(1);opacity:1}}#kpc-lg-close{position:absolute;top:12px;right:14px;background:none;border:none;color:rgba(255,255,255,.5);font-size:1.4rem;cursor:pointer;line-height:1;}#kpc-lg-close:hover{color:#fff}#kpc-lg-crown{font-size:2.8rem;margin-bottom:8px;animation:lgSpin 2s ease-in-out infinite alternate;}@keyframes lgSpin{from{transform:rotate(-8deg) scale(1)}to{transform:rotate(8deg) scale(1.1)}}#kpc-lg-img{width:100%;max-width:200px;border-radius:12px;margin:12px auto;display:block;border:2px solid #ffd700;box-shadow:0 0 20px rgba(255,215,0,.4);}#kpc-lg-name{font-size:1.15rem;font-weight:800;color:#ffd700;margin:10px 0 4px;text-shadow:0 0 10px rgba(255,215,0,.5);}#kpc-lg-title{font-size:.75rem;color:rgba(255,215,0,.7);margin-bottom:14px;letter-spacing:.05em;}#kpc-lg-msg{font-size:.82rem;color:rgba(255,255,255,.88);line-height:1.7;margin-bottom:18px;white-space:pre-wrap;}#kpc-lg-btn{background:linear-gradient(135deg,#7c3aed,#ffd700);border:none;color:#fff;font-weight:700;font-size:.9rem;padding:10px 28px;border-radius:24px;cursor:pointer;transition:transform .2s;}#kpc-lg-btn:hover{transform:scale(1.05);}';
+document.head.appendChild(_lgCss);
+// ── 팝업 표시 함수
+function _showLegendPopup(cycles){
+ var slug=typeof KPC_MEMBER!=='undefined'?KPC_MEMBER.slug:'';
+ var ko=typeof KPC_MEMBER!=='undefined'?KPC_MEMBER.ko:'';
+ var emoji=typeof KPC_MEMBER!=='undefined'?KPC_MEMBER.emoji:'👑';
+ var l=localStorage.getItem('kolexLang')||'ko';
+ var msgs=_LM[slug]||{};
+ var msg=msgs[l]||msgs.ko||'';
+ var imgUrl='https://raw.githubusercontent.com/kang-ktwiz/kolex-site/main/'+encodeURIComponent('포토카드_완성')+'/'+slug+'/legend_card.png';
+ var cyclesTxt=cycles>1?(' · '+cycles+'주기'):'' ;
+ var titles={ko:'👑 레전드 달성'+cyclesTxt+'!',en:'👑 Legend Complete'+cyclesTxt+'!',ja:'👑 レジェンド達成'+cyclesTxt+'！',zh:'👑 傳說達成'+cyclesTxt+'！'};
+ var btnTxt={ko:'닫기',en:'Close',ja:'閉じる',zh:'關閉'};
+ var ov=document.createElement('div');
+ ov.id='kpc-lg-ov';
+ ov.innerHTML='<div id="kpc-lg-box">'
+  +'<button id="kpc-lg-close">✕</button>'
+  +'<div id="kpc-lg-crown">👑</div>'
+  +'<img id="kpc-lg-img" src="'+imgUrl+'" alt="Legend Card" onerror="this.style.display=\'none\'">'
+  +'<div id="kpc-lg-name">'+emoji+' '+ko+'</div>'
+  +'<div id="kpc-lg-title">'+(titles[l]||titles.ko)+'</div>'
+  +'<div id="kpc-lg-msg">'+msg+'</div>'
+  +'<button id="kpc-lg-btn">'+(btnTxt[l]||btnTxt.ko)+'</button>'
+  +'</div>';
+ document.body.appendChild(ov);
+ document.getElementById('kpc-lg-close').onclick=function(){ov.remove();};
+ document.getElementById('kpc-lg-btn').onclick=function(){ov.remove();};
+ ov.onclick=function(e){if(e.target===ov)ov.remove();};
+}
+// ── kpcShowLegend 오버라이드 (기존 단일언어 → 4개국어 팝업으로 교체)
+// 기존: kpcAddCard에서 rarity==='legend'일 때 800ms 후 자동 호출됨
+// 주기 카운터(KPC_CK)는 기존 로직과 동일하게 유지
+kpcShowLegend=function(){
+ var ckKey='kolex_cycle_'+(typeof KPC_MEMBER!=='undefined'?KPC_MEMBER.slug:'');
+ var cycles=parseInt(localStorage.getItem(ckKey)||'0')+1;
+ localStorage.setItem(ckKey,cycles);
+ _showLegendPopup(cycles);
+};
+})();
+</script>
 </body>
 </html>
