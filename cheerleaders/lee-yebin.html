@@ -1266,5 +1266,36 @@ document.addEventListener('DOMContentLoaded',function(){
   _upFtNav();
 });
 </script>
+<script>
+/* KPC dynamic photo loader via GitHub API */
+(function(){
+  var _SLUG=typeof KPC_MEMBER!=='undefined'?KPC_MEMBER.slug:'lee-yebin';
+  var _REPO='kang-ktwiz/kolex-site';
+  var _PATH='포토카드_완성/'+_SLUG;
+  var _CACHE_KEY='kpc_photos_'+_SLUG;
+  var _IMG_EXT=/\.(jpe?g|png|webp|avif|gif)$/i;
+  function _applyPhotos(files){
+    if(!files||!files.length)return;
+    window.KPC_PHOTOS=files;
+  }
+  function _loadPhotos(){
+    var cached=sessionStorage.getItem(_CACHE_KEY);
+    if(cached){try{_applyPhotos(JSON.parse(cached));}catch(e){}return;}
+    var url='https://api.github.com/repos/'+_REPO+'/contents/'+encodeURIComponent(_PATH);
+    fetch(url,{headers:{'Accept':'application/vnd.github.v3+json'}})
+      .then(function(r){return r.ok?r.json():Promise.reject(r.status);})
+      .then(function(data){
+        var imgs=data.filter(function(f){return f.type==='file'&&_IMG_EXT.test(f.name);})
+                     .map(function(f){return f.name;});
+        if(imgs.length){
+          sessionStorage.setItem(_CACHE_KEY,JSON.stringify(imgs));
+          _applyPhotos(imgs);
+        }
+      })
+      .catch(function(){/* fallback to hardcoded KPC_PHOTOS */});
+  }
+  _loadPhotos();
+})();
+</script>
 </body>
 </html>
