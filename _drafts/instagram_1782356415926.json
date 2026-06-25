@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "kim-hanseul",
+    "name_ko": "김한슬",
+    "file_path": "cheerleaders/kim-hanseul.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18006115817925378",
+    "checked_at": "2026-06-25T03:00:08.393Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요! 🎉",
+        "en": "New Post Alert! 🎉",
+        "ja": "新しい投稿が届きました！🎉",
+        "zh": "新貼文來囉！🎉"
+      },
+      "body": {
+        "ko": "이기면 춤추는 PC방? 한슬 님의 새 인스타그램 영상이 업로드됐어요! 색다른 공간에서 신나게 즐기는 에너지 넘치는 모습, 지금 바로 확인해보세요 💃🔥",
+        "en": "A PC café where winning means dancing? Han-seul's brand-new Instagram video is now live! Head over to her page and catch all the fun and vibrant energy right now 💃🔥",
+        "ja": "勝ったら踊れるPCカフェ？ハンスルさんの新しいインスタグラム動画が公開されました！元気いっぱいの楽しい姿を今すぐチェックしてみてください 💃🔥",
+        "zh": "贏了就能跳舞的網咖？韓雪的全新 Instagram 影片已上線！快去她的頁面，感受那滿滿的活力與歡樂吧 💃🔥"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DZ_iSDeSZgz/",
+      "media_type": "VIDEO",
+      "date": "2026.06.25"
+    }
+  }
+]
