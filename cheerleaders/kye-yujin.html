@@ -1040,5 +1040,178 @@ function _kpcTab(k,lang){
   });
 })();
 </script>
+<script>
+/* KPC/FT i18n patch: 4-lang fortune + photocard date fix */
+(function(){
+var _FTI={
+ko:{
+ grade:["★ 힘든 하루","★★ 조심하는 날","★★★ 무난한 하루","★★★★ 좋은 기운","★★★★★ 행운의 날!","✦ 특별한 날"],
+ mt_m:["오늘은 조금 힘든 날이 될 수 있어요.","조심스러운 하루예요. 신중하게 행동하면 괜찮아질 거예요.","무난하고 안정된 하루가 될 것 같아요 🙂","좋은 기운이 흘러요! 자신감을 가지고 하루를 보내요.","행운이 가득한 날이에요! 무엇이든 잘 될 거예요 ✨","오늘은 정말 특별한 날이에요! 최상의 하루가 될 거예요 🌟"],
+ mt_y:["힘든 하루일 수 있지만 이겨낼 수 있어요. 오늘 하루도 화이팅!","조심하는 날이에요. 중요한 일은 신중하게 처리하세요.","무난하고 평화로운 하루가 될 거예요 🙂","오늘은 좋은 기운이 가득해요! 마음껏 즐기세요.","행운이 넘치는 날이에요! 적극적으로 움직여 보세요 ✨","최고의 날이에요! 원하는 모든 것이 잘 풀릴 거예요 🌟"],
+ cats:[{i:"❤️",n:"연애운"},{i:"💼",n:"직업운"},{i:"💰",n:"재물운"},{i:"💪",n:"건강운"}],
+ lc:[["핑크","🌸"],["퍼플","💜"],["화이트","🤍"],["골드","✨"],["민트","🌿"],["코랄","🌺"],["블루","💙"],["라벤더","🔮"]],
+ cl:"럭키 컬러",nl:"럭키 넘버",tl:"행운의 시간",
+ dis:"🔮 운세는 재미 목적의 콘텐츠로 실제 운명을 예측하지 않습니다.\nAI가 생성한 창작 콘텐츠이며, 멤버 본인의 견해와 무관합니다.",
+ tom:"✨ 내일의 운세는 자정에 업데이트돼요",
+ tmem:"🔮 멤버 운세",tmy:"⭐ 내 운세",
+ blbl:"생년월일 입력",bhint:"예) 1998 / 03 / 15",cbtn:"✨ 운세 계산하기",
+ copy:"📋 복사",share:"📤 공유",reset:"🔄 다시 입력",nav:"운세",
+ msgs:{
+  love:[["마음이 설레는 만남이 있을 거예요.","감정을 솔직하게 표현하는 날이에요."],["기존 관계를 되돌아볼 시간이에요.","오해가 생길 수 있으니 신중하게 행동하세요."],["특별한 일은 없지만 안정된 하루예요.","평소대로 지내면 좋은 결과가 와요."],["좋아하는 사람에게 먼저 다가가 보세요.","오늘의 인연이 오래 이어질 수 있어요."],["운명적인 만남이 기다리고 있어요!","사랑이 활짝 꽃피는 날이에요 💕"]],
+  work:[["집중력이 흐트러지기 쉬운 날이에요.","중요한 결정은 내일로 미루세요."],["동료와의 협력이 성과를 만들어요.","팀 분위기에 맞춰 유연하게 행동하세요."],["꾸준히 노력하면 결실이 가까워요.","오늘 한 걸음이 내일의 도약이에요."],["창의적인 아이디어가 빛나는 날이에요.","새로운 제안에 귀를 기울여 보세요."],["인정받을 기회가 찾아오는 날이에요!","자신감을 갖고 도전하세요 🌟"]],
+  money:[["불필요한 지출을 줄이는 게 좋아요.","투자보다 절약에 집중하는 날이에요."],["예상치 못한 지출이 생길 수 있어요.","충동구매를 피하세요."],["수입과 지출이 균형을 이루는 날이에요.","소소한 행운이 들어올 수 있어요."],["재물운이 좋으니 적극 활용해 보세요.","작은 투자가 큰 결실로 이어질 수 있어요."],["예상치 못한 횡재 기운이 있어요!","오늘은 재물이 들어오는 날 💰"]],
+  health:[["체력이 떨어지기 쉬운 날이에요.","충분한 휴식과 수면을 취하세요."],["소화나 컨디션에 신경 써야 해요.","무리하지 말고 몸의 신호를 들어보세요."],["평소와 비슷한 컨디션의 하루예요.","규칙적인 생활이 건강을 지켜줄 거예요."],["활기차고 에너지 넘치는 날이에요.","가벼운 운동으로 더 좋은 기운을 받으세요."],["최상의 컨디션! 무엇이든 할 수 있어요!","활력이 넘치는 하루를 즐기세요 ✨"]]}
+},
+en:{
+ grade:["★ Rough Day","★★ Stay Careful","★★★ Ordinary Day","★★★★ Good Vibes","★★★★★ Lucky Day!","✦ Special Day"],
+ mt_m:["Today may be a little tough. Stay strong!","A cautious day — think before you act.","A calm, stable day ahead 🙂","Good energy flows! Go with confidence today.","A super lucky day — everything will work out ✨","An absolutely special day! The best is ahead 🌟"],
+ mt_y:["May be tough but you can get through it. Fighting!","A careful day — handle important matters thoughtfully.","A peaceful, ordinary day ahead 🙂","Great energy surrounds you today! Enjoy it.","An overflow of luck — take action! ✨","The best day ever — every wish will come true 🌟"],
+ cats:[{i:"❤️",n:"Love"},{i:"💼",n:"Career"},{i:"💰",n:"Wealth"},{i:"💪",n:"Health"}],
+ lc:[["Pink","🌸"],["Purple","💜"],["White","🤍"],["Gold","✨"],["Mint","🌿"],["Coral","🌺"],["Blue","💙"],["Lavender","🔮"]],
+ cl:"Lucky Color",nl:"Lucky Number",tl:"Lucky Time",
+ dis:"🔮 Fortune is for entertainment only and does not predict actual fate.\nThis is AI-generated content unrelated to the member's personal views.",
+ tom:"✨ Tomorrow's fortune updates at midnight",
+ tmem:"🔮 Member Fortune",tmy:"⭐ My Fortune",
+ blbl:"Enter your birth date",bhint:"e.g. 1998 / 03 / 15",cbtn:"✨ Calculate Fortune",
+ copy:"📋 Copy",share:"📤 Share",reset:"🔄 Re-enter",nav:"Fortune",
+ msgs:{
+  love:[["An exciting encounter awaits!","Today's a day to express feelings honestly."],["Time to reflect on existing relationships.","Act carefully to avoid misunderstandings."],["Nothing special, but a stable day for love.","Things will go well if you continue as usual."],["Take the first step toward someone you like.","Today's connection may last a long time."],["A fateful meeting is waiting!","Love is in full bloom today 💕"]],
+  work:[["Focus may scatter today.","Postpone big decisions until tomorrow."],["Collaboration with colleagues brings results.","Be flexible and flow with the team."],["Steady effort is bringing you closer to success.","Today's step is tomorrow's leap."],["Creative ideas shine bright today!","Listen carefully to new suggestions."],["A chance to be recognized is coming!","Challenge with confidence 🌟"]],
+  money:[["Reduce unnecessary spending today.","Focus on saving rather than investing."],["Unexpected expenses may arise.","Avoid impulse purchases."],["Income and spending are balanced today.","A small stroke of luck may come your way."],["Wealth luck is strong — use it!","A small investment can yield big results."],["Unexpected windfall energy is here!","Money flows in today 💰"]],
+  health:[["Energy may drop today.","Get enough rest and sleep."],["Pay attention to digestion and condition.","Don't overdo it — listen to your body."],["A day similar to your usual condition.","A regular routine keeps you healthy."],["A vibrant, energetic day ahead!","Light exercise will boost your energy even more."],["Peak condition — you can do anything!","Enjoy this full-of-vitality day ✨"]]}
+},
+ja:{
+ grade:["★ つらい一日","★★ 慎重な日","★★★ 普通の一日","★★★★ 良い気運","★★★★★ ラッキーデー!","✦ 特別な日"],
+ mt_m:["今日は少しつらい日になるかもしれません。","慎重に行動すれば大丈夫な一日です。","穏やかで安定した一日になりそうです 🙂","良い気運が流れています！自信を持って過ごしましょう。","幸運いっぱいの日！何でもうまくいきますよ ✨","今日は本当に特別な日！最高の一日になりますよ 🌟"],
+ mt_y:["つらい日かもしれませんが乗り越えられます。頑張って!","慎重な日です。重要なことは丁寧に対処しましょう。","穏やかで平和な一日になりますよ 🙂","今日は良い気運がいっぱい！思い切り楽しんで。","幸運があふれる日！積極的に動いてみましょう ✨","最高の日！望むことがすべてうまくいきますよ 🌟"],
+ cats:[{i:"❤️",n:"恋愛運"},{i:"💼",n:"仕事運"},{i:"💰",n:"金運"},{i:"💪",n:"健康運"}],
+ lc:[["ピンク","🌸"],["パープル","💜"],["ホワイト","🤍"],["ゴールド","✨"],["ミント","🌿"],["コーラル","🌺"],["ブルー","💙"],["ラベンダー","🔮"]],
+ cl:"ラッキーカラー",nl:"ラッキーナンバー",tl:"ラッキータイム",
+ dis:"🔮 占いは娯楽目的のコンテンツで、実際の運命を予測するものではありません。\nAIが生成したコンテンツであり、メンバー本人の見解とは無関係です。",
+ tom:"✨ 明日の運勢は真夜中に更新されます",
+ tmem:"🔮 メンバー運勢",tmy:"⭐ 私の運勢",
+ blbl:"生年月日を入力",bhint:"例) 1998 / 03 / 15",cbtn:"✨ 運勢を計算する",
+ copy:"📋 コピー",share:"📤 シェア",reset:"🔄 再入力",nav:"運勢",
+ msgs:{
+  love:[["ときめく出会いがありそうです！","感情を正直に伝える日ですよ。"],["既存の関係を振り返る時間です。","誤解が生じないよう慎重に行動して。"],["特別なことはないけど安定した一日です。","いつも通りにすれば良い結果が来ますよ。"],["好きな人に自分から近づいてみて。","今日の縁が長く続くかもしれませんよ。"],["運命的な出会いが待っています！","愛が満開に咲く日ですよ 💕"]],
+  work:[["集中力が乱れやすい日です。","重要な決断は明日に回しましょう。"],["同僚との協力が成果を生みます。","チームの雰囲気に合わせて柔軟に。"],["コツコツ努力すれば実りが近いです。","今日の一歩が明日の飛躍につながります。"],["クリエイティブなアイデアが輝く日！","新しい提案に耳を傾けてみて。"],["認められるチャンスがやってくる日！","自信を持ってチャレンジしましょう 🌟"]],
+  money:[["不要な出費を減らすのが良いです。","投資より節約に集中しましょう。"],["予想外の出費が生じるかもしれません。","衝動買いは避けましょう。"],["収入と支出がバランスの取れた日です。","小さな幸運が訪れるかもしれませんよ。"],["金運が良いので積極的に活用しましょう。","小さな投資が大きな実りになるかも。"],["思いがけない幸運の気運があります！","今日はお金が入ってくる日 💰"]],
+  health:[["体力が落ちやすい日です。","十分な休息と睡眠を取りましょう。"],["消化やコンディションに気をつけて。","無理せず身体のサインを聞いてみて。"],["いつもと似たコンディションの一日です。","規則正しい生活が健康を守ってくれます。"],["活気があってエネルギーあふれる日！","軽い運動でさらに良い気運を受け取って。"],["最高のコンディション！何でもできますよ！","活力あふれる一日を楽しんで ✨"]]}
+},
+zh:{
+ grade:["★ 艱難的一天","★★ 小心謹慎","★★★ 平凡的一天","★★★★ 好運氣","★★★★★ 幸運日!","✦ 特別的日子"],
+ mt_m:["今天可能有些艱難，請保持堅強！","謹慎的一天，小心行事即可。","平穩安定的一天 🙂","好氣場流動！充滿自信地度過今天吧。","滿滿幸運的一天！什麼事都會順利 ✨","真的是特別的一天！最棒的一天等著你 🌟"],
+ mt_y:["可能有些艱難但你能克服。加油!","謹慎的一天，重要事務要仔細處理。","平靜祥和的一天 🙂","今天充滿好氣場！盡情享受吧。","幸運滿溢！積極行動吧 ✨","最棒的一天！所有心願都會實現 🌟"],
+ cats:[{i:"❤️",n:"感情運"},{i:"💼",n:"事業運"},{i:"💰",n:"財運"},{i:"💪",n:"健康運"}],
+ lc:[["粉紅","🌸"],["紫色","💜"],["白色","🤍"],["金色","✨"],["薄荷","🌿"],["珊瑚","🌺"],["藍色","💙"],["薰衣草","🔮"]],
+ cl:"幸運顏色",nl:"幸運數字",tl:"幸運時間",
+ dis:"🔮 運勢僅供娛樂目的，不預測實際命運。\n此為AI生成之創作內容，與成員本人觀點無關。",
+ tom:"✨ 明天的運勢將在午夜更新",
+ tmem:"🔮 成員運勢",tmy:"⭐ 我的運勢",
+ blbl:"輸入出生年月日",bhint:"例) 1998 / 03 / 15",cbtn:"✨ 計算運勢",
+ copy:"📋 複製",share:"📤 分享",reset:"🔄 重新輸入",nav:"運勢",
+ msgs:{
+  love:[["即將有令人心動的邂逅！","今天是坦誠表達感情的好日子。"],["是時候回顧現有感情了。","謹慎行事，避免產生誤會。"],["沒有特別事情，但很穩定的一天。","照常生活就會有好結果。"],["試著主動向喜歡的人靠近吧。","今天的緣分可能長久持續。"],["命中注定的邂逅正在等待！","愛情盛開的一天 💕"]],
+  work:[["今天容易分心。","重要決策留到明天吧。"],["與同事合作帶來成果。","配合團隊氣氛靈活應對。"],["持續努力就快看到成果了。","今天的一步是明天的飛躍。"],["創意靈感閃耀的一天！","傾聽新提案。"],["被認可的機會來臨！","充滿自信地挑戰 🌟"]],
+  money:[["減少不必要的支出為好。","今天專注節約而非投資。"],["可能有意外支出。","避免衝動消費。"],["收支平衡的一天。","小小的好運可能降臨。"],["財運好，積極活用吧。","小投資可能帶來大收穫。"],["意外之財的氣運！","今天財源滾滾來 💰"]],
+  health:[["體力容易下降的一天。","充分休息和睡眠。"],["注意消化和狀態。","不要勉強，聆聽身體的信號。"],["與平時相似的狀態。","規律生活守護健康。"],["充滿活力的一天！","輕運動獲得更好的氣場。"],["最佳狀態！什麼都做得到！","享受充滿活力的一天 ✨"]]}
+}
+};
+var _KI={
+ ko:{unr:"미등록",pull:"🎴 오늘의 카드 뽑기",done:"✅ 오늘 뽑기 완료",save:"⬇️ 카드 저장",next:"다음 뽑기:",col:"컬렉션",sec:"포토카드 컬렉션",leg:"👑 30일 완성 → 레전드 카드 + 멤버 축하 메세지 💌",sl:["일반","레어","슈퍼레어","레전드"]},
+ en:{unr:"Locked",pull:"🎴 Draw Today's Card",done:"✅ Today's Draw Done",save:"⬇️ Save Card",next:"Next draw:",col:"Collection",sec:"Photocard Collection",leg:"👑 Complete 30 days → Legend Card + Member Message 💌",sl:["Common","Rare","Super Rare","Legend"]},
+ ja:{unr:"未登録",pull:"🎴 今日のカードを引く",done:"✅ 本日の引き完了",save:"⬇️ カード保存",next:"次の引き:",col:"コレクション",sec:"フォトカード コレクション",leg:"👑 30日達成 → レジェンドカード + メンバーメッセージ 💌",sl:["コモン","レア","スーパーレア","レジェンド"]},
+ zh:{unr:"未登錄",pull:"🎴 今日抽卡",done:"✅ 今日已完成",save:"⬇️ 保存卡片",next:"下次抽卡:",col:"收藏",sec:"照片卡收藏",leg:"👑 完成30天 → 傳說卡 + 成員祝福訊息 💌",sl:["普通","稀有","超稀有","傳說"]}
+};
+function _gL(){return localStorage.getItem('kolexLang')||'ko';}
+function _s(id,v){var e=document.getElementById(id);if(e)e.textContent=v;}
+function _ftApply(l){
+ var fi=_FTI[l]||_FTI.ko;
+ if(typeof FT_MSGS!=='undefined'){FT_MSGS.love=fi.msgs.love;FT_MSGS.work=fi.msgs.work;FT_MSGS.money=fi.msgs.money;FT_MSGS.health=fi.msgs.health;}
+ if(typeof FT_GRADES!=='undefined')FT_GRADES.splice(0,9,...fi.grade);
+ if(typeof FT_MT_M!=='undefined')FT_MT_M.splice(0,9,...fi.mt_m);
+ if(typeof FT_MT_Y!=='undefined')FT_MT_Y.splice(0,9,...fi.mt_y);
+ if(typeof FT_CATS!=='undefined')fi.cats.forEach(function(c,i){if(FT_CATS[i])FT_CATS[i].n=c.n;});
+ if(typeof FT_LC!=='undefined')fi.lc.forEach(function(c,i){if(FT_LC[i]){FT_LC[i][0]=c[0];}});
+}
+function _ftDom(fi){
+ _s('ft-dis',fi.dis);_s('ft-m-tom',fi.tom);_s('ft-my-tom',fi.tom);
+ _s('ft-tab-member',fi.tmem);_s('ft-tab-my',fi.tmy);
+ _s('ft-blbl',fi.blbl);_s('ft-bhint',fi.bhint);_s('ft-cbtn',fi.cbtn);
+ _s('ft-m-copy',fi.copy);_s('ft-m-share',fi.share);
+ _s('ft-y-copy',fi.copy);_s('ft-y-reset',fi.reset);
+ _s('ft-nav-btn',fi.nav);
+ _s('ft-m-cl',fi.cl);_s('ft-m-nl',fi.nl);_s('ft-m-tl',fi.tl);
+ _s('ft-y-cl',fi.cl);_s('ft-y-nl',fi.nl);_s('ft-y-tl',fi.tl);
+}
+var _oFtShow=typeof ftShowModal==='function'?ftShowModal:null;
+ftShowModal=function(){
+ var l=_gL(),fi=_FTI[l]||_FTI.ko;
+ _ftApply(l);
+ if(_oFtShow)_oFtShow();
+ _ftDom(fi);
+};
+var _oFtCalc=typeof ftCalcMy==='function'?ftCalcMy:null;
+ftCalcMy=function(){
+ var l=_gL(),fi=_FTI[l]||_FTI.ko;
+ _ftApply(l);
+ if(_oFtCalc)_oFtCalc();
+ _s('ft-my-tom',fi.tom);
+ _s('ft-y-cl',fi.cl);_s('ft-y-nl',fi.nl);_s('ft-y-tl',fi.tl);
+};
+var _oKpcGrid=typeof kpcRenderGrid==='function'?kpcRenderGrid:null;
+kpcRenderGrid=function(){
+ var l=_gL(),ki=_KI[l]||_KI.ko;
+ var cards=typeof KPC_CARDS!=='undefined'?KPC_CARDS:[];
+ var photos=typeof KPC_PHOTOS!=='undefined'?KPC_PHOTOS:[];
+ var mem=typeof KPC_MEMBER!=='undefined'?KPC_MEMBER:{};
+ var col=typeof kpcLoadCol==='function'?kpcLoadCol():[];
+ var grid=document.getElementById('kpc-grid');if(!grid)return;
+ var cc=document.getElementById('kpc-ccnt');if(cc)cc.textContent=col.length+' / '+cards.length;
+ var glows={common:'#aaa',rare:'#f5c842',super_rare:'#a855f7',legend:'#ffd700'};
+ grid.innerHTML=cards.map(function(card,idx){
+  var entry=col.find(function(c){return c.id===card.id;});var locked=!entry;
+  var dt=locked?'':entry.date.replace(/(\d{4})(\d{2})(\d{2})/,'$2.$3');
+  var bg='background:linear-gradient(145deg,'+card.gradient[0]+','+card.gradient[1]+')';
+  var photo=!locked&&photos.length>0?photos[idx%photos.length]:null;
+  var ci=photo?'<img src="../포토카드_완성/'+mem.slug+'/'+encodeURIComponent(photo)+'" style="width:100%;height:100%;object-fit:cover;display:block;" onerror="this.style.display=\'none\'">':( locked?'':card.emoji);
+  return '<div class="kpc-cc'+(locked?' locked':'')+'" title="'+dt+'">'
+   +'<div class="kpc-ci" style="'+bg+'">'+ci+'</div>'
+   +(locked?'<div class="kpc-lo" style="color:'+glows[card.rarity]+'">✦</div>':'')
+   +'<div class="kpc-dt">'+(locked?ki.unr:dt)+'</div>'
+   +'</div>';
+ }).join('');
+};
+var _oSetDone=typeof kpcSetDone==='function'?kpcSetDone:null;
+kpcSetDone=function(){
+ if(_oSetDone)_oSetDone();
+ var l=_gL(),ki=_KI[l]||_KI.ko;
+ var btn=document.getElementById('kpc-btn');if(btn){btn.className='kpc-btn done';btn.textContent=ki.done;}
+ var dl=document.getElementById('kpc-dl-btn');if(dl)dl.textContent=ki.save;
+ var tom=new Date();tom.setDate(tom.getDate()+1);
+ var nm=document.getElementById('kpc-nm');
+ if(nm)nm.textContent=ki.next+' '+String(tom.getMonth()+1).padStart(2,'0')+'.'+String(tom.getDate()).padStart(2,'0')+' 00:00';
+};
+function _kpcUI(){
+ var l=_gL(),ki=_KI[l]||_KI.ko;
+ var btn=document.getElementById('kpc-btn');if(btn&&!btn.classList.contains('done'))btn.textContent=ki.pull;
+ var dl=document.getElementById('kpc-dl-btn');if(dl)dl.textContent=ki.save;
+ _s('kpcColTitle',ki.col);_s('kpcSecTitle',ki.sec);_s('kpcLegendTxt',ki.leg);
+ ['C','R','SR','L'].forEach(function(k,i){_s('kpcLbl'+k,ki.sl[i]);});
+}
+document.addEventListener('DOMContentLoaded',function(){
+ _kpcUI();
+ document.querySelectorAll('.lang-btn').forEach(function(b){
+  b.addEventListener('click',function(){
+   setTimeout(function(){
+    _kpcUI();
+    var g=document.getElementById('kpc-grid');
+    if(g&&g.children.length>0&&typeof kpcRenderGrid==='function')kpcRenderGrid();
+   },60);
+  });
+ });
+});
+})();
+</script>
 </body>
 </html>
