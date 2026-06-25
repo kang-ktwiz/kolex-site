@@ -1426,5 +1426,25 @@ kpcShowLegend=function(){
 };
 })();
 </script>
+<script>
+/* KPC tab visibility fix — v1 */
+(function(){
+  function _applyFix(){
+    if(typeof renderBlogPosts!=='function')return;
+    var _rb=renderBlogPosts;
+    renderBlogPosts=function(lang){
+      // 다른 탭 클릭 시 kpc-section 숨기기
+      var kpc=document.getElementById('kpc-section');
+      if(kpc)kpc.style.display='none';
+      // 포토카드 탭 버튼 active 클래스 제거
+      var kpcBtn=document.getElementById('kpc-tab-btn');
+      if(kpcBtn)kpcBtn.classList.remove('active');
+      _rb(lang);
+    };
+  }
+  // setTimeout 0: 다른 모든 스크립트(chunk2 override 포함) 완료 후 실행
+  setTimeout(_applyFix,0);
+})();
+</script>
 </body>
 </html>
