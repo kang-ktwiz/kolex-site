@@ -1226,5 +1226,21 @@ document.addEventListener('DOMContentLoaded',function(){
 });
 })();
 </script>
+<script>
+/* FT nav i18n fix */
+document.addEventListener('DOMContentLoaded',function(){
+  function _upFtNav(){
+    var l=localStorage.getItem('kolexLang')||'ko';
+    var nl={ko:'운세',en:'Fortune',ja:'運勢',zh:'運勢'};
+    var e=document.getElementById('ft-nav-btn');if(e)e.textContent=nl[l]||nl.ko;
+    var t=document.getElementById('ft-title');
+    if(t&&typeof FT_MEMBER!=='undefined')t.textContent=FT_MEMBER.ko+' '+(nl[l]||nl.ko);
+  }
+  document.querySelectorAll('.lang-btn').forEach(function(b){
+    b.addEventListener('click',function(){setTimeout(_upFtNav,60);});
+  });
+  _upFtNav();
+});
+</script>
 </body>
 </html>
