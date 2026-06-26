@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "lee-yebin",
+    "name_ko": "이예빈",
+    "file_path": "cheerleaders/lee-yebin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18593710342006876",
+    "checked_at": "2026-06-26T15:00:02.733Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "이예빈의 새 인스타그램 영상이 올라왔어요! ✨",
+        "en": "Lee Ye-bin Just Posted a New Instagram Video! ✨",
+        "ja": "イ・イェビンの新しいインスタグラム動画が公開されました！✨",
+        "zh": "李藝彬的全新 Instagram 影片上線囉！✨"
+      },
+      "body": {
+        "ko": "야외 활동이 많은 치어리더의 여름 피부 관리 비결을 담은 새 영상이 올라왔어요! 이번 여름도 빛나는 피부로 함께해요🤍",
+        "en": "A brand-new video just dropped, sharing the summer skincare secret behind a cheerleader's glowing look through all those outdoor performances! Let's shine bright together this summer🤍",
+        "ja": "屋外でのパフォーマンスが多いチアリーダーの夏のスキンケア秘訣を詰め込んだ新しい動画が公開されました！この夏も輝く肌で一緒に楽しみましょう🤍",
+        "zh": "全新影片上線！分享了在戶外演出的啦啦隊員維持亮白肌膚的夏日保養秘訣，一起在這個夏天閃閃發光吧🤍"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DaDSGCBI7ET/",
+      "media_type": "VIDEO",
+      "date": "2026.06.27"
+    }
+  }
+]
