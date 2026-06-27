@@ -736,7 +736,7 @@ function renderBlogPosts(lang){
   if(se) se.textContent=_bi.sec[lang]||_bi.sec.ko;
   const bar=document.getElementById('blogFilterBar');
   if(bar){
-    const fs=[['all',_bi.all],['greeting',_bi.gr],['milestone',_bi.mi],['instagram_post',_bi.ig],['photocard',{ko:'🎴 포토카드',en:'🎴 Photocard',ja:'🎴 フォトカード',zh:'🎴 照片卡'}]];
+    const fs=[['all',_bi.all],['greeting',_bi.gr],['milestone',_bi.mi],['instagram_post',_bi.ig]];
     bar.innerHTML=fs.map(([k,l])=>`<button onclick="_kpcTab('${k}','${lang}')" style="padding:5px 14px;border-radius:20px;border:1px solid ${_af===k?'var(--red)':'rgba(255,255,255,.18)'};background:${_af===k?'var(--red)':'transparent'};color:${_af===k?'#fff':'#aaa'};cursor:pointer;font-size:.78rem;font-weight:600;transition:all .2s;">${l[lang]||l.ko}</button>`).join('');
   }
   const grid=document.getElementById('postsGrid');
