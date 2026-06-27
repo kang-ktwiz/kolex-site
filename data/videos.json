@@ -1,103 +1,103 @@
 {
   "_comment": "n8n 워크플로우(10_kolex_youtube_search_update.json)가 매일 1회 자동 갱신하는 파일입니다. videos[].member_id가 null이면 팀 전체(team-wide) 검색 결과입니다.",
   "schema_version": 1,
-  "updated_at": "2026-06-26T09:00:04.177Z",
+  "updated_at": "2026-06-27T09:00:03.199Z",
   "videos": [
     {
-      "videoId": "H9bzT-5oKUo",
+      "videoId": "m9KRQ5cwinY",
       "type": "video",
-      "title": "5층단상 김가현치어리더 힛미 아웃송 #김가현 #아웃송",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-26T08:17:55Z"
-    },
-    {
-      "videoId": "JhH0bQ55J4M",
-      "type": "shorts",
-      "title": "눈웃음이 매력인 김진아 치어리더 권동진 선수 응원가 #shorts #눈웃음 #치어리더 #김진아",
-      "member_id": "kim-jina",
-      "query": "치어리더 김진아",
-      "publishedAt": "2026-06-26T08:00:02Z"
-    },
-    {
-      "videoId": "a4M61mZ1jic",
-      "type": "video",
-      "title": "5층 김가현치어리더 오리실존 #김가현 #아웃송",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-26T07:59:52Z"
-    },
-    {
-      "videoId": "RJsxvwYmGAM",
-      "type": "video",
-      "title": "자리 잡아주는 Hold Up 아웃송 KT 위즈 정희정 치어리더",
+      "title": "kt위즈 정희정치어리더 집중 260626",
       "member_id": "jeong-huijeong",
       "query": "치어리더 정희정",
-      "publishedAt": "2026-06-26T06:00:38Z"
+      "publishedAt": "2026-06-27T08:51:17Z"
     },
     {
-      "videoId": "OIbq4ZOr6QI",
-      "type": "shorts",
-      "title": "🏆⚡ KT 실질적 ACE는 다르네 아우라로 압살하는 갓진아 💖✨ 김진아 Kim Jin A 金眞我 치어리더 직캠 fancam",
-      "member_id": "kim-jina",
-      "query": "치어리더 김진아",
-      "publishedAt": "2026-06-26T06:00:26Z"
-    },
-    {
-      "videoId": "dvlxheAHQSg",
+      "videoId": "rfik7oKPTKc",
       "type": "video",
-      "title": "#롯데 김가현치어리더 삼성으로 돌아와라~~ 댓츠어노노 무대",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-26T05:30:21Z"
-    },
-    {
-      "videoId": "n60ZH_o5JOc",
-      "type": "shorts",
-      "title": "슬랜더 정희정 치어리더 holdup 아웃송 #shorts #슬랜더 #치어리더 #정희정",
+      "title": "kt위즈 정희정치어리더 찌르기 아웃송 260626",
       "member_id": "jeong-huijeong",
       "query": "치어리더 정희정",
-      "publishedAt": "2026-06-26T05:08:26Z"
+      "publishedAt": "2026-06-27T08:49:22Z"
     },
     {
-      "videoId": "NwBuaAWotw0",
+      "videoId": "2y1puMa1ChA",
       "type": "video",
-      "title": "진짜 완벽합니다 ㄷㄷ 김해리 치어리더 金海莉 Kim Hae-Ri cheerleader ktwiz",
-      "member_id": "kim-haeri",
-      "query": "치어리더 김해리",
-      "publishedAt": "2026-06-26T04:52:56Z"
-    },
-    {
-      "videoId": "6OvB4U2wO_o",
-      "type": "video",
-      "title": "#김가현#kt위즈#이예빈#kbo#야구#베이스볼 #이금주#신세희#이서윤#김한슬#김해리#김진아#b급청문회#설윤#엔믹스#치어리더#계유진#김정원#수원",
-      "member_id": "shin-sehee",
-      "query": "치어리더 신세희",
-      "publishedAt": "2026-06-26T04:49:07Z"
-    },
-    {
-      "videoId": "goUYNrhO1UE",
-      "type": "video",
-      "title": "[4K] &#39;한복 개문 이벤트 현장&#39; 이예빈, 박민서 치어리더",
-      "member_id": "lee-yebin",
-      "query": "치어리더 이예빈",
-      "publishedAt": "2026-06-26T04:40:18Z"
-    },
-    {
-      "videoId": "o6wm8VF-bJg",
-      "type": "video",
-      "title": "[4K] 김한슬(Kim Han-seul)치어리더 퇴근길",
+      "title": "#김가현#kt위즈#이예빈#kbo#야구#베이스볼 #이금주#신세희#이서윤#김한슬#김해리#김진아#b급청문회#설윤#엔믹스#치어리더#계유진#김정원#수원#투어스#보이넥스트도어",
       "member_id": "kim-hanseul",
       "query": "치어리더 김한슬",
-      "publishedAt": "2026-06-26T04:24:51Z"
+      "publishedAt": "2026-06-27T08:42:43Z"
     },
     {
-      "videoId": "nFQWwJwHTUs",
+      "videoId": "mky39CtGjwM",
       "type": "video",
-      "title": "2026 KT위즈 이예빈 치어리더 직캠",
+      "title": "뚜뚜뚜뚜 아웃송 이예빈 KT 위즈 치어리더",
       "member_id": "lee-yebin",
       "query": "치어리더 이예빈",
-      "publishedAt": "2026-06-26T04:15:28Z"
+      "publishedAt": "2026-06-27T08:00:39Z"
+    },
+    {
+      "videoId": "HyJKEx8KEJU",
+      "type": "shorts",
+      "title": "🚨🧚‍♀️ [BANGER RANGERS 아웃송] 뒤태 아웃송 타격감은 메이저리그급 ✨💖 정희정X이서윤 치어리더 직캠 fancam",
+      "member_id": "jeong-huijeong",
+      "query": "치어리더 정희정",
+      "publishedAt": "2026-06-27T08:00:34Z"
+    },
+    {
+      "videoId": "op4gBG5YKRM",
+      "type": "video",
+      "title": "역시 빠지는게 없는 정희정치어리더 힛미! 아웃송",
+      "member_id": "jeong-huijeong",
+      "query": "치어리더 정희정",
+      "publishedAt": "2026-06-27T08:00:03Z"
+    },
+    {
+      "videoId": "sHMI-CcsrVs",
+      "type": "video",
+      "title": "김가현치어리더 힘있게 춤 #김가현",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-27T07:59:27Z"
+    },
+    {
+      "videoId": "Cns5JvfMcUg",
+      "type": "video",
+      "title": "퀸가현치어리더가 추는 춤 #김가현",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-27T07:57:12Z"
+    },
+    {
+      "videoId": "WwQONcg97XY",
+      "type": "video",
+      "title": "드디어봄 뉴공연 김가현치어리더 춤 #김가현",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-27T07:54:01Z"
+    },
+    {
+      "videoId": "cN6Wh-1b4Yk",
+      "type": "video",
+      "title": "[4K] 김해리, 강민경 치어리더(Kim Hae-ri, Kang Mink-yung) - &#39;원정 대기실 놀러온 홈 치어&#39;",
+      "member_id": "kim-haeri",
+      "query": "치어리더 김해리",
+      "publishedAt": "2026-06-27T07:15:09Z"
+    },
+    {
+      "videoId": "sA2brA0744s",
+      "type": "video",
+      "title": "金佳賢💖김가현❤️‍🔥20260621-KT wiz 09-球員應援",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-27T07:03:41Z"
+    },
+    {
+      "videoId": "7IXa71h2HF4",
+      "type": "video",
+      "title": "이서윤 KT 위즈 치어리더 직캠 20260623 CHEERLEADER Seo-yoon Lee FANCAM",
+      "member_id": "lee-seoyun",
+      "query": "치어리더 이서윤",
+      "publishedAt": "2026-06-27T07:00:36Z"
     }
   ]
 }
