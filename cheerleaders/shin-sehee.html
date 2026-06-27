@@ -1179,6 +1179,18 @@ kpcRenderGrid=function(){
  var photos=typeof KPC_PHOTOS!=='undefined'?KPC_PHOTOS:[];
  var mem=typeof KPC_MEMBER!=='undefined'?KPC_MEMBER:{};
  var col=typeof kpcLoadCol==='function'?kpcLoadCol():[];
+ // Fix 17: 기존 entry.photo 없는 항목 마이그레이션 (그리드 기준 사진으로 통일)
+ (function(){
+  if(!col.length||!photos.length||!cards.length)return;
+  var dirty=false;
+  col.forEach(function(e){
+   if(!e.photo){
+    var ai=cards.findIndex(function(c){return c.id===e.id;});
+    if(ai>=0){e.photo=photos[ai%photos.length];dirty=true;}
+   }
+  });
+  if(dirty&&typeof kpcSaveCol==='function')kpcSaveCol(col);
+ })();
  var grid=document.getElementById('kpc-grid');if(!grid)return;
  var cc=document.getElementById('kpc-ccnt');if(cc)cc.textContent=col.length+' / '+cards.length;
  var glows={common:'#aaa',rare:'#f5c842',super_rare:'#a855f7',legend:'#ffd700'};
@@ -1186,7 +1198,7 @@ kpcRenderGrid=function(){
   var entry=col.find(function(c){return c.id===card.id;});var locked=!entry;
   var dt=locked?'':entry.date.replace(/(\d{4})(\d{2})(\d{2})/,'$2.$3');
   var bg='background:linear-gradient(145deg,'+card.gradient[0]+','+card.gradient[1]+')';
-  var photo=!locked&&photos.length>0?photos[idx%photos.length]:null;
+  var photo=!locked&&photos.length>0?(entry.photo||photos[idx%photos.length]):null;
   var ci=photo?'<img src="../포토카드_완성/'+mem.slug+'/'+encodeURIComponent(photo)+'" style="width:100%;height:100%;object-fit:cover;display:block;" onerror="this.style.display=\'none\'">':( locked?'':card.emoji);
   return '<div class="kpc-cc'+(locked?' locked':'')+'" title="'+dt+'">'
    +'<div class="kpc-ci" style="'+bg+'">'+ci+'</div>'
@@ -1198,6 +1210,23 @@ kpcRenderGrid=function(){
 var _oSetDone=typeof kpcSetDone==='function'?kpcSetDone:null;
 kpcSetDone=function(){
  if(_oSetDone)_oSetDone();
+ // Fix 17: 뽑기 완료 시 선택된 사진을 entry.photo에 저장 (그리드 일관성)
+ (function(){
+  try{
+   var _photos=typeof KPC_PHOTOS!=='undefined'?KPC_PHOTOS:[];
+   var _cards=typeof KPC_CARDS!=='undefined'?KPC_CARDS:[];
+   var _col=typeof kpcLoadCol==='function'?kpcLoadCol():[];
+   var _today=typeof kpcGetDaily==='function'?kpcGetDaily():null;
+   if(_today&&_photos.length>0){
+    var _ai=_cards.findIndex(function(c){return c.id===_today.id;});
+    if(_ai>=0){
+     var _ph=_photos[_ai%_photos.length];
+     var _en=_col.find(function(e){return e.id===_today.id;});
+     if(_en&&!_en.photo){_en.photo=_ph;if(typeof kpcSaveCol==='function')kpcSaveCol(_col);}
+    }
+   }
+  }catch(e){}
+ })();
  var l=_gL(),ki=_KI[l]||_KI.ko;
  var btn=document.getElementById('kpc-btn');if(btn){btn.className='kpc-btn done';btn.textContent=ki.done;}
  var dl=document.getElementById('kpc-dl-btn');if(dl)dl.textContent=ki.save;
