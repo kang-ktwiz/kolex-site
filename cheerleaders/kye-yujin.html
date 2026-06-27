@@ -1232,6 +1232,7 @@ document.addEventListener('DOMContentLoaded',function(){
 <script>
 /* KPC dynamic photo loader via GitHub API */
 (function(){
+  window._KPC_PHOTOS_READY=false;
   var _SLUG=typeof KPC_MEMBER!=='undefined'?KPC_MEMBER.slug:'kye-yujin';
   var _REPO='kang-ktwiz/kolex-site';
   var _PATH='포토카드_완성/'+_SLUG;
@@ -1240,6 +1241,7 @@ document.addEventListener('DOMContentLoaded',function(){
   function _applyPhotos(files){
     if(!files||!files.length)return;
     window.KPC_PHOTOS=files;
+    window._KPC_PHOTOS_READY=true;
     if(typeof kpcRenderGrid==='function')kpcRenderGrid();
   }
   function _loadPhotos(){
@@ -1259,6 +1261,7 @@ document.addEventListener('DOMContentLoaded',function(){
       .catch(function(){/* fallback to hardcoded KPC_PHOTOS */});
   }
   _loadPhotos();
+  if(typeof kpcOnClick==='function'){var _ok=kpcOnClick;kpcOnClick=function(){if(window._KPC_PHOTOS_READY){_ok.apply(this,arguments);}};}
 })();
 </script>
 <script>
