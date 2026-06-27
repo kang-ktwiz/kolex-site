@@ -1244,6 +1244,7 @@ document.addEventListener('DOMContentLoaded',function(){
   function _applyPhotos(files){
     if(!files||!files.length)return;
     window.KPC_PHOTOS=files;
+    if(typeof kpcRenderGrid==='function')kpcRenderGrid();
   }
   function _loadPhotos(){
     var cached=sessionStorage.getItem(_CACHE_KEY);
