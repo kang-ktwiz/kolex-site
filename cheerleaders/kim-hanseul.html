@@ -1241,7 +1241,7 @@ document.addEventListener('DOMContentLoaded',function(){
   var _SLUG=typeof KPC_MEMBER!=='undefined'?KPC_MEMBER.slug:'kim-hanseul';
   var _REPO='kang-ktwiz/kolex-site';
   var _PATH='포토카드_완성/'+_SLUG;
-  var _CACHE_KEY='kpc_photos_v2_'+_SLUG;
+  var _CACHE_KEY='kpc_photos_v3_'+_SLUG;
   var _IMG_EXT=/\.(jpe?g|png|webp|avif|gif)$/i;
   function _applyPhotos(files){
     if(!files||!files.length)return;
@@ -1255,7 +1255,7 @@ document.addEventListener('DOMContentLoaded',function(){
     fetch(url,{headers:{'Accept':'application/vnd.github.v3+json'}})
       .then(function(r){return r.ok?r.json():Promise.reject(r.status);})
       .then(function(data){
-        var imgs=data.filter(function(f){return f.type==='file'&&_IMG_EXT.test(f.name);})
+        var imgs=data.filter(function(f){return f.type==='file'&&_IMG_EXT.test(f.name)&&!/^legend_card\./i.test(f.name);})
                      .map(function(f){return f.name;});
         if(imgs.length){
           sessionStorage.setItem(_CACHE_KEY,JSON.stringify(imgs));
