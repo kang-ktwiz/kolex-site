@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "kye-yujin",
+    "name_ko": "계유진",
+    "file_path": "cheerleaders/kye-yujin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18013331645874890",
+    "checked_at": "2026-06-26T03:00:03.175Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "계유진의 새 게시물이 도착했어요! 🌞",
+        "en": "Yu-jin's New Post Is Here! 🌞",
+        "ja": "ユジンの新しい投稿が届きました！🌞",
+        "zh": "有珍的新貼文來囉！🌞"
+      },
+      "body": {
+        "ko": "무더운 날씨에도 에너지 넘치는 계유진의 새 인스타그램 게시물이 올라왔어요! 더위도 날려버릴 밝은 모습을 지금 바로 확인해보세요! ☀️",
+        "en": "Yu-jin just dropped a brand-new Instagram post full of bright energy, even on the hottest of days! Go check it out and beat the heat together! ☀️",
+        "ja": "暑い季節にも元気いっぱいのユジンの新しいインスタグラム投稿が公開されました！明るいエネルギーをぜひチェックしてみてください！☀️",
+        "zh": "就算天氣再熱，有珍依然活力滿滿！她的最新Instagram貼文現已上線，快去看看她帶來的開朗能量吧！☀️"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DaB_sMtE9wn/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.06.26"
+    }
+  }
+]

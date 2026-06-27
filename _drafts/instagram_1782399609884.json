@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "kim-haeri",
+    "name_ko": "김해리",
+    "file_path": "cheerleaders/kim-haeri.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18604026043026695",
+    "checked_at": "2026-06-25T15:00:02.693Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요! 🎉",
+        "en": "New Post Alert! 🎉",
+        "ja": "新しい投稿が届きました！🎉",
+        "zh": "新貼文上線囉！🎉"
+      },
+      "body": {
+        "ko": "김해리님의 인스타그램에 새 게시물이 올라왔어요! 설레는 소식과 함께 밝은 에너지가 가득 담긴 게시물, 지금 바로 확인해 보세요 💕",
+        "en": "A brand-new post from Kim Hae-ri is now up on Instagram! Filled with exciting news and bright energy — go check it out right now 💕",
+        "ja": "キム・ヘリさんのインスタグラムに新しい投稿が上がりました！わくわくするお知らせとポジティブなエネルギーたっぷりの投稿を、ぜひチェックしてみてください 💕",
+        "zh": "金海里的 Instagram 有新貼文啦！滿載令人期待的消息與滿滿正能量，快去看看吧 💕"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DaAKfx8NVVZ/",
+      "media_type": "IMAGE",
+      "date": "2026.06.26"
+    }
+  }
+]

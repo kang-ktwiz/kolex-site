@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "kim-minji",
+    "name_ko": "김민지",
+    "file_path": "cheerleaders/kim-minji.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17866693017631117",
+    "checked_at": "2026-06-26T09:00:02.592Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 영상 게시물이 올라왔어요! 🎬✨",
+        "en": "A New Video Post Is Up! 🎬✨",
+        "ja": "新しい動画が投稿されました！🎬✨",
+        "zh": "全新影片貼文上線啦！🎬✨"
+      },
+      "body": {
+        "ko": "패션 감성 가득한 새 영상이 인스타그램에 올라왔어요! 어떤 스타일로 채워졌을지 지금 바로 확인해 보세요 💫",
+        "en": "A brand-new video full of fashion vibes has just landed on Instagram! Go check it out and see what style is waiting for you 💫",
+        "ja": "ファッションセンス溢れる新しい動画がインスタグラムに投稿されました！どんなスタイルが待っているか、ぜひチェックしてみてください 💫",
+        "zh": "充滿時尚感的全新影片已在Instagram上線！快去看看帶來了什麼精彩造型吧 💫"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DaCn4rBTahI/",
+      "media_type": "VIDEO",
+      "date": "2026.06.26"
+    }
+  }
+]
