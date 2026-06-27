@@ -1237,11 +1237,13 @@ document.addEventListener('DOMContentLoaded',function(){
   var _SLUG=typeof KPC_MEMBER!=='undefined'?KPC_MEMBER.slug:'kwon-gayoung';
   var _REPO='kang-ktwiz/kolex-site';
   var _PATH='포토카드_완성/'+_SLUG;
-  var _CACHE_KEY='kpc_photos_v4_'+_SLUG;
+  var _CACHE_KEY='kpc_photos_v5_'+_SLUG;
   var _IMG_EXT=/\.(jpe?g|png|webp|avif|gif)$/i;
   function _applyPhotos(files){
     if(!files||!files.length)return;
-    window.KPC_PHOTOS=files;
+    KPC_PHOTOS.splice(0,KPC_PHOTOS.length);
+    for(var i=0;i<files.length;i++)KPC_PHOTOS.push(files[i]);
+    window.KPC_PHOTOS=KPC_PHOTOS;
     window._KPC_PHOTOS_READY=true;
     if(typeof kpcRenderGrid==='function')kpcRenderGrid();
   }
