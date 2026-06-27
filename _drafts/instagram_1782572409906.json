@@ -1,0 +1,72 @@
+[
+  {
+    "member_id": "kwon-gayoung",
+    "name_ko": "권가영",
+    "file_path": "cheerleaders/kwon-gayoung.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18109176934754966",
+    "checked_at": "2026-06-27T15:00:02.394Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "꽥꽥! 새 영상이 올라왔어요 🦆",
+        "en": "Quack Quack! New Video is Here 🦆",
+        "ja": "ガーガー！新しい動画が届きました 🦆",
+        "zh": "呱呱！新影片來囉 🦆"
+      },
+      "body": {
+        "ko": "권가영 님의 인스타그램에 귀여운 감성 가득한 새 영상이 올라왔어요! 오리처럼 사랑스러운 에너지, 지금 바로 확인해 보세요 🐥",
+        "en": "A brand-new video full of adorable vibes has just landed on the Instagram feed! Check out all that lovable duck energy right now 🐥",
+        "ja": "インスタグラムにキュートな雰囲気たっぷりの新しい動画が投稿されました！かわいいアヒルのようなエネルギーをぜひチェックしてみてください 🐥",
+        "zh": "Instagram 上剛上傳了一支充滿可愛氛圍的新影片！快去感受那份像小鴨子一樣討喜的活力吧 🐥"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DaFi7JeTSVs/",
+      "media_type": "VIDEO",
+      "date": "2026.06.28"
+    }
+  },
+  {
+    "member_id": "kim-haeri",
+    "name_ko": "김해리",
+    "file_path": "cheerleaders/kim-haeri.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18160960414460567",
+    "checked_at": "2026-06-27T15:00:02.397Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 영상 게시물이 올라왔어요! 🎉",
+        "en": "A New Video Post Is Here! 🎉",
+        "ja": "新しい動画が投稿されました！🎉",
+        "zh": "全新影片貼文上線啦！🎉"
+      },
+      "body": {
+        "ko": "KOLEX 인스타그램에 새 영상 게시물이 올라왔어요! 어떤 순간을 담았는지 직접 확인해 보세요 🤍",
+        "en": "A brand-new video post has just landed on the KOLEX Instagram! Head over and see what moment we've captured for you 🤍",
+        "ja": "KOLEXのインスタグラムに新しい動画が投稿されました！どんな瞬間が収められているか、ぜひチェックしてみてください 🤍",
+        "zh": "KOLEX的Instagram全新影片貼文已上線！快去看看我們為大家捕捉了什麼精彩瞬間吧 🤍"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DaFZXnotZRS/",
+      "media_type": "VIDEO",
+      "date": "2026.06.28"
+    }
+  }
+]
