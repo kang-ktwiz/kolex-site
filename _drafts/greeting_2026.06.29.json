@@ -1,0 +1,398 @@
+[
+  {
+    "member_id": "shin-sehee",
+    "name_ko": "신세희",
+    "name_en": "Shin Se-hee",
+    "instagram": "se_heee2e",
+    "file_path": "cheerleaders/shin-sehee.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.29",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "(생성 실패 - 검토 필요)",
+        "en": "(generation failed - needs review)",
+        "ja": "(生成失敗)",
+        "zh": "(產生失敗)"
+      },
+      "body": {
+        "ko": "Claude 응답 파싱 오류: Unexpected non-whitespace character after JSON at position 6079 (line 1 column 6080)",
+        "en": "",
+        "ja": "",
+        "zh": ""
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.29"
+    }
+  },
+  {
+    "member_id": "kim-jina",
+    "name_ko": "김진아",
+    "name_en": "Kim Jin-a",
+    "instagram": "jjina_v0v",
+    "file_path": "cheerleaders/kim-jina.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.29",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "한 주의 끝, 나를 돌보는 시간 🌸 | 진아의 오늘 인사",
+        "en": "End of the Week, Time to Recharge 🌸 | Jin-a's Daily Hello",
+        "ja": "週の終わり、自分を大切にする時間 🌸 | ジナの今日のご挨拶",
+        "zh": "週末的自我照顧時光 🌸 | 珍兒今天的問候"
+      },
+      "body": {
+        "ko": "안녕하세요 여러분~ 💕 KT Wiz 치어리더 그룹 KOLEX의 진아예요! 오늘도 이렇게 반갑게 인사를 드릴 수 있어서 너무너무 행복하답니다. 여러분 오늘 하루도 잘 보내고 계신가요? 진아는 여러분이 이 글을 읽는 것만으로도 미소 지을 수 있길 바라며 두 손 모아 응원하고 있어요! 🙌\n\n오늘은 한 주를 마무리하면서 잠깐 立ち止まって, 아니 잠깐 멈춰서 나 자신을 돌아보는 이야기를 나눠보고 싶었어요. 월요일부터 쉼 없이 달려온 우리 모두, 정말 고생 많았지요? 치어리더로서 매일 연습실에서 구슬땀을 흘리고, 팬 여러분께 최고의 에너지를 전달하기 위해 몸과 마음을 갈고닦는 일은 정말 소중하고 즐거운 일이지만, 그만큼 제대로 쉬는 시간도 꼭 필요하다는 걸 요즘 더욱 실감하고 있어요.\n\n저는 한 주를 마무리할 때 꼭 챙기는 루틴이 있어요. 먼저, 피로가 쌓인 근육을 풀어주기 위해 10~15분 정도 가볍게 전신 스트레칭을 해요. 목, 어깨, 허리, 다리 순서로 천천히 늘려주는데, 급하게 하지 않고 호흡에 집중하면서 진행하는 게 포인트랍니다! 스트레칭을 하다 보면 그날의 긴장감이 스르르 풀리면서 마음까지 편안해지는 느낌이 들거든요. 팬 여러분도 오늘 하루 바쁘게 움직이셨다면 꼭 한번 따라해 보세요 💪\n\n그다음으로 제가 특히 신경 쓰는 건 수분 섭취예요! 무대 위에서 격렬하게 움직이다 보면 생각보다 훨씬 많은 수분이 빠져나가거든요. 그래서 연습 전후, 그리고 하루 중간중간에 물을 꾸준히 마시는 습관을 들이고 있어요. 가끔은 레몬이나 오이를 넣은 인퓨즈드 워터를 만들어 마시기도 하는데, 맛도 있고 기분 전환도 되어서 정말 좋아요 🍋 여러분도 오늘 물 충분히 드셨나요? 하루에 1.5~2리터는 꼭 챙겨주세요!\n\n동료들과 함께 한 주 동안 열심히 준비한 만큼, 주말에는 좋아하는 음악을 들으면서 마음을 정리하는 시간도 갖고 있어요. 억지로 무언가를 하려 하지 않고, 그냥 나 자신이 원하는 대로 천천히 쉬는 것. 그게 다음 주를 더 빛나게 달릴 수 있는 원동력이 된다고 생각하거든요 🌟\n\n팬 여러분께서도 바쁜 일상 속에서 꼭 자신을 위한 시간을 만들어 주셨으면 해요. 열심히 하는 것만큼 잘 쉬는 것도 정말 중요하니까요! 진아는 언제나 여러분 곁에서 힘차게 응원할게요. 오늘 하루도 건강하고 행복하게 마무리하시길 바라며, 다음에 또 밝은 모습으로 찾아올게요 💖 모두 사랑해요, KT Wiz 위즈덤 파이팅!! 🔴⚫",
+        "en": "Hello everyone~ 💕 I'm Jin-a from KT Wiz cheerleader group KOLEX! I'm so incredibly happy to be able to greet you all again today like this. How has your day been going so far? I'm holding my hands together and cheering for each and every one of you, hoping that just reading these words brings a smile to your face! 🙌\n\nToday, as we wrap up another week, I really wanted to take a moment to slow down and share something close to my heart — the importance of rest and recharging after giving it our all. From Monday all the way through, we've all been running non-stop, right? As a cheerleader, sweating it out in the practice room every single day and sharpening both body and mind to deliver the best possible energy to our beloved fans is something I truly cherish and love. But lately, I've been realizing more and more just how essential it is to rest properly, too.\n\nI have a little routine I always stick to when wrapping up the week. First, to release the fatigue that builds up in my muscles, I do about 10 to 15 minutes of light full-body stretching. I slowly work my way from the neck, to the shoulders, the lower back, and then the legs — the key is to focus on breathing and not rush through it! While stretching, I can feel the tension from the day gradually melting away, and somehow my mind feels calmer too. If you've had a busy day today, please try it for yourself! 💪\n\nAnother thing I pay special attention to is staying hydrated! When you're moving so vigorously on stage, you lose so much more water than you might expect. So I've been building the habit of drinking water consistently — before and after practice, and throughout the day. Sometimes I make infused water with lemon or cucumber slices, and it's both delicious and refreshing — a perfect little mood booster! 🍋 Have you had enough water today? Please make sure you're getting around 1.5 to 2 liters a day!\n\nAfter a week of hard work alongside my teammates, I also love taking some time over the weekend to listen to my favorite music and let my mind settle. Not forcing myself to be productive, just resting at whatever pace feels right for me. I truly believe that's what gives me the energy to shine even brighter the following week 🌟\n\nI really hope all of you fans can carve out a little time for yourselves too, even in the middle of your busy lives. Knowing how to rest well is just as important as working hard! I'll always be right here cheering for you with all my heart. I hope you finish today in good health and happiness, and I'll be back soon with a bright and cheerful greeting 💖 I love you all — KT Wiz Wizdom, FIGHTING!! 🔴⚫",
+        "ja": "みなさん、こんにちは～💕 KT Wizチアリーダーグループ KOLEX のジナです！今日もこうして元気いっぱいにご挨拶できることが、本当に嬉しくてたまりません。みなさん、今日も素敵な1日を過ごしていますか？この投稿を読んでくれるだけで笑顔になれるといいなと、両手を合わせて応援しています！🙌\n\n今日は1週間を締めくくるにあたって、少し立ち止まって自分自身を大切にすることについてお話ししたくなりました。月曜日からずっと休まず走り続けてきたみなさん、本当にお疲れ様でした！チアリーダーとして、毎日練習室で汗を流し、ファンのみなさんに最高のエネルギーを届けるために心も体も磨き続けることは、とても大切で楽しいことです。でも最近、ちゃんと休むことの大切さをより一層実感しているんです。\n\n私が1週間を終えるときに必ず行っているルーティンがあります。まず、疲れた筋肉をほぐすために、10〜15分ほど軽く全身ストレッチをします。首、肩、腰、脚の順番でゆっくりと伸ばしていくのですが、焦らず呼吸に集中しながら行うのがポイントです！ストレッチをしていると、その日の緊張感がじわじわと解けていって、気持ちもスーッと楽になる感覚があるんですよね。みなさんも今日1日忙しく過ごされたなら、ぜひ一度試してみてください 💪\n\n次に私が特に意識しているのが、水分補給です！ステージの上で激しく動くと、思っている以上にたくさんの水分が失われてしまうんです。だから練習前後はもちろん、1日の中でこまめに水を飲む習慣をつけています。たまにレモンやキュウリを入れたインフューズドウォーターを作って飲むこともあるんですが、おいしくて気分転換にもなって最高です🍋 みなさんも今日、水分はしっかり摂れましたか？1日1.5〜2リットルは意識してみてくださいね！\n\nチームメンバーと一緒に1週間頑張った後は、週末に好きな音楽を聴きながら気持ちを整理する時間も大切にしています。何かを頑張ろうとせず、ただ自分のペースでゆっくり休むこと。それが次の週にもっと輝いて走り出せるための原動力になると思っているんです 🌟\n\nファンのみなさんにも、忙しい日々の中で必ず自分のための時間を作っていただきたいです。一生懸命頑張ることと同じくらい、しっかり休むことも大切ですから！ジナはいつもみなさんのそばで力いっぱい応援しています。今日も健康で幸せな1日を締めくくれますように。また明るい姿で会いに来ますね 💖 みんな大好き、KT Wiz ウィズダム、ファイティング！！🔴⚫",
+        "zh": "大家好～💕 我是 KT Wiz 啦啦隊 KOLEX 的珍兒！今天又能這樣開開心心地和大家打招呼，真的讓我感到無比幸福呢。大家今天過得好嗎？希望光是閱讀這篇文章，就能讓大家嘴角上揚，我雙手合十為每一位粉絲加油打氣！🙌\n\n今天在結束這一週的忙碌之際，我想稍微停下腳步，和大家分享一些關於休息與充電的心情。從週一一路衝刺到現在，大家都辛苦了！作為一名啦啦隊員，每天在練習室揮灑汗水、磨練身心，為的是把最好的能量帶給親愛的粉絲們，這件事對我來說既珍貴又快樂。但最近，我越來越深刻地感受到，好好休息同樣是非常重要的事。\n\n每到一週結束的時候，我都有一套一定會做的例行功課。首先，為了舒緩積累疲勞的肌肉，我會做大約10到15分鐘的全身輕度伸展。從脖子、肩膀、腰部，再到雙腿，慢慢地一個部位一個部位伸展，重點是不要急，要專注在呼吸上！做伸展的時候，能感受到當天的緊張感慢慢消散，連心情都跟著舒暢起來，真的超棒的。如果大家今天也忙碌了一整天，不妨跟著試試看吧 💪\n\n另一件我特別注重的事就是補充水分！在舞台上大幅度地律動時，身體流失的水分比想像中多得多。所以我養成了在練習前後，以及整天時不時喝水的習慣。偶爾我也會自製加入檸檬片或黃瓜的風味水，既好喝又清爽，還能調劑心情，真的非常推薦 🍋 大家今天水喝夠了嗎？請記得每天攝取大約1.5到2公升的水喔！\n\n和團隊的夥伴們一起努力了一整週之後，到了週末，我也很珍視聆聽喜歡的音樂、讓心情沉澱下來的時光。不強迫自己非得做什麼，就按照自己的步調，慢慢地好好休息。我相信，這正是讓自己在下週能夠更加閃耀奔跑的原動力 🌟\n\n我真心希望粉絲們也能在繁忙的日常中，為自己留一段專屬的時光。努力打拚固然重要，但好好休息同樣不可或缺！珍兒會一直在大家身邊，用全力為你們應援。希望大家今天也能健康快樂地結束美好的一天，我很快就會帶著燦爛的笑容再回來 💖 愛你們所有人，KT Wiz Wizdom，加油！！🔴⚫"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.29"
+    }
+  },
+  {
+    "member_id": "kim-hanseul",
+    "name_ko": "김한슬",
+    "name_en": "Kim Han-seul",
+    "instagram": "kim_han_seul",
+    "file_path": "cheerleaders/kim-hanseul.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.29",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "한 주를 마무리하며 — 오늘도 함께해 주셔서 감사해요 💫",
+        "en": "Wrapping Up the Week — Thank You for Being Here with Me 💫",
+        "ja": "1週間を締めくくって — 今日も一緒にいてくれてありがとう 💫",
+        "zh": "結束這一週 — 感謝你今天也陪伴著我 💫"
+      },
+      "body": {
+        "ko": "안녕하세요, 여러분! 저 한슬이에요 🎀\n\n벌써 한 주가 훌쩍 지나가 버렸네요. 돌아보면 정말 짧은 것 같으면서도, 또 하루하루 꽉 채워 보낸 느낌이 들어서 마음이 뭉클해요. 이렇게 한 주가 끝나가는 시점마다 저는 항상 잠깐 멈춰서 스스로에게 물어보곤 해요. 『오늘 하루, 최선을 다했나요?』 라고요. 완벽하지 않아도 괜찮아요. 그 자리에서 할 수 있는 최선을 다했다면, 그것만으로도 충분히 빛나는 하루였다고 생각해요.\n\n사실 한 주 내내 몸과 마음을 바짝 긴장시키다 보면, 이렇게 한 주가 마무리되는 순간이 얼마나 소중한지 새삼 느끼게 돼요. 저는 이 시간을 그냥 흘려보내지 않으려고 해요. 좋아하는 음악을 틀어놓고 스트레칭을 하거나, 따뜻한 차 한 잔을 마시며 오늘 하루를 천천히 되짚어 보기도 하고요. 작은 일상 속에서 찾는 소소한 행복들이 쌓여서, 결국 다음 주를 더 힘차게 달려갈 수 있는 에너지가 된다고 믿거든요.\n\n그리고 오늘은 특별히 늘 곁에서 함께하는 우리 팀원에게도 한마디 전하고 싶어요. 매일 같은 목표를 향해 함께 땀 흘리고, 서로 지쳐있을 때 말 없이도 힘이 되어주는 그 존재가 얼마나 큰 위로인지, 항상 고맙게 생각하고 있어요. 같이 웃고, 같이 긴장하고, 같이 성장하는 그 모든 순간들이 저한테는 정말 소중한 보물이에요. 앞으로도 우리 함께 더 빛나는 무대를 만들어 가요! 💪\n\n팬 여러분께도 진심으로 감사드려요. 여러분의 응원과 따뜻한 메시지들이 저에게 큰 힘이 된다는 거, 잊지 않고 있어요. 한 주 동안 수고 많으셨고, 이번 주말에는 충분히 쉬시면서 재충전하는 시간 가지시길 바랄게요. 피로한 몸과 마음을 잘 돌봐 주시고, 맛있는 것도 먹고, 좋아하는 사람들과 즐거운 시간도 보내세요. 그리고 다음 주에도 활짝 웃는 얼굴로 만나요! 항상 응원하고 있을게요. 사랑해요 💖\n\n— 한슬 드림",
+        "en": "Hello everyone, it's Han-seul here! 🎀\n\nCan you believe another week has already come and gone? When I look back, it feels like time flew by in the blink of an eye, and yet each day was so full and meaningful that my heart feels genuinely moved. Whenever the end of a week arrives, I always pause for a moment and ask myself: 『Did I give my very best today?』 And honestly, I think it doesn't have to be perfect. As long as you poured everything you had into each moment, that day shines brilliantly all on its own.\n\nAfter keeping myself focused and energized throughout the entire week, I truly appreciate how precious these winding-down moments are. I try not to let this time slip away unnoticed. Sometimes I put on my favorite music and do some gentle stretching, or I sit down with a warm cup of tea and slowly reflect on the day. I genuinely believe that these small, quiet joys accumulate over time and become the fuel that propels us forward into the next week with even greater energy and enthusiasm.\n\nToday, I also want to take a special moment to send a heartfelt message to my wonderful teammate who stands beside me every single day. Every drop of sweat we share while chasing the same dream, every silent moment of support when exhaustion sets in — those things mean the world to me, and I am so deeply grateful. Laughing together, feeling nervous together, and growing together through every experience we share — those are treasures I hold close to my heart. Let's keep creating even more dazzling performances together going forward! 💪\n\nTo all of you, our amazing fans, I want to express my sincerest gratitude. Your cheers, your warm messages, and the love you pour into supporting us never go unnoticed — they give me incredible strength every single day. You have all worked so hard this week, and I truly hope you take this weekend to rest, recharge, and take wonderful care of yourselves. Enjoy delicious food, spend quality time with the people you love, and let your mind and body fully recover. I cannot wait to greet you again next week with a bright, happy smile! I am always, always cheering for you. Love you all 💖\n\n— Han-seul",
+        "ja": "みなさん、こんにちは！ハンスルです 🎀\n\nあっという間に1週間が過ぎてしまいましたね。振り返ってみると本当に短かったような気もするのに、毎日毎日ぎっしりと充実した時間を過ごしてきたなと思うと、胸がじんわりと温かくなります。1週間が終わるこの瞬間、私はいつも少しだけ立ち止まって自分自身に問いかけるんです。『今日一日、全力を尽くせたかな？』って。完璧じゃなくても大丈夫。その瞬間にできる精一杯を出し切ったなら、それだけで十分に輝いた一日だったと思っています。\n\n1週間ずっと心も体も張り詰めて過ごしていると、こうして週末を迎えるこの瞬間がどれほど大切かを改めて感じます。私はこの時間を何となく過ごしてしまわないよう、意識して大切にしています。お気に入りの音楽をかけながらストレッチをしたり、温かいお茶を一杯淹れてゆっくり今日一日を振り返ったり。そんな小さな日常の中に見つけるささやかな幸せが積み重なって、来週をもっと元気に走り出すためのエネルギーになると信じているんです。\n\nそして今日は、いつも隣に立って一緒に頑張ってくれているチームメイトにも、特別にひと言伝えたくて。毎日同じ目標に向かって汗を流しながら、疲れているときにも言葉がなくても支えてくれるその存在が、どれほど大きな励みになっているか、本当にいつも感謝しています。一緒に笑って、一緒に緊張して、一緒に成長してきた、そのすべての瞬間が私にとってかけがえのない宝物です。これからも一緒に、もっと輝くステージを作っていこうね！💪\n\nファンのみなさんにも、心からありがとうございます。みなさんの応援と温かいメッセージが私の大きな力になっていること、絶対に忘れていません。今週も本当にお疲れ様でした。この週末はたっぷり休んで、しっかり英気を養ってください。おいしいものを食べたり、大切な人たちと素敵な時間を過ごしたり、疲れた心と体をゆっくり癒してあげてくださいね。また来週も笑顔でお会いできることを楽しみにしています！いつも応援しているよ。大好きです 💖\n\n— ハンスルより",
+        "zh": "大家好，我是韓雪！🎀\n\n不知不覺間，又一週悄悄地過去了呢。回頭望望，感覺時間飛逝得好像只是一瞬間，但同時又覺得每一天都過得那麼充實、那麼飽滿，心裡不禁湧起一股溫暖的感動。每當一週將要結束的時刻，我都會習慣性地讓自己暫停一下，然後輕聲問問自己：『今天，我有盡全力了嗎？』其實不需要做到完美也沒關係。只要在那個當下竭盡所能地付出，我就覺得那一天已經閃耀得足夠燦爛了。\n\n整整一週下來，身心都一直處於高度集中的狀態，所以每當迎來這樣的收尾時刻，才會格外感受到它的珍貴與可愛。我不想讓這段時間就這樣漫不經心地溜走。有時候我會播放喜歡的音樂、悠閒地做做伸展運動；有時候則會泡上一杯溫熱的茶，靜靜地回想今天一天的點點滴滴。我由衷地相信，正是這些藏在日常小事裡的微小幸福，一點一滴地積累起來，才能化成支撐我們下週繼續充滿活力地向前奔跑的力量與能量。\n\n今天，我也特別想向每天都在我身旁並肩作戰的團隊夥伴傳遞一份心意。每一天為了同一個目標一起揮灑汗水，每當我們疲憊不堪的時候，不需要言語也能默默地成為彼此的支柱——這樣的你，對我來說是多麼大的鼓舞與安慰，真的從心底感謝你。一起笑過、一起緊張過、一起成長過的每一個瞬間，都是我珍藏在心裡最寶貴的財富。往後，讓我們繼續一起創造更加耀眼的舞台吧！💪\n\n對於所有的粉絲們，我也想由衷地說一聲謝謝。大家的加油打氣和溫暖的留言，始終是我最強大的力量來源，這一點我從來都不會忘記。這一週大家也辛苦了，希望這個週末能夠好好休息、充分地為自己充電。吃點好吃的東西、和重要的人共度美好時光，讓疲憊的身心好好地放鬆一下吧。期待下週再次以燦爛的笑容與大家相見！我永遠都在為你們加油。愛你們 💖\n\n— 韓雪 敬上"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.29"
+    }
+  },
+  {
+    "member_id": "kim-haeri",
+    "name_ko": "김해리",
+    "name_en": "Kim Hae-ri",
+    "instagram": "you_r_hr",
+    "file_path": "cheerleaders/kim-haeri.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.29",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "한 주를 마무리하며 드리는 진심 어린 인사 💜🔥",
+        "en": "A Heartfelt Hello as We Wrap Up the Week 💜🔥",
+        "ja": "一週間の締めくくりに贈る、心からのご挨拶 💜🔥",
+        "zh": "以真摯的心，為這一週畫下美好的句點 💜🔥"
+      },
+      "body": {
+        "ko": "안녕하세요, 여러분! KT Wiz 치어리더 그룹 KOLEX의 김해리입니다 💜\n\n벌써 한 주의 끝자락에 다가와 있네요. 월요일부터 달려온 시간들을 돌아보면, 어느새 이렇게 주말이 찾아왔다는 게 정말 신기하고도 감사하게 느껴져요. 매일 아침 눈을 뜨면서 『오늘도 최선을 다하자!』고 마음을 다잡는 게 어느덧 제 일상의 가장 소중한 루틴이 되었답니다.\n\n이번 한 주도 정말 많은 일들이 있었어요. 팀원들과 함께 연습실에서 구슬땀을 흘리며 동작 하나하나를 다듬고, 더 나은 무대를 위해 끊임없이 고민하고 노력했어요. 치어리딩은 단순히 화려한 동작만이 전부가 아니라, 그 순간을 함께하는 팬 여러분께 진심을 전달하는 일이라고 늘 생각해요. 그래서 매 무대가 끝날 때마다 마음속에서 『조금 더 잘 전달됐을까?』 하고 스스로에게 물어보곤 하답니다.\n\n한 주를 마무리하는 이 시간에는 저도 잠시 숨을 고르고, 제 자신을 위한 소중한 재충전의 시간을 갖고 싶어요. 팀원들과 함께 맛있는 음식을 나눠 먹거나, 좋아하는 음악을 들으며 스트레칭을 하거나, 따뜻한 물로 목욕을 하며 이번 주의 피로를 씻어내는 것— 이런 소소하지만 행복한 시간들이 쌓여서 다음 주에 또 더 힘차게 달려갈 수 있는 원동력이 되거든요. 여러분도 이번 주말만큼은 스스로를 충분히 아껴주시길 바랍니다!\n\n그리고 무엇보다, 언제나 변함없이 응원을 보내주시는 팬 여러분께 진심으로 감사드리고 싶어요. 경기장 안팎에서, 또 이렇게 SNS를 통해서도 따뜻한 말 한마디, 반짝이는 응원 한 번이 저에게 얼마나 큰 힘이 되는지 모른답니다. 여러분의 응원이 있기에 저도 더 힘차게 무대 위에서 웃을 수 있어요. 피곤하거나 지칠 때도, 팬분들의 환호성을 떠올리면 다시 용기가 생겨요. 그 에너지가 정말로 저를 살아있게 만든다고 해도 과언이 아닐 것 같아요.\n\n앞으로도 저, 김해리는 KOLEX 팀원들과 함께 여러분께 최고의 응원과 에너지를 전달하기 위해 매 순간 최선을 다할게요. 이번 주말도 행복하고 편안하게 보내시고, 다음에 또 이렇게 인사 드릴 수 있기를 기대하며 오늘의 인사를 마칩니다. KT Wiz, 그리고 KOLEX와 함께해 주셔서 항상 감사해요. 모두 사랑합니다! 💜🔥\n\n— KOLEX 김해리 드림",
+        "en": "Hello, everyone! This is Kim Hae-ri from KT Wiz cheerleader group KOLEX! 💜\n\nCan you believe another week is already coming to a close? Looking back on everything that happened from Monday through to now, I find myself feeling both amazed and deeply grateful that the weekend has arrived so quickly. Every single morning, I wake up and remind myself: 『Give it everything you've got today!』 That little pep talk has quietly become the most cherished part of my daily routine.\n\nThis week was packed with so many meaningful moments. Together with my teammates, I spent long hours in the practice room, polishing every move and constantly thinking about how to make our performances even better and more heartfelt. I truly believe that cheerleading is not just about dazzling choreography — it is about sincerely conveying emotion and energy to every fan in the crowd. So after each performance, I always ask myself, 『Did I connect with them the way I hoped?』 That question keeps me motivated and growing every single day.\n\nAs this week winds down, I am looking forward to taking a little time to breathe and recharge. Maybe I will share a delicious meal with my teammates, stretch while listening to my favorite music, or soak in a warm bath to wash away the tiredness of the week. These small, cozy moments of rest are what give me the strength and energy to come back even stronger next week. I hope you all find time this weekend to take care of yourselves too — you truly deserve it!\n\nAbove all, I want to express my deepest, most heartfelt gratitude to every single fan who has supported me and cheered us on without wavering. Whether it is a warm comment here on social media, a cheer at the stadium, or simply thinking of us wherever you are — every bit of your support means the world to me. Because of you, I can stand on that stage with a genuine smile, even on the most exhausting days. When I feel tired or overwhelmed, just thinking about your cheers gives me the courage to keep going. Your energy is truly what keeps me going.\n\nGoing forward, I — Kim Hae-ri — promise to keep giving my absolute best alongside my KOLEX teammates to bring you the most exciting and heartfelt performances possible. I hope you all have a wonderfully restful and happy weekend. I look forward to greeting you again very soon! Thank you always for being part of this journey with KT Wiz and KOLEX. I love you all so much! 💜🔥\n\n— With love, KOLEX Kim Hae-ri",
+        "ja": "みなさん、こんにちは！KT Wizチアリーダーグループ・KOLEXの김해리（キム・ヘリ）です 💜\n\nあっという間に、また一週間の終わりが近づいてきましたね。月曜日からここまで駆け抜けてきた日々を振り返ると、こんなにも早く週末がやってきたことに、驚きと感謝の気持ちでいっぱいになります。毎朝目を覚ますたびに、『今日も全力で頑張ろう！』と自分に言い聞かせることが、いつの間にか私の一日の中でもっとも大切なルーティンになりました。\n\n今週もたくさんのことがありました。チームメンバーと一緒に練習室でたっぷりと汗を流しながら、一つひとつの動きを丁寧に磨き上げ、より良いステージのためにひたすら考え続けました。チアリーディングというのは、華やかな動きだけが全てではなく、その瞬間を共に過ごすファンのみなさんに「本気の気持ち」を届けることだと、私はいつも思っています。だから毎回のステージが終わるたびに、『ちゃんと届いたかな？』と自分自身に問いかけています。その問いかけが、私をより高みへ向かわせてくれる原動力なんです。\n\n一週間を締めくくるこの時間に、私もしばらく立ち止まって、自分自身のための大切な休息と再充電の時間を持ちたいと思っています。チームメンバーとおいしいものを食べたり、好きな音楽を聴きながらストレッチをしたり、温かいお湯に浸かって今週の疲れをゆっくり癒やしたり——そんな些細だけれどかけがえのない時間が積み重なって、来週もまた元気いっぱいに走り出す力になるんです。みなさんも、この週末はどうか自分自身をたっぷり労わってあげてくださいね！\n\nそして何より、変わらぬ応援をいつも届けてくださっているファンのみなさんに、心から感謝の気持ちをお伝えしたいです。球場の内外で、またこうしてSNSを通じていただく温かいひと言や、輝く応援の一つひとつが、私にとってどれほど大きな力になっているか、言葉では言い表せないくらいです。みなさんの応援があるから、私はステージの上で心から笑えます。疲れて心が折れそうになったとき、みなさんの歓声を思い浮かべるだけで、また勇気が湧いてくるんです。そのエネルギーが、本当に私を生かしてくれていると感じています。\n\nこれからも、私・キム・ヘリはKOLEXのメンバーとともに、みなさんへ最高の応援とエネルギーをお届けするため、一瞬一瞬に全力を尽くしていきます。素敵な週末をお過ごしください。また近いうちにご挨拶できることを楽しみにしています！KT WizとKOLEXをいつも支えてくださって、本当にありがとうございます。みなさんのことが大好きです！💜🔥\n\n— KOLEXキム・ヘリより",
+        "zh": "大家好！我是KT Wiz啦啦隊KOLEX的金海莉（김해리）💜\n\n不知不覺，這一週又走到了尾聲。回想從週一一路拼搏到現在的每一天，心裡既感到驚訝，又充滿了深深的感激——週末居然這麼快就到來了！每天早晨睜開眼睛，我都會在心裡對自己說：『今天也要全力以赴！』這個小小的自我打氣，已悄悄成為我每日最珍貴的例行儀式。\n\n這一週發生了好多有意義的事。和隊友們一起在練習室裡揮灑汗水，認真雕琢每一個動作，不斷思考如何讓表演變得更好、更能觸動人心。我一直覺得，啦啦隊的工作不只是展現華麗的舞步，更重要的是，把最真誠的心意和能量傳遞給每一位在場的粉絲。所以每次表演結束後，我都會問自己：『這份心意，有沒有好好傳達到呢？』這個問題，讓我每一天都有繼續進步的動力。\n\n在這一週即將落幕的時刻，我也很想給自己一點喘息的空間，好好地休息與充電。也許和隊友們一起享用一頓美食，或是聽著喜歡的音樂做做伸展，又或者泡個溫暖的熱水澡，把這週積累的疲憊慢慢洗去——這些看似微小卻無比珍貴的時光，一點一滴地積累，才能讓我在下週再度以滿滿的活力重新出發。希望大家這個週末也好好愛護自己，你們真的值得被好好對待！\n\n最重要的是，我想向一直以來始終如一地支持我們的粉絲朋友們，獻上最誠摯的感謝。無論是在球場內外，還是透過社群媒體送來的一句溫暖的話、一個閃亮的應援——每一份心意對我來說都是無比巨大的力量。因為有你們，我才能在舞台上發自內心地微笑。每當疲憊或沮喪的時候，只要想起大家的歡呼聲，勇氣就會重新湧上心頭。你們的能量，真的是支撐我繼續前行的最大來源。\n\n今後，我——金海莉——也會和KOLEX的隊友們繼續攜手並進，以每一個當下的全力以赴，將最精彩、最真摯的表演帶給大家。希望每一位粉絲都能度過一個幸福而充實的週末！期待不久後再次和大家相見，送上問候。感謝大家一直以來陪伴著KT Wiz和KOLEX同行，我真的非常愛大家！💜🔥\n\n— KOLEX 金海莉 敬上"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.29"
+    }
+  },
+  {
+    "member_id": "lee-geumju",
+    "name_ko": "이금주",
+    "name_en": "Lee Geum-ju",
+    "instagram": "2geum_j._.j",
+    "file_path": "cheerleaders/lee-geumju.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.29",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "한 주를 마무리하며, 오늘도 여러분과 함께 💛❤️",
+        "en": "Wrapping Up the Week Together With You 💛❤️",
+        "ja": "一週間の締めくくりに、今日もみなさんと一緒に 💛❤️",
+        "zh": "結束這一週，今天也與您同在 💛❤️"
+      },
+      "body": {
+        "ko": "안녕하세요, 여러분! 오늘도 이렇게 블로그를 통해 인사를 드릴 수 있어서 너무나 기쁘고 설레는 마음이에요. 저는 KT Wiz 치어리더 그룹 KOLEX의 이금주입니다. 항상 이 공간을 찾아주시는 팬 여러분 한 분 한 분께 진심으로 감사한 마음을 전하고 싶어요.\n\n벌써 한 주가 또 이렇게 흘러가고 있네요. 월요일부터 열심히 달려온 우리 모두, 정말 수고 많으셨어요! 여러분도 이번 한 주 동안 정말 바쁘고 치열하게 살아오셨을 것 같아요. 저 역시도 마찬가지였답니다. 매일 연습과 준비로 가득 찬 하루하루를 보내다 보면, 어느새 한 주가 훌쩍 지나가 있더라고요. 그런데 그 바쁜 일상 속에서도 가장 큰 힘이 되어주는 건 단연 여러분의 응원과 따뜻한 관심이에요. 댓글 하나, 좋아요 하나가 저에게 정말 크고 소중한 에너지가 된답니다.\n\n사실 한 주를 마무리할 때쯤 되면 몸도 마음도 조금 지치기 마련이잖아요. 저도 요즘 한 주가 끝날 때마다 의식처럼 챙기는 작은 재충전 루틴이 생겼어요. 먼저 좋아하는 음악을 틀어놓고 조용히 스트레칭을 하면서 몸의 긴장을 풀어주는 시간을 가져요. 격렬하게 움직이는 치어리딩 특성상 몸 관리가 정말 중요하거든요. 그다음엔 따뜻한 차 한 잔을 마시며 그 주에 있었던 좋은 순간들을 떠올려 보는 시간을 갖는답니다. 어떤 장면에서 팬분들의 함성이 가장 크게 들렸는지, 어떤 동작에서 동료들과 가장 완벽하게 호흡이 맞았는지 하나씩 되짚어 보면서 작은 감사함을 되새겨요. 그 시간이 저에게는 다음 주를 더 힘차게 나아갈 수 있는 원동력이 돼요.\n\n또 요즘은 팀원들과 함께 짧은 산책을 하거나 맛있는 음식을 나눠 먹으며 소소하게 힐링하는 시간을 즐기고 있어요. 같은 목표를 향해 함께 달려가는 동료들과 나누는 이 소박한 시간이 생각보다 훨씬 큰 위로가 된다는 걸 요즘 들어 더 많이 느끼고 있어요. 서로 격려하고 웃고 떠들다 보면 피로가 눈 녹듯 사라지는 것 같더라고요. 이런 소중한 순간들이 모여서 더 좋은 무대를 만들어낼 수 있는 것 같아요.\n\n여러분도 이번 주 고생 많으셨어요. 오늘 하루만큼은 좋아하는 것들로 가득 채우시면서 몸과 마음을 충분히 쉬게 해주세요. 맛있는 것도 드시고, 좋아하는 사람들과 따뜻한 시간도 보내시고, 오롯이 자신을 위한 시간을 가지시길 바랍니다. 여러분이 행복해야 저도 무대 위에서 더 큰 에너지를 느낄 수 있거든요. 항상 응원해주시는 여러분이 있기에 저는 오늘도 내일도 최선을 다해 빛나는 무대를 선보일 수 있어요. 앞으로도 KOLEX와 KT Wiz를 향한 변함없는 응원과 사랑 부탁드려요. 사랑합니다, 위즈팬 여러분! 💛❤️",
+        "en": "Hello everyone! I am so incredibly happy and excited to be greeting you all through this blog once again today. I am Lee Geum-ju, a member of KOLEX, the cheerleading group for KT Wiz. I truly want to express my deepest and most heartfelt gratitude to every single fan who visits this space regularly. Your presence here means the world to me, and I never take it for granted.\n\nCan you believe another week has already gone by? To everyone who worked so hard from Monday all the way through to today — you have truly done an amazing job, and you deserve so much credit for pushing through. I know that many of you have had incredibly busy and demanding weeks, and I want you to know that I completely understand that feeling. My days have been packed with practice and preparation as well, and before I even realize it, the whole week has flown right past me. But even in the middle of those busy, bustling days, the one thing that gives me the most strength and motivation is your unwavering support and warm encouragement. A single comment, a single like — each one becomes a precious and powerful source of energy for me.\n\nHonestly, as the end of the week approaches, it is natural for both the body and the mind to feel a little worn out. I have recently developed my own small recharging rituals that I practice almost like a ceremony at the close of every week. First, I put on some of my favorite music and take some quiet time to stretch and release all the tension that has built up in my muscles throughout the week. Physical care is especially important in cheerleading, where we are constantly pushing our bodies to their limits with dynamic and powerful movements. After that, I pour myself a warm cup of tea and spend a few peaceful moments reflecting on all the good things that happened during the week. I think back to the moments when I could hear the fans cheering the loudest, and to the moments when the members of the team were perfectly in sync with one another — and I quietly give thanks for each of those small, beautiful memories. That quiet reflective time becomes the fuel that powers me through the following week with even more enthusiasm and determination.\n\nLately, I have also been enjoying short walks and sharing delicious food with my teammates as a way to unwind and recharge together. I have been realizing more and more just how much comfort and strength can be found in spending simple, unstructured time with people who share the same goals and dreams as you. When we laugh together, cheer each other on, and just enjoy each other's company, the exhaustion seems to melt away like snow in the sunshine. I truly believe that these precious little moments are what allow us to create even more powerful and memorable performances on stage.\n\nYou have all worked so hard this week too, and I hope you are proud of everything you have accomplished. Please take today as an opportunity to fill your time with the things and people you love most. Eat something delicious, spend some warm and cozy time with the people closest to you, and give yourself full permission to rest and recharge. When you are happy and at peace, I can feel that positive energy radiating all the way to me up on stage. Because of your constant and enthusiastic support, I am able to shine brighter every single day. Please continue to cheer on KOLEX and KT Wiz with all the love you have. I love you all so much, Wiz fans! 💛❤️",
+        "ja": "みなさん、こんにちは！今日もこのブログを通じてご挨拶できることが、本当に嬉しくて、胸がいっぱいです。私はKT WizのチアリーダーグループKOLEXのイ・グムジュです。いつもこのブログスペースを訪れてくださっているファンのみなさん一人ひとりに、心から感謝の気持ちをお伝えしたいと思います。みなさんの存在が、私にとってどれほど大切なものかは、言葉では言い表せないほどです。\n\nもうすっかり一週間が過ぎ去ろうとしていますね。月曜日から今日まで、一生懸命頑張ってきたみなさん、本当にお疲れ様でした！みなさんもきっとこの一週間、目まぐるしく忙しい日々を過ごされたのではないでしょうか。私も全く同じでした。毎日練習と準備に追われながら過ごしていると、あっという間に一週間が終わってしまうんです。でも、そんなに忙しい毎日の中でも、一番の原動力になってくれるのは、やはりみなさんの応援と温かい関心なんです。一つのコメント、一つのいいねが、私にとって本当に大きくて、かけがえのないエネルギーになっています。\n\n正直に言うと、一週間が終わりに近づくにつれて、体も心も少し疲れてしまうのは仕方のないことですよね。私も最近、毎週末に欠かさず行うようになった、小さなリチャージのルーティンができました。まず、お気に入りの音楽をかけながら、静かにストレッチをして体の緊張をほぐす時間を取ります。チアリーディングは体をとても激しく使うので、コンディション管理がとても大切なんです。その後は温かいお茶を一杯淹れて、その週にあった素敵な瞬間たちを静かに振り返る時間を持ちます。どの場面でファンの皆さんの歓声が一番大きく聞こえたか、どの動きでチームメンバーと一番完璧に息が合ったか、一つひとつ思い返しながら、小さな感謝を噛み締める時間です。その時間が、次の一週間をさらに元気に乗り越えるための原動力になってくれるんです。\n\nまた最近は、チームメンバーたちと一緒に短い散歩をしたり、美味しいものをシェアしたりして、ほっこりとヒーリングする時間を楽しんでいます。同じ目標に向かって一緒に走り続ける仲間たちと過ごすこの何気ない時間が、思っていた以上にとても大きな癒しになるということを、最近改めて強く感じています。お互いに励まし合って、笑って、他愛もないおしゃべりをしていると、疲れが雪のように溶けていくような気がするんです。こんな大切な瞬間が積み重なって、より素晴らしいステージが生まれていくのだと思います。\n\nみなさんも今週は本当によく頑張られましたね。今日という日だけは、好きなことで溢れた時間を過ごしながら、心と体をしっかり休めてあげてください。美味しいものを食べて、大切な人と温かい時間を過ごして、自分だけのための時間を思う存分楽しんでほしいです。みなさんが幸せでいてくれることが、私がステージの上でさらに大きなエネルギーを感じられる理由なんです。いつも応援してくださるみなさんのおかげで、私は今日も明日も全力で輝くステージをお届けできます。これからもKOLEXとKT Wizへの変わらぬ応援と愛をよろしくお願いします。愛しています、Wizファンのみなさん！ 💛❤️",
+        "zh": "大家好！今天也能透過這個部落格向各位問候，我感到非常開心和雀躍。我是KT Wiz啦啦隊組合KOLEX的李金珠。我想向每一位一直以來關注並造訪這個空間的粉絲們，獻上我最真摯的感謝。各位的存在對我來說有多麼重要，用言語實在難以完整表達。\n\n一週又這樣悄悄地過去了呢。從週一起就努力拼搏到今天的大家，真的辛苦了！相信各位這週也經歷了忙碌而充實的每一天。我也是一樣的。每天在練習和準備中度過，不知不覺間一週就飛速地溜走了。但即使在這樣繁忙的日常中，給予我最大力量的，還是各位持續的應援和溫暖的關心。一則留言、一個讚，對我而言都是珍貴無比的能量來源。\n\n說實話，每當一週快要結束的時候，身體和心靈多少都會有些疲憊，這是很自然的事情。最近，我在每週結束時都會進行幾個像是儀式一樣的小小充電習慣。首先，我會播放喜歡的音樂，靜靜地做一些伸展，讓一週積累下來的肌肉緊張得到釋放。啦啦隊動作需要大量消耗體力，所以身體的保養管理對我來說格外重要。接著，我會泡一杯溫熱的茶，靜靜地回味這週發生的美好瞬間。回想在哪個場面裡聽到了粉絲們最響亮的歡呼聲，在哪個動作中與隊員們配合得最完美默契，一一細細回想，重新感受那些細小的感謝與感動。那段時光，成為了讓我在下一週能更充沛地向前奔跑的原動力。\n\n另外，最近我也很享受和隊員們一起去短短地散步，或是分享美食的輕鬆療癒時光。和一起朝著同一個目標奔跑的夥伴們共度這些平凡而溫暖的時光，帶給我的安慰遠比想像中要大得多，這是我最近越來越深刻體會到的事。互相鼓勵，一起歡笑，說說笑笑之間，疲憊就像積雪在陽光下消融一般悄然散去。我相信，就是這些珍貴的片刻不斷累積，才能讓我們在舞台上呈現出更加精彩動人的表演。\n\n各位這週也真的辛苦了。今天，請讓自己被喜歡的事情和喜歡的人所包圍，好好讓身心得到充分的休息與充電。吃些美味的東西，和親愛的人度過溫馨的時光，給自己一段完全屬於自己的寶貴時間。各位幸福快樂，我在舞台上才能感受到更巨大的能量與力量。正因為有各位始終如一的應援，我今天和明天都能夠在舞台上全力以赴、閃閃發光。今後也請繼續給予KOLEX和KT Wiz不變的支持與愛。愛你們，Wiz的粉絲們！ 💛❤️"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.29"
+    }
+  },
+  {
+    "member_id": "lee-yebin",
+    "name_ko": "이예빈",
+    "name_en": "Lee Ye-bin",
+    "instagram": "1eeyebin_",
+    "file_path": "cheerleaders/lee-yebin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.29",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "한 주를 마무리하며, 오늘도 활짝 웃어요! 🌸",
+        "en": "Wrapping Up the Week with a Bright Smile! 🌸",
+        "ja": "一週間を締めくくって、今日も笑顔で！🌸",
+        "zh": "迎接週末，今天也要燦爛微笑！🌸"
+      },
+      "body": {
+        "ko": "안녕하세요, 여러분! KT Wiz 치어리더 그룹 KOLEX의 이예빈이에요 🎀\n\n어느새 한 주가 또 이렇게 끝을 향해 달려가고 있네요. 월요일 아침부터 열심히 달려온 여러분, 정말 수고 많으셨어요! 저도 이번 한 주 동안 팀원들과 함께 정말 많이 움직이고, 땀 흘리고, 또 그만큼 웃고 에너지를 나눈 것 같아서 마음이 뿌듯하고 따뜻해요 💛\n\n한 주를 마무리하는 시간이 되면 저는 꼭 챙기는 루틴이 있어요. 바로 '나만의 재충전 시간'이에요. 치어리더로서 늘 활기차고 밝은 에너지를 유지하는 것이 정말 중요하다 보니, 그 에너지를 채우기 위한 시간이 저에겐 정말 소중하거든요. 억지로 뭔가를 하려고 애쓰기보다는, 좋아하는 음악을 틀어놓고 가만히 스트레칭을 하거나, 좋아하는 차 한 잔을 천천히 마시면서 이번 한 주를 조용히 되돌아보는 시간을 갖곤 해요. 작은 것들이지만 이런 시간들이 쌓여서 내일의 저를 더 빛나게 해준다고 믿어요 ✨\n\n요즘 제가 푹 빠진 취미가 생겼는데, 바로 손글씨 쓰기예요! 예쁜 펜을 하나씩 모으면서 여러 문구들을 따라 쓰는 게 생각보다 훨씬 마음이 차분해지더라고요. 오늘도 쉬는 시간에 잠깐 좋아하는 문장들을 손으로 적어봤는데, 『좋아하는 일을 사랑하는 사람들과 함께 한다』는 문장을 쓰면서 여러분이 떠올랐어요. 팬 여러분이야말로 제가 이 일을 더욱 사랑하게 만들어주는 가장 큰 이유니까요 🥹\n\n동료들과 함께 웃고 연습하는 매 순간이 저에게는 큰 힘이 되고 있어요. 팀원들의 웃음소리, 함께 맞추어가는 동작들, 그리고 공연 전날의 설레는 감정들… 그 모든 것들이 제 마음속에 소중한 기억으로 쌓이고 있답니다. 이 에너지를 가득 충전해서 더 멋진 모습으로 여러분 앞에 설 수 있도록 늘 최선을 다할게요!\n\n오늘 하루도 스스로를 충분히 돌보는 시간 가지셨으면 좋겠어요. 바쁜 일상 속에서도 잠깐 멈추고, 자신에게 따뜻한 말 한마디 건네주세요. 여러분은 충분히 그럴 자격이 있는 멋진 사람들이니까요 💪 이번 주도 정말 고생 많으셨고, 다음 주도 함께 파이팅해요! WIZ 팬 여러분, 사랑해요 🔴⚫💛",
+        "en": "Hello, everyone! This is Lee Ye-bin from KT Wiz cheerleader group KOLEX 🎀\n\nCan you believe another week is already coming to a close? From Monday morning all the way through to today, you have all worked so incredibly hard, and I truly want to say — thank you and well done! This past week, I've been moving a lot alongside my teammates, sweating it out in practice, laughing together, and sharing so much positive energy that my heart feels genuinely full and warm right now 💛\n\nWhenever a week wraps up, I always make sure to protect a little ritual I like to call my 『personal recharge time.』 As a cheerleader, keeping my energy bright and lively is something I take seriously, and that means I also need to be intentional about replenishing it. Rather than forcing myself to be productive every single moment, I'll put on music I love, do some gentle stretching, and brew a warm cup of my favorite tea while quietly reflecting on everything the week brought me. These are small, simple moments — but I truly believe that it's exactly these kinds of moments that help the version of me tomorrow shine even brighter ✨\n\nLately I've also discovered a hobby that I've completely fallen in love with: hand lettering! I've been slowly collecting pretty pens and practicing writing out meaningful quotes and phrases, and it's surprisingly calming for the mind. I spent a little time doing it during a quiet break today, and when I wrote the phrase 『doing what you love alongside people you love』, I found myself thinking of all of you. Because honestly, you — our amazing fans — are the biggest reason I continue to love what I do with all my heart 🥹\n\nEvery single moment spent laughing and practicing with my teammates gives me so much strength. The sound of everyone's laughter, the feeling of movements finally clicking into place together, the butterflies the night before a performance… all of it is stacking up into precious memories inside my heart. I'll keep recharging that energy so I can stand in front of you looking and feeling my absolute best!\n\nI hope today gives you a chance to take care of yourself too. Even in the middle of a busy life, please pause for just a moment and say something kind to yourself. You are wonderful, and you deserve that kindness every single day 💪 You all worked so hard this week — let's cheer each other on into the next one together! WIZ fans, I love you so much 🔴⚫💛",
+        "ja": "みなさん、こんにちは！KT Wizチアリーダーグループ、KOLEXのイ・イェビンです 🎀\n\nあっという間に、また一週間が終わりに近づいてきましたね。月曜日の朝からここまで本当によく頑張ってきたみなさん、本当にお疲れ様でした！私も今週はチームメンバーたちとたくさん動いて、汗をかいて、それ以上に笑って、エネルギーを分かち合った一週間だったので、胸がじんわりと温かくなっています 💛\n\n一週間を締めくくるタイミングになると、私には必ず大切にしている習慣があります。それが『自分だけの充電タイム』です。チアリーダーとして常に明るく活気あるエネルギーを保つことがとても大切なので、そのエネルギーを補充するための時間が、私にはとても必要なんです。無理に何かをしようとするのではなく、好きな音楽をかけながらゆっくりストレッチをしたり、お気に入りのお茶を一杯ゆっくり飲みながら今週のことを静かに振り返ったりする時間を持つようにしています。小さなことかもしれないけれど、こういう時間の積み重ねが、明日の自分をもっと輝かせてくれると信じています ✨\n\n最近、すっかり夢中になっている趣味ができました。それが『手書き文字』です！かわいいペンを少しずつ集めながら、好きなフレーズや言葉を丁寧に書き写していくのが、想像以上に心を落ち着かせてくれるんです。今日も少しだけ時間が取れたので、いくつかお気に入りの言葉を書いてみたんですが、『好きなことを、大切な人たちと一緒にする』というフレーズを書いたとき、ふとみなさんのことが頭に浮かびました。ファンのみなさんこそ、私がこの仕事をもっと大好きでいられる一番の理由だから 🥹\n\nチームメンバーたちと笑い合いながら練習する瞬間、一つひとつが私にとって大きな力になっています。みんなの笑い声、息を合わせて動きが揃っていくあの感覚、本番前夜のドキドキした気持ち…そのすべてが、私の心の中に大切な思い出として積み重なっていきます。そのエネルギーをしっかりと充電して、もっともっと素敵な姿でみなさんの前に立てるよう、これからも精一杯頑張りますね！\n\n今日一日、みなさんも自分自身を大切にする時間を持てていたらいいな、と思います。忙しい日常の中でも、ちょっとだけ立ち止まって、自分に優しい言葉をかけてあげてください。みなさんは、そうされるに値する素晴らしい人たちだから 💪 今週も本当にお疲れ様でした。また来週も一緒に頑張りましょう！WIZファンのみなさん、大好きです 🔴⚫💛",
+        "zh": "大家好！我是KT Wiz啦啦隊KOLEX的李藝彬 🎀\n\n不知不覺間，又一個星期即將畫上句點了呢。從週一早晨一路努力到現在的大家，真的辛苦了！我這一週也跟團隊夥伴們一起不停地練習、揮灑汗水，同時也笑得很開心、分享了許多正能量，心裡感到無比充實與溫暖 💛\n\n每當一週即將結束的時候，我都會固定保留一段我稱之為『個人充電時光』的時間。身為啦啦隊員，時刻保持充滿活力與陽光的狀態對我來說非常重要，所以補充這份能量的時間對我而言格外珍貴。比起強迫自己繼續做些什麼，我更喜歡放上一首喜歡的音樂，靜靜地做伸展運動，或是泡上一杯最愛的茶，慢慢品味的同時，也靜靜回顧這一週發生的種種。雖然這些都是很小的事情，但我相信，正是這樣一點一滴的積累，才能讓明天的自己更加閃耀 ✨\n\n最近我愛上了一個新的興趣——那就是手寫字！我開始慢慢收集各種漂亮的筆，練習抄寫各種喜歡的句子和詞語，沒想到這件事比想像中更能讓心靈沉靜下來。今天也趁著短暫的休息時間寫了幾個喜歡的句子，當我寫下『與心愛的人一起做自己熱愛的事』這句話時，腦海中浮現的就是大家的臉。因為正是各位粉絲，才是讓我對這份工作越來越熱愛的最大理由 🥹\n\n與夥伴們一起歡笑、練習的每一個瞬間，對我來說都是莫大的力量。大家的笑聲、動作終於整齊劃一的那份喜悅、演出前夕心跳加速的雀躍感……這一切都正在我心中化為珍貴的回憶，一層一層地疊加著。我會好好充滿這份能量，以更加精彩的姿態站在大家面前，請大家繼續支持我！\n\n希望今天大家也能好好照顧自己，留一點時間給自己。在忙碌的日常中，請暫時停下腳步，對自己說一句溫柔的話吧。因為你們每一位都是值得被善待的了不起的人 💪 這週大家真的辛苦了，下週我們也一起加油吧！WIZ的粉絲們，我愛你們 🔴⚫💛"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.29"
+    }
+  },
+  {
+    "member_id": "jeong-huijeong",
+    "name_ko": "정희정",
+    "name_en": "Jeong Hui-jeong",
+    "instagram": "_jung_u",
+    "file_path": "cheerleaders/jeong-huijeong.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.29",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "한 주를 마무리하며, 오늘도 반갑습니다! 🌸",
+        "en": "Wrapping Up the Week with Warm Greetings! 🌸",
+        "ja": "一週間の締めくくりに、今日も笑顔でご挨拶！🌸",
+        "zh": "週末將至，今天也開心地向大家問候！🌸"
+      },
+      "body": {
+        "ko": "안녕하세요, KT Wiz 치어리더 KOLEX의 정희정입니다! 🎀\n\n벌써 한 주가 또 이렇게 지나가고 있네요. 월요일부터 하루하루 달려온 것 같은데, 막상 주말이 다가오면 참 묘한 기분이 들어요. 분주하게 지나간 시간들이 주마등처럼 스쳐 지나가면서도, 한편으로는 뭔가 뿌듯하고 따뜻한 감정이 마음 한켠에 자리를 잡거든요. 여러분은 이번 한 주 어떻게 보내셨나요? 바쁘게 달려온 하루하루가 여러분에게도 의미 있는 시간이었으면 좋겠어요.\n\n저는 요즘 한 주를 마무리할 때마다 작은 나만의 루틴을 만들어 보려고 노력하고 있어요. 좋아하는 음악을 틀어 두고 조용히 스트레칭을 하거나, 따뜻한 음료 한 잔을 천천히 음미하면서 한 주 동안 있었던 크고 작은 일들을 떠올려 보는 시간이에요. 무언가 대단하거나 특별한 일이 아니더라도, 소소하게 잘 해낸 것들을 스스로 칭찬해 주는 그 순간이 생각보다 참 큰 힘이 된다는 걸 느끼고 있거든요. 혹시 아직 그런 루틴이 없으신 분들이 있다면, 오늘 주말을 앞두고 한번 시도해 보시는 건 어떨까요?\n\n그리고 요즘은 계절이 계절인지라 바깥 공기도 한껏 무르익은 느낌이잖아요. 그 계절 특유의 에너지가 왠지 모르게 활력을 불어넣어 주기도 하고, 또 어떨 때는 괜히 감성적으로 만들기도 하는 것 같아요. 저는 그런 계절의 분위기를 무대 위에서 표현하고 싶다는 생각을 요즘 자주 하게 되더라고요. 그 계절의 열기와 설렘을 응원 동작 하나하나에 담아서 여러분께 전달할 수 있다면 얼마나 좋을까요!\n\n동료들과 함께 준비하는 시간도 정말 소중하게 느껴지는 요즘이에요. 서로 격려하고 맞춰 가는 과정 속에서 배우는 것들이 얼마나 많은지, 함께하는 팀원들에게 매일 감사한 마음이 드는 것 같아요. 팀원들의 열정과 밝은 에너지를 보면 저도 덩달아 더 힘이 나고, 오늘도 최선을 다해야겠다는 다짐이 절로 생기거든요. 그 소중한 에너지가 무대를 통해 여러분께도 전해지길 진심으로 바라고 있어요.\n\n오늘 하루도, 그리고 다가오는 주말에도 여러분이 충분히 쉬고 재충전하시는 시간이 되길 바랍니다. 바쁜 일상 속에서 잠깐이라도 자신을 위한 시간을 만들어 보세요. 스스로에게 작은 선물을 주는 것, 그게 바로 내일을 더 열심히 달릴 수 있는 힘이 된다고 생각하거든요. KT Wiz를 응원해 주시는 모든 팬 여러분, 오늘도 항상 건강하고 행복하세요! 정희정은 언제나 여러분 곁에서 환하게 웃으며 응원하겠습니다. 사랑해요! 💕🎉",
+        "en": "Hello, everyone! I'm Jeong Hui-jeong from KT Wiz Cheerleader group KOLEX! 🎀\n\nCan you believe another week is already wrapping up? It feels like just yesterday was Monday, and here we are, standing right at the edge of the weekend once again. Time really does fly when you're pouring your heart into everything you do. As the week winds down, I find myself feeling this special mix of emotions — a satisfying kind of tiredness, a quiet warmth, and a gentle excitement for the days ahead. How was your week? I genuinely hope that every single day brought you something meaningful, even if it was just a small moment that made you smile.\n\nLately, I've been making a conscious effort to build a little end-of-week ritual for myself. It doesn't have to be anything grand — sometimes it's as simple as putting on my favorite playlist, doing some slow and gentle stretching, and letting my mind wander back through the week. I think about the little things I managed to get right, the moments where I pushed a little harder than I thought I could, and even the moments where things didn't go perfectly — because those teach me just as much. There's something really powerful about pausing to acknowledge your own efforts, no matter how small they might seem. If you haven't tried something like this yet, maybe this weekend is the perfect time to start!\n\nThe season right now also feels so alive and full of energy, doesn't it? There's something about this time of year that just buzzes with a certain kind of vitality — a warmth that settles into your skin and a brightness that makes everything feel a little more vivid. I often find myself wanting to capture that feeling and bring it into every single movement on the stage. If I can pour even a fraction of that seasonal energy and excitement into my cheering for you all, that would make me incredibly happy.\n\nI'm also feeling so grateful for the time I get to spend preparing alongside my teammates. The process of encouraging each other, learning from one another, and fine-tuning everything together is something I genuinely treasure. Every time I see their passion and bright energy, it reignites something in me too — a renewed determination to give absolutely everything I have. I truly hope that collective energy radiates all the way from the stage to each and every one of you.\n\nAs we head into the weekend, please remember to rest, recharge, and be kind to yourself. In the middle of your busy days, carve out even just a small pocket of time that belongs entirely to you. Give yourself that little gift — because I believe that taking care of yourself today is what gives you the strength to shine even brighter tomorrow. To all the wonderful fans who cheer on KT Wiz, please stay healthy, stay happy, and know that I'm always here cheering for you right back. I love you all so much! 💕🎉",
+        "ja": "こんにちは！KT Wizチアリーダーグループ KOLEXの정희정（チョン・フィジョン）です！🎀\n\nあっという間に、また一週間が終わろうとしていますね。月曜日から毎日走り続けてきたような感覚があるのに、気がつけばもう週末が目の前に迫っています。時間って本当に早いな、と改めて感じる今日この頃です。一週間が終わりに近づくと、なんとも言えない不思議な気持ちになりませんか？充実した疲れと、ほんのりとした温かさと、そしてこれから来る休日への小さなわくわく感が、胸の中でじんわり混ざり合うような感覚です。皆さんはどんな一週間を過ごされましたか？それぞれの毎日が、皆さんにとって大切な時間であったなら、とても嬉しいです。\n\n最近、私は一週間の締めくくりに、ちょっとした自分だけのルーティンを作ろうと意識するようにしています。何か特別なことをするわけではなくて、好きな音楽を流しながらゆったりとストレッチをしたり、温かい飲み物を手にしながら一週間を静かに振り返ったりするだけなんですけれど。頑張れたことを自分で自分に認めてあげる瞬間って、意外と大きな力になるなぁ、と最近しみじみ感じています。まだそんな習慣がないという方は、この週末にぜひ試してみてください！\n\nそして、この季節ならではの空気感もありますよね。なんとなくエネルギーに満ちていて、外の世界が少し輝いて見えるような、この時季特有の雰囲気。私はそのエネルギーをステージの上で全力で表現したいな、と最近よく思うんです。季節の熱気や高揚感を応援の一つ一つの動きに込めて、皆さんに届けられたら最高だなって。そう想像するだけで、もっと頑張りたいという気持ちがぐんと湧いてきます。\n\nチームのメンバーたちと一緒に準備を進める時間も、本当に大切なものだと感じる毎日です。お互いに声を掛け合って、合わせながら、少しずつ高め合っていくプロセスの中で学ぶことって、本当にたくさんあるんですよね。仲間たちの情熱と明るいエネルギーを見ているだけで、私自身もますます力が湧いてきて、今日も精一杯やり切ろう！という気持ちになれます。その大切なエネルギーが、ステージを通じて皆さんにも届いていたら嬉しいです。\n\n今日も、そしてこれからの週末も、皆さんがゆっくり休んで英気を養える時間になりますように。忙しい毎日の中で、少しだけ自分自身のための時間を作ってみてくださいね。自分を大切にすることが、明日またキラキラと輝くための一番の近道だと、私は思っています。KT Wizを応援してくださる全ての皆さん、今日も元気で幸せでいてください。チョン・フィジョンは、いつも笑顔で皆さんのそばで応援しています。愛してます！💕🎉",
+        "zh": "大家好！我是KT Wiz啦啦隊 KOLEX 的鄭希楨！🎀\n\n不知不覺間，又一個星期即將畫下句點了呢。從星期一開始一路全力衝刺，感覺每一天都過得飛快，轉眼間週末已經悄悄來到眼前。時間真的過得好快，讓人不禁感嘆。每當一週接近尾聲，我心裡總會湧現出一種說不清道不明的複雜情緒——既有充實過後的疲憊，也有淡淡的溫暖，還夾雜著對即將到來的假期的一絲期待與雀躍。這種感覺，你們有嗎？這一週，大家過得怎麼樣呢？希望每一天對你們來說都是有意義的，哪怕只是一個讓你微笑的小小瞬間。\n\n最近，我開始刻意為自己打造一個屬於週末前的小小儀式感。不需要做什麼了不起的大事，就只是播上自己喜歡的歌單，悠閒地做做伸展運動，或者捧著一杯溫暖的飲料，靜靜地回顧這一週發生的種種。試著把自己做得好的地方，不管大事小事，都認真地誇獎自己一番。這種停下來、好好肯定自己努力的瞬間，說真的，給了我意想不到的大大力量。如果你還沒有這樣的習慣，不如就趁這個週末試試看吧！\n\n這個季節的氣息也特別讓人感受深刻呢。空氣中彷彿流動著一種獨特的活力與生機，讓人覺得周遭的一切都更加鮮豔明亮。每次感受到這股季節特有的能量，我就會忍不住想：要是能把這種熱情與悸動都融入舞台上的每一個動作裡，傳遞給在場的每一位朋友，那該有多好！光是這樣想像，就讓我充滿了更加努力下去的動力。\n\n和隊員們一起準備的時光，也是我現在每天都覺得格外珍貴的事。大家互相鼓勵、彼此磨合、一起進步的過程裡，我學到了好多好多。每當看到夥伴們那股熱情洋溢的模樣，我自己也像被點燃了一樣，心底自然而然地湧現出一種「今天也要全力以赴！」的堅定。真心希望這份珍貴的能量，能夠透過舞台，一直傳遞到你們每一個人的心裡。\n\n今天，以及即將到來的週末，希望大家都能好好地休息，充充電，讓身心都得到充分的滋養。在忙碌的日常裡，記得偶爾停下來，給自己留一點點只屬於自己的時光。好好愛護自己，我相信這正是讓明天的你閃閃發光的最好方式。感謝所有支持KT Wiz的粉絲朋友們，今天也請務必健健康康、開開心心！鄭希楨永遠都會帶著燦爛的笑容，在你們身邊為你們加油打氣。愛你們！💕🎉"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.29"
+    }
+  },
+  {
+    "member_id": "lee-seoyun",
+    "name_ko": "이서윤",
+    "name_en": "Lee Seo-yun",
+    "instagram": "tjdbs__06",
+    "file_path": "cheerleaders/lee-seoyun.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.29",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "한 주를 마무리하며, 다시 충전하는 시간 🌸 | 2026.06.29",
+        "en": "Wrapping Up the Week & Recharging My Energy 🌸 | 2026.06.29",
+        "ja": "一週間を締めくくり、また充電する時間 🌸 | 2026.06.29",
+        "zh": "結束這一週，重新充電的時光 🌸 | 2026.06.29"
+      },
+      "body": {
+        "ko": "안녕하세요, 여러분! 오늘도 이렇게 찾아와 주셔서 정말 감사해요 💕 저는 KOLEX의 이서윤이에요. 이 공간을 통해 매일 여러분과 따뜻하게 인사 나눌 수 있어서 늘 행복하답니다.\n\n벌써 한 주의 마지막이 다가왔다는 게 실감이 나지 않아요. 월요일 아침에 눈을 뜨면 언제나 『이번 주도 최선을 다해보자!』 하는 마음으로 하루를 시작하는데, 어느새 주말이 코앞에 와 있더라고요. 시간이 정말 빠르게 지나가는 것 같아서 괜히 아쉬운 마음이 들기도 해요. 그래도 한 주 동안 무사히 모든 활동을 마칠 수 있었던 건 언제나 응원해 주시는 여러분 덕분이라는 걸 잊지 않고 있어요.\n\n사실 이번 한 주는 연습과 준비로 정말 알차게 보냈어요. 동료들과 함께 새로운 동작들을 맞춰보고, 더 완성도 높은 무대를 만들기 위해 몇 번이고 반복 연습을 했답니다. 연습하는 내내 힘들기도 했지만, 팀원들과 함께하면 그 과정 하나하나가 즐거운 추억이 되더라고요. 서로 격려하고, 웃고, 또 진지하게 고민하면서 우리만의 색깔을 조금씩 만들어 가고 있어요. 그 시간들이 쌓여서 여러분 앞에 더 멋진 모습으로 설 수 있다고 믿고 있어요.\n\n주말에는 바쁜 일상 속에서 잠시 멈추고 스스로를 돌아볼 시간을 가지려고 해요. 좋아하는 음악을 들으며 가볍게 산책을 하거나, 집에서 따뜻한 차 한 잔을 마시며 책을 읽는 소소한 즐거움이 저에게는 정말 큰 힐링이 되거든요. 아무것도 하지 않아도 괜찮은 시간, 그냥 존재만으로도 충분한 시간을 보내고 싶어요. 여러분도 이번 주말만큼은 꼭 자신을 위한 시간을 가져보셨으면 좋겠어요. 쉬는 것도 다음을 위한 준비라는 걸 요즘 더욱 실감하고 있거든요.\n\n충분히 쉬고 나면 다시 새로운 에너지로 여러분 앞에 나타날게요! 항상 밝고 건강한 모습으로 최고의 응원을 전달하는 게 저의 가장 큰 목표이고, 그 목표를 향해 오늘도 한 걸음씩 나아가고 있어요. 여러분의 응원이 저에게 정말 큰 힘이 된다는 것, 절대 잊지 마세요. 이번 주말도 행복하고 편안하게 보내세요. 사랑해요, 위즈 팬 여러분! 🧡🦸‍♀️",
+        "en": "Hello, everyone! Thank you so much for stopping by today 💕 I'm Seo-yun from KOLEX, and every single day I feel so grateful to be able to share these little moments with all of you through this space.\n\nI can hardly believe the end of another week is already here. Every Monday morning I wake up telling myself, 『Let's give this week everything we've got!』 and before I know it, the weekend is right around the corner. Time really does fly by so quickly, and honestly it makes me a little wistful. But no matter how fast the days pass, I always carry with me the knowledge that I was able to get through each one because of your constant encouragement and support.\n\nThis week was packed with practice and preparation. Together with my teammates, we worked on new routines, coordinating every movement and repeating each step over and over until it felt just right. There were definitely moments when my body was exhausted and my mind felt heavy, but practicing alongside my teammates turns even the hardest sessions into warm, happy memories. We cheered each other on, shared plenty of laughs, and had some genuinely serious discussions about how to make our performances even better. Little by little, we are building something that is uniquely ours, and I truly believe that all those hours of effort will show when we stand before you on stage.\n\nThis weekend, I plan to slow down and give myself a proper moment to breathe and recharge. For me, real healing comes from the simplest things — taking a leisurely walk while listening to my favorite music, curling up at home with a warm cup of tea and a good book, or simply sitting quietly and letting my mind rest. I want to spend time just being, without rushing or worrying about what comes next. I hope you, too, will carve out some time this weekend just for yourself. Rest is not laziness — it is the foundation for the next great chapter, and I am reminded of that more and more these days.\n\nAfter a full, restorative rest, I will be back with fresh energy and an even brighter smile, ready to cheer louder than ever! My greatest goal has always been to show up for you in the best possible way — healthy, energetic, and full of heart. I take one step toward that goal every single day, and your support is the fuel that keeps me going. Please never forget how much it means to me. I hope your weekend is filled with peace, joy, and everything that makes you smile. I love you, WIZ fans! 🧡🦸‍♀️",
+        "ja": "みなさん、こんにちは！今日もここに来てくださって本当にありがとうございます 💕 KOLEXのイ・ソユンです。このスペースを通じて毎日みなさんと温かく挨拶を交わせることが、私にとってとても大きな喜びになっています。\n\nもう今週の終わりが近づいてきたなんて、なかなか実感が湧かないですよね。月曜日の朝に目が覚めるたびに、『今週も精一杯頑張ろう！』と心に決めてスタートするのですが、気づいたらあっという間に週末が目の前に来ていて。時間の流れって本当に速いなと、少し寂しい気持ちになることもあります。それでも、一週間を無事に走り抜けられたのは、いつも応援してくださるみなさんのおかげだということを、いつも胸に刻んでいます。\n\n今週はチームメイトたちと練習や準備にしっかり取り組んだ一週間でした。新しい振り付けを合わせたり、より完成度の高いパフォーマンスを目指して何度も繰り返し練習したりと、体はくたくたになることもありましたが、仲間と一緒だと、その辛い時間さえも温かな思い出に変わってしまうんです。お互いに声をかけ合って、笑い合って、時には真剣に話し合いながら、私たちだけの色を少しずつ作り上げています。そうして積み重ねた時間が、みなさんの前で輝く舞台につながっていくと信じています。\n\n週末は、慌ただしい毎日の中で少し立ち止まって、自分自身をいたわる時間にしようと思っています。好きな音楽を聴きながら散歩をしたり、自宅で温かいお茶を飲みながら本を読んだりするような、ささやかな時間が私には本当に大切な癒しになっています。何もしなくてもいい時間、ただ存在するだけで十分な時間を過ごしたいなと思っています。みなさんも、この週末はぜひ自分のための時間を作ってみてください。休むことも次への大切な準備だということを、最近ますます実感しています。\n\nしっかり英気を養って、また新しいエネルギーでみなさんの前に現れますね！いつも明るく健康的に、最高の応援をお届けすることが私の大きな目標です。その目標に向かって、今日もまた一歩ずつ進んでいます。みなさんの応援が私にとってどれほど大きな力になっているか、どうか忘れないでいてください。今週末も、穏やかで幸せな時間をお過ごしください。愛しています、WIZファンのみなさん！🧡🦸‍♀️",
+        "zh": "大家好！非常感謝你們今天也來到這裡 💕 我是KOLEX的李瑞潤。能夠透過這個空間每天和大家溫暖地打招呼，對我來說是非常幸福的一件事。\n\n不知不覺間，這一週又即將畫下句點，真的讓人有些難以置信。每個星期一早上睜開眼睛，我都會在心裡告訴自己：『這週也要全力以赴！』然而轉眼之間，週末已經近在眼前了。時間過得如此之快，有時候難免會感到一絲惆悵。即便如此，能夠平安順利地度過每一天，都是因為有你們在背後持續為我加油打氣，這份感謝我永遠銘記在心。\n\n這一週，我和隊員們投入了大量的練習與準備工作。大家一起磨合新的動作編排，為了呈現更完整、更精彩的表演，一遍又一遍地反覆練習。雖然身體有時候會感到十分疲憊，但只要和夥伴們一起面對，就連再辛苦的過程也會變成溫暖美好的回憶。我們互相鼓勵、開懷大笑，也認真地討論如何讓演出更上一層樓，慢慢地建立屬於我們自己獨特的風格。我深信，這些努力累積起來的時光，終有一天會在舞台上化為最閃耀的光芒，呈現在你們面前。\n\n這個週末，我打算在忙碌的日常中暫時停下腳步，好好地給自己一段喘息與充電的時間。聽著喜歡的音樂悠閒地散步、在家裡捧著一杯熱茶翻閱一本好書，這些看似微不足道的小事，對我來說卻是最真實的療癒。我想要擁有一段不需要趕任何事情、只需要好好存在的時光。也希望你們這個週末一定要為自己留出一些屬於自己的時間。最近我越來越深刻地體會到，好好休息也是為下一段旅程所做的重要準備。\n\n充分休息之後，我一定會帶著煥然一新的活力重新出現在大家面前！永遠以最開朗、最健康的狀態，將最熱情的應援傳遞給你們，這是我最重要的目標，而我每天都在朝著這個目標踏實地前進著。請你們永遠不要忘記，你們的支持對我來說是多麼巨大的力量。希望大家這個週末也能過得幸福、愉快、充實。愛你們，WIZ的球迷朋友們！🧡🦸‍♀️"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.29"
+    }
+  },
+  {
+    "member_id": "kim-gahyun",
+    "name_ko": "김가현",
+    "name_en": "Kim Ga-hyun",
+    "instagram": "keemgahyun",
+    "file_path": "cheerleaders/kim-gahyun.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.29",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "한 주를 마무리하며, 다시 충전되는 오늘 💜🔥",
+        "en": "Wrapping Up the Week, Recharging for Tomorrow 💜🔥",
+        "ja": "一週間を締めくくり、また充電する今日 💜🔥",
+        "zh": "結束這一週，今天重新充電出發 💜🔥"
+      },
+      "body": {
+        "ko": "안녕하세요, 여러분! 오늘도 이렇게 만나게 되어서 정말 기쁘고 행복해요 💜 저는 KT Wiz 치어리더 그룹 KOLEX의 가현이에요. 오늘은 한 주를 마무리하는 날인 만큼, 조금 특별한 마음으로 여러분께 인사를 전하고 싶었어요.\n\n사실 한 주 내내 달려오다 보면 몸도 마음도 생각보다 훨씬 많은 에너지를 쏟게 되잖아요. 연습실에서 구슬땀을 흘리며 동작 하나하나를 다듬고, 팀원들과 호흡을 맞추며 함께 성장하는 과정이 정말 뿌듯하면서도 때로는 솔직히 많이 지치기도 하거든요. 그래서 저는 한 주를 마무리하는 이 시간이 굉장히 소중해요. 단순히 쉬는 것이 아니라, 지나온 시간을 돌아보고, 잘 해낸 부분은 스스로 칭찬해주고, 아쉬웠던 부분은 다음 주에 더 잘할 수 있도록 마음에 차곡차곡 정리하는 시간이거든요.\n\n오늘 저는 좋아하는 음악을 틀어놓고 혼자 조용히 스트레칭을 했어요. 몸의 긴장을 하나씩 풀어가면서 『아, 이번 주도 정말 열심히 했구나』 하는 생각이 들더라고요. 팀원들과 함께 맞춰온 퍼포먼스, 팬 여러분들 앞에서 최선을 다하겠다는 다짐, 그 모든 것들이 한 장면 한 장면 떠오르면서 마음이 따뜻해졌어요 🥰\n\n재충전이라는 게 꼭 아무것도 안 하는 게 아니라고 생각해요. 저한테 재충전은 내가 왜 이 일을 하는지, 어떤 순간이 가장 행복했는지를 다시 상기시키는 시간이에요. 응원봉을 흔들며 함께해주시는 팬 여러분들의 표정, 응원 소리, 그리고 경기장을 가득 채우는 열기가 저에게는 가장 큰 원동력이에요. 그 기억들을 다시 떠올리면 정말 금방 힘이 나거든요!\n\n다음 주에도 더욱 활기차고 빛나는 모습으로 여러분 앞에 설 수 있도록, 오늘은 충분히 쉬고 마음껏 재충전할게요. 여러분도 오늘 하루 스스로를 위한 시간을 꼭 가져보세요. 한 주 동안 정말 수고 많으셨어요! 항상 응원하고, 항상 감사합니다 💜 KT Wiz 팬 여러분, 우리 함께라면 언제나 최고예요! 위즈 파이팅! 🔥",
+        "en": "Hello everyone, I am so happy and grateful to be greeting you again today 💜 I am Ga-hyun, a member of KOLEX, the KT Wiz cheerleader group. Since today marks the end of another week, I wanted to share something a little extra heartfelt with all of you.\n\nWhen you run full speed through an entire week, your body and mind end up pouring out so much more energy than you might expect. Every single day in the practice room, we work hard to refine each and every move, synchronizing with our teammates, pushing each other to grow together. It is a process that fills me with so much pride, but honestly, it can also be quite exhausting at times. That is exactly why I treasure this moment at the end of the week so deeply. It is not just about resting. It is about looking back on everything we accomplished, giving ourselves a genuine pat on the back for what went well, and quietly storing away the things we want to do better next week.\n\nToday, I put on some of my favorite music and spent some quiet time stretching on my own. As I slowly released the tension in my muscles one by one, I found myself thinking, 『Wow, I really gave it everything I had this week.』 Memories of the performances I put together with my teammates, the promises I made to myself to always give my very best in front of all of you, our fans — every single one of those moments came flooding back to me, and my heart felt so wonderfully warm 🥰\n\nI truly believe that recharging does not always mean doing nothing at all. For me, recharging means rediscovering why I do this in the first place, and reminding myself of the moments that make me happiest. The expressions on the faces of fans waving their light sticks, the roar of cheers filling the stadium, the incredible energy that radiates from every corner of the ballpark — that is my greatest source of strength and motivation. Just revisiting those memories in my mind is enough to fill me right back up with energy!\n\nSo that I can stand in front of you next week feeling even more vibrant and full of life, I am going to rest well and recharge fully today. I hope you also take some time today just for yourself. You have worked so hard this week, and you deserve it! Thank you always, and I am cheering for every single one of you 💜 KT Wiz fans, we are unstoppable when we are together! Wiz fighting! 🔥",
+        "ja": "みなさん、こんにちは！今日もこうしてお会いできて、本当に嬉しくて幸せです 💜 私はKT Wizチアリーダーグループ KOLEXのガヒョンです。今日は一週間を締めくくる日ということで、いつもより少し特別な気持ちでみなさんにご挨拶したいなと思いました。\n\n一週間ずっと全力で駆け抜けてきると、体も心も思っていた以上にたくさんのエネルギーを使うんですよね。練習室で汗びっしょりになりながら動き一つひとつを丁寧に磨き、チームメンバーと息を合わせながら一緒に成長していく過程は本当に充実感があって、でも正直なところ、時にはぐったり疲れてしまうこともあります。だから、一週間を締めくくるこの時間が私にはとても大切なんです。ただ休むというだけではなくて、過ごしてきた時間を振り返って、うまくできたことは自分で思い切り褒めてあげて、悔しかった部分は来週もっと頑張れるように心の中にしっかりと整理しておく時間だから。\n\n今日は好きな音楽をかけながら、一人でゆっくりストレッチをしました。体の緊張を一つひとつほぐしながら、『あぁ、今週も本当に一生懸命やったな』という気持ちがじんわりと湧いてきたんです。チームメンバーと一緒に作り上げてきたパフォーマンス、ファンのみなさんの前でいつも全力を尽くすという誓い、そのすべてのシーンが一枚一枚よみがえってきて、心がじんわりと温かくなりました 🥰\n\n充電って、何もしないということとは違うと思うんです。私にとっての充電は、なぜ自分がこの仕事をしているのか、どんな瞬間が一番幸せだったのかをもう一度自分の中で確かめる時間。うちわやペンライトを振りながら一緒に盛り上がってくれるファンのみなさんの笑顔、応援の声、そして球場を埋め尽くす熱気が、私にとって最大の原動力です。あの記憶を思い出すだけで、すぐに元気が湧いてきますから！\n\n来週もさらに元気いっぱいで輝く姿をみなさんにお見せできるよう、今日はしっかり休んで思い切り充電します。みなさんも今日は自分自身のための時間を大切にしてください。一週間、本当にお疲れ様でした！いつも応援しています、いつも感謝しています 💜 KT Wizファンのみなさん、一緒なら何でもできる！ウィズファイティング！🔥",
+        "zh": "大家好！今天也能夠與大家相見，我真的非常開心、非常幸福 💜 我是KT Wiz啦啦隊KOLEX的成員佳賢。今天是這一週的最後一天，所以我特別想帶著更加真誠的心意向大家問好。\n\n當你一整個禮拜全力以赴地衝刺下來，身體和心靈所消耗的能量往往比自己想像中多出許多。每一天在練習室裡揮汗如雨，仔細打磨每一個動作，與隊員們一起對齊呼吸、共同成長的過程，讓我感到無比充實與驕傲。但說實話，有時候真的會覺得很疲憊。正因如此，每週末這段用來好好收尾的時光對我來說格外珍貴。這不只是單純的休息，而是回顧這一週走過的足跡，為自己做得好的地方大力稱讚自己，並且把那些還有遺憾的地方靜靜收進心裡，期待下週能夠做得更好的一段整理時光。\n\n今天，我放著自己喜歡的音樂，一個人安靜地做了伸展運動。在慢慢釋放身體每一處緊繃的過程中，心裡悄悄升起一個念頭：『啊，這週我真的盡全力了呢。』與隊員們共同打造的表演、對著粉絲們許下的全力以赴的承諾，那一幕幕畫面在腦海中一一浮現，心裡頓時感到暖烘烘的 🥰\n\n我覺得所謂「充電」，並不一定是什麼都不做。對我而言，充電是重新問自己為什麼選擇了這條路，是回想起那些讓自己最幸福的瞬間。揮舞著應援棒一起同樂的粉絲們的笑臉、震天的加油聲、還有球場裡那令人熱血沸騰的氛圍，這些都是我最大的動力來源。只要在腦海中重溫那些記憶，力量就會立刻充滿全身！\n\n為了下週能夠以更加充滿活力、閃閃發光的姿態站在大家面前，今天我要好好休息、盡情充電。希望大家今天也能留一些時間給自己，好好犒賞辛苦了一週的自己。一週辛苦了！我永遠支持大家，也永遠心懷感謝 💜 KT Wiz的粉絲們，只要我們在一起，就沒有什麼是不可能的！Wiz加油！🔥"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.29"
+    }
+  },
+  {
+    "member_id": "kye-yujin",
+    "name_ko": "계유진",
+    "name_en": "Kye Yu-jin",
+    "instagram": "kyeyujin",
+    "file_path": "cheerleaders/kye-yujin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.29",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "한 주를 마무리하며, 오늘도 함께해줘서 고마워요 🧡",
+        "en": "Wrapping Up the Week with Gratitude — Thank You for Being Here 🧡",
+        "ja": "1週間を締めくくりながら、今日も一緒にいてくれてありがとう 🧡",
+        "zh": "結束這一週，感謝你今天也陪伴著我 🧡"
+      },
+      "body": {
+        "ko": "안녕하세요, 여러분! 오늘도 이렇게 저의 블로그를 찾아와 주셔서 진심으로 감사해요 🥰 여러분 덕분에 매일매일이 특별하고 소중하게 느껴진답니다.\n\n벌써 한 주의 끝자락에 다다랐네요. 월요일부터 달려온 시간들을 돌이켜보면, 정말 많은 순간들이 스쳐 지나가는 것 같아요. 연습실에서 구슬땀을 흘리며 동작 하나하나를 다듬고, 팀원들과 함께 호흡을 맞추며 더 나은 퍼포먼스를 위해 고민하고 노력했던 시간들이 있었거든요. 쉽지 않은 순간도 분명히 있었지만, 그럴 때마다 여러분의 응원을 떠올리면 어느새 힘이 불끈 솟아오른답니다 💪\n\n그리고 한 주를 마무리할 때 유진이가 제일 좋아하는 루틴이 있어요! 바로 좋아하는 간식을 챙겨두고 따뜻한 음료와 함께 잠깐 멍 때리는 시간을 갖는 것이에요 😄 요즘 제가 푹 빠진 간식은 바로 달콤한 호떡이에요! 길거리에서 갓 구워 나온 따끈따끈한 호떡 한 입 베어 물면, 안에서 달콤한 시럽이 살살 흘러나오면서 온몸이 사르르 녹는 기분이 든다니까요 🥰 꼭 한 주 동안 쌓인 피로가 그 달콤함과 함께 녹아내리는 것 같아서, 정말 행복한 순간이에요. 혹시 여러분도 좋아하는 간식이나 음료가 있으신가요? 댓글로 꼭 알려주세요! 저도 다음에 꼭 도전해볼게요 🙌\n\n재충전의 시간은 단순히 쉬는 것 이상이라고 생각해요. 몸도 쉬어야 하지만, 마음도 함께 쉬어야 다음 무대에서 더 빛나는 에너지를 뿜어낼 수 있거든요. 그래서 저는 이 소중한 쉬는 시간에 좋아하는 음악을 틀어두거나, 팀원들과 가볍게 이야기꽃을 피우면서 마음을 채우기도 해요. 함께하는 시간이 주는 따뜻함은 정말 어떤 것과도 바꿀 수가 없어요.\n\n여러분도 이번 주 정말 고생 많으셨죠? 각자의 자리에서 최선을 다한 여러분이 정말 대단하고 멋있어요! 이번 주말만큼은 충분히 쉬고, 좋아하는 것들로 마음껏 재충전하길 바라요. 맛있는 것도 먹고, 좋아하는 사람들과 행복한 시간 보내세요 🧡\n\n저 유진이는 언제나 여러분 곁에서 환하게 웃으며 응원할게요. 다음에 또 더 새로워진 모습으로 찾아올게요! 항상 건강하고 행복하게 지내요, 모두 사랑해요 💛🧡 위즈파이팅!",
+        "en": "Hello, everyone! Thank you so much for visiting my blog today — it truly means the world to me 🥰 Every single day feels extra special and precious because of you, and I hope you know how grateful I am for every moment of support you give me.\n\nWe are already at the end of another week! When I look back on the days that have flown by since Monday, so many little moments come to mind. There were early mornings in the practice room, working through every single movement and making sure each motion felt just right. There were moments of syncing up with teammates, discussing how to make our performance even more polished and full of energy. Not every moment was easy, but whenever I felt my spirit dip even slightly, I would think of all the wonderful fans cheering us on — and just like that, the energy would come rushing right back 💪\n\nAt the end of each week, I have a favorite little ritual that I absolutely love! I set aside some of my favorite snacks, pour myself a warm drink, and give myself permission to just sit back and do nothing for a little while 😄 Lately, my ultimate comfort snack has been freshly made hotteok — those warm, golden Korean sweet pancakes you find at street stalls! When you bite into one and that warm, gooey syrup flows out from the inside, it feels like all the tiredness from the week just melts away in the most delicious way possible 🥰 It is honestly one of my happiest weekly rituals. Do you have a favorite snack or comfort food that helps you unwind? Please leave a comment and let me know — I would love to try it next time 🙌\n\nI truly believe that rest and recharging is about so much more than simply lying down and doing nothing. Your body needs rest, yes — but your heart and mind need it too. When both are properly rested, the energy you bring to the next stage or performance is so much brighter and more genuine. That is why during my downtime I love playing music I enjoy, having lighthearted conversations with teammates, and filling my heart back up with the little things that make me smile. The warmth that comes from spending time with the people around you is truly irreplaceable.\n\nYou have all worked so hard this week too, haven't you? No matter what your week looked like — whether it was full of challenges, victories, or just the quiet effort of getting through each day — you should be incredibly proud of yourself. This weekend, please rest well, eat something delicious, and spend time doing what you love most with the people who make you happiest 🧡\n\nI, Yu-jin, will always be right here cheering for you with my biggest, brightest smile. I cannot wait to show up even more refreshed and energized next time! Stay healthy, stay happy, and please know that I love each and every one of you 💛🧡 Wiz Fighting!",
+        "ja": "みなさん、こんにちは！今日もこうして私のブログに遊びに来てくださって、本当にありがとうございます 🥰 みなさんのおかげで、毎日がとても特別で大切な時間に感じられています。これからもずっと一緒にいてほしいな、って思いながらこのブログを書いています。\n\nもう1週間の終わりがやってきましたね！月曜日からのことを振り返ってみると、本当にたくさんの瞬間が頭の中をよぎります。練習室でひとつひとつの動きを丁寧に磨き上げていた朝のこと、チームメンバーたちと息を合わせながら、もっと素晴らしいパフォーマンスを届けるために真剣に向き合っていたこと。大変な瞬間もたしかにあったけれど、そのたびにみなさんの応援を思い浮かべると、不思議なほど元気がみなぎってくるんです 💪\n\n1週間を締めくくるとき、ユジンが一番大切にしているルーティンがあります！それは、お気に入りのおやつを用意して、温かいドリンクを片手にちょっとだけボーっとする時間を作ること 😄 最近のお気に入りは、ホットク（韓国の甘い焼きパン）なんです！屋台で焼きたてのホットクをひと口かじると、中からとろとろの甘いシロップがじゅわっとあふれてきて、全身がふわっとほぐれていく感じがして、幸せ以外の何物でもないんです 🥰 1週間のお疲れが、その甘さと一緒にするすると溶けていくみたい。みなさんはどんなおやつや飲み物が好きですか？ぜひコメントで教えてください！次回ぜひ試してみたいので 🙌\n\n再充電の時間というのは、ただ横になって休むこと以上のものだと思っています。体を休めることはもちろん大切だけれど、心も一緒に休ませてあげることで、次のステージでより輝くエネルギーを発揮できるんですよね。だから私は休みの時間に好きな音楽をかけたり、チームメンバーとたわいない話をしながら笑ったり、心を優しく満たしてあげています。一緒にいることで感じられる温かさは、本当に何ものにも代えられない宝物だなと思います。\n\nみなさんも今週、たくさん頑張りましたよね？それぞれの場所で精一杯努力してきたみなさんのことが、本当に誇らしくて、かっこいいと思います！この週末はしっかり休んで、好きなものをたくさん食べて、好きな人たちと一緒に笑顔の時間を過ごしてください 🧡\n\n私ユジンは、これからもずっとみなさんの隣で、元気いっぱいの笑顔で応援し続けます。次回はもっとパワーアップした姿でまた会いに来るね！いつも健康でいてください、みなさん大好きです 💛🧡 위즈 파이팅！",
+        "zh": "大家好！感謝你們今天也來到我的部落格，這對我來說真的意義非凡 🥰 正因為有你們，每一天都顯得格外特別而珍貴。希望你們知道，我心中對每一份支持都滿懷感激。\n\n不知不覺，又到了一週的尾聲。回顧從週一以來所經歷的每一天，腦海中浮現了好多珍貴的瞬間。在練習室裡汗水淋漓地雕琢著每一個動作，與隊友們認真磨合、思考如何呈現出更精彩的表演——這些時刻都深深刻印在心裡。過程中當然也有不輕鬆的時候，但每當那樣的瞬間出現，只要想起大家的加油與鼓勵，全身馬上又充滿了力量 💪\n\n在結束一週的時候，有一個我最珍惜的小習慣！那就是備好最愛的零食，配上一杯溫熱的飲料，讓自己靜靜地放空一會兒 😄 最近讓我著迷的零食，就是熱騰騰的韓式糖餅（호떡）！從攤販剛烤出來的糖餅，咬下去的瞬間，香甜的糖漿從裡面緩緩流出，整個人都像是被溫柔地融化了一般，那種幸福感真的無法言喻 🥰 感覺這一整週累積的疲憊，都隨著那份甜蜜悄悄地消散了。你們有沒有喜歡的零食或飲料呢？一定要在留言區告訴我喔！我下次也要來挑戰看看 🙌\n\n我一直覺得，充電休息的時間，遠不只是「什麼都不做」那麼簡單。身體需要休息，心靈同樣需要好好被滋養。當兩者都得到充分的補給，下一次站上舞台時，才能散發出更耀眼、更真實的能量。所以在難得的空閒時光裡，我會播放喜歡的音樂，或者和隊友們輕鬆地聊天說笑，讓心靈慢慢被溫暖填滿。和身邊的人共處所帶來的那份暖意，真的是任何東西都無法取代的。\n\n你們這一週也辛苦了吧？不論這週是充滿挑戰、還是靜靜努力地度過每一天，都請為自己感到驕傲。這個週末，請好好休息、吃一些自己喜歡的食物，和讓你快樂的人們共度美好時光 🧡\n\n我，有真，會永遠在你們身邊，帶著最燦爛的笑容為你們加油！下次見面時，我會以更飽滿的狀態出現在你們面前。請大家保重身體、保持快樂，我愛你們每一個人 💛🧡 Wiz加油！"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.29"
+    }
+  },
+  {
+    "member_id": "kwon-gayoung",
+    "name_ko": "권가영",
+    "name_en": "Kwon Ga-young",
+    "instagram": "yo_ung__vely",
+    "file_path": "cheerleaders/kwon-gayoung.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.29",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "한 주를 마무리하는 월요일, 다시 힘차게 충전 완료! 🔋✨",
+        "en": "Wrapping Up the Week & Recharging — Ready to Shine Again! 🔋✨",
+        "ja": "一週間を締めくくり、また元気にチャージ完了！🔋✨",
+        "zh": "結束這一週、重新充滿能量，準備再次閃耀！🔋✨"
+      },
+      "body": {
+        "ko": "안녕하세요, 팬 여러분! 🌸 저 가영이에요! 오늘도 이렇게 블로그를 통해 여러분을 만날 수 있어서 정말 설레고 행복해요.\n\n한 주가 지나고 나면 저는 항상 잠깐 멈춰서 지난 시간들을 되돌아보는 시간을 갖는답니다. 무대 위에서 온 마음을 다해 응원하고, 팬 여러분의 함성과 박수를 온몸으로 느끼는 그 순간들이 제게는 정말 소중한 에너지가 돼요. 그래서 한 주를 마무리하면서 갖는 휴식과 재충전의 시간은 저에게 단순한 '쉬는 시간'이 아니라, 다음 주를 더 멋지게 달려가기 위한 아주 중요한 준비 과정이랍니다.\n\n저만의 재충전 루틴을 살짝 공개하자면요 😊 — 우선 좋아하는 음악 플레이리스트를 틀어두고, 스트레칭을 천천히 하면서 몸의 긴장을 풀어줘요. 한 주 동안 열심히 움직인 몸이 충분히 쉴 수 있도록 따뜻한 목욕도 빠질 수 없고요! 그다음에는 좋아하는 책이나 영화를 보면서 마음까지 편안하게 가꿔줘요. 이 시간 동안은 핸드폰을 잠깐 내려놓고 온전히 '나'에게 집중하는 게 포인트예요.\n\n그리고 동료들과 함께 맛있는 걸 먹으며 이야기를 나누는 것도 정말 큰 힘이 돼요. 팀원들과 함께하는 시간은 언제나 웃음이 끊이지 않아서 금세 피로가 풀리는 기분이랄까요 🥰 서로 응원하고 격려하는 그 에너지가 다음 무대를 더 빛나게 해준다고 믿어요.\n\n재충전을 마친 뒤에는 다시 연습실로 향하는 발걸음이 한결 가볍고 설레요. 새로운 한 주를 맞이하며 더 완벽한 무대, 더 뜨거운 응원을 준비하기 위해 최선을 다할게요!\n\n팬 여러분도 지난 한 주 동안 정말 수고 많으셨어요. 바쁜 일상 속에서도 KT Wiz와 저희 KOLEX를 응원해주셔서 진심으로 감사해요. 여러분의 응원이 저희에게 얼마나 큰 힘이 되는지, 말로 다 표현하기 어려울 정도예요. 앞으로도 항상 곁에 있어 주세요! 저도 항상 여러분 곁에서 최고의 에너지로 응원할게요! 💛🔴\n\n오늘도 건강하고 행복한 하루 보내세요~ 사랑해요, 팬 여러분! 💕",
+        "en": "Hello, everyone! 🌸 It's Ga-young here! I'm so thrilled and happy to be connecting with all of you through this blog again today.\n\nWhenever a week comes to an end, I always take a moment to pause and reflect on everything that happened. Every second I spend on stage cheering with my whole heart, feeling your cheers and applause wash over me — those moments truly become the most precious source of energy for me. That's why the rest and recharge time I take at the end of each week isn't simply 'downtime' for me — it's an incredibly important preparation process that helps me run even harder into the next week.\n\nLet me share a little bit of my personal recharging routine! 😊 First, I put on my favorite music playlist and slowly stretch to release all the tension in my body. After a full week of moving non-stop, a warm bath is absolutely essential to let my body recover properly! Then I watch a favorite movie or curl up with a good book to take care of my mind as well. The key during this time is to put my phone down for a bit and focus entirely on myself.\n\nSpending time with my teammates — sharing a delicious meal together and just talking and laughing — also gives me an enormous boost. Whenever I'm with the team, the laughter never stops, and I find my tiredness melting away almost instantly 🥰 I truly believe that the energy we share when we encourage and support each other is what makes the next performance shine even brighter.\n\nAfter recharging, the walk back to the practice room feels so much lighter and more exciting. As I welcome a brand new week, I'll give everything I have to prepare an even more perfect performance and even more passionate cheering for all of you!\n\nTo all of our fans — you've worked so hard this past week too. From the bottom of my heart, thank you so much for cheering on KT Wiz and us, KOLEX, even in the midst of your busy daily lives. It's truly difficult to put into words just how much strength your support gives us. Please stay by our side always! I'll always be right there with you, cheering with every bit of energy I have! 💛🔴\n\nHave a healthy and happy day today~ I love you all, dear fans! 💕",
+        "ja": "みなさん、こんにちは！🌸 ガヨンです！今日もこのブログを通してみなさんとつながれることが、本当に嬉しくてわくわくしています。\n\n一週間が終わるとき、私はいつも少し立ち止まって、過ぎた日々を振り返る時間を取るようにしています。ステージの上で全力を尽くして応援し、みなさんの歓声と拍手を全身で感じるあの瞬間たちは、私にとって本当に大切なエネルギーの源なんです。だから、一週間を締めくくる休息と充電の時間は、私にとって単なる「お休みの時間」ではなく、次の週をもっと輝かしく駆け抜けるための、とても大切な準備の過程なんですよ。\n\n私だけのリチャージルーティンを少しだけ公開しますね😊 — まず、お気に入りの音楽プレイリストをかけながら、ゆっくりストレッチをして体の緊張をほぐします。一週間たくさん動いた体がしっかり休めるよう、温かいお風呂も欠かせません！その後は好きな本や映画を楽しんで、心までゆったりと整えます。この時間のポイントは、スマホを少し置いて、完全に「自分」に集中すること。\n\nそして、チームのみんなとおいしいものを食べながらおしゃべりする時間も、本当に大きな力になります。チームのみんなといると笑いが絶えなくて、疲れがすぐに吹き飛ぶような感覚になるんですよね🥰 お互いに応援し合い、励まし合うそのエネルギーが、次のステージをさらに輝かせてくれると信じています。\n\n充電を終えて練習室へ向かう足取りは、いつもずっと軽くてわくわくします。新しい一週間を迎え、もっと完璧なステージ、もっと熱い応援を準備するために全力を尽くしますね！\n\nファンのみなさんも、先週は本当にお疲れ様でした。忙しい毎日の中でもKT WizとKOLEXを応援してくださって、心から感謝しています。みなさんの応援が私たちにとってどれほど大きな力になっているか、言葉では言い尽くせないほどです。これからもずっと私たちのそばにいてください！私もいつでもみなさんのそばで、最高のエネルギーで応援し続けます！💛🔴\n\n今日も元気で素敵な一日をお過ごしください～みなさんのことが大好きです！💕",
+        "zh": "大家好！🌸 我是佳英！今天也能透過這篇部落格與大家相見，心裡真的好開心、好期待喔！\n\n每當一週結束的時候，我總會停下腳步，花一點時間回顧這段日子裡所發生的一切。站在舞台上全力以赴地為大家加油、用全身去感受大家的歡呼聲和掌聲——那些瞬間對我來說是最最珍貴的能量來源。所以，在一週結束時擁有的休息與充電時光，對我而言絕對不只是單純的『放鬆時間』，而是為了讓下一週能夠跑得更精彩、更耀眼的重要準備過程。\n\n讓我偷偷分享一下我個人的充電小秘訣吧！😊 首先，我會播放喜歡的音樂歌單，然後慢慢做伸展運動，讓身體一週以來累積的緊繃感慢慢消散。辛苦活動了一整週的身體，當然少不了一個暖暖的泡澡時光，讓自己好好休息！接著，我會看喜歡的書或電影，把心情也整理得舒舒服服的。這段時間最重要的小秘訣，就是把手機暫時放到一旁，完全專注在『自己』身上。\n\n另外，和團隊夥伴一起享用美食、聊天歡笑，也是讓我恢復元氣的一大來源。每次和大家在一起，笑聲就從來沒有停過，感覺疲憊一下子就消散了🥰 我真心相信，彼此互相打氣、互相鼓勵的那股能量，正是讓下一次演出更加閃亮的最大秘密。\n\n充完電之後再走回練習室的腳步，總感覺輕盈了許多，心裡也充滿了期待。迎接全新的一週，我會盡全力準備更完美的演出、更熱情的加油，請大家繼續期待我喔！\n\n各位粉絲朋友們，上週也辛苦大家了！在忙碌的日常生活中，還是不忘為KT Wiz和我們KOLEX加油，真的由衷感謝大家。大家的應援對我們來說是多麼巨大的力量，實在難以用言語完整表達。請繼續陪在我們身邊吧！我也會永遠陪在大家身邊，用最飽滿的能量為大家加油！💛🔴\n\n今天也請大家保持健康、過個開心的一天～我愛大家，粉絲朋友們！💕"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.29"
+    }
+  },
+  {
+    "member_id": "kim-minji",
+    "name_ko": "김민지",
+    "name_en": "Kim Min-ji",
+    "instagram": "mischguy2",
+    "file_path": "cheerleaders/kim-minji.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "date": "2026.06.29",
+    "draft": {
+      "type": "greeting",
+      "title": {
+        "ko": "한 주를 마무리하며 팬 여러분께 드리는 진심 어린 인사 💙🔥",
+        "en": "A Heartfelt Hello to All Fans as We Wrap Up the Week 💙🔥",
+        "ja": "1週間を締めくくるファンの皆さんへの心からのご挨拶 💙🔥",
+        "zh": "在一週結束之際向所有粉絲們獻上誠摯的問候 💙🔥"
+      },
+      "body": {
+        "ko": "안녕하세요, 팬 여러분! KOLEX 치어리더 김민지입니다 💙\n\n어느덧 한 주의 마지막 날이 다가왔네요. 이번 한 주도 정말 길고도 소중한 시간이었어요. 매일 아침 눈을 뜨면 오늘 하루도 최선을 다해야지 하는 마음으로 하루를 시작하는데, 그 마음을 끝까지 붙잡아 준 건 언제나 팬 여러분의 따뜻한 응원과 댓글들이었어요. 진심으로 감사해요.\n\n이번 주는 저와 동료들 모두 정말 열심히 달려왔어요. 연습실에서 함께 구슬땀을 흘리고, 서로 응원하며 하나하나 완성해 나가는 시간들이 쌓일수록 팀으로서의 유대감이 더욱 깊어지는 것 같아 행복했답니다. 동료들의 밝은 에너지 덕분에 저도 매 순간 힘을 낼 수 있었어요. 정말 든든하고 고마운 팀원들이에요.\n\n한 주를 마무리할 때면 저는 꼭 혼자만의 휴식 시간을 갖는 편이에요. 좋아하는 음악을 틀어놓고 아무 생각 없이 멍하니 앉아 있거나, 따뜻한 음료 한 잔을 마시며 이번 주를 천천히 돌아보는 거예요. 그 시간이 저에게는 정말 소중한 재충전의 순간이랍니다. 요즘은 특히 잔잔하고 따뜻한 감성의 플레이리스트를 즐겨 듣고 있어요. 템포가 느리고 멜로디가 포근한 곡들을 반복해서 듣다 보면 마음이 한결 가벼워지는 느낌이거든요. 여러분도 한 주를 마무리하는 저녁, 좋아하는 음악 하나 틀어놓고 푹 쉬어 가셨으면 해요.\n\n쉬는 시간 동안에도 저는 여러분을 생각해요. 팬 여러분이 있기에 제가 더 빛날 수 있고, 더 힘차게 응원할 수 있어요. KT Wiz를 함께 응원해 주시는 모든 분들, 정말 사랑하고 감사합니다.\n\n다음 주도 더욱 밝은 모습으로 여러분 곁에 찾아올게요! 이번 주말만큼은 부디 몸도 마음도 푹 쉬시고, 소중한 분들과 행복한 시간 보내세요 💙🔥\n\n항상 건강하세요, 사랑해요! — 김민지 드림",
+        "en": "Hello everyone, it's KOLEX cheerleader Kim Min-ji here! 💙\n\nCan you believe we've already reached the end of another week? Time really does fly when you pour your heart into every single day. Each morning I wake up with a fresh determination to give my absolute best, and every single time I feel that motivation wavering even slightly, I open up my messages and comments from all of you — and just like that, the energy comes rushing back. Thank you so much for always being there.\n\nThis week was a genuinely full and meaningful one for me and my teammates. We spent so many hours together in the practice studio, sweating through routines, encouraging one another, laughing through the hard moments, and celebrating even the smallest improvements together. Every time we get through a tough session as a unit, I feel our bond growing stronger, and that feeling is honestly one of my favourite things about being part of this team. I am so grateful for the bright, warm energy my teammates bring every single day.\n\nWhen the end of the week finally arrives, I always make sure to carve out some personal time just for myself — a little ritual of rest and recharging that I truly treasure. Lately my go-to way to unwind is putting on a soft, warm-toned playlist and letting the music just wash over me. I have been really into slow, melodic songs with gentle rhythms that make you feel like everything is going to be okay. I light a candle, pour myself something warm to drink, and just sit quietly for a while, letting the week slowly settle. It sounds simple, but that quiet time genuinely restores me and prepares me to come back even stronger next week. I really encourage all of you to find your own little end-of-week ritual too — whether it is music, a walk, journaling, or simply doing absolutely nothing for an hour. You deserve that rest!\n\nEven in those quiet moments of rest, my thoughts drift to all of you. You are the reason I pour so much passion into every cheer, every smile, every move on the field. Every fan who cheers alongside us for KT Wiz makes everything we do feel so worthwhile. I love you all so much and I hope this weekend brings you nothing but warmth, laughter, and the company of people you cherish.\n\nI will be back next week with even more energy and excitement — until then, please take good care of yourselves! Rest up, recharge, and let's keep supporting KT Wiz together 💙🔥\n\nWith all my love and gratitude, Kim Min-ji",
+        "ja": "こんにちは、ファンの皆さん！KOLEXチアリーダーの김민지（キム・ミンジ）です 💙\n\nいつの間にか、今週もあっという間に最終日が近づいてきましたね。毎日毎日、全力で駆け抜けてきたからこそ、週末を迎えるこの瞬間がより一層特別に感じられます。毎朝目覚めるたびに『今日も精一杯やり切ろう！』と気持ちを奮い立たせているのですが、その気持ちを最後まで支えてくれるのは、いつも皆さんからいただく温かい応援やメッセージなんです。本当に心から感謝しています。\n\n今週もチームメンバーたちと一緒に、たくさんの汗を流しながら練習に励んできました。練習スタジオで時間をともにするたびに、お互いを励まし合い、細かいところまで丁寧に積み上げていく作業が続くわけですが、そうして少しずつ完成に近づいていく過程がたまらなく好きなんです。仲間たちの明るいエネルギーのおかげで、私も何度も元気をもらいました。本当に頼もしくて、大切な仲間たちです。\n\n週の終わりになると、私は必ず自分だけのためのリラックスタイムを設けるようにしています。最近特に気に入っているのが、温かみのある落ち着いたプレイリストを流しながらのんびり過ごすこと。テンポがゆっくりで、メロディーが柔らかい曲たちを繰り返し聴いていると、心がふわっと軽くなっていくような感覚があって、それが本当に好きなんです。お気に入りのドリンクを手に持ちながら、今週を静かに振り返るその時間が、次の週へ向けてのエネルギーを充電してくれる大切な瞬間になっています。皆さんも週末の夜、好きな音楽を流しながら、ゆっくり自分を労ってあげてくださいね。\n\nのんびりしている時間の中でも、私はいつも皆さんのことを思っています。皆さんの存在があるからこそ、私はもっと輝くことができるし、もっと力強く応援することができます。KT Wizをともに応援してくださるすべてのファンの皆さん、本当に大好きだし、感謝の気持ちでいっぱいです。\n\n来週もさらに元気な姿でお届けしますね！今週末は、どうか心も体も思い切り休めて、大切な方々と幸せな時間をお過ごしください 💙🔥\n\nいつも健康でいてください。愛してます！ — キム・ミンジより",
+        "zh": "大家好，我是KOLEX啦啦隊員金玟智！💙\n\n不知不覺中，又到了一週結束的時刻。每天早晨睜開眼睛，心裡就會默默告訴自己：『今天也要全力以赴！』而每當疲倦悄悄爬上來的時候，是大家的留言和鼓勵讓我重新燃起了力量。真的非常非常感謝每一位支持我的粉絲朋友們，你們對我來說意義重大。\n\n這一週，我和團隊的夥伴們一起度過了許多充實而忙碌的時光。在練習室裡揮灑汗水、互相打氣、一遍又一遍地反覆磨練每一個動作細節——這樣的過程雖然辛苦，卻讓我們彼此之間的默契和情誼變得更加深厚。每當看著大家一起進步、一起成長，心裡就會湧起一種說不清道不明的感動和幸福。夥伴們開朗積極的能量，是我每天都能堅持下去的重要支柱，真的很感謝她們。\n\n每到週末，我都會特別為自己安排一段屬於自己的放鬆時光，這已經成了我雷打不動的小儀式。最近我特別喜歡打開一個慵懶溫暖風格的播放清單，讓音樂輕輕流淌在房間裡。那些節奏舒緩、旋律柔和的歌曲，聽著聽著就會覺得心裡的疲勞慢慢散去，整個人變得輕盈起來。我會泡上一杯自己喜歡的熱飲，靜靜坐著，讓這週所有的記憶慢慢沈澱——那些開心的、努力的、有點累的瞬間，在音樂的包裹下都顯得格外珍貴。這樣的休息方式讓我每次都能以更飽滿的狀態迎接新的一週。希望大家也能在週末找到屬於自己的放鬆方式，好好犒賞努力了一整週的自己！\n\n即使是在安靜休息的時候，我也常常想起大家。正是因為有你們的陪伴與支持，我才能在舞台上發光發熱，才能把每一個應援動作都做得那麼投入、那麼用心。所有為KT Wiz加油的粉絲朋友們，謝謝你們，我真的非常愛你們。\n\n下週我會帶著更充沛的活力再次出現在大家面前！這個週末請務必好好休息，和重要的人共度美好時光，把這週的辛苦都暫時放下，給自己一個溫柔的喘息空間 💙🔥\n\n請大家保重身體，愛你們！ — 金玟智 敬上"
+      },
+      "tag": {
+        "ko": "일일 인사",
+        "en": "Daily Greeting",
+        "ja": "デイリーグリーティング",
+        "zh": "每日問候"
+      },
+      "tagClass": "tag-greeting",
+      "date": "2026.06.29"
+    }
+  }
+]
