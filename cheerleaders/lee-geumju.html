@@ -238,7 +238,7 @@
       <p class="name-ko">이금주 · Born 2000 · 172cm</p>
       <div class="role-badge" id="roleText">Cheerleader</div>
       <div class="stats-row">
-        <div class="stat-pill"><div class="sv">📱 107K</div><div class="sk">Followers</div></div>
+        <div class="stat-pill"><div class="sv">📱 113.8K</div><div class="sk">Followers</div></div>
         <div class="stat-pill"><div class="sv">📅 2022</div><div class="sk">Active Since</div></div>
         <div class="stat-pill"><div class="sv">172cm</div><div class="sk">Height</div></div>
       </div>
@@ -503,7 +503,11 @@ function renderBlogPosts(lang){
 
 
 // ===== PHOTOS TAB =====
-const _photos = ["https://www.instagram.com/reel/DZ_jywYP4Y3/","https://www.instagram.com/reel/DZ9If6TP0K3/","https://www.instagram.com/reel/DZ45ttcMyhj/"];// n8n automation: populate with Instagram post URLs
+const _photos = [
+{"url":"https://www.instagram.com/reel/DZ_jywYP4Y3/","thumb":"https://scontent-fra3-2.cdninstagram.com/v/t51.71878-15/730310891_990255023795535_725721385889923716_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=0hUpaUqMff8Q7kNvwGEeXLQ&_nc_oc=Adrt9ypviwVKTBbzxbXJbZl5rpT7xKhvjNElmFnJlt6nkFsmMaTkDPSiFFQdBzSwqc8&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=uA18QCw_pCree4oDO4ecnA&_nc_tpa=Q5bMBQFMMnOzG47Qa3xB4_Uo03UghkhANTdFrI2L_BU3EWs5y2NeG7yIDR1siu_KDJAitEt07f3B7F5_NQ&oh=00_Af-8jWJktpWLSop5iT9G3XXHIZAlzWn8F1XJhWUqpHKApg&oe=6A4760AE"},
+{"url":"https://www.instagram.com/reel/DZ9If6TP0K3/","thumb":"https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/728704448_18605839984058677_2751701123531021189_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=OXJrLWt6DsoQ7kNvwGyMojd&_nc_oc=AdochO2lcbDvQv9QVpdNTsG8pumrbHIo1SlXnoApH_5ZI0kRD5SOS3MYiP5_5ZhLHOs&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=uA18QCw_pCree4oDO4ecnA&_nc_tpa=Q5bMBQEugBlnvEBMZrcjBD_9yy8DiYJGTHudSd0LIXLipRcg-IPYivQC_o3YgnIW6oxz1HGDYkxz2_e3Sg&oh=00_Af8juUJ8wi11wjSct5RcLGkl26_w2tyye8X_IgMe8rXfOQ&oe=6A47440F"},
+{"url":"https://www.instagram.com/reel/DZ45ttcMyhj/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.71878-15/727303837_1589060432810241_17265998316171882_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ZQIknCoK-awQ7kNvwGdCca-&_nc_oc=AdofqAI_lxRAFx-QH8jpEpVpofpt6gBeAPTw3uQt-oy6PzA-zdF8kNwiZYB2fDpOkck&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=uA18QCw_pCree4oDO4ecnA&_nc_tpa=Q5bMBQFO82RiK9JZhfv1gtjiA78RMIEGAX5sXul8jS-U5-mDtFgJM6haYwqodDQcFp2LXMe41FofxUGCvQ&oh=00_Af9VhErz1urw0bnX9o4ixqoYgPqBdV6B7GBH1ZDBQdxMwA&oe=6A4763AD"},
+]// n8n automation: populate with Instagram post URLs
 
 function _mkFpLang(lang) {
   if(document.getElementById('fp-'+lang)) return;
