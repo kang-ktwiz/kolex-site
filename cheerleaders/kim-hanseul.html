@@ -333,7 +333,7 @@
     <div id="postsGrid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;"></div>
   <div style="text-align:center;margin-top:1.25rem;">
     <button id="blogLoadMore" style="display:none;background:rgba(255,31,69,.1);border:1px solid rgba(255,31,69,.3);color:var(--red);padding:10px 32px;border-radius:24px;cursor:pointer;font-size:.82rem;font-weight:700;"
-      onclick="this.dataset.expanded='1';this.style.display='none';renderBlogPosts(localStorage.getItem('kolexLang')||'ko')">더 보기 ↓</button>
+      onclick="this.dataset.expanded=this.dataset.expanded==='1'?'0':'1';renderBlogPosts(localStorage.getItem('kolexLang')||'ko')">더 보기 ↓</button>
   </div>
   </section>
 
@@ -494,7 +494,7 @@ function renderBlogPosts(lang){
   if(fp.some(p=>p.type==='instagram_post'&&p.url)) _loadIgEmbed();
   // Load-more button
   const lmBtn = document.getElementById('blogLoadMore');
-  if(lmBtn){ lmBtn.style.display = _all.length > 6 ? 'block' : 'none'; lmBtn.textContent = _bi.lm[lang]||'더 보기 ↓'; }
+  if(lmBtn){ lmBtn.style.display = _all.length > 6 ? 'block' : 'none'; const _exp19=lmBtn.dataset.expanded==='1';lmBtn.textContent=_exp19?(_bi.lm[lang]||'더 보기 ↓').replace('↓','↑').replace('Load more','Collapse').replace('もっと見る','閉じる').replace('載入更多','收起'):(_bi.lm[lang]||'더 보기 ↓'); }
   const igH=document.getElementById('igHeading');
   const igFT=document.getElementById('igFollowTxt');
   if(igH) igH.innerHTML=_bi.ih[lang]||_bi.ih.ko;
