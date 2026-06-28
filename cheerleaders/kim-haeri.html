@@ -238,11 +238,11 @@
       <p class="name-ko">김해리 · Born 1999 · 173cm</p>
       <div class="role-badge" id="roleText">Cheerleader</div>
       <div class="stats-row">
-        <div class="stat-pill"><div class="sv">📱 547K</div><div class="sk">Followers</div></div>
+        <div class="stat-pill"><div class="sv">📱 550.2K</div><div class="sk">Followers</div></div>
         <div class="stat-pill"><div class="sv">📅 2019</div><div class="sk">Active Since</div></div>
         <div class="stat-pill"><div class="sv">173cm</div><div class="sk">Height</div></div>
       </div>
-      <p class="bio-text" data-bio="en" class="active">Kim Hae-ri is the most-followed KOLEX cheerleader with over 547K Instagram followers. She has appeared on TVN's reality show and performed in Taiwan's CPBL, making her one of the most recognized Korean cheerleaders internationally.</p>
+      <p class="bio-text" data-bio="en" class="active">Kim Hae-ri is the most-followed KOLEX cheerleader with over 550.2K Instagram followers. She has appeared on TVN's reality show and performed in Taiwan's CPBL, making her one of the most recognized Korean cheerleaders internationally.</p>
       <p class="bio-text" data-bio="ja">キム・ヘリはKTウィズで最もフォロワーが多く、Instagramで54万7千人以上をもつスーパースター。TVNのリアリティ番組に出演し、台湾CPBLでもパフォーマンスを披露した国際的に最も知られた韓国チアリーダーの一人です。</p>
       <p class="bio-text" data-bio="ko">KOLEX에서 가장 많은 팔로워(54만 7천 명)를 보유한 인기 치어리더. tvN 리얼리티 프로그램 출연과 대만 CPBL 파견 경험을 가진 한국을 대표하는 치어리더입니다.</p>
       <p class="bio-text" data-bio="zh">金海莉是KOLEX追蹤人數最多的啦啦隊員，Instagram粉絲突破54.7萬。她曾登上tvN實境節目，並遠赴台灣中華職棒聯盟進行演出，是韓國知名度最高的啦啦隊員之一。</p>
@@ -518,7 +518,11 @@ function renderBlogPosts(lang){
 
 
 // ===== PHOTOS TAB =====
-const _photos = ["https://www.instagram.com/reel/DaFtknWtOZS/","https://www.instagram.com/reel/DaFZXnotZRS/","https://www.instagram.com/p/DaAKfx8NVVZ/"];// n8n automation: populate with Instagram post URLs
+const _photos = [
+{"url":"https://www.instagram.com/reel/DaFtknWtOZS/","thumb":"https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/730196815_18477079639096504_3067878619525730414_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=prUULmVGWPQQ7kNvwEvTyaA&_nc_oc=AdokYrEqQCbMlBQdHiZ-aY_psP4irlcGtPq1iVzUL1SwkQFa-WV3rpEHcylvxecWpYk&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=qpukFccj8wBBQxQaNqe4Mw&_nc_tpa=Q5bMBQHP9UNGwFr05Vvaoet-7d3H0ziywcDoxUIO1s8y7X7pB-_-dW7aCg6LvAriJJzUwscX9iHtQKCsiQ&oh=00_Af9YAXHzIjXF5i5rGDIPhO8cWK-gdCRjOJxakSDWjB2-7g&oe=6A475AB7"},
+{"url":"https://www.instagram.com/reel/DaFZXnotZRS/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/731078858_18477056611096504_62026603076094225_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=nXxPbF654ZIQ7kNvwHCaGGx&_nc_oc=AdpA96IwuenvQo3QOvjGprV9lSU3-wZbH5pYqL2yy_mXADQetIxsAVtR-KKSi-gcRtI&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=qpukFccj8wBBQxQaNqe4Mw&_nc_tpa=Q5bMBQEb7L5mES17x3T1LmewjC2xBKmrO5zsiyfWs4NMsnZBdd8L62HfqW4wdZ3htxaeFMEZM9csSFwKvA&oh=00_Af8gBtLl2W0RHzlgxZ1_x1hNEqq0vpvA3u5Rhy4Hbo2EkA&oe=6A4759F8"},
+{"url":"https://www.instagram.com/p/DaAKfx8NVVZ/","thumb":"https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/730275138_18476633659096504_9071528707360011948_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=LZ9cx8CRoKMQ7kNvwEgzm5O&_nc_oc=AdoYkyewbZejwkYtPtQcHTchthMzcQjs_71R04d4HUbVLwltoeN6mTvF2FmrmjUb2f0&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=qpukFccj8wBBQxQaNqe4Mw&_nc_tpa=Q5bMBQHvqTTILfW7dCOJ3uTAxsFB-Z-3CsBPJGLEMBzcDQekYmy59OYlTu47thu-mWbE-e-vLkWdJ_OFBg&oh=00_Af8JvrU4uzv_uTt9-hfpIbiBMTmzE9XhyelGzPqFy37yZA&oe=6A473C59"},
+]// n8n automation: populate with Instagram post URLs
 
 function _mkFpLang(lang) {
   if(document.getElementById('fp-'+lang)) return;
