@@ -238,7 +238,7 @@
       <p class="name-ko">김진아 · Born 1992 · 170cm</p>
       <div class="role-badge" id="roleText">Cheerleader</div>
       <div class="stats-row">
-        <div class="stat-pill"><div class="sv">📱 228K</div><div class="sk">Followers</div></div>
+        <div class="stat-pill"><div class="sv">📱 230.7K</div><div class="sk">Followers</div></div>
         <div class="stat-pill"><div class="sv">📅 2017</div><div class="sk">Active Since</div></div>
         <div class="stat-pill"><div class="sv">170cm</div><div class="sk">Height</div></div>
       </div>
@@ -982,7 +982,11 @@ function renderBlogPosts(lang){
 
 
 // ===== PHOTOS TAB =====
-const _photos = ["https://www.instagram.com/p/DaIKwnlkf0J/","https://www.instagram.com/reel/DZ1u60MRDix/","https://www.instagram.com/p/DZwBmkEgd_D/"];// n8n automation: populate with Instagram post URLs
+const _photos = [
+{"url":"https://www.instagram.com/p/DaIKwnlkf0J/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/729684326_18602726845000110_7161281642955913835_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&_nc_aid=0&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=5KlMXzvtszIQ7kNvwERtskB&_nc_oc=AdojtYjAX3J64Ed4iaOh5kM61xWOMhVN-Bq93RY4IJpXcXqp5dY_o3UyS_sl34T9u_s&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=Bd785LT7lIpB8t0V9Y0Tvw&_nc_tpa=Q5bMBQHCLHPg2tBQ3bMKiu1KwG_pigoz-foHrbumHbxCqjPa8jeMRZE_14hG_OjB3u4QI6vUAu8FjqQN6w&oh=00_Af8JqVF49RdypSM2PjP_HU0DQNA9lGVQiTbGgCvrNGBEAw&oe=6A476144"},
+{"url":"https://www.instagram.com/reel/DZ1u60MRDix/","thumb":"https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/727287293_18600351889000110_6922686122698844216_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&_nc_aid=0&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=7-mKAnZVvHYQ7kNvwFGUWsJ&_nc_oc=AdrplorCOiqozObHgS31OUrldUz8HD2el8rjJMXJMs3YyLnadVwrGzvX8p_ewCiJeRI&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=Bd785LT7lIpB8t0V9Y0Tvw&_nc_tpa=Q5bMBQEAh_qTc7cRt0myKJht4E-4QmMkEwP_Pwv5tKQ1Bd0pFFG4DPjjW2vTzOM5PE5n5v-e4aZIuigncg&oh=00_Af9TYS9ohvyOgd3NavqwnfxNGrnLl9xv9j0S01CtsMjvEA&oe=6A475CAA"},
+{"url":"https://www.instagram.com/p/DZwBmkEgd_D/","thumb":"https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/726538711_18599604640000110_6841088352903945041_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&_nc_aid=0&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ns34Vvy0I2QQ7kNvwFwn1YO&_nc_oc=AdrF9jfNx4f9PJ8u0FVYDHCmwvF5y0nWC9tCMAHq48RRyBsQ60HRhRY4T0KLI0MLsBI&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=Bd785LT7lIpB8t0V9Y0Tvw&_nc_tpa=Q5bMBQHXkXYt1OHQ_P5Oof8SE7ccLZwhsyUUawkCu5bQaPaC-9HbRi9cccdaGa_ELON3m8QSXRdCuzzMaA&oh=00_Af8Q49U9NMWveoTa5OT2d3osAPf0pZ6wrgoTan-_GxR7Jw&oe=6A475244"},
+]// n8n automation: populate with Instagram post URLs
 
 function _mkFpLang(lang) {
   if(document.getElementById('fp-'+lang)) return;
