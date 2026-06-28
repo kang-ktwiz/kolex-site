@@ -238,7 +238,7 @@
       <p class="name-ko">김가현 · Born 2003 · 173cm</p>
       <div class="role-badge" id="roleText">Cheerleader</div>
       <div class="stats-row">
-        <div class="stat-pill"><div class="sv">📱 112K</div><div class="sk">Followers</div></div>
+        <div class="stat-pill"><div class="sv">📱 142.9K</div><div class="sk">Followers</div></div>
         <div class="stat-pill"><div class="sv">📅 2025</div><div class="sk">Active Since</div></div>
         <div class="stat-pill"><div class="sv">173cm</div><div class="sk">Height</div></div>
       </div>
@@ -502,7 +502,11 @@ function renderBlogPosts(lang){
 
 
 // ===== PHOTOS TAB =====
-const _photos = ["https://www.instagram.com/p/DZ_tVtmgat3/","https://www.instagram.com/p/DZwAu1SgWJ0/","https://www.instagram.com/p/DZuftqqATa-/"];// n8n automation: populate with Instagram post URLs
+const _photos = [
+{"url":"https://www.instagram.com/p/DZ_tVtmgat3/","thumb":"https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/729486230_18558757009070388_6156398344447750514_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=cWEACtgKAU4Q7kNvwGnBxO2&_nc_oc=Adqh33zGfkUkfTDiJcJAaYFfu6h3LeG3MU0IYVCJ9nPhAytCvOfAzCVauW0IzhP1wCg&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=6Gm_mMY9FsFP8sVy_f5ESg&_nc_tpa=Q5bMBQHIXwvB6FopVnV3rGb7UqYVwAAJcMYkC8giOpKVLHQ1dooqyJRo_Dy9y20bn0h6YoRcd5B6exgLzg&oh=00_Af9oQFvC9ckCnqn1GgXl9-GVqG5HCvWoe4O7AI35NVqxHg&oe=6A4759E1"},
+{"url":"https://www.instagram.com/p/DZwAu1SgWJ0/","thumb":"https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/726621246_18557085580070388_8610916695425907769_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=S-hgBeuavQkQ7kNvwE_9-AW&_nc_oc=Ado_DWgw_YaLTTlp88U5eiYf9dXcoGa1luRxlJ7_V4l4qbyQ5V2VQO-yYhxf0pYaM2s&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=6Gm_mMY9FsFP8sVy_f5ESg&_nc_tpa=Q5bMBQF8ny0Q6J72ZqSp1h3EkuaFfcHeM3oFoIyG0Gktd9nMoyTLkfv0HW1Lz27fqLLhliUnhi8iiGLoZQ&oh=00_Af-FmufOI_XGyZix_CzbZiiP86-Q3ejkJJoZNDdXAUkSXw&oe=6A4754E0"},
+{"url":"https://www.instagram.com/p/DZuftqqATa-/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/726016395_18556918039070388_5047884434111427740_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=qvmSvysJCeUQ7kNvwFX58I0&_nc_oc=AdpM8omTHxErtDi5uxu5g1bdzAY9x89e8Ns0T6v7Opplrvu_o2Dvfyym-08ew3gHDeI&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=6Gm_mMY9FsFP8sVy_f5ESg&_nc_tpa=Q5bMBQGFuUK-LhD7z05P6Naj4hhsOELFWLHn48bsyW1sHRQUMaEFh-EKCIkw8G9xKSU1AFVeMoc8QlQH5g&oh=00_Af_6nTerjcfr-Nq7m3y_01J_xW_xBvNSzESS6anSvcRe2A&oe=6A4766D7"},
+]// n8n automation: populate with Instagram post URLs
 
 function _mkFpLang(lang) {
   if(document.getElementById('fp-'+lang)) return;
