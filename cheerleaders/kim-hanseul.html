@@ -462,7 +462,7 @@ function renderBlogPosts(lang){
   const grid=document.getElementById('postsGrid');
   if(!grid) return;
   const _all=_af==='all'?_posts.filter(p=>p.type!=='video'):_posts.filter(p=>p.type===_af);
-  const _showAll=!!document.getElementById('blogLoadMore')?.dataset.expanded;
+  const _showAll=document.getElementById('blogLoadMore')?.dataset.expanded==='1';
   const fp=_showAll?_all:_all.slice(0,6);
   grid.innerHTML=fp.map((p,i)=>{
     const tc=_tc[p.tagClass]||_tc['tag-greeting'];
@@ -494,7 +494,7 @@ function renderBlogPosts(lang){
   if(fp.some(p=>p.type==='instagram_post'&&p.url)) _loadIgEmbed();
   // Load-more button
   const lmBtn = document.getElementById('blogLoadMore');
-  if(lmBtn){ lmBtn.style.display = _all.length > 6 ? 'block' : 'none'; const _exp19=lmBtn.dataset.expanded==='1';lmBtn.textContent=_exp19?(_bi.lm[lang]||'더 보기 ↓').replace('↓','↑').replace('Load more','Collapse').replace('もっと見る','閉じる').replace('載入更多','收起'):(_bi.lm[lang]||'더 보기 ↓'); }
+  if(lmBtn){ lmBtn.style.display = _all.length > 6 ? 'block' : 'none'; const _exp19=lmBtn.dataset.expanded==='1';const _cl19={ko:'접기 ↑',en:'Collapse ↑',ja:'閉じる ↑',zh:'收起 ↑'};lmBtn.textContent=_exp19?(_cl19[lang]||'접기 ↑'):(_bi.lm[lang]||'더 보기 ↓'); }
   const igH=document.getElementById('igHeading');
   const igFT=document.getElementById('igFollowTxt');
   if(igH) igH.innerHTML=_bi.ih[lang]||_bi.ih.ko;
