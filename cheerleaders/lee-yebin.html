@@ -240,11 +240,11 @@
       <p class="name-ko">이예빈 · Born 2001 · 168cm</p>
       <div class="role-badge" id="roleText">Cheerleader</div>
       <div class="stats-row">
-        <div class="stat-pill"><div class="sv">📱 268K</div><div class="sk">Followers</div></div>
+        <div class="stat-pill"><div class="sv">📱 277.6K</div><div class="sk">Followers</div></div>
         <div class="stat-pill"><div class="sv">📅 2025</div><div class="sk">Active Since</div></div>
         <div class="stat-pill"><div class="sv">168cm</div><div class="sk">Height</div></div>
       </div>
-      <p class="bio-text" data-bio="en" class="active">Lee Ye-bin brings boundless energy to the KOLEX squad with 268K Instagram followers. Her experience with the Shinju Toplus Lions and multiple volleyball and basketball teams shows her versatility as a performer.</p>
+      <p class="bio-text" data-bio="en" class="active">Lee Ye-bin brings boundless energy to the KOLEX squad with 277.6K Instagram followers. Her experience with the Shinju Toplus Lions and multiple volleyball and basketball teams shows her versatility as a performer.</p>
       <p class="bio-text" data-bio="ja">イ・イェビンはInstagramで26万8千人のフォロワーを持つ活力あふれるチアリーダー。신주トップラスライオニアーズや複数のバレーボール・バスケットボールチームでの経験を持つ多才なパフォーマーです。</p>
       <p class="bio-text" data-bio="ko">인스타그램 팔로워 26만 8천 명의 인기 치어리더. 밝고 활기찬 에너지로 무대를 빛내며, 야구·농구·배구 모든 종목에서 팬들의 열렬한 응원을 받고 있습니다.</p>
       <p class="bio-text" data-bio="zh">李藝彬為KOLEX帶來無限活力，Instagram追蹤人數高達26.8萬。她曾效力於新竹Toplus獅王隊及多支排球、籃球隊，展現出多才多藝的演出能力。</p>
@@ -784,7 +784,11 @@ function renderBlogPosts(lang){
 
 
 // ===== PHOTOS TAB =====
-const _photos = ["https://www.instagram.com/reel/DaDSGCBI7ET/","https://www.instagram.com/p/DZkGS-oIDoJ/","https://www.instagram.com/p/DZScsZyFMZ1/"];// n8n automation: populate with Instagram post URLs
+const _photos = [
+{"url":"https://www.instagram.com/reel/DaDSGCBI7ET/","thumb":"https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/728912098_18047394980795157_1871469466805474321_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&cb=8438d1d6-3bb4fc30&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=CkqclXo2cZMQ7kNvwEd2d-G&_nc_oc=AdoOS6jzDt2kxK8Ce4xBRogPmROvCBj-VSsb8mIRM8xvVJ6OJz-5AmElV3e9SmeTEnU&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=UuWAebFTIwIK55cWCum_AA&_nc_tpa=Q5bMBQHS1rGIyjRbFqHKRdXlE0UjYi3U9u_gGD7qb6D-nrylZwm-DqqPSW3MOVsC47bGo7clq8JQLdpY9Q&oh=00_Af85M7r9XQrWiE4SzmKQ9Tsl-S9On_21Gqdbd8El6xUnGQ&oe=6A47666F"},
+{"url":"https://www.instagram.com/p/DZkGS-oIDoJ/","thumb":"https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/723904630_18045500141795157_5305242736275358484_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&cb=8438d1d6-3bb4fc30&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=BqpLSjRD-dMQ7kNvwF5KCR6&_nc_oc=AdpfXysHjlVvneVf-CQhQtCeD2NkfyaTPDDRoZeNhIx139nWrN2yCQUAc-IDIky_UtU&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=UuWAebFTIwIK55cWCum_AA&_nc_tpa=Q5bMBQHph1oXD3Kpq7xeFEFknXYNfI_kY8pHvvZCoicLd82sZFITgZ1liclgE0N76_kzTQR4Ty9bcjzWIw&oh=00_Af_Y3J6CBaEG0e-2BbkWDYyFbT6Gu7czLULuvOPV9w3MoA&oe=6A475A57"},
+{"url":"https://www.instagram.com/p/DZScsZyFMZ1/","thumb":"https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/717811783_18044541149795157_8705515115370302225_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&cb=8438d1d6-3bb4fc30&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=3o8OchE-eLQQ7kNvwHy7zDT&_nc_oc=AdrsZwSi4Z1dEklacLIPnyVcRcM_LBAe3iWsgKn00NmNzjLNIPkRNDzdID-ag9lIZ3A&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=UuWAebFTIwIK55cWCum_AA&_nc_tpa=Q5bMBQGYZGCnRS7PBHT9zcdxcO9sbFbei9QO3dDfVRw-zUc4sFKgjRH8T9-GAcYH-gGGx3tZZPQEGv67ng&oh=00_Af-ApvTEhYZjrsR0MY_lMYxJ8Hr8Zjc0SiFy9ys-SDBMag&oe=6A473EA4"},
+]// n8n automation: populate with Instagram post URLs
 
 function _mkFpLang(lang) {
   if(document.getElementById('fp-'+lang)) return;
