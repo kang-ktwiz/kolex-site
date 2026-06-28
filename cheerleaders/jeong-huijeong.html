@@ -501,7 +501,7 @@ function renderBlogPosts(lang){
   if(fp.some(p=>p.type==='instagram_post'&&p.url)) _loadIgEmbed();
   // Load-more button
   const lmBtn = document.getElementById('blogLoadMore');
-  if(lmBtn){ lmBtn.style.display = fp.length > 6 ? 'block' : 'none'; lmBtn.textContent = _bi.lm[lang]||'더 보기 ↓'; }
+  if(lmBtn){ lmBtn.style.display = _all.length > 6 ? 'block' : 'none'; lmBtn.textContent = _bi.lm[lang]||'더 보기 ↓'; }
   const igH=document.getElementById('igHeading');
   const igFT=document.getElementById('igFollowTxt');
   if(igH) igH.innerHTML=_bi.ih[lang]||_bi.ih.ko;
