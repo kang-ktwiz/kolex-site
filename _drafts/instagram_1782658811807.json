@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "kim-jina",
+    "name_ko": "김진아",
+    "file_path": "cheerleaders/kim-jina.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18147997120504678",
+    "checked_at": "2026-06-28T15:00:02.972Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "인생 맛집 발견! 새 게시물 업로드 🐷",
+        "en": "Found a Life-Changing Spot! New Post Up 🐷",
+        "ja": "最高のお店を発見！新しい投稿をアップ 🐷",
+        "zh": "發現人生必吃！新貼文上傳 🐷"
+      },
+      "body": {
+        "ko": "맛있는 곳을 발견한 설레는 순간을 담은 새 게시물이 올라왔어요! 벌써 또 생각난다는 그 맛집, 인스타그램에서 함께 확인해요 🍖✨",
+        "en": "A brand-new post is up, sharing the joy of discovering an amazing restaurant! Head over to Instagram to see the spot that's already calling her back 🍖✨",
+        "ja": "素敵なお店との出会いを詰め込んだ新しい投稿が公開されました！もう一度行きたくなるほどのお気に入り、インスタグラムでチェックしてみてね 🍖✨",
+        "zh": "記錄下發現美食餐廳那份雀躍心情的新貼文上線啦！讓人念念不忘的好滋味，快去Instagram一起看看吧 🍖✨"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DaIKwnlkf0J/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.06.29"
+    }
+  }
+]
