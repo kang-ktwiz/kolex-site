@@ -238,11 +238,11 @@
       <p class="name-ko">정희정 · Born 2002 · 167cm</p>
       <div class="role-badge" id="roleText">Cheerleader</div>
       <div class="stats-row">
-        <div class="stat-pill"><div class="sv">📱 238K</div><div class="sk">Followers</div></div>
+        <div class="stat-pill"><div class="sv">📱 251.7K</div><div class="sk">Followers</div></div>
         <div class="stat-pill"><div class="sv">📅 2025</div><div class="sk">Active Since</div></div>
         <div class="stat-pill"><div class="sv">167cm</div><div class="sk">Height</div></div>
       </div>
-      <p class="bio-text" data-bio="en" class="active">Jeong Hui-jeong is one of the newest KOLEX cheerleaders, joining in 2025, yet already boasts 238K Instagram followers. Her experience with football club Seoul E-Land FC adds athletic diversity to her performance background.</p>
+      <p class="bio-text" data-bio="en" class="active">Jeong Hui-jeong is one of the newest KOLEX cheerleaders, joining in 2025, yet already boasts 251.7K Instagram followers. Her experience with football club Seoul E-Land FC adds athletic diversity to her performance background.</p>
       <p class="bio-text" data-bio="ja">ジョン・フィジョンは2025年にKTウィズに加入したばかりながら、Instagramで23万8千人のフォロワーを誇ります。ソウルEランドFCでの経験が彼女のパフォーマンスに独自の運動的な多様性を加えています。</p>
       <p class="bio-text" data-bio="ko">2021년부터 활동을 시작한 치어리더로, 팔로워 23만 8천 명을 보유하고 있습니다. 야구·농구 경기에서 활발히 활동하며 뛰어난 댄스 퍼포먼스로 팬들의 사랑을 받고 있습니다.</p>
       <p class="bio-text" data-bio="zh">鄭希靜是2025年新加入KOLEX的啦啦隊員，卻已擁有23.8萬Instagram粉絲。她在首爾E-Land FC足球俱樂部的演出經驗，為她帶來獨特多元的運動背景。</p>
@@ -511,7 +511,11 @@ function renderBlogPosts(lang){
 
 
 // ===== PHOTOS TAB =====
-const _photos = ["https://www.instagram.com/reel/DZ8GLxJOezu/","https://www.instagram.com/p/DZ7wDC9mBSK/","https://www.instagram.com/p/DZw_EVjuW9l/"];// n8n automation: populate with Instagram post URLs
+const _photos = [
+{"url":"https://www.instagram.com/reel/DZ8GLxJOezu/","thumb":"https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/730155341_18533746900078236_582376647896622502_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=IdL93RLuAJsQ7kNvwGn29D6&_nc_oc=AdqNMXP8-onD9a-jLuu3_WGh_ev21yrvzOxvYElJIPv1aTkaTr4mKdau7p3gfiw6AmM&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=zAah0gNaqth1fOHlXea-XQ&_nc_tpa=Q5bMBQFBLVUrx7LSJ09YFoL_e8JZlMzh81-O1JuBdNwrFtwyetm_2Ce-ny8FlFELNKw1dWUuaygM5u4GBw&oh=00_Af-eHxGjVMupdnRdSCGOCSkZFwkhcNVKWyGhUmRcN-G4fg&oe=6A4756AD"},
+{"url":"https://www.instagram.com/p/DZ7wDC9mBSK/","thumb":"https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/729455621_18533703043078236_4889343865301333420_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=qYOZWv_ssuwQ7kNvwH4RFhX&_nc_oc=AdrlqRZmpbHQm4MZc_PTLKiHc15gdx0YDclfxh7iXM0ud7LQU7OHFpqEYu8vMX-IXAU&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=zAah0gNaqth1fOHlXea-XQ&_nc_tpa=Q5bMBQG-1Mc0ZBUjQmRKhvwfXIJ7O1ovw8izCmUxJwei-W-lrNqZhR_zwj5zca4ccVdyJhI-lWA0GQziMw&oh=00_Af-sB88NPZtLNiRzGWy3dTKUNvwumMhDdA4X2aYn5DrNiQ&oe=6A473AD8"},
+{"url":"https://www.instagram.com/p/DZw_EVjuW9l/","thumb":"https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/726575123_18532596682078236_4354997352536117294_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=IQebyayrquoQ7kNvwFW6Pw7&_nc_oc=Adrqfbre6uCfTzNbZX6BumwROgdYJk6Y2-filJUPSsZQbenvLBkZDbwcy5MNEOL_59U&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=zAah0gNaqth1fOHlXea-XQ&_nc_tpa=Q5bMBQErlntR13Yk3mwdJpPEvVEJ6JiULHxqy0rwk-E3wjz0cVKQMvgFxwMV799O4FoLdDim-xcWi1tQ0Q&oh=00_Af9haUdP2eob3jXpYTp6A59ezepCVH8Isor4cdhMNQxPOQ&oe=6A474956"},
+]// n8n automation: populate with Instagram post URLs
 
 function _mkFpLang(lang) {
   if(document.getElementById('fp-'+lang)) return;
