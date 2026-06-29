@@ -1219,6 +1219,16 @@ kpcSetDone=function(){
    }
   }catch(e){}
  })();
+ // Fix 21: GA4 kpc_draw 이벤트 (member, rarity, is_legend)
+ (function(){try{
+  var _c21=typeof KPC_CARDS!=='undefined'?KPC_CARDS:[];
+  var _t21=typeof kpcGetDaily==='function'?kpcGetDaily():null;
+  var _s21=typeof KPC_MEMBER!=='undefined'?KPC_MEMBER.slug:'unknown';
+  if(_t21&&typeof gtag==='function'){
+   var _d21=_c21.find(function(c){return c.id===_t21.id;});
+   gtag('event','kpc_draw',{member:_s21,rarity:_d21?_d21.rarity:'unknown',is_legend:_d21?_d21.rarity==='legend':false});
+  }
+ }catch(e){}})();
  var l=_gL(),ki=_KI[l]||_KI.ko;
  var btn=document.getElementById('kpc-btn');if(btn){btn.className='kpc-btn done';btn.textContent=ki.done;}
  var dl=document.getElementById('kpc-dl-btn');if(dl)dl.textContent=ki.save;
