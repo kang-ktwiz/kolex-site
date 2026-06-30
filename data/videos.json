@@ -1,103 +1,103 @@
 {
   "_comment": "n8n 워크플로우(10_kolex_youtube_search_update.json)가 매일 1회 자동 갱신하는 파일입니다. videos[].member_id가 null이면 팀 전체(team-wide) 검색 결과입니다.",
   "schema_version": 1,
-  "updated_at": "2026-06-29T09:00:03.247Z",
+  "updated_at": "2026-06-30T09:00:03.169Z",
   "videos": [
     {
-      "videoId": "9cfeV3jwNXI",
+      "videoId": "RAJjgYHgRss",
       "type": "video",
-      "title": "20260522 鄭熙靜 정희정 #浪live直播 #鄭熙靜",
-      "member_id": "jeong-huijeong",
-      "query": "치어리더 정희정",
-      "publishedAt": "2026-06-29T08:49:12Z"
+      "title": "경기 시작전 새로운 응원을 선보이는 김해리 치어리더",
+      "member_id": "kim-haeri",
+      "query": "치어리더 김해리",
+      "publishedAt": "2026-06-30T08:51:28Z"
     },
     {
-      "videoId": "mnLnLvsCrog",
-      "type": "video",
-      "title": "kt 투샷 너무 좋잔아 #정희정 #이서윤",
-      "member_id": "jeong-huijeong",
-      "query": "치어리더 정희정",
-      "publishedAt": "2026-06-29T08:00:35Z"
-    },
-    {
-      "videoId": "lW-llr6Un-M",
-      "type": "video",
-      "title": "Hit me 어허 아웃송 KT 위즈 김민지 치어리더",
+      "videoId": "_2M0hyxLdgY",
+      "type": "shorts",
+      "title": "김민지 金敏智 김민지 믹스댄스 85탄_60秒_字幕版 #金敏智 #김민지 #KT위즈 #김민지 #金敏智 #混舞 #85탄 #KT위즈 #치어리더 #Shorts #矽谷小蝦米",
       "member_id": "kim-minji",
       "query": "치어리더 김민지",
-      "publishedAt": "2026-06-29T08:00:05Z"
+      "publishedAt": "2026-06-30T08:16:37Z"
     },
     {
-      "videoId": "0A3IPF6_ELU",
+      "videoId": "lqwz5yp_K4w",
       "type": "video",
-      "title": "1열 직관 김가현치어리더 캐치캐치 #김가현",
+      "title": "5층 단상 김가현치어리더 공연직캠 #김가현",
       "member_id": "kim-gahyun",
       "query": "치어리더 김가현",
-      "publishedAt": "2026-06-29T07:55:10Z"
+      "publishedAt": "2026-06-30T08:00:41Z"
     },
     {
-      "videoId": "j6kmkRGIBH0",
-      "type": "video",
-      "title": "드디어 봐따 김가현치어리더 캐치캐치 #김가현 #캐치캐치",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-06-29T07:51:09Z"
-    },
-    {
-      "videoId": "HMNyrQVrzcE",
-      "type": "video",
-      "title": "kt응원가 웅장하다! Let&#39;s go kt wiz 정희정 이서윤 치어리더 !!",
-      "member_id": "jeong-huijeong",
-      "query": "치어리더 정희정",
-      "publishedAt": "2026-06-29T07:00:35Z"
-    },
-    {
-      "videoId": "Pit5nqyFWhU",
+      "videoId": "ZF4f4qkR_Og",
       "type": "shorts",
-      "title": "🚨🔥 지금부터 시작이야! KT 1황 라인업송 폼 미쳤다! #2 🍒💥 김진아 Kim Jin A 金眞我 치어리더 직캠 fancam",
+      "title": "👑 KT 실질적인 1황 클라스;; 🏆 김진아 Kim Jin A 金眞我 치어리더 직캠 fancam",
       "member_id": "kim-jina",
       "query": "치어리더 김진아",
-      "publishedAt": "2026-06-29T06:00:35Z"
+      "publishedAt": "2026-06-30T08:00:09Z"
     },
     {
-      "videoId": "EFNpMmJJ4ts",
+      "videoId": "ueZAE1iB3ZQ",
       "type": "video",
-      "title": "승리를위하여 kt !! 이서윤치어리더 정희정치어리더",
-      "member_id": "jeong-huijeong",
-      "query": "치어리더 정희정",
-      "publishedAt": "2026-06-29T06:00:06Z"
+      "title": "랄랄라 이예빈 KT 위즈 치어리더",
+      "member_id": "lee-yebin",
+      "query": "치어리더 이예빈",
+      "publishedAt": "2026-06-30T08:00:09Z"
     },
     {
-      "videoId": "bEM_pj0fRis",
+      "videoId": "RyY75ZmdIzg",
       "type": "shorts",
-      "title": "슬랜더 정희정 치어리더 야구 응원 #shorts #슬랜더 #치어리더 #정희정",
+      "title": "kt위즈 정희정치어리더 어허 아웃송 직캠 #shorts #정희정 #치어리더 #응원  #직캠 #영상 #kt위즈 #아웃송",
       "member_id": "jeong-huijeong",
       "query": "치어리더 정희정",
-      "publishedAt": "2026-06-29T05:00:24Z"
+      "publishedAt": "2026-06-30T07:41:03Z"
     },
     {
-      "videoId": "WrLtYnT33lA",
+      "videoId": "xrtkaAWPHw8",
+      "type": "shorts",
+      "title": "kt위즈 정희정치어리더 뚜뚜 아웃송 직캠 #shorts #정희정 #치어리더 #응원  #직캠 #영상 #kt위즈 #아웃송",
+      "member_id": "jeong-huijeong",
+      "query": "치어리더 정희정",
+      "publishedAt": "2026-06-30T07:40:40Z"
+    },
+    {
+      "videoId": "3TiHxo6-cq4",
       "type": "video",
-      "title": "점점 예뻐지는 뚜뚜뚜뚜 아웃송 KT 위즈 이서윤 치어리더",
+      "title": "kt귀여운 이서윤치어리더  캐치캐치 공연2",
       "member_id": "lee-seoyun",
       "query": "치어리더 이서윤",
-      "publishedAt": "2026-06-29T05:00:15Z"
+      "publishedAt": "2026-06-30T07:00:35Z"
     },
     {
-      "videoId": "dtCz93CYRe0",
+      "videoId": "bZPNTZK2DGE",
       "type": "shorts",
-      "title": "(26.06.23) 계유진 치어리더 #cheerleader #shorts #fyp #계유진",
-      "member_id": "kye-yujin",
-      "query": "치어리더 계유진",
-      "publishedAt": "2026-06-29T04:40:55Z"
+      "title": "김민지 金敏智 김민지 믹스댄스 83탄_60秒_字幕版 #金敏智 #김민지 #KT위즈 #김민지 #金敏智 #混舞 #83탄 #KT위즈 #치어리더 #Shorts #矽谷小蝦米",
+      "member_id": "kim-minji",
+      "query": "치어리더 김민지",
+      "publishedAt": "2026-06-30T06:42:30Z"
     },
     {
-      "videoId": "rmuy_8DjgUA",
+      "videoId": "IzsMDytQMxk",
+      "type": "shorts",
+      "title": "김민지 金敏智 김민지 믹스댄스 82탄_60秒_字幕版 #金敏智 #김민지 #KT위즈 #김민지 #金敏智 #混舞 #82탄 #KT위즈 #치어리더 #Shorts #矽谷小蝦米",
+      "member_id": "kim-minji",
+      "query": "치어리더 김민지",
+      "publishedAt": "2026-06-30T06:22:39Z"
+    },
+    {
+      "videoId": "jGmH_GP-DhA",
+      "type": "shorts",
+      "title": "김민지 金敏智 김민지 믹스댄스 81탄_60秒_字幕版 #金敏智 #김민지 #KT위즈 #김민지 #金敏智 #混舞 #81탄 #KT위즈 #치어리더 #Shorts #矽谷小蝦米",
+      "member_id": "kim-minji",
+      "query": "치어리더 김민지",
+      "publishedAt": "2026-06-30T06:06:15Z"
+    },
+    {
+      "videoId": "qP2gWh6gdq8",
       "type": "video",
-      "title": "거수경례 마무리 트월킹 아웃송 KT 위즈 김진아 치어리더",
-      "member_id": "kim-jina",
-      "query": "치어리더 김진아",
-      "publishedAt": "2026-06-29T04:24:16Z"
+      "title": "롯데자이언츠 김가현 치어리더 - 뱅뱅 🎶",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-06-30T06:03:17Z"
     }
   ]
 }
