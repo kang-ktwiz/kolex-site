@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "lee-yebin",
+    "name_ko": "이예빈",
+    "file_path": "cheerleaders/lee-yebin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18094987985601963",
+    "checked_at": "2026-06-30T15:00:02.744Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "이예빈의 새 인스타그램 게시물이 올라왔어요! 🍋",
+        "en": "Lee Ye-bin Just Posted on Instagram! 🍋",
+        "ja": "イ・イェビンの新しいインスタグラム投稿が届きました！🍋",
+        "zh": "李藝彬的Instagram新貼文上線了！🍋"
+      },
+      "body": {
+        "ko": "야외 활동이 많아진 요즘, 이예빈이 꾸준히 실천하고 있는 홈케어 스킨케어 루틴을 새 영상으로 공유했어요! 할인 혜택도 있으니 게시물을 확인해 보세요 ✨",
+        "en": "With more time spent outdoors these days, Lee Ye-bin has shared her go-to home skincare routine in a new video! Check out the post for a special discount too ✨",
+        "ja": "アウトドアで過ごす時間が増えた最近、イ・イェビンがお気に入りのホームケアルーティンを新しい動画でシェアしました！割引情報もあるので、ぜひ投稿をチェックしてみてください ✨",
+        "zh": "最近戶外活動增多，李藝彬在新影片中分享了她堅持使用的居家護膚日常！還有優惠折扣活動，快去貼文看看吧 ✨"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DaNc2DmIhVN/",
+      "media_type": "VIDEO",
+      "date": "2026.07.01"
+    }
+  }
+]
