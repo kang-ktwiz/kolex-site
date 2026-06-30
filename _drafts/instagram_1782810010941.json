@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "kim-jina",
+    "name_ko": "김진아",
+    "file_path": "cheerleaders/kim-jina.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18109694857886824",
+    "checked_at": "2026-06-30T09:00:02.876Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요 🌾",
+        "en": "New Post is Up! 🌾",
+        "ja": "新しい投稿が届きました 🌾",
+        "zh": "新貼文上線囉 🌾"
+      },
+      "body": {
+        "ko": "더페이스샵 미감수 클렌징으로 맑고 투명한 피부 루틴을 소개하는 새 영상이 올라왔어요 🤍 쌀뜨물의 부드러운 클렌징 비결, 지금 인스타그램에서 확인해 보세요 😘",
+        "en": "A brand-new video is live on Instagram, sharing a bright and clear skin routine with The Face Shop Migamsu Cleansing! 🤍 Head over and discover the gentle rice water cleansing secret for yourself 😘",
+        "ja": "ザ・フェイスショップのミガムスクレンジングで透明感あふれる肌ルーティンを紹介する新しい動画が公開されました 🤍 インスタグラムでぜひチェックしてみてください 😘",
+        "zh": "全新影片已在 Instagram 上線，為大家介紹 The Face Shop 米感水潔顏系列打造透亮肌膚的保養秘訣 🤍 快去看看吧 😘"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DaM9jCBxY0j/",
+      "media_type": "VIDEO",
+      "date": "2026.06.30"
+    }
+  }
+]
