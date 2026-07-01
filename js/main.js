@@ -213,7 +213,7 @@ const i18n = {
     ],
   },
   zh: {
-    nav_sub:"啦啦隊員", nav_members:"成員", nav_instagram:"Instagram", nav_videos:"影片", nav_about:"關於", nav_contact:"聯絡",
+    nav_sub:"啦啦隊員", nav_members:"成員", nav_instagram:"Instagram", nav_videos:"影片", nav_about:"關於", nav_contact:"聯絡我們",
     ai_topbar_strong:"AI草稿 → 人員審核 → 發布", ai_topbar_desc:"AI撰寫內容草稿，KOLEX人員審核確認後才公開發布", ai_chip:"每日更新",
     hero_badge:"✦ KOLEX 運動娛樂",
     hero_line1:"在舞台上發光，", hero_line2:"留在你心中。",
@@ -241,7 +241,7 @@ const i18n = {
     blog_title:"最新文章", blog_sub:"KOLEX團隊每天更新新文章",
     ai_badge_title:"AI草稿 → 人員審核 → 發布",
     ai_badge_sub:"AI撰寫問候、影片介紹、里程碑文章草稿，KOLEX人員審核後才發布",
-    ai_live:"● 直播中",
+    ai_live:"● LIVE",
     ai_feat_h:"KOLEX團隊\n每天更新",
     ai_feat_p:"本網站由n8n + Claude AI輔助系統運營。即時監控啦啦隊員的Instagram和YouTube，有新內容發布時由AI輔助撰寫部落格文章草稿，經KOLEX團隊審核後發布。",
     ai_consent_note:"本網站之啦啦隊相關內容，皆於各啦啦隊員事前同意下製作與營運。",
