@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "lee-geumju",
+    "name_ko": "이금주",
+    "file_path": "cheerleaders/lee-geumju.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17951266956197719",
+    "checked_at": "2026-07-01T09:00:02.752Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "이금주의 새 인스타그램 게시물 🍕🍝",
+        "en": "Lee Geum-ju's New Instagram Post 🍕🍝",
+        "ja": "イ・グムジュの新しいインスタグラム投稿 🍕🍝",
+        "zh": "李琴珠的全新 Instagram 貼文 🍕🍝"
+      },
+      "body": {
+        "ko": "이금주님의 인스타그램에 새 게시물이 올라왔어요! 맛있는 음식과 함께한 행복한 순간들을 확인해 보세요 🍕🍝",
+        "en": "A new post is up on Lee Geum-ju's Instagram! Check out her happy moments shared with delicious food 🍕🍝",
+        "ja": "イ・グムジュさんのインスタグラムに新しい投稿が届きました！美味しいお食事と共に過ごした幸せなひとときをぜひご覧ください 🍕🍝",
+        "zh": "李琴珠的 Instagram 上傳了新貼文！快來看看她與美食共度的幸福時光吧 🍕🍝"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DaPViA-j6_0/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.01"
+    }
+  }
+]
