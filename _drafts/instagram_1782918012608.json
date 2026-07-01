@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "lee-yebin",
+    "name_ko": "이예빈",
+    "file_path": "cheerleaders/lee-yebin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18179982550404941",
+    "checked_at": "2026-07-01T15:00:02.939Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새로운 헤어스타일과 함께! 🤎",
+        "en": "A Fresh New Look! 🤎",
+        "ja": "新しいヘアスタイルで登場！🤎",
+        "zh": "全新髮型亮相！🤎"
+      },
+      "body": {
+        "ko": "이예빈님의 새 게시물이 올라왔어요! 레이어드 컷으로 새로운 분위기를 물씬 풍기며, 요즘 푹 빠진 노래와 함께 일상의 설렘을 나눠줬답니다 🎧 팬 여러분도 함께 기분 좋은 에너지 느껴보세요!",
+        "en": "Lee Ye-bin just shared a brand new post! She's rocking a fresh layered cut and sharing the song she's been totally hooked on lately 🎧 Come feel the good vibes with her!",
+        "ja": "イ・イェビンさんの新しい投稿が届きました！レイヤーカットで素敵な雰囲気を漂わせながら、最近ハマっている曲への想いも届けてくれましたよ 🎧 ぜひ一緒にワクワク感を楽しんでくださいね！",
+        "zh": "李藝彬的新貼文上線了！她換上了層次感十足的新髮型，同時分享了最近愛不釋手的歌曲 🎧 快來感受她滿滿的好心情吧！"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DaQG5buFMic/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.02"
+    }
+  }
+]
