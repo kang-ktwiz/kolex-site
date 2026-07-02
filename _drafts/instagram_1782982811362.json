@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "kye-yujin",
+    "name_ko": "계유진",
+    "file_path": "cheerleaders/kye-yujin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18409142917149333",
+    "checked_at": "2026-07-02T09:00:02.791Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "쉬는 날엔 나를 위한 시간 🌸",
+        "en": "A Day Off, Just for Me 🌸",
+        "ja": "お休みの日は自分のための時間 🌸",
+        "zh": "休假日，為自己留一點時間 🌸"
+      },
+      "body": {
+        "ko": "쉬는 날이 기다려지는 이유가 생겼어요! 계유진님의 새 인스타그램 게시물이 업로드됐답니다. 소중한 휴일을 알차게 보내는 특별한 루틴, 지금 바로 확인해보세요 💞",
+        "en": "Something to look forward to on days off! Yu-jin just shared a brand new Instagram post. Check out her special self-care routine that makes every day off feel extra precious 💞",
+        "ja": "お休みの日が待ち遠しくなる理由ができました！ユジンさんの新しいインスタグラム投稿がアップされましたよ。大切な休日をより特別にするルーティン、ぜひチェックしてみてください 💞",
+        "zh": "休假日變得更令人期待了！계유진剛剛上傳了全新的 Instagram 貼文。快去看看她如何把珍貴的休日過得充實又特別吧 💞"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DaRoUQ6kzIg/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.02"
+    }
+  }
+]
