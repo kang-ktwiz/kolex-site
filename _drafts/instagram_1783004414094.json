@@ -1,0 +1,72 @@
+[
+  {
+    "member_id": "lee-geumju",
+    "name_ko": "이금주",
+    "file_path": "cheerleaders/lee-geumju.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17893039782375403",
+    "checked_at": "2026-07-02T15:00:04.453Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 인스타그램 게시물이 올라왔어요! 🍎",
+        "en": "New Instagram Post is Up! 🍎",
+        "ja": "新しいインスタグラム投稿が公開されました！🍎",
+        "zh": "全新Instagram貼文上線啦！🍎"
+      },
+      "body": {
+        "ko": "이금주 치어리더의 새 인스타그램 게시물이 업로드됐어요! 빨간머리앤 감성 물씬 풍기는 새로운 모습, 지금 바로 확인해 보세요 🌿✨",
+        "en": "A new Instagram post from cheerleader Lee Geum-ju is now live! Check out her fresh new look full of Anne of Green Gables vibes right now 🌿✨",
+        "ja": "チアリーダーのイ・グムジュさんの新しいインスタグラム投稿が公開されました！赤毛のアン感あふれる素敵な新しいスタイルをぜひチェックしてみてください🌿✨",
+        "zh": "應援啦啦隊員이금주的全新Instagram貼文已上線！充滿《清秀佳人》氛圍的嶄新造型，快去看看吧🌿✨"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DaS2fgkMgjG/",
+      "media_type": "IMAGE",
+      "date": "2026.07.03"
+    }
+  },
+  {
+    "member_id": "jeong-huijeong",
+    "name_ko": "정희정",
+    "file_path": "cheerleaders/jeong-huijeong.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18136566742565609",
+    "checked_at": "2026-07-02T15:00:04.458Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요! 🖤",
+        "en": "New Post is Up! 🖤",
+        "ja": "新しい投稿が公開されました！🖤",
+        "zh": "新貼文上線啦！🖤"
+      },
+      "body": {
+        "ko": "직접 그린 쿠로미 그림을 캐러셀로 공유해줬어요! 귀엽고 특별한 감성이 가득 담긴 새 게시물, 지금 바로 확인해보세요 🩷🖍️",
+        "en": "A new carousel post is up featuring hand-drawn Kuromi artwork! Head over to Instagram to check out this adorable and heartfelt creation 🩷🖍️",
+        "ja": "手描きのクロミのイラストをカルーセルで届けてくれました！かわいくて個性あふれる新投稿、ぜひチェックしてみてください 🩷🖍️",
+        "zh": "親手繪製的酷洛米插畫以輪播形式分享啦！滿滿可愛又獨特的氛圍，快去 Instagram 看看這篇新貼文吧 🩷🖍️"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DaSZfbhmDVn/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.03"
+    }
+  }
+]
