@@ -1,103 +1,103 @@
 {
   "_comment": "n8n 워크플로우(10_kolex_youtube_search_update.json)가 매일 1회 자동 갱신하는 파일입니다. videos[].member_id가 null이면 팀 전체(team-wide) 검색 결과입니다.",
   "schema_version": 1,
-  "updated_at": "2026-07-02T09:00:04.137Z",
+  "updated_at": "2026-07-03T09:00:03.331Z",
   "videos": [
     {
-      "videoId": "qO17bepy6Lw",
-      "type": "shorts",
-      "title": "매력있는 이금주 치어리더 up 아웃송 #shorts #매력 #치어리더 #이금주",
-      "member_id": "lee-geumju",
-      "query": "치어리더 이금주",
-      "publishedAt": "2026-07-02T08:00:05Z"
-    },
-    {
-      "videoId": "tHDlEbuJrbY",
+      "videoId": "z57Ik-c7YKg",
       "type": "video",
-      "title": "&#39;안타를 쳐주세요&#39; 정희정 치어리더(Jeong Huijeong)  #치어리더 #Ktwiz #260613 #정희정",
+      "title": "정희정 치어리더 홀드업 아웃송",
       "member_id": "jeong-huijeong",
       "query": "치어리더 정희정",
-      "publishedAt": "2026-07-02T07:00:23Z"
+      "publishedAt": "2026-07-03T08:33:19Z"
     },
     {
-      "videoId": "XnMElFxheMM",
+      "videoId": "heuDD7gu1HA",
       "type": "video",
-      "title": "&quot;예빈🌹가영🌼오리🦆&quot;#이예빈 #이예빈치어리더  #李藝彬 #leeyebin #권가영 #권가영치어리더 #KwonGayoung #kt위즈치어리더",
+      "title": "[4K] 251221 IBK기업은행알토스 권가영 치어리더 &#39; 경기전 응원 교육 (full ver.) &#39; 직캠 @화성종합경기타운실내체육관",
+      "member_id": "kwon-gayoung",
+      "query": "치어리더 권가영",
+      "publishedAt": "2026-07-03T08:00:22Z"
+    },
+    {
+      "videoId": "EBWFIWOYEv4",
+      "type": "video",
+      "title": "&#39;KT의 장성우&#39; 정희정 치어리더(Jeong Huijeong)  #치어리더 #Ktwiz #260613 #정희정",
+      "member_id": "jeong-huijeong",
+      "query": "치어리더 정희정",
+      "publishedAt": "2026-07-03T07:00:26Z"
+    },
+    {
+      "videoId": "m6V0S45ER9s",
+      "type": "video",
+      "title": "[4K] &#39;한복 개문 이벤트 현장&#39; 이예빈, 박민서 치어리더",
       "member_id": "lee-yebin",
       "query": "치어리더 이예빈",
-      "publishedAt": "2026-07-02T06:50:55Z"
+      "publishedAt": "2026-07-03T06:39:49Z"
     },
     {
-      "videoId": "66a6RU3hs6k",
-      "type": "video",
-      "title": "&#39;오늘 계탔네&#39; 계유진 치어리더 …&#39;이런 느낌은 처음이야&#39;",
-      "member_id": "kye-yujin",
-      "query": "치어리더 계유진",
-      "publishedAt": "2026-07-02T06:45:01Z"
-    },
-    {
-      "videoId": "v1Xi8Mgtj-k",
+      "videoId": "P9NxDzLXWQ4",
       "type": "shorts",
-      "title": "김민지 金敏智 김민지 믹스댄스 120탄_60秒_字幕版 #金敏智 #김민지 #KT위즈 #김민지 #金敏智 #混舞 #120탄 #KT위즈 #치어리더 #Shorts #矽谷小蝦米",
-      "member_id": "kim-minji",
-      "query": "치어리더 김민지",
-      "publishedAt": "2026-07-02T06:02:34Z"
+      "title": "📸✨ [Hold up 아웃송] 썸네일 누르자마자 극락 열차 탑승 🚀💯 김한슬X김민지 치어리더 직캠 fancam",
+      "member_id": "kim-hanseul",
+      "query": "치어리더 김한슬",
+      "publishedAt": "2026-07-03T06:00:08Z"
     },
     {
-      "videoId": "DWUjiPNIAts",
+      "videoId": "oXOpJQP_RF0",
+      "type": "shorts",
+      "title": "안타 안타 김상수! 야야야야야!! #권가영 #KwonGaYoung #권가영치어리더 #KTwiz #치어리더 #cheerleader #직캠 #shorts",
+      "member_id": "kwon-gayoung",
+      "query": "치어리더 권가영",
+      "publishedAt": "2026-07-03T05:30:34Z"
+    },
+    {
+      "videoId": "EAXdJGjSKHk",
       "type": "video",
-      "title": "눈부신 UP 아웃송 이예빈 KT 위즈 치어리더",
+      "title": "찰진 오른손 3점슛 아웃송 이예빈 KT 위즈 치어리더",
       "member_id": "lee-yebin",
       "query": "치어리더 이예빈",
-      "publishedAt": "2026-07-02T06:00:24Z"
+      "publishedAt": "2026-07-03T05:00:44Z"
     },
     {
-      "videoId": "PWxKBc5shns",
+      "videoId": "NbTji7KRvpw",
       "type": "video",
-      "title": "상큼한 워페여신 이예빈 치어리더 안타송",
+      "title": "어깨 골반 움직임이 화려한 김민지 치어리더 피리춤",
+      "member_id": "kim-minji",
+      "query": "치어리더 김민지",
+      "publishedAt": "2026-07-03T04:59:40Z"
+    },
+    {
+      "videoId": "L2g_Zm2RQyQ",
+      "type": "shorts",
+      "title": "응원봉이 고장나서 시무룩 ㅋㅋ #권가영 #KwonGaYoung #권가영치어리더 #KTwiz #치어리더 #cheerleader #직캠 #shorts",
+      "member_id": "kwon-gayoung",
+      "query": "치어리더 권가영",
+      "publishedAt": "2026-07-03T04:49:11Z"
+    },
+    {
+      "videoId": "P8XyJfoi6cs",
+      "type": "video",
+      "title": "김민지 치어리더 대전 원정 경기 라인업송",
+      "member_id": "kim-minji",
+      "query": "치어리더 김민지",
+      "publishedAt": "2026-07-03T04:25:11Z"
+    },
+    {
+      "videoId": "eG0LQusILAk",
+      "type": "shorts",
+      "title": "KT 올스타 최원준! #권가영 #KwonGaYoung #권가영치어리더 #KTwiz #치어리더 #cheerleader #직캠 #shorts",
+      "member_id": "kwon-gayoung",
+      "query": "치어리더 권가영",
+      "publishedAt": "2026-07-03T04:20:14Z"
+    },
+    {
+      "videoId": "La-1IOkWsCs",
+      "type": "video",
+      "title": "2025 WKBL 농구 신한은행 에스버드 이예빈 치어리더",
       "member_id": "lee-yebin",
       "query": "치어리더 이예빈",
-      "publishedAt": "2026-07-02T06:00:14Z"
-    },
-    {
-      "videoId": "L2dpDdciUaQ",
-      "type": "shorts",
-      "title": "김민지 金敏智 김민지 믹스댄스 118탄_60秒_字幕版 #金敏智 #김민지 #KT위즈 #김민지 #金敏智 #混舞 #118탄 #KT위즈 #치어리더 #Shorts #矽谷小蝦米",
-      "member_id": "kim-minji",
-      "query": "치어리더 김민지",
-      "publishedAt": "2026-07-02T05:56:35Z"
-    },
-    {
-      "videoId": "Eakz4jU9ewY",
-      "type": "shorts",
-      "title": "김민지 金敏智 김민지 믹스댄스 117탄_60秒_字幕版 #金敏智 #김민지 #KT위즈 #김민지 #金敏智 #混舞 #117탄 #KT위즈 #치어리더 #Shorts #矽谷小蝦米",
-      "member_id": "kim-minji",
-      "query": "치어리더 김민지",
-      "publishedAt": "2026-07-02T05:52:56Z"
-    },
-    {
-      "videoId": "tt5hpxEySjQ",
-      "type": "shorts",
-      "title": "김민지 金敏智 김민지 믹스댄스 115탄_60秒_字幕版 #金敏智 #김민지 #KT위즈 #김민지 #金敏智 #混舞 #115탄 #KT위즈 #치어리더 #Shorts #矽谷小蝦米",
-      "member_id": "kim-minji",
-      "query": "치어리더 김민지",
-      "publishedAt": "2026-07-02T05:05:15Z"
-    },
-    {
-      "videoId": "OVzzjQSr3Lo",
-      "type": "shorts",
-      "title": "팬서비스 최고인 김진아 치어리더 #shorts #팬서비스 #치어리더 #김진아",
-      "member_id": "kim-jina",
-      "query": "치어리더 김진아",
-      "publishedAt": "2026-07-02T04:56:54Z"
-    },
-    {
-      "videoId": "wQD7oeGWx1c",
-      "type": "shorts",
-      "title": "김민지 金敏智 김민지 믹스댄스 114탄_60秒_字幕版 #金敏智 #김민지 #KT위즈 #김민지 #金敏智 #混舞 #114탄 #KT위즈 #치어리더 #Shorts #矽谷小蝦米",
-      "member_id": "kim-minji",
-      "query": "치어리더 김민지",
-      "publishedAt": "2026-07-02T04:45:23Z"
+      "publishedAt": "2026-07-03T04:15:25Z"
     }
   ]
 }
