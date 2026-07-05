@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
+
 Sitemap: https://koreacheerleaders.com/sitemap.xml
+# Updated: 2026-07-05
