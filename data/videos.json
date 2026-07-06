@@ -1,8 +1,40 @@
 {
   "_comment": "n8n 워크플로우(10_kolex_youtube_search_update.json)가 매일 1회 자동 갱신하는 파일입니다. videos[].member_id가 null이면 팀 전체(team-wide) 검색 결과입니다.",
   "schema_version": 1,
-  "updated_at": "2026-07-06T09:00:03.432Z",
+  "updated_at": "2026-07-06T10:00:03.452Z",
   "videos": [
+    {
+      "videoId": "VdP3YBNMvmY",
+      "type": "video",
+      "title": "역시 베테랑 김진아치어리더 물맞으면서 응원 #김진아 #워터페스티벌",
+      "member_id": "kim-jina",
+      "query": "치어리더 김진아",
+      "publishedAt": "2026-07-06T09:20:05Z"
+    },
+    {
+      "videoId": "hF6ZW9dfLz8",
+      "type": "video",
+      "title": "올 워페도 기대되는 김해리치어리더 #김해리 #워터페스티벌",
+      "member_id": "kim-haeri",
+      "query": "치어리더 김해리",
+      "publishedAt": "2026-07-06T09:19:07Z"
+    },
+    {
+      "videoId": "BQfx01R5hDQ",
+      "type": "video",
+      "title": "26워페도 김해리가 장악한다🌊 김해리 치어리더 Kim-HaeRi(金海莉)",
+      "member_id": "kim-haeri",
+      "query": "치어리더 김해리",
+      "publishedAt": "2026-07-06T09:08:54Z"
+    },
+    {
+      "videoId": "469pYNWzu7g",
+      "type": "video",
+      "title": "물뿌리고 다니다가 본전도 못찾아😭💦 계유진 치어리더 Kye-YuJin(桂裕真)",
+      "member_id": "kye-yujin",
+      "query": "치어리더 계유진",
+      "publishedAt": "2026-07-06T09:06:46Z"
+    },
     {
       "videoId": "9ZSudO-rXLM",
       "type": "video",
@@ -66,38 +98,6 @@
       "member_id": "kim-gahyun",
       "query": "치어리더 김가현",
       "publishedAt": "2026-07-06T04:00:25Z"
-    },
-    {
-      "videoId": "4ir6AX_v248",
-      "type": "shorts",
-      "title": "해당 유튜브 영상 좋아요 260706 도전 엄지척 이금주 치어리더 쇼츠",
-      "member_id": "lee-geumju",
-      "query": "치어리더 이금주",
-      "publishedAt": "2026-07-06T03:30:22Z"
-    },
-    {
-      "videoId": "cwWoiAo701k",
-      "type": "video",
-      "title": "2026 KT위즈 정희정 치어리더 직캠",
-      "member_id": "jeong-huijeong",
-      "query": "치어리더 정희정",
-      "publishedAt": "2026-07-06T03:15:40Z"
-    },
-    {
-      "videoId": "F0yGxyxxxVY",
-      "type": "video",
-      "title": "워페준비완료 ‘오리트월’ 유부녀 김해리(Kim Hae-ri[金海莉])치어리더",
-      "member_id": "kim-haeri",
-      "query": "치어리더 김해리",
-      "publishedAt": "2026-07-06T03:00:36Z"
-    },
-    {
-      "videoId": "IydfjQJ6em0",
-      "type": "video",
-      "title": "다람쥐상🐿 미녀의 캐치캐치🌷✨️치어리더 김민지 Kim Min-ji 金敏智 원본 4K 직캠 fancam kt 위즈 공연",
-      "member_id": "kim-minji",
-      "query": "치어리더 김민지",
-      "publishedAt": "2026-07-06T03:00:25Z"
     }
   ]
 }
