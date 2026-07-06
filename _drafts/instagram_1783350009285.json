@@ -1,0 +1,107 @@
+[
+  {
+    "member_id": "kim-minji",
+    "name_ko": "김민지",
+    "file_path": "cheerleaders/kim-minji.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17967761216932259",
+    "checked_at": "2026-07-06T15:00:03.158Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요! 🐻",
+        "en": "New Post Alert! 🐻",
+        "ja": "新しい投稿が届きました！🐻",
+        "zh": "新貼文來囉！🐻"
+      },
+      "body": {
+        "ko": "KOLEX 멤버의 따뜻하고 귀여운 감성이 담긴 새 게시물이 인스타그램에 올라왔어요! 지금 바로 확인해 보세요 🤍",
+        "en": "A warm and adorable new post from a KOLEX member is now live on Instagram! Go check it out right now 🤍",
+        "ja": "KOLEXメンバーのあたたかくてかわいい新しい投稿がインスタグラムにアップされました！ぜひチェックしてみてください 🤍",
+        "zh": "KOLEX成員溫暖可愛的新貼文已經上傳到Instagram囉！快去看看吧 🤍"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/Dac5F3wE55z/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.07"
+    }
+  },
+  {
+    "member_id": "jeong-huijeong",
+    "name_ko": "정희정",
+    "file_path": "cheerleaders/jeong-huijeong.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17934189750094898",
+    "checked_at": "2026-07-06T15:00:03.159Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요 🍀🫧",
+        "en": "New Post is Up! 🍀🫧",
+        "ja": "新しい投稿が届きました 🍀🫧",
+        "zh": "新貼文上線囉 🍀🫧"
+      },
+      "body": {
+        "ko": "싱그럽고 청량한 감성 가득한 새 게시물이 인스타그램에 올라왔어요! 지금 바로 확인해 보세요 🍀🫧",
+        "en": "A fresh and breezy new post is now up on Instagram! Go check it out right now 🍀🫧",
+        "ja": "みずみずしくさわやかな新しい投稿がインスタグラムにアップされました！ぜひチェックしてみてください 🍀🫧",
+        "zh": "充滿清新爽朗氛圍的新貼文已經上傳到 Instagram 囉！快去看看吧 🍀🫧"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DadKMDsmA9i/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.07"
+    }
+  },
+  {
+    "member_id": "kim-haeri",
+    "name_ko": "김해리",
+    "file_path": "cheerleaders/kim-haeri.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18072134855695218",
+    "checked_at": "2026-07-06T15:00:03.160Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요 🫡",
+        "en": "New Post is Up! 🫡",
+        "ja": "新しい投稿が届きました 🫡",
+        "zh": "新貼文上線囉 🫡"
+      },
+      "body": {
+        "ko": "안전하고 스마트한 AI 생활을 응원하는 따뜻한 메시지와 함께 새 게시물이 올라왔어요 🤍 정보보호의 소중함을 함께 나눠요!",
+        "en": "A new post is up with a warm message cheering on safe and smart AI life 🤍 Let's share the importance of information protection together!",
+        "ja": "安全でスマートなAIライフを応援する温かいメッセージと共に新しい投稿が届きました 🤍 情報保護の大切さを一緒に広めましょう！",
+        "zh": "充滿溫暖訊息的新貼文上線了，一起為安全智慧的AI生活加油 🤍 讓我們共同守護資訊安全！"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DacmH2Itd24/",
+      "media_type": "VIDEO",
+      "date": "2026.07.07"
+    }
+  }
+]
