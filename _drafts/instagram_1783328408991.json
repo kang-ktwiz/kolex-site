@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "kim-haeri",
+    "name_ko": "김해리",
+    "file_path": "cheerleaders/kim-haeri.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18469299097111413",
+    "checked_at": "2026-07-06T09:00:03.367Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 영상 게시물이 올라왔어요 💰💸",
+        "en": "New Video Post is Here 💰💸",
+        "ja": "新しい動画が投稿されました 💰💸",
+        "zh": "新影片貼文上線啦 💰💸"
+      },
+      "body": {
+        "ko": "머머머머머니💰💸 넘치는 에너지와 함께 새 영상 게시물이 올라왔어요! 지금 바로 확인해 보세요 🔥",
+        "en": "Money energy overflowing 💰💸 A brand-new video post is up now! Go check it out right away 🔥",
+        "ja": "넘치는 에너지와 함께 新しい動画が公開されました💰💸 今すぐチェックしてみてください 🔥",
+        "zh": "滿滿的活力新影片已上線💰💸 快去看看吧 🔥"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/Dab6zT7tSw6/",
+      "media_type": "VIDEO",
+      "date": "2026.07.06"
+    }
+  }
+]
