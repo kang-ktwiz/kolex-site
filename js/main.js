@@ -363,7 +363,7 @@ async function loadAndRenderBlog() {
   } catch (e) {
     console.warn('blog-feed.json 로드 실패:', e);
   }
-  loadAndRenderBlog();
+  renderBlog();
 }
 
 
