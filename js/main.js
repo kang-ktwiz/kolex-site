@@ -358,7 +358,7 @@ async function loadAndRenderBlog() {
     blogPosts.length = 0;
     data.forEach(function(p) {
       var m = members.find(function(mb) { return mb.id === p.member_id; });
-      if (m) blogPosts.push({ member: m, tag: p.tag, tagClass: p.tagClass, date: p.date });
+      if (m) blogPosts.push({ member: m, tag: p.tag, tagClass: p.tagClass, date: p.date, title: p.title || '', excerpt: p.excerpt || '' });
     });
   } catch (e) {
     console.warn('blog-feed.json 로드 실패:', e);
@@ -520,8 +520,8 @@ function renderBlog() {
         <div class="blog-date">${p.date}</div>
       </div>
     </div>
-    <div class="blog-title">${titles[i] || ''}</div>
-    <div class="blog-exc">${excerpts[i] || ''}</div>
+    <div class="blog-title">${p.title || titles[i] || ''}</div>
+    <div class="blog-exc">${p.excerpt || excerpts[i] || ''}</div>
     <div class="blog-read">${readTxt} →</div>
   </div>
 </a>`;
