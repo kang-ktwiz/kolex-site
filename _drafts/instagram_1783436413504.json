@@ -1,0 +1,72 @@
+[
+  {
+    "member_id": "lee-geumju",
+    "name_ko": "이금주",
+    "file_path": "cheerleaders/lee-geumju.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17895565872477702",
+    "checked_at": "2026-07-07T15:00:02.343Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요! 🧳✨",
+        "en": "New Post is Up! 🧳✨",
+        "ja": "新しい投稿が公開されました！🧳✨",
+        "zh": "新貼文來囉！🧳✨"
+      },
+      "body": {
+        "ko": "설레는 여행의 동반자와 함께한 새 게시물이 올라왔어요! 캐러셀 앨범으로 가득 담긴 소소한 일상, 인스타그램에서 직접 확인해 보세요 🌟",
+        "en": "A brand-new carousel album post is here, full of lovely travel vibes! Head over to Instagram to enjoy every moment 🌟",
+        "ja": "旅のわくわく感あふれる新しいカルーセル投稿が公開されました！インスタグラムでぜひチェックしてみてください🌟",
+        "zh": "充滿旅行氛圍的全新輪播貼文上線囉！快到 Instagram 去看看吧 🌟"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DaflqoSFA7-/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.08"
+    }
+  },
+  {
+    "member_id": "lee-yebin",
+    "name_ko": "이예빈",
+    "file_path": "cheerleaders/lee-yebin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18136152151505405",
+    "checked_at": "2026-07-07T15:00:02.350Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "이예빈의 새 게시물이 올라왔어요! 💖",
+        "en": "Ye-bin's New Post Is Here! 💖",
+        "ja": "イェビンの新しい投稿が届きました！💖",
+        "zh": "藝斌的新貼文來囉！💖"
+      },
+      "body": {
+        "ko": "이예빈의 인스타그램에 설레는 새 게시물이 업로드됐어요! 두근두근한 소식과 함께 긍정 에너지를 가득 담은 게시물, 지금 바로 확인해 보세요! 💕",
+        "en": "A brand-new post from Ye-bin just landed on Instagram! Full of exciting news and warm positive energy — go check it out right now! 💕",
+        "ja": "イェビンのインスタグラムにわくわくする新しい投稿がアップされました！ポジティブなエネルギーいっぱいの素敵な内容を、ぜひ今すぐチェックしてみてください！💕",
+        "zh": "藝斌的 Instagram 剛上傳了令人期待的新貼文！充滿正能量與驚喜消息，快去看看吧！💕"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DafkEmIoW8d/",
+      "media_type": "IMAGE",
+      "date": "2026.07.08"
+    }
+  }
+]
