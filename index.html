@@ -772,6 +772,13 @@
     @media(max-width:480px){
       #editorialGrid > div { grid-template-columns: 1fr !important; }
     }
+
+    @media(max-width:768px){
+      #editorialGrid > div { grid-template-columns: repeat(2,1fr) !important; }
+    }
+    @media(max-width:480px){
+      #editorialGrid > div { grid-template-columns: 1fr !important; }
+    }
 </style>
   <!-- Preload hero photos -->
   <link rel="preload" as="image" href="images/hero-group-1.jpg">
@@ -811,9 +818,7 @@
 <body>
 
 <!-- AI TOP BAR -->
-<div class="ai-topbar">
-  <div class="ai-pulse"></div>
-  <div class="ai-topbar-text"><strong data-i18n="ai_topbar_strong">AI 자동 업데이트 중</strong>&nbsp;—&nbsp;<span data-i18n="ai_topbar_desc">치어리더들의 최신 영상·사진이 매일 자동으로 업로드됩니다</span></div>
+<div class="ai-topbar-text"><strong data-i18n="ai_topbar_strong">AI 자동 업데이트 중</strong>&nbsp;—&nbsp;<span data-i18n="ai_topbar_desc">치어리더들의 최신 영상·사진이 매일 자동으로 업로드됩니다</span></div>
   <div class="ai-chip" data-i18n="ai_chip">LIVE</div>
 </div>
 
@@ -1015,6 +1020,90 @@
 <div class="grad-divider"></div>
 
 <!-- VIDEOS -->
+
+  <!-- ── Editorial Articles Grid (AdSense 콘텐츠 신호) ── -->
+  <section id="editorialGrid" style="padding:2.5rem 1.5rem 3rem;max-width:1200px;margin:0 auto;">
+    <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:1.25rem;">
+      <h2 style="font-size:1.2rem;font-weight:700;color:var(--text);" data-i18n="editorial_title">📰 대한민국 치어리딩 가이드</h2>
+      <a href="blog/index.html" style="font-size:.8rem;color:var(--red);text-decoration:none;" data-i18n="editorial_more">전체 보기 →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:.85rem;">
+
+      <a href="blog/posts/kbo-cheerleader-culture.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
+        <div style="height:110px;background:linear-gradient(135deg,#1a0533,#2d1155);display:flex;align-items:center;justify-content:center;font-size:2rem;">🎉</div>
+        <div style="padding:.7rem .85rem .9rem;">
+          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_culture">문화</span>
+          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_culture">KBO 치어리딩 — 세계가 주목하는 이유</p>
+          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_culture">경기장을 가득 채우는 열정의 문화</p>
+        </div>
+      </a>
+
+      <a href="blog/posts/korean-cheerleading-history.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
+        <div style="height:110px;background:linear-gradient(135deg,#0a1a33,#112255);display:flex;align-items:center;justify-content:center;font-size:2rem;">📖</div>
+        <div style="padding:.7rem .85rem .9rem;">
+          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_history">역사</span>
+          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_history">한국 스포츠 치어리딩의 역사</p>
+          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_history">1980년대부터 현재까지 40년의 기록</p>
+        </div>
+      </a>
+
+      <a href="blog/posts/why-follow-korean-cheerleaders.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
+        <div style="height:110px;background:linear-gradient(135deg,#1a1a0a,#333311);display:flex;align-items:center;justify-content:center;font-size:2rem;">🌏</div>
+        <div style="padding:.7rem .85rem .9rem;">
+          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_global">글로벌</span>
+          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_global">전 세계가 한국 치어리더에게서 눈을 떼지 못하는 5가지 이유</p>
+          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_global">K-스포츠 열풍의 진짜 이유</p>
+        </div>
+      </a>
+
+      <a href="blog/posts/korean-cheerleader-guide.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
+        <div style="height:110px;background:linear-gradient(135deg,#0a1a0a,#113311);display:flex;align-items:center;justify-content:center;font-size:2rem;">📚</div>
+        <div style="padding:.7rem .85rem .9rem;">
+          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_guide">가이드</span>
+          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_guide">한국 치어리딩 완벽 가이드</p>
+          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_guide">신규 팬을 위한 모든 것</p>
+        </div>
+      </a>
+
+      <a href="blog/posts/kolex-team-introduction.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
+        <div style="height:110px;background:linear-gradient(135deg,#1a0a1a,#331133);display:flex;align-items:center;justify-content:center;font-size:2rem;">👑</div>
+        <div style="padding:.7rem .85rem .9rem;">
+          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_team">팀</span>
+          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_team">KOLEX 스포츠 엔터테인먼트 소개</p>
+          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_team">한국 최정상 퍼포먼스 스쿼드 안내</p>
+        </div>
+      </a>
+
+      <a href="blog/posts/kbo-cheerleading-for-japanese-fans.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
+        <div style="height:110px;background:linear-gradient(135deg,#1a0a0a,#331111);display:flex;align-items:center;justify-content:center;font-size:2rem;">🇯🇵</div>
+        <div style="padding:.7rem .85rem .9rem;">
+          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_jp">가이드</span>
+          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_jp">일본 팬을 위한 KBO 치어리딩 가이드</p>
+          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_jp">日本のファンが知るべきすべて</p>
+        </div>
+      </a>
+
+      <a href="blog/posts/kbo-cheerleading-for-taiwanese-fans.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
+        <div style="height:110px;background:linear-gradient(135deg,#0a1a1a,#113333);display:flex;align-items:center;justify-content:center;font-size:2rem;">🇹🇼</div>
+        <div style="padding:.7rem .85rem .9rem;">
+          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_tw">가이드</span>
+          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_tw">대만 팬을 위한 한국 치어리딩 가이드</p>
+          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_tw">台灣粉絲必讀完整指南</p>
+        </div>
+      </a>
+
+      <a href="blog/posts/kolex-2026-season-preview.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
+        <div style="height:110px;background:linear-gradient(135deg,#1a1a1a,#2a2a2a);display:flex;align-items:center;justify-content:center;font-size:2rem;">⚡</div>
+        <div style="padding:.7rem .85rem .9rem;">
+          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_season">시즌</span>
+          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_season">KOLEX 2026 시즌 미리보기</p>
+          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_season">올해 풀가동되는 스쿼드</p>
+        </div>
+      </a>
+
+    </div>
+  </section>
+  <!-- ── /Editorial Articles Grid ── -->
 <div class="sec" id="videos">
   <div class="sec-head">
     <div>
@@ -1223,89 +1312,6 @@
 
 <!-- BLOG -->
 
-  <!-- ── Editorial Articles Grid (AdSense 콘텐츠 신호) ── -->
-  <section id="editorialGrid" style="padding:2.5rem 1.5rem 3rem;max-width:1200px;margin:0 auto;">
-    <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:1.25rem;">
-      <h2 style="font-size:1.2rem;font-weight:700;color:var(--text);" data-i18n="editorial_title">📰 KBO 치어리딩 가이드</h2>
-      <a href="blog/index.html" style="font-size:.8rem;color:var(--red);text-decoration:none;" data-i18n="editorial_more">전체 보기 →</a>
-    </div>
-    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:.85rem;">
-
-      <a href="blog/posts/kbo-cheerleader-culture.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
-        <div style="height:110px;background:linear-gradient(135deg,#1a0533,#2d1155);display:flex;align-items:center;justify-content:center;font-size:2rem;">🎉</div>
-        <div style="padding:.7rem .85rem .9rem;">
-          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_culture">문화</span>
-          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_culture">KBO 치어리딩 — 세계가 주목하는 이유</p>
-          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_culture">경기장을 가득 채우는 열정의 문화</p>
-        </div>
-      </a>
-
-      <a href="blog/posts/korean-cheerleading-history.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
-        <div style="height:110px;background:linear-gradient(135deg,#0a1a33,#112255);display:flex;align-items:center;justify-content:center;font-size:2rem;">📖</div>
-        <div style="padding:.7rem .85rem .9rem;">
-          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_history">역사</span>
-          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_history">한국 스포츠 치어리딩의 역사</p>
-          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_history">1980년대부터 현재까지 40년의 기록</p>
-        </div>
-      </a>
-
-      <a href="blog/posts/why-follow-korean-cheerleaders.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
-        <div style="height:110px;background:linear-gradient(135deg,#1a1a0a,#333311);display:flex;align-items:center;justify-content:center;font-size:2rem;">🌏</div>
-        <div style="padding:.7rem .85rem .9rem;">
-          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_global">글로벌</span>
-          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_global">전 세계가 한국 치어리더에게서 눈을 떼지 못하는 5가지 이유</p>
-          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_global">K-스포츠 열풍의 진짜 이유</p>
-        </div>
-      </a>
-
-      <a href="blog/posts/korean-cheerleader-guide.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
-        <div style="height:110px;background:linear-gradient(135deg,#0a1a0a,#113311);display:flex;align-items:center;justify-content:center;font-size:2rem;">📚</div>
-        <div style="padding:.7rem .85rem .9rem;">
-          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_guide">가이드</span>
-          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_guide">한국 치어리딩 완벽 가이드</p>
-          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_guide">신규 팬을 위한 모든 것</p>
-        </div>
-      </a>
-
-      <a href="blog/posts/kolex-team-introduction.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
-        <div style="height:110px;background:linear-gradient(135deg,#1a0a1a,#331133);display:flex;align-items:center;justify-content:center;font-size:2rem;">👑</div>
-        <div style="padding:.7rem .85rem .9rem;">
-          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_team">팀</span>
-          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_team">KOLEX 스포츠 엔터테인먼트 소개</p>
-          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_team">한국 최정상 퍼포먼스 스쿼드 안내</p>
-        </div>
-      </a>
-
-      <a href="blog/posts/kbo-cheerleading-for-japanese-fans.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
-        <div style="height:110px;background:linear-gradient(135deg,#1a0a0a,#331111);display:flex;align-items:center;justify-content:center;font-size:2rem;">🇯🇵</div>
-        <div style="padding:.7rem .85rem .9rem;">
-          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_jp">가이드</span>
-          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_jp">일본 팬을 위한 KBO 치어리딩 가이드</p>
-          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_jp">日本のファンが知るべきすべて</p>
-        </div>
-      </a>
-
-      <a href="blog/posts/kbo-cheerleading-for-taiwanese-fans.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
-        <div style="height:110px;background:linear-gradient(135deg,#0a1a1a,#113333);display:flex;align-items:center;justify-content:center;font-size:2rem;">🇹🇼</div>
-        <div style="padding:.7rem .85rem .9rem;">
-          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_tw">가이드</span>
-          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_tw">대만 팬을 위한 한국 치어리딩 가이드</p>
-          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_tw">台灣粉絲必讀完整指南</p>
-        </div>
-      </a>
-
-      <a href="blog/posts/kolex-2026-season-preview.html" style="text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;" onmouseover="this.style.transform='translateY(-4px)';this.style.borderColor='rgba(155,89,255,.35)'" onmouseout="this.style.transform='';this.style.borderColor=''">
-        <div style="height:110px;background:linear-gradient(135deg,#1a1a1a,#2a2a2a);display:flex;align-items:center;justify-content:center;font-size:2rem;">⚡</div>
-        <div style="padding:.7rem .85rem .9rem;">
-          <span style="font-size:.62rem;color:var(--red);font-weight:700;letter-spacing:.04em;" data-i18n="etag_season">시즌</span>
-          <p style="font-size:.82rem;font-weight:700;margin:.3rem 0 .25rem;line-height:1.35;color:var(--text);" data-i18n="etitle_season">KOLEX 2026 시즌 미리보기</p>
-          <p style="font-size:.72rem;color:var(--muted);margin:0;" data-i18n="edesc_season">올해 풀가동되는 스쿼드</p>
-        </div>
-      </a>
-
-    </div>
-  </section>
-  <!-- ── /Editorial Articles Grid ── -->
 <div class="sec" id="blog">
   <div class="sec-head">
     <div>
