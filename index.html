@@ -62,15 +62,6 @@
     /* ── SCROLLBAR ── */
     ::-webkit-scrollbar { width: 4px; } ::-webkit-scrollbar-track { background: var(--bg); } ::-webkit-scrollbar-thumb { background: var(--red); border-radius: 2px; }
 
-    /* ── AI TOP BAR ── */
-    .ai-topbar::before {
-      content: '';
-      position: absolute; inset: 0;
-      background: var(--grad-ai);
-      opacity: .06;
-    }
-    @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.5;transform:scale(.7)} }
-    .ai-topbar-text strong { color: #c8b4ff; }
     /* ── NAV ── */
     nav {
       position: sticky; top: 0; z-index: 300;
@@ -760,6 +751,13 @@
     @media(max-width:480px){
       #editorialGrid > div { grid-template-columns: 1fr !important; }
     }
+
+    @media(max-width:768px){
+      #editorialGrid > div { grid-template-columns: repeat(2,1fr) !important; }
+    }
+    @media(max-width:480px){
+      #editorialGrid > div { grid-template-columns: 1fr !important; }
+    }
 </style>
   <!-- Preload hero photos -->
   <link rel="preload" as="image" href="images/hero-group-1.jpg">
@@ -799,8 +797,8 @@
 <body>
 
 <!-- AI TOP BAR -->
-<div class="ai-topbar-text"><strong data-i18n="ai_topbar_strong">AI 자동 업데이트 중</strong>&nbsp;—&nbsp;<span data-i18n="ai_topbar_desc">치어리더들의 최신 영상·사진이 매일 자동으로 업로드됩니다</span></div>
-  <div class="ai-chip" data-i18n="ai_chip">LIVE</div>
+
+  
 </div>
 
 <!-- NAV -->
@@ -1001,6 +999,7 @@
 <div class="grad-divider"></div>
 
 <!-- VIDEOS -->
+
 
 
   <!-- ── Editorial Articles Grid (AdSense 콘텐츠 신호) ── -->
