@@ -63,40 +63,14 @@
     ::-webkit-scrollbar { width: 4px; } ::-webkit-scrollbar-track { background: var(--bg); } ::-webkit-scrollbar-thumb { background: var(--red); border-radius: 2px; }
 
     /* ── AI TOP BAR ── */
-    .ai-topbar {
-      background: linear-gradient(90deg, #0a0015, #160030, #0a0015);
-      border-bottom: 1px solid rgba(155,89,255,.25);
-      padding: 8px 2rem;
-      display: flex; align-items: center; justify-content: center;
-      gap: 12px; overflow: hidden; position: relative;
-    }
     .ai-topbar::before {
       content: '';
       position: absolute; inset: 0;
       background: var(--grad-ai);
       opacity: .06;
     }
-    .ai-pulse {
-      width: 8px; height: 8px; border-radius: 50%;
-      background: var(--purple);
-      box-shadow: 0 0 8px var(--purple);
-      animation: pulse 1.8s ease-in-out infinite;
-      flex-shrink: 0;
-    }
     @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.5;transform:scale(.7)} }
-    .ai-topbar-text {
-      font-size: .75rem; font-weight: 600; letter-spacing: .5px;
-      color: rgba(200,190,255,.85);
-      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-    }
     .ai-topbar-text strong { color: #c8b4ff; }
-    .ai-chip {
-      background: rgba(155,89,255,.2); border: 1px solid rgba(155,89,255,.35);
-      color: var(--purple); font-size: .65rem; font-weight: 700;
-      letter-spacing: 1px; text-transform: uppercase;
-      padding: 3px 10px; border-radius: 20px; flex-shrink: 0;
-    }
-
     /* ── NAV ── */
     nav {
       position: sticky; top: 0; z-index: 300;
@@ -779,6 +753,13 @@
     @media(max-width:480px){
       #editorialGrid > div { grid-template-columns: 1fr !important; }
     }
+
+    @media(max-width:768px){
+      #editorialGrid > div { grid-template-columns: repeat(2,1fr) !important; }
+    }
+    @media(max-width:480px){
+      #editorialGrid > div { grid-template-columns: 1fr !important; }
+    }
 </style>
   <!-- Preload hero photos -->
   <link rel="preload" as="image" href="images/hero-group-1.jpg">
@@ -1020,6 +1001,7 @@
 <div class="grad-divider"></div>
 
 <!-- VIDEOS -->
+
 
   <!-- ── Editorial Articles Grid (AdSense 콘텐츠 신호) ── -->
   <section id="editorialGrid" style="padding:2.5rem 1.5rem 3rem;max-width:1200px;margin:0 auto;">
