@@ -1,5 +1,23 @@
 [
   {
+    "member_id": "kim-minji",
+    "tag": "instagram",
+    "tagClass": "tag-instagram",
+    "date": "2026-07-07"
+  },
+  {
+    "member_id": "jeong-huijeong",
+    "tag": "instagram",
+    "tagClass": "tag-instagram",
+    "date": "2026-07-07"
+  },
+  {
+    "member_id": "kim-haeri",
+    "tag": "instagram",
+    "tagClass": "tag-instagram",
+    "date": "2026-07-07"
+  },
+  {
     "member_id": "shin-sehee",
     "tag": "greeting",
     "tagClass": "tag-greeting",
@@ -12,39 +30,21 @@
     "date": "2026-07-07"
   },
   {
-    "member_id": "kim-hanseul",
-    "tag": "greeting",
-    "tagClass": "tag-greeting",
-    "date": "2026-07-07"
-  },
-  {
-    "member_id": "kim-haeri",
-    "tag": "greeting",
-    "tagClass": "tag-greeting",
-    "date": "2026-07-07"
-  },
-  {
     "member_id": "lee-geumju",
-    "tag": "greeting",
-    "tagClass": "tag-greeting",
-    "date": "2026-07-07"
+    "tag": "instagram",
+    "tagClass": "tag-instagram",
+    "date": "2026-07-03"
   },
   {
     "member_id": "lee-yebin",
-    "tag": "greeting",
-    "tagClass": "tag-greeting",
-    "date": "2026-07-07"
+    "tag": "instagram",
+    "tagClass": "tag-instagram",
+    "date": "2026-07-02"
   },
   {
-    "member_id": "jeong-huijeong",
-    "tag": "greeting",
-    "tagClass": "tag-greeting",
-    "date": "2026-07-07"
-  },
-  {
-    "member_id": "lee-seoyun",
-    "tag": "greeting",
-    "tagClass": "tag-greeting",
-    "date": "2026-07-07"
+    "member_id": "kye-yujin",
+    "tag": "instagram",
+    "tagClass": "tag-instagram",
+    "date": "2026-07-02"
   }
 ]
