@@ -1,0 +1,50 @@
+[
+  {
+    "member_id": "shin-sehee",
+    "tag": "greeting",
+    "tagClass": "tag-greeting",
+    "date": "2026-07-07"
+  },
+  {
+    "member_id": "kim-jina",
+    "tag": "greeting",
+    "tagClass": "tag-greeting",
+    "date": "2026-07-07"
+  },
+  {
+    "member_id": "kim-hanseul",
+    "tag": "greeting",
+    "tagClass": "tag-greeting",
+    "date": "2026-07-07"
+  },
+  {
+    "member_id": "kim-haeri",
+    "tag": "greeting",
+    "tagClass": "tag-greeting",
+    "date": "2026-07-07"
+  },
+  {
+    "member_id": "lee-geumju",
+    "tag": "greeting",
+    "tagClass": "tag-greeting",
+    "date": "2026-07-07"
+  },
+  {
+    "member_id": "lee-yebin",
+    "tag": "greeting",
+    "tagClass": "tag-greeting",
+    "date": "2026-07-07"
+  },
+  {
+    "member_id": "jeong-huijeong",
+    "tag": "greeting",
+    "tagClass": "tag-greeting",
+    "date": "2026-07-07"
+  },
+  {
+    "member_id": "lee-seoyun",
+    "tag": "greeting",
+    "tagClass": "tag-greeting",
+    "date": "2026-07-07"
+  }
+]

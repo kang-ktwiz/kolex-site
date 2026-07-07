@@ -295,7 +295,7 @@ function setLang(lang) {
     b.classList.toggle('active', b.getAttribute('data-lang') === lang);
   });
   renderMembers(currentFilter);
-  renderBlog();
+  loadAndRenderBlog();
   renderYtVideos();
 }
 
@@ -348,6 +348,24 @@ function renderMembers(sport) {
 </a>`;
   }).join('\n');
 }
+
+async function loadAndRenderBlog() {
+  if (!document.getElementById('blogGrid')) return; // 메인 페이지에서만 실행
+  try {
+    const res = await fetch('js/blog-feed.json?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    blogPosts.length = 0;
+    data.forEach(function(p) {
+      var m = members.find(function(mb) { return mb.id === p.member_id; });
+      if (m) blogPosts.push({ member: m, tag: p.tag, tagClass: p.tagClass, date: p.date });
+    });
+  } catch (e) {
+    console.warn('blog-feed.json 로드 실패:', e);
+  }
+  loadAndRenderBlog();
+}
+
 
 // ===== MOBILE NAV =====
 function toggleMenu() {
@@ -473,11 +491,7 @@ function renderStories() {
 }
 
 // ===== BLOG RENDER =====
-const blogPosts = [
-  { member: members[3], tag:'greeting', tagClass:'tag-greeting', date:'2026-06-08' },
-  { member: members[5], tag:'video',    tagClass:'tag-video',    date:'2026-06-07' },
-  { member: members[6], tag:'milestone',tagClass:'tag-milestone',date:'2026-06-06' },
-];
+let blogPosts = []; // populated by loadAndRenderBlog() from js/blog-feed.json
 
 function renderBlog() {
   const grid = document.getElementById('blogGrid');
@@ -522,7 +536,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Initial render
   renderStories();
   renderMembers('all');
-  renderBlog();
+  loadAndRenderBlog();
   var savedLang = 'ko';
   try { savedLang = localStorage.getItem('kolexLang') || 'ko'; } catch (e) {}
   setLang(savedLang);
