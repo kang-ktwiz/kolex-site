@@ -282,7 +282,8 @@ function setLang(lang) {
   const t = i18n[lang];
   if (!t) return;
   document.documentElement.setAttribute('data-lang', lang);
-  try { localStorage.setItem('kolexLang', lang); } catch (e) {}
+  try { localStorage.setItem('kolexLang', lang);
+  if (typeof renderBlog === 'function') renderBlog(); } catch (e) {}
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
     if (t[key] !== undefined) el.innerHTML = t[key];
@@ -358,7 +359,7 @@ async function loadAndRenderBlog() {
     blogPosts.length = 0;
     data.forEach(function(p) {
       var m = members.find(function(mb) { return mb.id === p.member_id; });
-      if (m) blogPosts.push({ member: m, tag: p.tag, tagClass: p.tagClass, date: p.date, title: p.title || '', excerpt: p.excerpt || '' });
+      if (m) blogPosts.push({ member: m, tag: p.tag, tagClass: p.tagClass, date: p.date, title: p.title || '', excerpt: p.excerpt || '', title_en: p.title_en || '', title_ja: p.title_ja || '', title_zh: p.title_zh || '', excerpt_en: p.excerpt_en || '', excerpt_ja: p.excerpt_ja || '', excerpt_zh: p.excerpt_zh || '' });
     });
   } catch (e) {
     console.warn('blog-feed.json 로드 실패:', e);
@@ -520,8 +521,8 @@ function renderBlog() {
         <div class="blog-date">${p.date}</div>
       </div>
     </div>
-    <div class="blog-title">${p.title || titles[i] || ''}</div>
-    <div class="blog-exc">${p.excerpt || excerpts[i] || ''}</div>
+    <div class="blog-title">${p['title_' + currentLang] || p.title || titles[i] || ''}</div>
+    <div class="blog-exc">${p['excerpt_' + currentLang] || p.excerpt || excerpts[i] || ''}</div>
     <div class="blog-read">${readTxt} →</div>
   </div>
 </a>`;
