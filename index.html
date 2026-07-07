@@ -268,23 +268,8 @@
     .yt-more-hidden.visible { display: block; }
 
     /* ── AI UPDATE BADGE (section) ── */
-    .ai-section-badge {
-      display: inline-flex; align-items: center; gap: 8px;
-      background: linear-gradient(90deg, rgba(155,89,255,.12), rgba(0,210,255,.08));
-      border: 1px solid rgba(155,89,255,.3);
-      border-radius: 12px; padding: 12px 18px; margin-bottom: 2rem;
-      width: 100%;
-    }
-    .ai-icon { font-size: 1.3rem; }
-    .ai-text-wrap {}
     .ai-text-title { font-size: .82rem; font-weight: 700; color: #c8b4ff; }
     .ai-text-sub { font-size: .74rem; color: var(--muted); margin-top: 2px; }
-    .ai-live {
-      margin-left: auto; background: rgba(255,31,69,.15); border: 1px solid rgba(255,31,69,.3);
-      color: var(--red); font-size: .65rem; font-weight: 700; letter-spacing: 1px;
-      padding: 3px 9px; border-radius: 20px;
-      animation: blink 2s step-end infinite;
-    }
     @keyframes blink { 50% { opacity: .4; } }
 
     /* ── MEMBER GRID ── */
@@ -1299,14 +1284,6 @@
       <h2 class="sec-title">✍️ <em data-i18n="blog_title">최신 포스트</em></h2>
       <p class="sec-sub" data-i18n="blog_sub">KOLEX 운영팀이 매일 새 글을 업데이트합니다</p>
     </div>
-  </div>
-  <div class="ai-section-badge">
-    <div class="ai-icon">🤖</div>
-    <div class="ai-text-wrap">
-      <div class="ai-text-title" data-i18n="ai_badge_title">AI 초안 → 담당자 확인 → 발행</div>
-      <div class="ai-text-sub" data-i18n="ai_badge_sub">AI가 치어리더 일상 인사·영상 소개·마일스톤 글 초안을 작성하고, KOLEX 담당자 검토 후 발행됩니다</div>
-    </div>
-    <div class="ai-live" data-i18n="ai_live">● LIVE</div>
   </div>
   <div class="blog-grid" id="blogGrid"></div>
 </div>
