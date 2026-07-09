@@ -1,0 +1,72 @@
+[
+  {
+    "member_id": "kim-jina",
+    "name_ko": "김진아",
+    "file_path": "cheerleaders/kim-jina.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18114065365901997",
+    "checked_at": "2026-07-09T15:00:02.461Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요! 🌧️",
+        "en": "New Post is Up! 🌧️",
+        "ja": "新しい投稿が届きました！🌧️",
+        "zh": "新貼文上線囉！🌧️"
+      },
+      "body": {
+        "ko": "KOLEX 팀원의 새 게시물이 올라왔어요! 비가 와도 우리의 열정은 멈추지 않아요 ☔✨ 인스타그램에서 지금 바로 확인해 보세요!",
+        "en": "A new post from our KOLEX member is live! Even the rain can't stop our passion ☔✨ Go check it out on Instagram right now!",
+        "ja": "KOLEXメンバーの新しい投稿が届きました！雨が降っても私たちの情熱は止まりません☔✨ インスタグラムでぜひチェックしてみてください！",
+        "zh": "KOLEX成員的新貼文上線囉！就算下雨也澆不熄我們的熱情☔✨ 快去Instagram看看吧！"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DakppRvh0PA/",
+      "media_type": "VIDEO",
+      "date": "2026.07.10"
+    }
+  },
+  {
+    "member_id": "jeong-huijeong",
+    "name_ko": "정희정",
+    "file_path": "cheerleaders/jeong-huijeong.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18124544782677804",
+    "checked_at": "2026-07-09T15:00:02.465Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "정희정의 새 인스타그램 게시물이 올라왔어요! 💖",
+        "en": "Jeong Hui-jeong Has a New Instagram Post! 💖",
+        "ja": "チョン・フィジョンの新しいインスタグラム投稿が公開されました！ 💖",
+        "zh": "鄭熙靜的全新 Instagram 貼文上線囉！ 💖"
+      },
+      "body": {
+        "ko": "정희정의 인스타그램에 새 게시물이 올라왔어요! ✨ 매일 바쁜 일상 속에서도 자신을 소중히 챙기는 모습과 함께, 팬 여러분을 위한 특별한 소식도 담겨 있으니 지금 바로 확인해 보세요! 💖",
+        "en": "A brand-new post from Jeong Hui-jeong is now live on Instagram! ✨ Filled with her everyday self-care vibes and a special treat for fans, don't miss out — go check it out right now! 💖",
+        "ja": "チョン・フィジョンのインスタグラムに新しい投稿が届きました！ ✨ 忙しい毎日の中でも自分を大切にする彼女の日常と、ファンへの嬉しいお知らせも盛りだくさん！ぜひ今すぐチェックしてみてください💖",
+        "zh": "鄭熙靜的 Instagram 有全新貼文上線啦！ ✨ 在忙碌的日常中依然用心呵護自己，還有專屬粉絲的特別驚喜等著大家，快去看看吧！💖"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DakkPZAk6KV/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.10"
+    }
+  }
+]
