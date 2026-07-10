@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "kim-haeri",
+    "name_ko": "김해리",
+    "file_path": "cheerleaders/kim-haeri.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18117034987894891",
+    "checked_at": "2026-07-10T09:00:02.550Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "낭만 치사량 10000%! 새 영상 게시 🌹",
+        "en": "Romance Overload 10000%! New Video Is Up 🌹",
+        "ja": "ロマンス致死量10000%！新動画が投稿されました 🌹",
+        "zh": "浪漫致死量10000%！全新影片上線啦 🌹"
+      },
+      "body": {
+        "ko": "낭만 가득한 에너지가 넘쳐흐르는 새 영상이 인스타그램에 올라왔어요! 설레는 감성을 함께 느껴보세요 💕",
+        "en": "A brand-new video bursting with romantic vibes has just landed on Instagram! Come and soak in all that dreamy energy with us 💕",
+        "ja": "ときめく낭만エネルギーたっぷりの新しい動画がインスタグラムに投稿されました！一緒にこの素敵な雰囲気を感じてみてください 💕",
+        "zh": "充滿浪漫能量的全新影片已在 Instagram 上線啦！快來一起感受這份怦然心動的氛圍吧 💕"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DamUz5MNp9a/",
+      "media_type": "VIDEO",
+      "date": "2026.07.10"
+    }
+  }
+]
