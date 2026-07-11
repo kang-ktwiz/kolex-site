@@ -1,103 +1,103 @@
 {
   "_comment": "n8n 워크플로우(10_kolex_youtube_search_update.json)가 매일 1회 자동 갱신하는 파일입니다. videos[].member_id가 null이면 팀 전체(team-wide) 검색 결과입니다.",
   "schema_version": 1,
-  "updated_at": "2026-07-10T10:00:04.388Z",
+  "updated_at": "2026-07-11T10:00:02.641Z",
   "videos": [
     {
-      "videoId": "VNbl91IPbKg",
+      "videoId": "_ETPRY8o9Mw",
       "type": "video",
-      "title": "이예빈 치어리더 잠실원정 핸즈업 공연 part2 #이예빈 #이예빈치어리더 #치어리더 #치어리더직캠 #cheerleader",
+      "title": "너무 더워! 이예빈 치어리더 케이티 장성우~ #이예빈 #이예빈치어리더 #치어리더 #치어리더직캠 #cheerleader",
       "member_id": "lee-yebin",
       "query": "치어리더 이예빈",
-      "publishedAt": "2026-07-10T09:53:12Z"
+      "publishedAt": "2026-07-11T09:59:36Z"
     },
     {
-      "videoId": "Q3NjJTK7p8I",
-      "type": "video",
-      "title": "올만에 찍는 김가현 치어리더 아웃송 #김가현 #아웃송",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-07-10T09:43:48Z"
+      "videoId": "kdJ1EDV5BGk",
+      "type": "shorts",
+      "title": "어허! &#39;Hit Me!&#39; 아웃송 챌린지 권가영 치어리더 #권가영 #KwonGaYoung #권가영치어리더 #KTwiz #치어리더 #cheerleader #직캠 #shorts",
+      "member_id": "kwon-gayoung",
+      "query": "치어리더 권가영",
+      "publishedAt": "2026-07-11T09:40:10Z"
     },
     {
-      "videoId": "JLfqsJ2XEnw",
+      "videoId": "zp5s99Oi_PU",
       "type": "video",
-      "title": "이예빈 치어리더 패배의 아쉬움을 뒤로하고… #이예빈 #이예빈치어리더 #치어리더 #치어리더직캠 #cheerleader",
+      "title": "미소에 치이는 아웃송.. 김정원 이예빈 치어리더 아웃송 #김정원 #김정원치어리더 #이예빈 #이예빈치어리더 #아웃송 #치어리더 #치어리더직캠 #cheerleader",
       "member_id": "lee-yebin",
       "query": "치어리더 이예빈",
-      "publishedAt": "2026-07-10T09:39:31Z"
+      "publishedAt": "2026-07-11T09:35:47Z"
     },
     {
-      "videoId": "ByTGK_El9Tw",
+      "videoId": "MLypeP-BYXI",
       "type": "video",
-      "title": "워페 이예빈 치어리더 ktwiz 승리하라! #워터페스티벌 #이예빈 #이예빈치어리더 #치어리더 #fancam",
-      "member_id": "lee-yebin",
-      "query": "치어리더 이예빈",
-      "publishedAt": "2026-07-10T09:31:43Z"
-    },
-    {
-      "videoId": "BsiYgEfHR_8",
-      "type": "video",
-      "title": "외모폭발 이서윤 김해리치어리더 힛미 아웃송 #이서윤 #김해리 #아웃송",
+      "title": "역시 믿고 찍는 김해리 치어리더 #김해리",
       "member_id": "kim-haeri",
       "query": "치어리더 김해리",
-      "publishedAt": "2026-07-10T09:22:19Z"
+      "publishedAt": "2026-07-11T09:33:44Z"
     },
     {
-      "videoId": "3UBlNo43Pdo",
+      "videoId": "pWx8QPyRg0s",
       "type": "video",
-      "title": "이예빈 치어리더 하늘의 기운을 받아 어이! #이예빈 #이예빈치어리더 #치어리더 #치어리더직캠 #cheerleader",
-      "member_id": "lee-yebin",
-      "query": "치어리더 이예빈",
-      "publishedAt": "2026-07-10T09:21:45Z"
-    },
-    {
-      "videoId": "C92yeuflZNU",
-      "type": "video",
-      "title": "치어리더 이예빈 뒤에 있는 수상한 물건 때문에 경기 집중이 안됨 #치어리더",
-      "member_id": "lee-yebin",
-      "query": "치어리더 이예빈",
-      "publishedAt": "2026-07-10T09:00:22Z"
-    },
-    {
-      "videoId": "dhaXK-f0kqY",
-      "type": "video",
-      "title": "김진아 치어리더 케이티 배정대 나나나 나나나 #김진아 #김진아치어리더 #치어리더 #치어리더직캠 #cheerleader",
-      "member_id": "kim-jina",
-      "query": "치어리더 김진아",
-      "publishedAt": "2026-07-10T08:58:01Z"
-    },
-    {
-      "videoId": "EysYFhGP9C4",
-      "type": "video",
-      "title": "워어어 이호연 안타! 김진아 치어리더 #김진아 #김진아치어리더 #치어리더 #치어리더직캠 #cheerleader",
-      "member_id": "kim-jina",
-      "query": "치어리더 김진아",
-      "publishedAt": "2026-07-10T08:57:56Z"
-    },
-    {
-      "videoId": "A4pbu8sf36Q",
-      "type": "video",
-      "title": "스크롤 멈추게 만드는 이금주 치어리더 ⚾ 유니폼 핏 하나로 야구장 올킬한 직캠",
+      "title": "kt wiz 이금주 치어리더 공연 다시만난오늘 269329",
       "member_id": "lee-geumju",
       "query": "치어리더 이금주",
-      "publishedAt": "2026-07-10T08:30:22Z"
+      "publishedAt": "2026-07-11T09:32:15Z"
     },
     {
-      "videoId": "dYxwxazAYTY",
+      "videoId": "O7FhNuluaz8",
+      "type": "shorts",
+      "title": "워페 신세희 치어리더 오토바이 댄스 shorts #워터페스티벌 #신세희 #신세희치어리더 #치어리더 #치어리더직캠 #cheerleader",
+      "member_id": "shin-sehee",
+      "query": "치어리더 신세희",
+      "publishedAt": "2026-07-11T09:30:32Z"
+    },
+    {
+      "videoId": "iB-6FFMnu50",
       "type": "video",
-      "title": "김가현 치어리더 오리 트윌킹 아웃송 직캠 260708",
+      "title": "Is Jina so sexy? 金吉娜 김진아",
+      "member_id": "kim-jina",
+      "query": "치어리더 김진아",
+      "publishedAt": "2026-07-11T09:25:29Z"
+    },
+    {
+      "videoId": "MeN5wg5siq0",
+      "type": "video",
+      "title": "김해리 치어리더 사랑스러워~ #김해리",
+      "member_id": "kim-haeri",
+      "query": "치어리더 김해리",
+      "publishedAt": "2026-07-11T09:23:03Z"
+    },
+    {
+      "videoId": "FiM0C8j_MvE",
+      "type": "shorts",
+      "title": "아웃송 챌린지 &#39;Twerking Duck&#39; 권가영 치어리더 #권가영 #KwonGaYoung #권가영치어리더 #KTwiz #치어리더 #cheerleader #직캠 #shorts",
+      "member_id": "kwon-gayoung",
+      "query": "치어리더 권가영",
+      "publishedAt": "2026-07-11T09:19:51Z"
+    },
+    {
+      "videoId": "RW2Om2ISI-8",
+      "type": "video",
+      "title": "2026 KT위즈 김진아 치어리더 공연 직캠",
+      "member_id": "kim-jina",
+      "query": "치어리더 김진아",
+      "publishedAt": "2026-07-11T09:15:09Z"
+    },
+    {
+      "videoId": "_W1AwJh-T7Y",
+      "type": "video",
+      "title": "이예빈 치어리더 또리랑 신나게 혁이형 응원가 #이예빈 #이예빈치어리더 #치어리더 #치어리더직캠 #cheerleader",
+      "member_id": "lee-yebin",
+      "query": "치어리더 이예빈",
+      "publishedAt": "2026-07-11T09:12:20Z"
+    },
+    {
+      "videoId": "RGaDO8Vkgps",
+      "type": "video",
+      "title": "5층단상 김가현치어리더 3점슛 아웃송 #김가현 #아웃송",
       "member_id": "kim-gahyun",
       "query": "치어리더 김가현",
-      "publishedAt": "2026-07-10T08:11:48Z"
-    },
-    {
-      "videoId": "GMBFEFtZ7qc",
-      "type": "video",
-      "title": "必看！鄭熙靜原汁原味的笛子舞！ #鄭熙靜 #정희정 #啦啦隊 #cheerleader #棒球 #baseball #台湾野球チア #台湾野球 #치어리더",
-      "member_id": "jeong-huijeong",
-      "query": "치어리더 정희정",
-      "publishedAt": "2026-07-10T08:07:36Z"
+      "publishedAt": "2026-07-11T09:09:48Z"
     }
   ]
 }
