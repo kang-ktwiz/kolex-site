@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "kim-jina",
+    "name_ko": "김진아",
+    "file_path": "cheerleaders/kim-jina.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17922232728389204",
+    "checked_at": "2026-07-11T15:00:04.099Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요 🌸",
+        "en": "New Post is Up! 🌸",
+        "ja": "新しい投稿が届きました 🌸",
+        "zh": "新貼文上線囉 🌸"
+      },
+      "body": {
+        "ko": "KOLEX 치어리더의 따뜻하고 사랑스러운 감성이 담긴 새 게시물이 업로드됐어요! 인스타그램에서 지금 바로 확인해 보세요 💕",
+        "en": "A new post full of warm and lovely vibes from our KOLEX cheerleader is now up! Go check it out on Instagram right now 💕",
+        "ja": "KOLEXチアリーダーの温かくてかわいらしい感性たっぷりの新しい投稿が公開されました！ぜひインスタグラムでチェックしてみてください 💕",
+        "zh": "充滿溫暖與可愛氛圍的KOLEX啦啦隊員全新貼文已經上線！快去Instagram看看吧 💕"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DapZ4ESkSKQ/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.12"
+    }
+  }
+]
