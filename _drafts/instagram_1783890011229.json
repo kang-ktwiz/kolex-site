@@ -1,0 +1,107 @@
+[
+  {
+    "member_id": "kim-jina",
+    "name_ko": "김진아",
+    "file_path": "cheerleaders/kim-jina.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18184781683401069",
+    "checked_at": "2026-07-12T21:00:02.634Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요! 🎉",
+        "en": "New Post is Up! 🎉",
+        "ja": "新しい投稿が届きました！🎉",
+        "zh": "新貼文上線啦！🎉"
+      },
+      "body": {
+        "ko": "전반기를 활기차게 마무리하는 새 영상이 올라왔어요! 무더운 여름, 비와 더위에 건강 조심하시고 앞으로도 함께해요 ♥",
+        "en": "A brand-new video is here to wrap up the first half with great energy! Stay safe from the rain and heat this summer, and let's keep cheering together ♥",
+        "ja": "前半戦を元気よく締めくくる新しい動画が公開されました！暑い夏、雨や暑さに気をつけて、これからも一緒に盛り上がりましょう ♥",
+        "zh": "充滿活力迎接前半場結束的全新影片上線囉！炎熱夏日請大家注意防雨防暑，一起繼續加油吧 ♥"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DasasaTBpG5/",
+      "media_type": "VIDEO",
+      "date": "2026.07.13"
+    }
+  },
+  {
+    "member_id": "kim-minji",
+    "name_ko": "김민지",
+    "file_path": "cheerleaders/kim-minji.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18138193117562577",
+    "checked_at": "2026-07-12T21:00:02.638Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "휴일의 여유를 담은 새 게시물 🌿",
+        "en": "A New Post Full of Holiday Vibes 🌿",
+        "ja": "お休みの穏やかな時間を届ける新投稿 🌿",
+        "zh": "充滿假日愜意的全新貼文 🌿"
+      },
+      "body": {
+        "ko": "팀원의 인스타그램에 휴일의 편안한 감성이 가득한 새 게시물이 올라왔어요! 소중한 쉬는 날의 여유로운 순간들을 함께 느껴보세요 🍃",
+        "en": "A brand-new post has just landed on the feed, capturing the calm and cozy energy of a well-deserved day off! Come enjoy these peaceful holiday moments together 🍃",
+        "ja": "チームメンバーのインスタグラムに、のんびりとした休日の雰囲気たっぷりの新しい投稿が届きました！大切なお休みのひとときをぜひ一緒に感じてみてください 🍃",
+        "zh": "團隊成員的 Instagram 上線了一篇充滿悠閒假日感的全新貼文！快來一起感受這份珍貴休假日裡的愜意時光吧 🍃"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DasSyXHkxWB/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.13"
+    }
+  },
+  {
+    "member_id": "lee-yebin",
+    "name_ko": "이예빈",
+    "file_path": "cheerleaders/lee-yebin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17890585665576363",
+    "checked_at": "2026-07-12T21:00:02.640Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "할머니 댁 감성 가득 🏡",
+        "en": "Grandma's House Vibes 🏡",
+        "ja": "おばあちゃんちのバイブ 🏡",
+        "zh": "阿嬤家的氛圍 🏡"
+      },
+      "body": {
+        "ko": "따뜻하고 정겨운 할머니 댁 감성이 느껴지는 새 게시물이 올라왔어요! 편안하고 포근한 분위기 가득한 영상, 지금 바로 확인해 보세요 🥰",
+        "en": "A brand-new post is up, bringing all those cozy, nostalgic grandma's house vibes! Head over to Instagram to soak in the warm and heartwarming energy 🥰",
+        "ja": "温かくて懐かしい、おばあちゃんちのような雰囲気たっぷりの新しい投稿がアップされました！ほっこりする動画をぜひチェックしてみてください 🥰",
+        "zh": "充滿溫暖懷舊阿嬤家氛圍的全新貼文上線啦！趕快去 Instagram 感受這份舒適又暖心的氣息吧 🥰"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DasQjz6qIX0/",
+      "media_type": "VIDEO",
+      "date": "2026.07.13"
+    }
+  }
+]
