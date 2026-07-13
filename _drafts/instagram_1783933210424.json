@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "kim-haeri",
+    "name_ko": "김해리",
+    "file_path": "cheerleaders/kim-haeri.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17898698316490268",
+    "checked_at": "2026-07-13T09:00:02.447Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 영상 게시물이 올라왔어요! 🎉",
+        "en": "A New Video Post Is Here! 🎉",
+        "ja": "新しい動画投稿が届きました！🎉",
+        "zh": "全新影片貼文上線囉！🎉"
+      },
+      "body": {
+        "ko": "읏쇼읏쇼! 신나는 에너지 가득한 새 영상 게시물이 올라왔어요~ 인스타그램에서 확인해 보세요! 💪✨",
+        "en": "Full of exciting energy, a brand-new video post has just landed on Instagram — go check it out! 💪✨",
+        "ja": "わくわくするエネルギーたっぷりの新しい動画がインスタグラムに投稿されました！ぜひチェックしてみてください！💪✨",
+        "zh": "充滿活力與熱情的全新影片已在Instagram上發布，快去看看吧！💪✨"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DauGoUbtopx/",
+      "media_type": "VIDEO",
+      "date": "2026.07.13"
+    }
+  }
+]
