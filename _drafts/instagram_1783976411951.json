@@ -1,0 +1,107 @@
+[
+  {
+    "member_id": "lee-geumju",
+    "name_ko": "이금주",
+    "file_path": "cheerleaders/lee-geumju.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18053998619528957",
+    "checked_at": "2026-07-13T21:00:02.241Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 영상 게시물 업로드! 💋",
+        "en": "New Video Post is Up! 💋",
+        "ja": "新しい動画投稿が公開！💋",
+        "zh": "全新影片貼文上線！💋"
+      },
+      "body": {
+        "ko": "인스타그램에 귀엽고 사랑스러운 새 영상이 올라왔어요! MUAH 챌린지의 설레는 에너지를 함께 느껴보세요 ✌🏻💋",
+        "en": "A cute and lovely new video has just been posted on Instagram! Feel the exciting energy of the MUAH challenge together ✌🏻💋",
+        "ja": "インスタグラムにかわいくて素敵な新しい動画が投稿されました！MUAHチャレンジのときめくエネルギーを一緒に感じてみてください ✌🏻💋",
+        "zh": "Instagram上傳了一支可愛迷人的全新影片！一起感受MUAH挑戰帶來的怦然心動能量吧 ✌🏻💋"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DauxEFXs097/",
+      "media_type": "VIDEO",
+      "date": "2026.07.14"
+    }
+  },
+  {
+    "member_id": "jeong-huijeong",
+    "name_ko": "정희정",
+    "file_path": "cheerleaders/jeong-huijeong.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18098431916594872",
+    "checked_at": "2026-07-13T21:00:02.246Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 영상 게시물 업로드!",
+        "en": "New Video Post is Live!",
+        "ja": "新しい動画投稿が公開！",
+        "zh": "全新影片貼文上線！"
+      },
+      "body": {
+        "ko": "정희정님의 인스타그램에 새 영상이 올라왔어요! 밝고 생동감 넘치는 에너지를 지금 바로 확인해 보세요 🌟",
+        "en": "A brand-new video from Jeong Hui-jeong is now up on Instagram! Go check out her vibrant and lively energy right now 🌟",
+        "ja": "チョン・フィジョンさんのインスタグラムに新しい動画が投稿されました！明るくいきいきとしたエネルギーをぜひチェックしてみてください 🌟",
+        "zh": "鄭希靜的Instagram上傳了全新影片！快去感受她那充滿活力與朝氣的魅力吧 🌟"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/Dau-M9cuiVg/",
+      "media_type": "VIDEO",
+      "date": "2026.07.14"
+    }
+  },
+  {
+    "member_id": "kim-haeri",
+    "name_ko": "김해리",
+    "file_path": "cheerleaders/kim-haeri.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17898698316490268",
+    "checked_at": "2026-07-13T21:00:02.247Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 영상 게시물 업로드 소식!",
+        "en": "New Video Post Alert!",
+        "ja": "新しい動画投稿のお知らせ！",
+        "zh": "全新影片貼文上線啦！"
+      },
+      "body": {
+        "ko": "읏쇼읏쇼! KOLEX에 새 영상 게시물이 올라왔어요! 긍정 에너지 가득한 분위기, 함께 확인해 보세요~🎉",
+        "en": "Heave-ho! A brand-new video post is now up on KOLEX's Instagram! Come check out all the great energy and good vibes~🎉",
+        "ja": "えいやっ！KOLEXのインスタグラムに新しい動画が投稿されました！ポジティブなエネルギー全開の雰囲気をぜひチェックしてみてください~🎉",
+        "zh": "加油衝啊！KOLEX的Instagram上傳了全新影片貼文！滿滿正能量的氛圍，快來一起感受吧~🎉"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DauGoUbtopx/",
+      "media_type": "VIDEO",
+      "date": "2026.07.14"
+    }
+  }
+]
