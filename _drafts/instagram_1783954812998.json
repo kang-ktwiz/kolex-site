@@ -1,0 +1,107 @@
+[
+  {
+    "member_id": "lee-geumju",
+    "name_ko": "이금주",
+    "file_path": "cheerleaders/lee-geumju.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18053998619528957",
+    "checked_at": "2026-07-13T15:00:02.901Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "뽀뽀 드릴게요! 💋 새 영상이 업로드됐어요",
+        "en": "Sending You a Kiss! 💋 New Video Is Up",
+        "ja": "キスをお届け！💋 新しい動画がアップされました",
+        "zh": "送你一個吻！💋 全新影片上線囉"
+      },
+      "body": {
+        "ko": "두 손가락 브이와 함께 사랑스러운 뽀뽀 에너지를 가득 담은 새 영상이 올라왔어요! 💋 #무아챌린지 의 설레는 분위기를 함께 느껴보세요!",
+        "en": "A brand-new video is here, filled with sweet kiss energy and a cheerful peace sign! 💋 Come feel the lovely vibe of the #MUAH Challenge!",
+        "ja": "ピースサインとキュートなキスエネルギーたっぷりの新しい動画が届きました！💋 #MUAHチャレンジ のときめく雰囲気をぜひ一緒に感じてみてください！",
+        "zh": "全新影片已上線，充滿愛意的比讚手勢與甜蜜吻吻能量滿滿！💋 一起來感受 #MUAH挑戰 的怦然心動氛圍吧！"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DauxEFXs097/",
+      "media_type": "VIDEO",
+      "date": "2026.07.14"
+    }
+  },
+  {
+    "member_id": "jeong-huijeong",
+    "name_ko": "정희정",
+    "file_path": "cheerleaders/jeong-huijeong.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18098431916594872",
+    "checked_at": "2026-07-13T15:00:02.906Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 영상 게시물 업로드 🌟",
+        "en": "New Video Just Dropped 🌟",
+        "ja": "新しい動画が投稿されました 🌟",
+        "zh": "全新影片已上傳 🌟"
+      },
+      "body": {
+        "ko": "정희정님의 인스타그램에 새 게시물이 올라왔어요! 반짝이는 에너지가 가득한 영상, 지금 바로 확인해보세요 ✨",
+        "en": "A brand-new post has just landed on Jeong Hui-jeong's Instagram! Head over now and catch all that sparkling energy ✨",
+        "ja": "チョン・ヒジョンさんのインスタグラムに新しい投稿が届きました！キラキラのエネルギーあふれる動画をぜひチェックしてみてください ✨",
+        "zh": "鄭希正的Instagram剛剛上傳了全新貼文！充滿閃耀活力的影片，快去看看吧 ✨"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/Dau-M9cuiVg/",
+      "media_type": "VIDEO",
+      "date": "2026.07.14"
+    }
+  },
+  {
+    "member_id": "kim-haeri",
+    "name_ko": "김해리",
+    "file_path": "cheerleaders/kim-haeri.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17898698316490268",
+    "checked_at": "2026-07-13T15:00:02.907Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 영상 게시물이 올라왔어요! 🎉",
+        "en": "A New Video Post Is Here! 🎉",
+        "ja": "新しい動画が投稿されました！🎉",
+        "zh": "全新影片貼文上線啦！🎉"
+      },
+      "body": {
+        "ko": "읏쇼읏쇼! 에너지 넘치는 새 영상 게시물이 인스타그램에 업로드됐어요~ 팬 여러분의 많은 관심과 응원 부탁드려요! 💕",
+        "en": "A brand-new video post full of great energy has just landed on Instagram! Your warm support and love mean everything — don't miss it! 💕",
+        "ja": "元気いっぱいの新しい動画がインスタグラムに投稿されました～！みなさんのあたたかい応援をよろしくお願いします！💕",
+        "zh": "充滿活力的全新影片已上傳至 Instagram 啦～！請大家多多關注與支持，感謝每一位粉絲的愛！💕"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DauGoUbtopx/",
+      "media_type": "VIDEO",
+      "date": "2026.07.14"
+    }
+  }
+]
