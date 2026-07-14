@@ -1,0 +1,72 @@
+[
+  {
+    "member_id": "kye-yujin",
+    "name_ko": "계유진",
+    "file_path": "cheerleaders/kye-yujin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18104942897323730",
+    "checked_at": "2026-07-14T21:00:02.253Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "따봉!!! 새 영상 업로드 🎉",
+        "en": "Thumbs Up! New Video Posted 🎉",
+        "ja": "いいね！新動画アップ 🎉",
+        "zh": "讚！全新影片上傳 🎉"
+      },
+      "body": {
+        "ko": "계유진님의 인스타그램에 신나는 새 영상이 올라왔어요! 긍정 에너지 넘치는 게시물, 지금 바로 확인해 보세요 💪✨",
+        "en": "A brand-new video full of great vibes has just landed on Kye Yu-jin's Instagram! Head over now and feel all that positive energy 💪✨",
+        "ja": "계유진さんのインスタグラムに元気いっぱいの新しい動画が登場しました！ポジティブなエネルギーをぜひチェックしてみてください 💪✨",
+        "zh": "계유진的Instagram上傳了充滿活力的全新影片！快去感受滿滿的正能量吧 💪✨"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/Daxi_HmTvjC/",
+      "media_type": "VIDEO",
+      "date": "2026.07.15"
+    }
+  },
+  {
+    "member_id": "lee-yebin",
+    "name_ko": "이예빈",
+    "file_path": "cheerleaders/lee-yebin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18110012461995248",
+    "checked_at": "2026-07-14T21:00:02.260Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "공주놀이 하고 왔어요 🌸",
+        "en": "Living the Princess Moment 🌸",
+        "ja": "お姫様ごっこしてきました 🌸",
+        "zh": "去當了一回公主回來了 🌸"
+      },
+      "body": {
+        "ko": "이예빈의 인스타그램에 새 게시물이 올라왔어요! 설레는 공주 분위기 가득한 새 사진들, 지금 바로 확인해 보세요 💕",
+        "en": "A brand new post is up on Ye-bin's Instagram! Head over now to check out her dreamy, princess-vibes carousel 💕",
+        "ja": "イェビンのインスタグラムに新しい投稿が届きました！うっとりするようなお姫様ムード満点の写真をぜひチェックしてみてください 💕",
+        "zh": "藝彬的Instagram上傳了最新貼文！充滿夢幻公主氛圍的相簿等你來看，快去瞧瞧吧 💕"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DaxotBwlNvW/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.15"
+    }
+  }
+]
