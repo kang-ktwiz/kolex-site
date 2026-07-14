@@ -1,0 +1,72 @@
+[
+  {
+    "member_id": "kye-yujin",
+    "name_ko": "계유진",
+    "file_path": "cheerleaders/kye-yujin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18104942897323730",
+    "checked_at": "2026-07-14T15:00:02.543Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 영상 게시물 업로드!",
+        "en": "New Video Post is Up!",
+        "ja": "新しい動画投稿が公開！",
+        "zh": "全新影片貼文上線！"
+      },
+      "body": {
+        "ko": "따봉 가득한 에너지로 새 영상 게시물이 업로드됐어요! 인스타그램에서 확인해 보세요 🤩👍",
+        "en": "A brand-new video post is here, packed with positive vibes and good energy! Go check it out on Instagram 🤩👍",
+        "ja": "ポジティブなエネルギーたっぷりの新しい動画が投稿されました！インスタグラムでチェックしてみてください 🤩👍",
+        "zh": "充滿正能量的全新影片貼文已經上線啦！快去 Instagram 看看吧 🤩👍"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/Daxi_HmTvjC/",
+      "media_type": "VIDEO",
+      "date": "2026.07.15"
+    }
+  },
+  {
+    "member_id": "lee-yebin",
+    "name_ko": "이예빈",
+    "file_path": "cheerleaders/lee-yebin.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18110012461995248",
+    "checked_at": "2026-07-14T15:00:02.549Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "공주놀이 하고 왔어요 🌸",
+        "en": "Playing Princess! 🌸",
+        "ja": "お姫様ごっこしてきました 🌸",
+        "zh": "扮了一回公主回來啦 🌸"
+      },
+      "body": {
+        "ko": "이예빈의 인스타그램에 새 게시물이 올라왔어요! 공주 느낌 가득한 스튜디오 촬영 앨범, 지금 바로 확인해보세요 💕",
+        "en": "A new post is up on Ye-bin's Instagram! Head over to check out her latest princess-vibes studio album 💕",
+        "ja": "イェビンのインスタグラムに新しい投稿が届きました！お姫様気分たっぷりのスタジオアルバム、ぜひチェックしてみてください 💕",
+        "zh": "藝彬的 Instagram 有新貼文囉！充滿公主感的工作室相簿，快去看看吧 💕"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DaxotBwlNvW/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.15"
+    }
+  }
+]
