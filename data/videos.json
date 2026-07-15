@@ -1,103 +1,103 @@
 {
   "_comment": "n8n 워크플로우(10_kolex_youtube_search_update.json)가 매일 1회 자동 갱신하는 파일입니다. videos[].member_id가 null이면 팀 전체(team-wide) 검색 결과입니다.",
   "schema_version": 1,
-  "updated_at": "2026-07-14T10:00:03.362Z",
+  "updated_at": "2026-07-15T10:00:03.202Z",
   "videos": [
     {
-      "videoId": "FYIKA6x8bds",
-      "type": "video",
-      "title": "핑크 이예빈 치어리더 안타날려주세요 멀리멀리 #이예빈 #이예빈치어리더 #치어리더 #치어리더직캠 #cheerleader",
-      "member_id": "lee-yebin",
-      "query": "치어리더 이예빈",
-      "publishedAt": "2026-07-14T09:51:40Z"
-    },
-    {
-      "videoId": "88lLkZWL-NU",
-      "type": "video",
-      "title": "김진아 치어리더 미러볼 댄스 #김진아 #김진아치어리더 #치어리더 #치어리더직캠 #cheerleader",
-      "member_id": "kim-jina",
-      "query": "치어리더 김진아",
-      "publishedAt": "2026-07-14T09:50:30Z"
-    },
-    {
-      "videoId": "9yDHF1ncs_8",
-      "type": "video",
-      "title": "워페 김해리 치어리더 kt wiz! 👏👏👏👏👏 #워터페스티벌 #김해리 #김해리치어리더 #치어리더 #cheerleader",
-      "member_id": "kim-haeri",
-      "query": "치어리더 김해리",
-      "publishedAt": "2026-07-14T09:22:45Z"
-    },
-    {
-      "videoId": "gwaeeTl_HX4",
-      "type": "video",
-      "title": "KT위즈~짝짝짝짝짝~ 김진아 치어리더 #김진아 #치어리더 #kt위즈치어리더 #워터페스티벌",
-      "member_id": "kim-jina",
-      "query": "치어리더 김진아",
-      "publishedAt": "2026-07-14T09:04:23Z"
-    },
-    {
-      "videoId": "E_wwh39KCME",
-      "type": "video",
-      "title": "워페 마이크 잡은 이금주 치어리더 터치마이바디 #워터페스티벌 #이금주 #이금주치어리더 #치어리더 #fancam",
-      "member_id": "lee-geumju",
-      "query": "치어리더 이금주",
-      "publishedAt": "2026-07-14T09:03:43Z"
-    },
-    {
-      "videoId": "we-HeYtSBTs",
-      "type": "video",
-      "title": "위캔 컴 투게더~~ 날려버려~ 김진아 치어리더 #김진아 #치어리더 #kt위즈치어리더 #워터페스티벌",
-      "member_id": "kim-jina",
-      "query": "치어리더 김진아",
-      "publishedAt": "2026-07-14T09:02:39Z"
-    },
-    {
-      "videoId": "FHbX2SK7TkM",
-      "type": "video",
-      "title": "적응이 필요했던 KT 위즈 김가현 치어리더",
-      "member_id": "kim-gahyun",
-      "query": "치어리더 김가현",
-      "publishedAt": "2026-07-14T09:00:22Z"
-    },
-    {
-      "videoId": "iWsFSBqBaow",
-      "type": "video",
-      "title": "워터페스티벌~ 김진아 치어리더 #김진아 #치어리더 #kt위즈치어리더 #워터페스티벌",
-      "member_id": "kim-jina",
-      "query": "치어리더 김진아",
-      "publishedAt": "2026-07-14T08:55:22Z"
-    },
-    {
-      "videoId": "2fgkWPE0J1g",
+      "videoId": "zGvtEFxyjrs",
       "type": "shorts",
-      "title": "비 폭탄☔️ 결국 노게임😂아웃송 #260630 #김민지치어리더 #김민지",
+      "title": "05년생 치어리더의 트월킹덕🪿 #260617 #김민지치어리더 #김민지 #金珉智",
       "member_id": "kim-minji",
       "query": "치어리더 김민지",
-      "publishedAt": "2026-07-14T08:37:47Z"
+      "publishedAt": "2026-07-15T09:09:31Z"
     },
     {
-      "videoId": "jZeRXArwVPY",
+      "videoId": "DDTWLFh4OIQ",
       "type": "video",
-      "title": "[4K] 260310 현대캐피탈 스카이워커스 이서윤 치어리더 &#39; Meghan Trainor - No Excuses &#39; 직캠 @유관순체육관",
-      "member_id": "lee-seoyun",
-      "query": "치어리더 이서윤",
-      "publishedAt": "2026-07-14T08:29:01Z"
+      "title": "미모 아주 나이스 KT 위즈 김가현 치어리더",
+      "member_id": "kim-gahyun",
+      "query": "치어리더 김가현",
+      "publishedAt": "2026-07-15T09:00:05Z"
     },
     {
-      "videoId": "rrldHO4koqw",
+      "videoId": "f4Cnm5-AgP0",
       "type": "video",
-      "title": "잠실원정 안타응원 이서윤치어리더 #이서윤",
-      "member_id": "lee-seoyun",
-      "query": "치어리더 이서윤",
-      "publishedAt": "2026-07-14T08:27:34Z"
+      "title": "&#39;직장 상사의 괴롭힘&#39; 권가영 치어리더(Kwon Gayoung)  #KT워터페스티벌 #260704 #치어리더 #권가영",
+      "member_id": "kwon-gayoung",
+      "query": "치어리더 권가영",
+      "publishedAt": "2026-07-15T08:30:49Z"
     },
     {
-      "videoId": "6vKkojZX6o8",
-      "type": "video",
-      "title": "워페 뉴가방(-) 이예빈 치어리더 #워터페스티벌 #이예빈 #이예빈치어리더 #치어리더 #cheerleader",
+      "videoId": "uNG56hCEjCE",
+      "type": "shorts",
+      "title": "완벽한 마무리 이예빈 치어리더 그길에서 공연 part3 #shorts #완벽 #치어리더 #미소 #이예빈",
       "member_id": "lee-yebin",
       "query": "치어리더 이예빈",
-      "publishedAt": "2026-07-14T08:23:58Z"
+      "publishedAt": "2026-07-15T08:15:37Z"
+    },
+    {
+      "videoId": "zhphArYJDG8",
+      "type": "video",
+      "title": "권가영치어리더 뛰어!!! #워터페스티벌 #권가영",
+      "member_id": "kwon-gayoung",
+      "query": "치어리더 권가영",
+      "publishedAt": "2026-07-15T08:09:01Z"
+    },
+    {
+      "videoId": "JWoU1DezNZY",
+      "type": "video",
+      "title": "리얼 홀딱 젖는 ‘오리 트월’ 이금주(Lee Geum-Ju)치어리더",
+      "member_id": "lee-geumju",
+      "query": "치어리더 이금주",
+      "publishedAt": "2026-07-15T08:00:34Z"
+    },
+    {
+      "videoId": "E6ZVWXyAAcA",
+      "type": "shorts",
+      "title": "⬆️ 위로 아래로 ⬇️🔥 김해리 Kim Hae-ri 金哈里 치어리더 직캠 fancam",
+      "member_id": "kim-haeri",
+      "query": "치어리더 김해리",
+      "publishedAt": "2026-07-15T08:00:06Z"
+    },
+    {
+      "videoId": "PrUA7zZhnxs",
+      "type": "video",
+      "title": "신세희 치어리더 @se heee2e #신세희 #신세희치어리더 #KT위즈치어리더 #야구치어리더 2",
+      "member_id": "shin-sehee",
+      "query": "치어리더 신세희",
+      "publishedAt": "2026-07-15T07:19:50Z"
+    },
+    {
+      "videoId": "9ZquJ8TGeeA",
+      "type": "video",
+      "title": "이금주 KT 위즈 치어리더 직캠 20240528 Cheerleader Geumjoo Lee fancam",
+      "member_id": "lee-geumju",
+      "query": "치어리더 이금주",
+      "publishedAt": "2026-07-15T07:00:17Z"
+    },
+    {
+      "videoId": "rIfCTn8PAfA",
+      "type": "shorts",
+      "title": "무표정 아웃송 좋은데😐 더줘!!! #260709 #김해리치어리더 #김해리",
+      "member_id": "kim-haeri",
+      "query": "치어리더 김해리",
+      "publishedAt": "2026-07-15T06:12:16Z"
+    },
+    {
+      "videoId": "fvNRMC3MUhk",
+      "type": "shorts",
+      "title": "🎖️ 정복 핏이 진짜 예술을 넘어 경이로운 수준 🖤🎬 김진아 Kim Jin A 金眞我 치어리더 직캠 fancam",
+      "member_id": "kim-jina",
+      "query": "치어리더 김진아",
+      "publishedAt": "2026-07-15T06:00:03Z"
+    },
+    {
+      "videoId": "MKkItRspc8Q",
+      "type": "video",
+      "title": "&#39;직캠 조회수 폭발&#39; 계유진 치어리더, 시선잡는 청순미",
+      "member_id": "kye-yujin",
+      "query": "치어리더 계유진",
+      "publishedAt": "2026-07-15T04:19:04Z"
     }
   ]
 }
