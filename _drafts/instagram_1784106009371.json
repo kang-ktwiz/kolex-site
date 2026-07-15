@@ -1,0 +1,72 @@
+[
+  {
+    "member_id": "kim-minji",
+    "name_ko": "김민지",
+    "file_path": "cheerleaders/kim-minji.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18079422866481118",
+    "checked_at": "2026-07-15T09:00:02.549Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 영상이 올라왔어요! 🩷",
+        "en": "New Video is Up! 🩷",
+        "ja": "新しい動画が届きました！🩷",
+        "zh": "新影片上線啦！🩷"
+      },
+      "body": {
+        "ko": "후반기도 함께 달려봐요! 새 영상이 인스타그램에 올라왔으니 지금 바로 확인해 보세요 🩷",
+        "en": "Let's keep the energy going into the second half! Head over to Instagram to check out the brand-new video right now 🩷",
+        "ja": "後半戦もいっしょに盛り上がりましょう！インスタグラムに新しい動画が投稿されましたので、ぜひチェックしてみてください 🩷",
+        "zh": "下半季也一起加油吧！全新影片已經在Instagram上線，快去看看吧 🩷"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DaziIiczV1m/",
+      "media_type": "VIDEO",
+      "date": "2026.07.15"
+    }
+  },
+  {
+    "member_id": "kim-haeri",
+    "name_ko": "김해리",
+    "file_path": "cheerleaders/kim-haeri.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18103451354275526",
+    "checked_at": "2026-07-15T09:00:02.551Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물 업로드! 💋 MUAH",
+        "en": "New Post Alert! 💋 MUAH",
+        "ja": "新投稿アップ！💋 MUAH",
+        "zh": "新貼文上線！💋 MUAH"
+      },
+      "body": {
+        "ko": "KOLEX 김해리님의 인스타그램에 새 영상이 올라왔어요! 설레는 에너지와 함께 MUAH 감성을 가득 담은 게시물, 지금 바로 확인해 보세요 💋",
+        "en": "A brand-new video has just dropped on Hae-ri's Instagram! Full of exciting energy and that irresistible MUAH vibe — go check it out right now 💋",
+        "ja": "インスタグラムに新しい動画が投稿されました！ワクワクするエネルギーとMUAHの雰囲気たっぷりの内容を、ぜひチェックしてみてください 💋",
+        "zh": "金海利的Instagram上傳了全新影片！充滿令人心動的能量與MUAH氛圍，快去看看吧 💋"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/DazRYATtM65/",
+      "media_type": "VIDEO",
+      "date": "2026.07.15"
+    }
+  }
+]
