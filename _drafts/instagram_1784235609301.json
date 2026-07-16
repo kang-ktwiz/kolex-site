@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "jeong-huijeong",
+    "name_ko": "정희정",
+    "file_path": "cheerleaders/jeong-huijeong.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17867922333632505",
+    "checked_at": "2026-07-16T21:00:02.597Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 영상 게시물이 올라왔어요! 💋",
+        "en": "New Video Post is Up! 💋",
+        "ja": "新しい動画投稿が来たよ！💋",
+        "zh": "新影片貼文上線啦！💋"
+      },
+      "body": {
+        "ko": "정희정님의 인스타그램에 새 영상이 업로드됐어요! 신나는 에너지와 함께하는 무아 챌린지, 지금 바로 확인해 보세요 🎶✨",
+        "en": "A brand new video just dropped on Jeong Hui-jeong's Instagram! Check out her fun and energetic MUAH challenge right now 🎶✨",
+        "ja": "ジョン・ヒジョンさんのインスタグラムに新しい動画が投稿されたよ！元気いっぱいのMUAHチャレンジ、さっそくチェックしてみてね 🎶✨",
+        "zh": "鄭希廷的Instagram上傳了全新影片！充滿活力的MUAH挑戰現在就去看看吧 🎶✨"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/Da3M64AuILV/",
+      "media_type": "VIDEO",
+      "date": "2026.07.17"
+    }
+  }
+]
