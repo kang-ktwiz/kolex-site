@@ -1,0 +1,72 @@
+[
+  {
+    "member_id": "kim-minji",
+    "name_ko": "김민지",
+    "file_path": "cheerleaders/kim-minji.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18094312139630155",
+    "checked_at": "2026-07-16T15:00:02.924Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요! 📸",
+        "en": "New Post Is Up! 📸",
+        "ja": "新しい投稿が届きました！📸",
+        "zh": "新貼文來囉！📸"
+      },
+      "body": {
+        "ko": "KOLEX 치어리더의 새 인스타그램 게시물이 업로드됐어요! 팬 여러분, 지금 바로 확인해 보세요 🎉",
+        "en": "A brand-new Instagram post from KOLEX Cheerleader is now live! Fans, go check it out right now 🎉",
+        "ja": "KOLEXチアリーダーの新しいインスタグラム投稿が公開されました！ファンの皆さん、ぜひ今すぐチェックしてみてください 🎉",
+        "zh": "KOLEX啦啦隊的全新Instagram貼文已經上線囉！粉絲們，快去看看吧 🎉"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/DawcbwvzwiM/",
+      "media_type": "IMAGE",
+      "date": "2026.07.17"
+    }
+  },
+  {
+    "member_id": "kim-haeri",
+    "name_ko": "김해리",
+    "file_path": "cheerleaders/kim-haeri.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "17938905174283337",
+    "checked_at": "2026-07-16T15:00:02.926Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요! 🎉",
+        "en": "New Post is Up! 🎉",
+        "ja": "新しい投稿が届きました！🎉",
+        "zh": "新貼文來囉！🎉"
+      },
+      "body": {
+        "ko": "두근두근 신나는 에너지로 새 영상이 업로드됐어요! 인스타그램에서 확인해보세요 🌟",
+        "en": "A brand-new video is now live, packed with exciting energy! Go check it out on Instagram 🌟",
+        "ja": "わくわくするエネルギーたっぷりの新しい動画が投稿されました！インスタグラムでチェックしてみてね 🌟",
+        "zh": "充滿活力的全新影片已經上傳囉！快去Instagram看看吧 🌟"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/reel/Da2Lbv6tow1/",
+      "media_type": "VIDEO",
+      "date": "2026.07.17"
+    }
+  }
+]
