@@ -1,0 +1,72 @@
+[
+  {
+    "member_id": "kim-jina",
+    "name_ko": "김진아",
+    "file_path": "cheerleaders/kim-jina.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18223516504322252",
+    "checked_at": "2026-07-17T15:00:02.506Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "김진아의 새 인스타그램 게시물 🌸",
+        "en": "Kim Jin-a's New Instagram Post 🌸",
+        "ja": "キム・ジナの新しいインスタグラム投稿 🌸",
+        "zh": "金珍亞的全新 Instagram 貼文 🌸"
+      },
+      "body": {
+        "ko": "김진아님의 인스타그램에 새 게시물이 올라왔어요! 센슬 타임블러쉬의 촉촉하고 보송한 매력을 직접 소개하는 콘텐츠랍니다 ✨ 7월 26일까지 진행되는 특별 할인 혜택도 놓치지 마세요 🩷",
+        "en": "A brand-new post is up on Kim Jin-a's Instagram! She's sharing her personal pick with the Sensel Time Blush, spotlighting its smooth and lightweight finish ✨ Don't miss the special discount running until July 26th 🩷",
+        "ja": "キム・ジナさんのインスタグラムに新しい投稿が登場しました！センセル タイムブラッシュの使い心地とその魅力をたっぷりご紹介しています ✨ 7月26日まで続く特別割引もぜひチェックしてみてください 🩷",
+        "zh": "金珍亞的 Instagram 上線了全新貼文！她親身介紹了 Sensel 時光腮紅的水潤輕透魅力 ✨ 活動優惠至 7 月 26 日止，千萬不要錯過 🩷"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/Da4q68hkbsG/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.18"
+    }
+  },
+  {
+    "member_id": "lee-seoyun",
+    "name_ko": "이서윤",
+    "file_path": "cheerleaders/lee-seoyun.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18190822237377467",
+    "checked_at": "2026-07-17T15:00:02.511Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요! 🩷",
+        "en": "New Post is Up! 🩷",
+        "ja": "新しい投稿が届きました！🩷",
+        "zh": "新貼文來囉！🩷"
+      },
+      "body": {
+        "ko": "KOLEX 이서윤의 인스타그램에 새 게시물이 올라왔어요! 소중한 순간을 담은 따뜻하고 사랑스러운 감성, 지금 바로 확인해 보세요 🩷",
+        "en": "A new post from KOLEX's Lee Seo-yun is now live on Instagram! Head over to check out her warm and lovely moments captured in this new update 🩷",
+        "ja": "KOLEXのイ・ソユンのインスタグラムに新しい投稿が公開されました！温かくて愛らしい素敵な瞬間をぜひチェックしてみてください 🩷",
+        "zh": "KOLEX李瑞潤的Instagram新貼文上線啦！充滿溫暖與可愛氛圍的珍貴時刻，快去看看吧 🩷"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/Da4rpCJEkiu/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.18"
+    }
+  }
+]
