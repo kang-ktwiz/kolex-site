@@ -1,0 +1,72 @@
+[
+  {
+    "member_id": "kim-jina",
+    "name_ko": "김진아",
+    "file_path": "cheerleaders/kim-jina.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18223516504322252",
+    "checked_at": "2026-07-17T09:00:03.615Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "김진아의 새 인스타그램 게시물 🌸",
+        "en": "Kim Jin-a's New Instagram Post 🌸",
+        "ja": "キム・ジナの新しいインスタグラム投稿 🌸",
+        "zh": "金珍兒的全新 Instagram 貼文 🌸"
+      },
+      "body": {
+        "ko": "센슬 타임 블러쉬 소개 게시물이 새로 올라왔어요 ✨ 바쁜 아침에도 간편하게 쓱 바를 수 있는 스틱 블러셔의 매력을 직접 경험한 솔직한 후기, 지금 인스타그램에서 확인해 보세요 🩷",
+        "en": "A brand-new post featuring the Sensel Time Blush is now up! ✨ Catch her honest review of this easy-to-use stick blusher — perfect for busy mornings — on Instagram right now 🩷",
+        "ja": "センセル タイムブラッシュを紹介する新しい投稿がアップされました ✨ 忙しい朝でもさっと使えるスティックブラッシャーのリアルなレビューを、ぜひインスタグラムでチェックしてみてください 🩷",
+        "zh": "全新的 Sensel Time Blush 介紹貼文已經上線囉 ✨ 忙碌早晨也能輕鬆一抹的棒狀腮紅真實心得，快到 Instagram 上看看吧 🩷"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/Da4q68hkbsG/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.17"
+    }
+  },
+  {
+    "member_id": "lee-seoyun",
+    "name_ko": "이서윤",
+    "file_path": "cheerleaders/lee-seoyun.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18190822237377467",
+    "checked_at": "2026-07-17T09:00:03.620Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요 🩷",
+        "en": "New Post Alert 🩷",
+        "ja": "新しい投稿が届きました 🩷",
+        "zh": "新貼文上線啦 🩷"
+      },
+      "body": {
+        "ko": "이서윤의 인스타그램에 새 캐러셀 게시물이 올라왔어요! 특별한 공간에서 찍은 소중한 순간을 함께 감상해 보세요 🩷",
+        "en": "A brand-new carousel post has just dropped on Seo-yun's Instagram! Head over to check out these precious moments captured in a very special place 🩷",
+        "ja": "ソユンのインスタグラムに新しいカルーセル投稿が公開されました！特別な場所で撮られた素敵な瞬間をぜひチェックしてみてください 🩷",
+        "zh": "徐潤的 Instagram 上傳了全新的輪播貼文！快去欣賞在特別場所留下的美好瞬間吧 🩷"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/Da4rpCJEkiu/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.17"
+    }
+  }
+]
