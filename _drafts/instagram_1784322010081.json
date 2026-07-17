@@ -1,0 +1,37 @@
+[
+  {
+    "member_id": "lee-geumju",
+    "name_ko": "이금주",
+    "file_path": "cheerleaders/lee-geumju.html",
+    "github_owner": "kang-ktwiz",
+    "github_repo": "kolex-site",
+    "latest_post_id": "18609210880011244",
+    "checked_at": "2026-07-17T21:00:02.731Z",
+    "draft": {
+      "type": "instagram_post",
+      "title": {
+        "ko": "새 게시물이 올라왔어요 🎶",
+        "en": "A New Post is Up! 🎶",
+        "ja": "新しい投稿が届きました 🎶",
+        "zh": "新貼文來囉 🎶"
+      },
+      "body": {
+        "ko": "KOLEX 이금주의 인스타그램에 새 게시물이 올라왔어요! 귀여운 감성과 설레는 에너지가 가득 담긴 캐러셀 앨범, 지금 바로 확인해 보세요 💕",
+        "en": "A brand-new carousel post has just landed on KOLEX Lee Geum-ju's Instagram! Head over now to soak up all that adorable charm and positive energy 💕",
+        "ja": "KOLEXイ・グムジュのインスタグラムに新しいカルーセル投稿が届きました！かわいい雰囲気とときめくエネルギーをぜひチェックしてみてください 💕",
+        "zh": "KOLEX 李金珠的 Instagram 上傳了全新的輪播相簿！滿滿的可愛氛圍與正能量，快去看看吧 💕"
+      },
+      "tag": {
+        "ko": "인스타그램",
+        "en": "Instagram",
+        "ja": "インスタグラム",
+        "zh": "Instagram"
+      },
+      "tagClass": "tag-instagram",
+      "source": "ai",
+      "url": "https://www.instagram.com/p/Da5smagj2j3/",
+      "media_type": "CAROUSEL_ALBUM",
+      "date": "2026.07.18"
+    }
+  }
+]
